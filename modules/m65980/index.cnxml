@@ -1,0 +1,66 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65980</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Summary of Formulas</md:title>
+  <md:abstract/>
+  <md:uuid>219598ab-d0c4-4224-a492-2d0d7ff6676d</md:uuid>
+</metadata>
+
+<content>
+    <para id="element-999"><emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> </emphasis>and <emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math></emphasis> are contradictory.</para>
+<table id="element-377" summary="This table states the mathematical symbols associated with either null or alternate hypothesis. The first row is for the null hypothesis and the second row is for the alternate hypothesis. There are three columns of mathematical symbols for each."><tgroup cols="4"><tbody>
+  <row>
+        <entry><emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> has:</emphasis></entry>
+    <entry>equal <m:math><m:mi>(=)</m:mi></m:math></entry>
+    
+    
+  </row>
+  <row>
+    <entry><emphasis>then <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math> has:</emphasis></entry>
+    
+<entry>not equal <m:math><m:mi>(≠)</m:mi></m:math>
+<emphasis>or</emphasis>
+greater than
+<m:math><m:mo>(</m:mo><m:mo>&gt;</m:mo><m:mo>)</m:mo></m:math> <emphasis>or</emphasis>
+less than <m:math><m:mo>(</m:mo><m:mo>&lt;</m:mo><m:mo>)</m:mo></m:math></entry>
+    
+    
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="element-987">If <m:math>
+<m:mi>α</m:mi> 
+<m:mo>≤</m:mo>
+</m:math> p-value, then do not reject <emphasis><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi></m:msub>
+</m:math></emphasis>.</para><para id="element-43">If <m:math>
+<m:mi>α</m:mi>
+<m:mo>&gt;</m:mo>
+</m:math> p-value, then reject <emphasis>
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math> 
+</emphasis>.</para><para id="element-305"><m:math><m:mi>α</m:mi></m:math> is preconceived. Its value is set before
+the hypothesis test starts.
+The p-value is calculated from the data.</para><para id="element-965"><m:math><m:mi>α</m:mi></m:math> = probability of a Type I error = P(Type I error)
+= probability of rejecting the null hypothesis when the null hypothesis is true.</para><para id="element-704"><m:math><m:mi>β</m:mi></m:math> = probability of a Type II error = P(Type II error) = probability of not rejecting the null hypothesis when the null hypothesis is false.</para><para id="element-678">If there is no given preconceived <m:math><m:mi>α</m:mi></m:math>, then use <m:math><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>0.05</m:mn></m:math>.</para><list id="element-254" list-type="bulleted"><title>Types of Hypothesis Tests</title><item>Single population mean, <emphasis>known</emphasis> population variance (or standard deviation): <emphasis>Normal
+test</emphasis>.</item>
+<item>Single population mean, <emphasis>unknown</emphasis> population variance (or standard deviation):
+<emphasis>Student's-t test</emphasis>.</item>
+<item>Single population proportion: <emphasis>Normal test</emphasis>.</item></list></content>
+  
+</document>

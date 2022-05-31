@@ -1,0 +1,287 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Descriptive Statistics: Practice 1</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65241</md:content-id>
+  <md:title>Descriptive Statistics: Practice 1</md:title>
+  <md:abstract>This module provides students with opportunities to apply concepts related to descriptive statistics.  Students are asked to take a set of sample data and calculate a series of statistical values for that data.</md:abstract>
+  <md:uuid>6ebc2840-d4d5-4046-aba5-43b2c0d1fe0e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 2.1 practice.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="chap 2.1 practice.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-461"><title>Student Learning Outcomes</title>
+<list id="element-605" list-type="bulleted"><item>The student will calculate and interpret the center, spread, and location of the data.</item>
+<item>The student will construct and interpret histograms an box plots.</item></list></section><section id="element-576"><title>Given</title>
+<para id="element-185">Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.
+</para></section><section id="element-45"><title>Complete the Table</title>
+<table id="element-602" summary="Blank table where data can be reported with the first column designated for the data value, or number of cars, the second column for frequency, the third column for relative frequency, and the fourth column for cumulative frequency.">
+
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>Data Value (# cars)</entry>
+              <entry>Frequency</entry>
+              <entry>Relative Frequency</entry>
+              <entry>Cumulative Relative Frequency</entry>
+            </row>
+          </thead>
+          <tbody>
+           
+            <row>
+              <entry> </entry>
+              <entry> </entry>
+              <entry> </entry>
+              <entry> </entry>
+            </row>
+   <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+   <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+   <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+   <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+   <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+   <row>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup>
+</table></section><section id="element-116"><title>Discussion Questions</title>
+<exercise id="element-625"><problem id="id9456620">
+		<para id="element-666">What does the frequency column sum to? Why? 
+  </para>
+	</problem>
+	<solution id="id6523440">
+		<para id="element-943">65
+  </para>
+	</solution>
+</exercise><exercise id="exerciseone"><problem id="id6442302">
+<para id="prob_1">What does the relative frequency column sum to? Why?</para>
+</problem>
+<solution id="id5841343">
+ <para id="element-236">1 </para>
+</solution></exercise>
+
+
+<exercise id="exercisetwo"><problem id="id17920864">
+		<para id="prob_2">What is the difference between relative frequency and frequency for each data value?</para>
+	</problem>
+</exercise>
+
+<exercise id="exercisethree">
+<problem id="id11564922">
+<para id="prob_3">What is the difference between cumulative relative frequency and relative frequency for each data value? </para></problem></exercise></section><section id="element-38"><title>Enter the Data</title>
+<para id="element-349">Enter your data into your calculator or computer.</para></section><section id="element-480"><title>Construct a Histogram</title>
+<para id="element-936">Determine appropriate minimum and maximum x and y values and the scaling. Sketch the histogram below. Label the horizontal and vertical axes with words. Include numerical scaling. 
+</para>
+
+<media id="id9045474" alt="An empty graph template for use with this question." display="block"><image src="../../media/graph1.png" mime-type="image/png" print-width="5in"/></media></section><section id="element-64"><title>Data Statistics</title>
+<para id="element-168">Calculate the following values:</para>
+
+<exercise id="exercisefour"><problem id="id5461618">
+<para id="prob_4">Sample mean = 
+<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math> =
+</para>
+</problem>
+<solution id="id17991928">
+ <para id="element-2363">
+  4.75
+ </para>
+</solution></exercise>
+
+<exercise id="exercisefive"><problem id="id11389748">
+<para id="prob_5">
+Sample standard deviation = 
+<m:math>
+  <m:apply>
+    <m:selector/>
+    <m:ci>s</m:ci>
+    <m:ci>x</m:ci>
+  </m:apply>
+</m:math> =
+</para>
+</problem>
+<solution id="id24999003">
+ <para id="element-23633">
+  1.39
+ </para>
+</solution></exercise>
+
+<exercise id="exercisesix"><problem id="id11999177">
+<para id="prob_6">Sample size = <m:math><m:mi>n</m:mi></m:math> = </para></problem>
+<solution id="id16982637">
+ <para id="element-2346">
+  65
+ </para>
+</solution></exercise>
+
+</section><section id="element-768"><title>Calculations</title>
+<para id="element-726">Use the table in section 2.11.3 to calculate the following values:</para>
+
+<exercise id="exerciseseven"><problem id="id3505805">
+<para id="prob_7">
+Median =
+</para>
+</problem>
+<solution id="id17217264">
+ <para id="element-23326">
+  4
+ </para>
+</solution></exercise>
+
+
+<exercise id="exerciseeight"><problem id="id17042774">
+<para id="prob_8">
+Mode =
+</para>
+</problem>
+<solution id="id9173135">
+ <para id="element-23236">
+  4
+ </para>
+</solution></exercise>
+
+<exercise id="exercisenine"><problem id="id21439538">
+<para id="prob_9">
+First quartile =
+</para>
+</problem>
+<solution id="id3999102">
+ <para id="element-6236">
+  4
+ </para>
+</solution></exercise>
+
+<exercise id="exerciseten"><problem id="id4433542">
+<para id="prob_10">
+Second quartile = median = 50th percentile =
+</para>
+</problem>
+<solution id="id12404344">
+ <para id="element-23635">
+  4
+ </para>
+</solution></exercise>
+
+<exercise id="exerciseeleven"><problem id="id21413333">
+<para id="prob_11">
+Third quartile =
+</para>
+</problem>
+<solution id="id21359765">
+ <para id="element-23356">
+  6
+ </para>
+</solution></exercise>
+
+<exercise id="exercisetwelve"><problem id="id13392439">
+<para id="prob_12">
+Interquartile range (<m:math><m:mi>IQR</m:mi></m:math>) = _____ - _____ = _____ 
+</para>
+</problem>
+<solution id="id10710871">
+ <para id="element-23646">
+  <m:math>
+<m:mn>6</m:mn>
+ <m:mo> - </m:mo>
+
+<m:mn>4</m:mn>
+ <m:mo> = </m:mo>
+
+<m:mn>2</m:mn>
+
+  </m:math>
+ </para>
+</solution></exercise>
+
+<exercise id="exercisethirteen"><problem id="id14610610">
+<para id="prob_13">
+10th percentile =
+</para>
+</problem>
+<solution id="id14998518">
+ <para id="element-21536">
+  3
+ </para>
+</solution></exercise>
+
+<exercise id="exercisefourteen"><problem id="id21409553">
+<para id="prob_14">
+70th percentile =
+</para>
+</problem>
+<solution id="id23430727">
+ <para id="element-234636">
+  6
+ </para>
+</solution></exercise>
+
+<exercise id="exercisefifteen"><problem id="id24167266">
+<para id="prob_15">
+Find the value that is 3 standard deviations: 
+  <list id="element-012345" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>Above the mean</item><item><label>b</label>Below the mean</item></list>
+</para>
+</problem>
+<solution id="id24512276">
+
+   <list id="element-2352987" list-type="labeled-item" mark-suffix=".">
+     <item><label>a</label>8.93</item>
+     <item><label>b</label>0.58</item>
+   </list>  
+</solution></exercise>
+</section><section id="element-104"><title>Box Plot</title>
+<para id="element-580">Construct a box plot below. Use a ruler to measure and scale accurately.
+</para></section><section id="element-308"><title>Interpretation</title>
+<para id="element-797">Looking at your box plot, does it appear that the data are concentrated together, spread out evenly, or concentrated in some areas, but not in others? How can you tell?</para></section>
+
+
+
+  </content>
+  
+</document>

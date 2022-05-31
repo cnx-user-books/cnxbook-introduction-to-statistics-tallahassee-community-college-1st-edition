@@ -1,0 +1,893 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Appendix B Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65994</md:content-id>
+  <md:title>Appendix B Formulas</md:title>
+  <md:abstract>This module provides an overview of Statistics Formulas used as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>ef8e6ea7-ebf3-4070-bdc6-93c959eb82f3</md:uuid>
+</metadata>
+
+<content>
+<rule id="f1" type="formula"><label>Formula</label>
+  <title> Factorial</title>
+  <statement id="id1170558513828">
+    <para id="fact1">
+    <m:math>
+<m:mi>n</m:mi>
+  <m:mo>!</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>−</m:mo>
+  <m:mn>1</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>−</m:mo>
+  <m:mn>2</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>(</m:mo>
+  <m:mn>1</m:mn>
+  <m:mo>)</m:mo>
+  <m:mtext/>
+</m:math>
+    </para>
+<para id="fact2">
+<m:math>
+  <m:mn>0</m:mn>
+  <m:mo>!</m:mo>
+  <m:mo>=</m:mo>
+  <m:mn>1</m:mn>
+  <m:mtext/>
+</m:math>
+</para>
+  </statement>
+</rule> 
+	
+    <rule id="f2" type="formula"><label>Formula</label>
+  <title> Combinations</title>
+  <statement id="id1170563139415">
+    <para id="combin">
+    <m:math>
+<m:mfenced>
+    <m:mfrac linethickness="0">
+      <m:mi>n</m:mi>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mfenced>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:mi>n</m:mi>
+      <m:mo>!</m:mo>
+    </m:mrow>
+    <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mi>n</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>r</m:mi>
+      <m:mo>)</m:mo>
+      <m:mo>!</m:mo>
+      <m:mi>r</m:mi>
+      <m:mo>!</m:mo>
+    </m:mrow>
+  </m:mfrac>
+  <m:mtext/>
+</m:math>
+    </para>
+  </statement>
+</rule> 
+
+<rule id="f3" type="formula"><label>Formula</label>
+  <title>Binomial Distribution</title>
+  <statement id="id1170563073589">
+    <para id="ruleexp1">
+   <m:math>
+ <m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:mi>B</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>,</m:mo>
+  <m:mi>p</m:mi>
+  <m:mo>)</m:mo>
+</m:math>
+    </para>
+<para id="bindist1">
+<m:math>
+<m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfenced>
+    <m:mfrac linethickness="0">
+      <m:mi>n</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mfenced>
+
+    <m:msup>
+      <m:mi>p</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+
+  <m:msup>
+    <m:mi>q</m:mi>
+    <m:mrow>
+      <m:mi>n</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>x</m:mi>
+    </m:mrow>
+  </m:msup>
+</m:math>
+       , for <m:math>
+<m:mi>x</m:mi>
+  <m:mo>=</m:mo>
+  <m:mn>0</m:mn>
+  <m:mo>,</m:mo>
+  <m:mn>1</m:mn>
+  <m:mo>,</m:mo>
+  <m:mn>2</m:mn>
+  <m:mo>,</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>,</m:mo>
+  <m:mi>n</m:mi>
+</m:math>
+</para>
+  </statement>
+</rule> 
+
+<rule id="f4" type="formula"><label>Formula</label>
+  <title>Geometric Distribution</title>
+  <statement id="id1170563242572">
+    <para id="geodist1">
+      <m:math>
+<m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:mi>G</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>p</m:mi>
+  <m:mo>)</m:mo>
+</m:math>
+    </para> 
+    <para id="geodist2"><m:math>
+ <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:msup>
+    <m:mi>q</m:mi>
+    <m:mrow>
+      <m:mi>x</m:mi>
+      <m:mo>−</m:mo>
+      <m:mn>1</m:mn>
+    </m:mrow>
+  </m:msup>
+  <m:mi>p</m:mi>
+</m:math> , for <m:math>
+<m:mi>x</m:mi>
+  <m:mo>=</m:mo>
+  <m:mn>1</m:mn>
+  <m:mo>,</m:mo>
+  <m:mn>2</m:mn>
+  <m:mo>,</m:mo>
+  <m:mn>3</m:mn>
+  <m:mo>,</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>.</m:mo>
+</m:math>
+    </para>
+  </statement>
+</rule> 
+
+<rule id="f4-5" type="formula"><label>Formula</label>
+  <title>Hypergeometric Distribution</title>
+  <statement id="id1170557283913">
+    <para id="hypgeodist1">
+      <m:math>
+ <m:mo>X~H</m:mo>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+    </para><para id="element-527"><m:math>
+<m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+
+<m:mrow>
+    <m:mo>(</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mo>(</m:mo>
+           <m:mfrac linethickness="0">
+            <m:mi>r</m:mi>
+            <m:mi>x</m:mi>
+          </m:mfrac>
+          <m:mo>)</m:mo>
+        </m:mrow>
+        <m:mrow>
+          <m:mo>(</m:mo>
+           <m:mfrac linethickness="0">
+            <m:mi>b</m:mi>
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfrac>
+          <m:mo>)</m:mo>
+        </m:mrow>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>(</m:mo>
+         <m:mfrac linethickness="0">
+          <m:mrow>
+            <m:mi>r</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+          </m:mrow>
+          <m:mi>n</m:mi>
+        </m:mfrac>
+        <m:mo>)</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>)</m:mo>
+  </m:mrow>
+
+
+</m:math></para> 
+</statement>
+</rule>
+
+<rule id="f5" type="formula"><label>Formula</label>
+  <title>Poisson Distribution</title>
+  <statement id="id5925201">
+    <para id="psndist1">
+      <m:math>
+ <m:mo>X~P</m:mo>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+    </para> 
+    <para id="psndist2">
+      <m:math>
+ <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:msup>
+        <m:mi>μ</m:mi>
+        <m:mi>x</m:mi>
+      </m:msup>
+      <m:msup>
+        <m:mi>e</m:mi>
+        <m:mrow>
+          <m:mo>−</m:mo>
+          <m:mi>μ</m:mi>
+        </m:mrow>
+      </m:msup>
+    </m:mrow>
+    <m:mrow>
+      <m:mi>x</m:mi>
+      <m:mo>!</m:mo>
+    </m:mrow>
+  </m:mfrac>
+</m:math>
+    </para>
+  </statement>
+</rule> 
+
+<rule id="f6" type="formula"><label>Formula</label>
+  <title>Uniform Distribution</title>
+  <statement id="id1170563346762">
+     <para id="unidist1">
+      <m:math>
+<m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:mi>U</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>a</m:mi>
+  <m:mo>,</m:mo>
+  <m:mi>b</m:mi>
+  <m:mo>)</m:mo>
+</m:math>
+    </para> 
+    <para id="unidist2"><m:math>
+  <m:mi>f</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+      <m:mi>b</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>a</m:mi>
+    </m:mrow>
+  </m:mfrac>
+</m:math>, <m:math>
+ <m:mi>a</m:mi>
+  <m:mo>&lt;</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>&lt;</m:mo>
+  <m:mi>b</m:mi>
+</m:math>
+    </para>
+  </statement>
+</rule> 
+
+<rule id="f7" type="formula"><label>Formula</label>
+  <title>Exponential Distribution</title>
+  <statement id="id1170585788619">
+    <para id="expdist1">
+      <m:math>
+<m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:mi>Exp</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>m</m:mi>
+  <m:mo>)</m:mo>
+</m:math>
+    </para> 
+    <para id="expdist2"><m:math>
+  <m:mi>f</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>m</m:mi>
+  <m:msup>
+    <m:mi>e</m:mi>
+    <m:mrow>
+      <m:mo>−</m:mo>
+      <m:mi>mx</m:mi>
+    </m:mrow>
+  </m:msup>
+</m:math> , <m:math>
+ <m:mi>m</m:mi>
+  <m:mo>&gt;</m:mo>
+  <m:mn>0</m:mn>
+  <m:mo>,</m:mo>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+    </para>
+  </statement>
+</rule> 
+
+<rule id="f8" type="formula"><label>Formula</label>
+  <title>Normal Distribution</title>
+  <statement id="id1170587779410">
+     <para id="normdist1">
+      <m:math>
+<m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:mi>N</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>μ</m:mi>
+  <m:mo>,</m:mo>
+  <m:msup>
+    <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>)</m:mo>
+</m:math>   
+    </para> 
+    <para id="normdist2"><m:math>
+<m:mi>f</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+      <m:mi>σ</m:mi>
+      <m:msqrt>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:msqrt>
+    </m:mrow>
+  </m:mfrac>
+  <m:msup>
+    <m:mi>e</m:mi>
+    <m:mfrac>
+      <m:msup>
+        <m:mrow>
+          <m:mo>−</m:mo>
+          <m:mo>(</m:mo>
+          <m:mi>x</m:mi>
+          <m:mo>−</m:mo>
+          <m:mi>μ</m:mi>
+          <m:mo>)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:msup>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>σ</m:mi>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:msup></m:math> , <m:math>
+  <m:mspace width="12pt"/><m:mo>-</m:mo><m:mi>∞</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi>
+<m:mo>&lt;</m:mo><m:mi>∞</m:mi>
+</m:math>
+    </para>
+  </statement>
+</rule> 
+
+<rule id="f9" type="formula"><label>Formula</label>
+  <title>Gamma Function</title>
+  <statement id="id2569543">
+    <para id="gammafn1">
+     <m:math>
+ <m:mi>Γ</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>z</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mrow>
+    <m:msubsup>
+      <m:mo>∫</m:mo>
+      <m:mn>0</m:mn>
+      <m:mi>∞</m:mi>
+    </m:msubsup>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>z</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msup>
+    <m:mi>dx</m:mi>
+  </m:mrow>
+</m:math> <m:math><m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mi>0</m:mi></m:math>
+    </para>
+<para id="gammafn2">
+<m:math>
+  <m:mi>Γ</m:mi>
+  <m:mo>(</m:mo>
+  <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:msqrt>
+    <m:mi>π</m:mi>
+  </m:msqrt>
+  <m:mi/>
+</m:math>
+</para>
+<para id="gammafn3">
+<m:math>
+ <m:mi>Γ</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>m</m:mi>
+  <m:mo>+</m:mo>
+  <m:mn>1</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>m</m:mi>
+  <m:mo>!</m:mo>
+</m:math> for <m:math><m:mi>m</m:mi></m:math>, a nonnegative integer
+</para>
+<para id="gammafn4">
+otherwise: <m:math>
+<m:mi>Γ</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>a</m:mi>
+  <m:mo>+</m:mo>
+  <m:mn>1</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>aΓ</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>a</m:mi>
+  <m:mo>)</m:mo>
+</m:math>
+</para>
+
+  </statement>
+</rule> 
+
+<rule id="f10" type="formula"><label>Formula</label>
+  <title>Student-t Distribution</title>
+  <statement id="id1170562544701">
+    <para id="stdtdist1">
+   <m:math>
+<m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:msub>
+    <m:mi>t</m:mi>
+    <m:mi>df</m:mi>
+  </m:msub>
+</m:math>
+    </para>
+ <para id="stdtdist2"><m:math>
+<m:mi>f</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:msup>
+        <m:mrow>
+          <m:mo>(</m:mo>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mfrac>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mi>n</m:mi>
+            </m:mfrac>
+          </m:mrow>
+          <m:mo>)</m:mo>
+        </m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>n</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:msup>
+      <m:mi>Γ</m:mi>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>)</m:mo>
+      </m:mrow>
+    </m:mrow>
+    <m:mrow>
+      <m:msqrt>
+        <m:mi>nπ</m:mi>
+      </m:msqrt>
+      <m:mi>Γ</m:mi>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>)</m:mo>
+      </m:mrow>
+    </m:mrow>
+  </m:mfrac>
+</m:math>
+    </para>
+<para id="stdtdist3">
+<m:math>
+<m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mi>Z</m:mi>
+    <m:msqrt>
+      <m:mfrac>
+        <m:mi>Y</m:mi>
+        <m:mi>n</m:mi>
+      </m:mfrac>
+    </m:msqrt>
+  </m:mfrac>
+</m:math>
+</para>
+<para id="stdtdist4">
+<m:math>
+ <m:mi>Z</m:mi>
+  <m:mo>~</m:mo>
+  <m:mi>N</m:mi>
+  <m:mo>(</m:mo>
+  <m:mn>0,1</m:mn>
+  <m:mo>)</m:mo>
+</m:math> , <m:math>
+ <m:mi>Y</m:mi>
+  <m:mo>~</m:mo>
+    <m:msubsup>
+      <m:mi>Χ</m:mi>
+      <m:mi>df</m:mi>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+</m:math>    ,<m:math><m:mi>n</m:mi></m:math> = degrees of freedom
+</para>
+  </statement>
+</rule> 
+
+<rule id="f11" type="formula"><label>Formula</label>
+  <title>Chi-Square Distribution</title>
+  <statement id="id1170559512041">
+    <para id="chisq1">
+   <m:math>
+ <m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+    <m:msubsup>
+      <m:mi>Χ</m:mi>
+      <m:mi>df</m:mi>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+</m:math>   
+    </para>
+ <para id="chisq2">
+   <m:math>
+<m:mi>f</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:msup>
+      <m:msup>
+        <m:mi>e</m:mi>
+        <m:mfrac>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:msup>
+    </m:mrow>
+    <m:mrow>
+      <m:msup>
+        <m:mn>2</m:mn>
+        <m:mfrac>
+          <m:mi>n</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:msup>
+      <m:mi>Γ</m:mi>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:mfrac>
+          <m:mi>n</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>)</m:mo>
+      </m:mrow>
+    </m:mrow>
+  </m:mfrac>
+</m:math>,
+<m:math><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>0</m:mi></m:math> , <m:math><m:mi>n</m:mi></m:math> = positive integer and degrees of freedom
+    </para>
+  </statement>
+</rule> 
+
+<rule id="f13" type="formula"><label>Formula</label>
+  <title>F Distribution</title>
+  <statement id="id1170559410900">
+    <para id="fdis1">
+   <m:math>
+ <m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:msub>
+    <m:mi>F</m:mi>
+    <m:mrow>
+      <m:mi>df</m:mi>
+      <m:mo>(</m:mo>
+      <m:mi>n</m:mi>
+      <m:mo>)</m:mo>
+      <m:mo>,</m:mo>
+      <m:mi>df</m:mi>
+      <m:mo>(</m:mo>
+      <m:mi>d</m:mi>
+      <m:mo>)</m:mo>
+    </m:mrow>
+  </m:msub>
+</m:math>
+    </para>
+ <para id="fdis2"><m:math>
+ <m:mi>df</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+</m:math>degrees of freedom for the numerator
+    </para>
+    <para id="fdis3"><m:math>
+ <m:mi>df</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>d</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+</m:math>degrees of freedom for the denominator
+    </para>
+ <para id="fdis4">
+   <m:math>
+<m:mi>f</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:mi>Γ</m:mi>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>u</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>v</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>)</m:mo>
+      </m:mrow>
+    </m:mrow>
+    <m:mrow>
+      <m:mi>Γ</m:mi>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:mfrac>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>)</m:mo>
+      </m:mrow>
+      <m:mi>Γ</m:mi>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:mfrac>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>)</m:mo>
+      </m:mrow>
+    </m:mrow>
+  </m:mfrac>
+  <m:msup>
+    <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mfrac>
+        <m:mi>u</m:mi>
+        <m:mi>v</m:mi>
+      </m:mfrac>
+      <m:mo>)</m:mo>
+    </m:mrow>
+    <m:mfrac>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:msup>
+  <m:msup>
+    <m:mi>x</m:mi>
+    <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mfrac>
+        <m:mi>u</m:mi>
+        <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mo>−</m:mo>
+      <m:mn>1</m:mn>
+      <m:mo>)</m:mo>
+    </m:mrow>
+  </m:msup>
+  <m:mo>[</m:mo>
+  <m:mn>1</m:mn>
+  <m:mo>+</m:mo>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mfrac>
+      <m:mi>u</m:mi>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>)</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mo>.</m:mo>
+        <m:mn>5</m:mn>
+        <m:mrow>
+          <m:mo>(</m:mo>
+          <m:mrow>
+            <m:mi>u</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>v</m:mi>
+          </m:mrow>
+          <m:mo>)</m:mo>
+        </m:mrow>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+  <m:mo>]</m:mo>
+</m:math>
+    </para>
+    <para id="fdis5">
+   <m:math>
+<m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:msub>
+      <m:mi>Y</m:mi>
+      <m:mi>u</m:mi>
+    </m:msub>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>v</m:mi>
+    </m:msub>
+  </m:mfrac>
+</m:math>
+       , <m:math><m:mi>Y</m:mi></m:math>, <m:math><m:mi>W</m:mi></m:math> are chi-square
+    </para>
+  </statement>
+</rule> 
+
+  </content>
+  
+</document>

@@ -1,0 +1,122 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Additional Information</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65977</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Additional Information</md:title>
+  <md:abstract/>
+  <md:uuid>14d69cfe-2c9a-41d9-aa2d-51c3443e6e50</md:uuid>
+</metadata>
+
+<content>
+    <list id="element-162" list-type="bulleted"><item>In a <term target-id="hypotest">hypothesis test</term> problem, you may see words such as "the level of significance is
+1%." The "1%" is the preconceived or preset <m:math><m:mi>α</m:mi></m:math>.</item>
+<item>The statistician setting up the hypothesis test selects the value of <m:math><m:mi>α</m:mi></m:math> to use <emphasis>before</emphasis>
+collecting the sample data.</item>
+<item><emphasis>If no level of significance is given, the accepted standard is to use <m:math><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>0.05</m:mn></m:math>.</emphasis></item>
+<item>When you calculate the <term target-id="pvalue">p-value</term> and draw the picture, the p-value is the area in the left tail,
+the right tail, or split evenly between the two tails. For this reason, we call the
+hypothesis test left, right, or two tailed.</item>
+<item>The <emphasis>alternate hypothesis</emphasis>, <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math>, tells you if the test is left, right, or two-tailed.
+It is the <emphasis>key</emphasis> to conducting the appropriate test.</item>
+<item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math> <emphasis>never</emphasis> has a symbol that contains an equal sign.</item>
+
+
+<item><emphasis> Thinking about the meaning of the</emphasis> <term target-id="pvalue">p-value</term>: A data analyst (and anyone else) should have more confidence that he made the correct decision to reject the null hypothesis with a smaller p-value (for example, 0.001 as opposed to 0.04) even if using the 0.05 level for alpha. Similarly, for a large p-value like 0.4, as opposed to a p-value of 0.056 (alpha = 0.05 is less than either number), a data analyst should have more confidence that she made the correct decision in failing to reject the null hypothesis.  This makes the data analyst use judgment rather than mindlessly applying rules.</item></list><para id="delete_me">The following examples illustrate a left, right, and two-tailed test.</para><example id="element-250"><para id="element-237"><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>: <m:math><m:mi>μ</m:mi></m:math>
+<m:math>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+<m:mspace width="20pt"/>
+</m:math>
+
+
+
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+</m:math>: <m:math><m:mi>μ</m:mi></m:math>
+<m:math>
+
+<m:mo>&lt;</m:mo>
+<m:mn>5</m:mn>
+
+
+</m:math></para><para id="element-343">Test of a single population mean. <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math> tells you the test is left-tailed. The picture of the p-value is as follows:</para><para id="element-947"><media id="id14703034" alt="Normal distribution curve of a single population mean with a value of 5 on the x-axis and the p-value points to the area on the left tail of the curve."><image src="../../media/hyptest11_addinfo1.png" mime-type="image/png" print-width="3in"/></media></para>
+</example><example id="element-417"><para id="element-38"><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>: <m:math><m:mi>p</m:mi></m:math>
+<m:math>
+<m:mo>=</m:mo>
+<m:mn>0.2</m:mn>
+<m:mspace width="20pt"/></m:math>
+
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+</m:math>: <m:math><m:mi>p</m:mi></m:math>
+<m:math>
+<m:mo>&gt;</m:mo>
+<m:mn>0.2</m:mn>
+</m:math>
+</para><para id="element-404">This is a test of a single population proportion. <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math> tells you the test is <emphasis>right-tailed</emphasis>. The picture of the p-value is as follows:</para><para id="element-331"><media id="id14703170" alt="Normal distribution curve of a single population proportion with the value of 0.2 on the x-axis. The p-value points to the area on the right tail of the curve."><image src="../../media/hyptest11_addinfo2.png" mime-type="image/png" print-width="3in"/></media></para>
+</example><example id="element-768"><para id="element-300"><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>: <m:math><m:mi>μ</m:mi></m:math>
+<m:math>
+<m:mo>=</m:mo>
+<m:mn>50</m:mn>
+<m:mspace width="20pt"/>
+</m:math>
+
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+</m:math>: <m:math><m:mi>μ</m:mi></m:math>
+<m:math>
+<m:mo>≠</m:mo>
+<m:mn>50</m:mn>
+</m:math>
+
+</para><para id="element-257">This is a test of a single population mean. <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math> tells you the test is <emphasis>two-tailed</emphasis>. The picture of the p-value is as follows.</para><para id="element-774"><media id="id4829633" alt="Normal distribution curve of a single population mean with a value of 50 on the x-axis. The p-value formulas, 1/2(p-value), for a two-tailed test is shown for the areas on the left and right tails of the curve."><image src="../../media/hyptest11_addinfo3.png" mime-type="image/png" print-width="3in"/></media></para>
+</example>   
+  </content>
+
+
+<glossary>
+ 
+<definition id="hypotest">
+    <term>Hypothesis Testing</term>
+    <meaning id="id23787132">
+   Based on sample evidence, a procedure to determine whether the hypothesis stated is a reasonable statement and cannot be rejected, or is unreasonable and should be rejected.
+    </meaning>
+  </definition>
+
+
+
+<definition id="pvalue">
+    <term>p-value</term>
+    <meaning id="id9446562">
+The probability that an event will happen purely by chance assuming the null hypothesis is true. The smaller the p-value, the stronger the evidence is against the null hypothesis.
+    </meaning>
+  </definition>
+
+
+
+</glossary>
+</document>

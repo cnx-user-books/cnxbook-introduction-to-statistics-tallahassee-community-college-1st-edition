@@ -1,0 +1,111 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Outcomes and the Type I and Type II Errors</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65969</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Outcomes and the Type I and Type II Errors</md:title>
+  <md:abstract/>
+  <md:uuid>fb182192-409f-4c3c-b8d7-0aac1ce13525</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">When you perform a hypothesis test, there are four possible outcomes depending on the actual truth (or falseness) of the null hypothesis <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> and the decision to reject or not. The outcomes are summarized
+in the following table:</para><table id="element-689" summary="">
+<tgroup cols="3"><thead>
+<row>
+    <entry>ACTION</entry>
+    
+    <entry><m:math><m:msub><m:mi>H</m:mi>      <m:mi>o</m:mi></m:msub></m:math> IS ACTUALLY</entry>
+    <entry>...</entry>
+    
+  </row>
+</thead>
+
+<tbody>
+
+  <row>
+    <entry/>
+    <entry>True</entry>
+    <entry>False</entry>
+  </row>
+
+
+
+  <row>
+    <entry><emphasis>Do not reject <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math></emphasis></entry>
+    <entry>Correct Outcome</entry>
+    <entry>Type II error</entry>
+  </row>
+  <row>
+    <entry><emphasis>Reject <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math></emphasis></entry>
+    <entry>Type I Error</entry>
+    <entry>Correct Outcome</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="element-915">The four possible outcomes in the table are:
+<list id="list-1" list-type="bulleted"><item>The decision is to <emphasis>not reject <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math></emphasis> when, in fact, <emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> is true (correct decision).</emphasis></item>
+<item>The decision is to <emphasis>reject <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math></emphasis> when, in fact, <emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> is true</emphasis> (incorrect decision known as a
+<term target-id="type1err">Type I error</term>).</item>
+<item>The decision is to <emphasis>not reject <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math></emphasis> when, in fact, <emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> is false</emphasis> (incorrect decision known
+as a <term target-id="type2err">Type II error</term>).</item>
+<item>The decision is to <emphasis>reject <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math></emphasis> when, in fact, <emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> is false</emphasis> (<emphasis>correct decision</emphasis> whose
+probability is called the <emphasis>Power of the Test</emphasis>).</item></list></para><para id="element-247">Each of the errors occurs with a particular probability. The Greek letters <emphasis><m:math><m:mi>α</m:mi></m:math></emphasis> and <emphasis><m:math><m:mi>β</m:mi></m:math></emphasis>
+represent the probabilities.</para><para id="element-95"><emphasis><m:math><m:mi>α</m:mi></m:math></emphasis> = probability of a Type I error = <emphasis>P(Type I error)</emphasis>
+= probability of rejecting the null hypothesis when the null hypothesis is true.</para><para id="element-634"><emphasis><m:math><m:mi>β</m:mi></m:math></emphasis> = probability of a Type II error = <emphasis>P(Type II error)</emphasis>
+= probability of not rejecting the null hypothesis when the null hypothesis is false.</para><para id="element-222"><m:math><m:mi>α</m:mi></m:math> and <m:math><m:mi>β</m:mi></m:math> should be as small as possible because they are
+probabilities of errors. They are rarely 0.</para><para id="element-225">The Power of the Test is <m:math><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>β</m:mi></m:math>. Ideally, we want a high power that is
+as close to 1 as possible.  Increasing the sample size can increase the Power of the Test.</para><para id="element-400">The following are examples of Type I and Type II errors.</para><example id="element-484"><para id="element-742">Suppose the null hypothesis, <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math>, is:
+Frank's rock climbing equipment is safe.
+</para><para id="element-905"><emphasis>Type I error</emphasis>: Frank thinks that his rock climbing equipment may not be safe when, in
+fact, it really is safe. <emphasis>Type II error</emphasis>: Frank thinks that his rock climbing equipment may be safe when, in fact, it is
+not safe.</para><para id="element-821"><emphasis><m:math><m:mi>α</m:mi></m:math> = probability</emphasis> that Frank thinks his rock climbing equipment may not be safe when,
+in fact, it really is safe.
+<emphasis><m:math><m:mi>β</m:mi></m:math> = probability</emphasis> that Frank thinks his rock climbing equipment may be safe when, in fact, it is
+not safe.</para><para id="element-239">Notice that, in this case, the error with the greater consequence is the Type II error. (If
+Frank thinks his rock climbing equipment is safe, he will go ahead and use it.)</para>
+</example><example id="element-449"><para id="element-496">Suppose the null hypothesis, <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math>, is:
+The victim of an automobile accident is alive when he arrives at the
+emergency room of a hospital.
+</para><para id="element-157"><emphasis>Type I error</emphasis>: The emergency crew thinks that the victim is dead when, in fact, the
+victim is alive.
+<emphasis>Type II error</emphasis>: The emergency crew does not know if the victim is alive when, in fact, the
+victim is dead.
+
+</para><para id="element-558"><emphasis><m:math><m:mi>α</m:mi></m:math> = probability</emphasis> that the emergency crew thinks the victim is dead when, in fact, he is
+really alive = <m:math><m:mtext>P(Type I error)</m:mtext></m:math>.
+<emphasis><m:math><m:mi>β</m:mi></m:math> = probability</emphasis> that the emergency crew does not know if the victim is alive when, in fact, the victim is
+dead = <m:math><m:mtext>P(Type II error)</m:mtext></m:math>.</para><para id="element-266">The error with the greater consequence is the Type I error. (If the emergency crew thinks
+the victim is dead, they will not treat him.)</para>
+</example>   
+  </content>
+
+
+<glossary>
+<definition id="type1err">
+    <term>Type 1 Error</term>
+    <meaning id="id2292288">
+The decision is to reject the Null hypothesis when, in fact, the Null hypothesis is true.
+    </meaning>
+  </definition>
+
+
+<definition id="type2err">
+    <term>Type 2 Error</term>
+    <meaning id="id1169217218486">
+The decision is to not reject the Null hypothesis when, in fact, the Null hypothesis is false.
+    </meaning>
+  </definition>
+
+
+</glossary>
+  
+</document>

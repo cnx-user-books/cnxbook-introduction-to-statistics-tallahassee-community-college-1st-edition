@@ -1,0 +1,178 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Continuous Random Variables: Continuous Probability Functions Uniform Distributions Part 1</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65535</md:content-id>
+  <md:title>Continuous Random Variables: Continuous Probability Functions Uniform Distributions Part 1</md:title>
+  <md:abstract>This module introduces the continuous probability function and explores the relationship between the probability of X and the area under the curve of f(X).</md:abstract>
+  <md:uuid>435786ad-578e-4a1d-b2cb-b990829e1153</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">We begin by defining a continuous probability density function. We use the function notation
+<m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply></m:math>. Intermediate algebra may have been your first formal introduction to functions. In the
+study of probability, the functions we study are special. We define the function <m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply></m:math> so that the
+area between it and the x-axis is equal to a probability. Since the maximum probability is one,
+the maximum area is also one.</para><para id="element-347"><emphasis>For continuous probability distributions, PROBABILITY = AREA.</emphasis></para><example id="element-652"><para id="element-630">Consider the function
+
+<m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> 
+
+for  
+<m:math><m:reln><m:leq/><m:reln><m:leq/>
+<m:mrow><m:mi>0</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>20</m:mi></m:mrow></m:reln></m:math>.
+ 
+
+<m:math><m:mi>x</m:mi></m:math> = a real number.
+The graph of 
+
+<m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math>   is a horizontal line. However, since 
+
+
+<m:math><m:reln><m:leq/><m:reln><m:leq/>
+<m:mrow><m:mi>0</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>20</m:mi></m:mrow></m:reln></m:math>
+
+,
+<m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply></m:math> is restricted to
+the portion between <m:math><m:reln><m:eq/><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:reln></m:math> and
+<m:math><m:reln><m:eq/><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:reln></m:math>, inclusive .
+</para><para id="element-629"><media id="id39758796" alt="f(x)=1/20 graph displaying a boxed region consisting of a horizontal line extending to the right from point 1/20 on the y-axis, a vertical upward line from point 20 on the x-axis, and the x and y-axes."><image src="../../media/crv_cpf1.png" mime-type="image/png" print-width="3in"/></media></para><para id="element-37"><emphasis> <m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> 
+
+ 
+
+for
+<m:math><m:reln><m:leq/><m:reln><m:leq/>
+<m:mrow><m:mo>0</m:mo></m:mrow>
+<m:mrow><m:mi>x</m:mi></m:mrow></m:reln>
+<m:mrow><m:mo>20</m:mo></m:mrow></m:reln></m:math></emphasis>.
+</para><para id="element-951">The graph of <m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> 
+is
+a horizontal line segment
+when
+
+
+<m:math><m:reln><m:leq/><m:reln><m:leq/>
+<m:mrow><m:mi>0</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>20</m:mi></m:mrow></m:reln></m:math>.
+</para><para id="element-515">The area between <m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> 
+
+
+where
+<m:math><m:reln><m:leq/><m:reln><m:leq/>
+<m:mrow><m:mi>0</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>20</m:mi></m:mrow></m:reln></m:math>
+
+
+and the x-axis is the area of a rectangle
+with base = <m:math><m:mn>20</m:mn></m:math> and height =<m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math>.</para><para id="element-797"><m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mtext>AREA</m:mtext></m:mrow>
+<m:mrow><m:mn>20</m:mn><m:mo>⋅</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:mrow></m:reln>
+<m:mrow><m:mn>1</m:mn></m:mrow></m:reln></m:math>
+</para><para id="element-952">This particular function, where we have restricted <m:math><m:mi>x</m:mi></m:math> so that the area
+between the function and the x-axis is 1, is an example of a continuous
+probability density function. It is used as a tool to calculate
+probabilities.</para><para id="element-812"><emphasis> Suppose we want to find the area between <m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> 
+and the x-axis where <m:math><m:reln><m:lt/>
+<m:reln><m:lt/>
+<m:mrow><m:mn>0</m:mn></m:mrow>
+<m:mrow><m:mi>x</m:mi></m:mrow></m:reln>
+<m:mrow><m:mn>2</m:mn></m:mrow></m:reln></m:math>
+.</emphasis></para><para id="element-171"><media id="id40073479" alt="f(X)=1/20 graph displaying a boxed region consisting of a horizontal line extending to the right from point 1/20 on the y-axis, a vertical upward line from point 20 on the x-axis, and the x and y-axes. A shaded region ranging from points 0-2 on the x-axis occurs within this area."><image src="../../media/crv_cpf2.png" mime-type="image/png" print-width="3in"/></media></para><para id="element-441"><m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mtext>AREA</m:mtext></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mfrac>
+<m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:mrow></m:reln>
+<m:mrow><m:mn>0.1</m:mn></m:mrow></m:reln></m:math>
+</para><para id="element-229"><m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow>
+<m:mrow><m:mn>2</m:mn></m:mrow></m:reln>
+<m:mrow><m:mtext> base of a rectangle </m:mtext></m:mrow></m:reln>
+</m:math></para><para id="element-791"><m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> = the height.</para><para id="element-961">The area corresponds to a probability. The probability that <m:math><m:mi>x</m:mi></m:math> is between 0 and 2 is 0.1, which can be written mathematically as <m:math><m:mtext>P(0&lt;x&lt;2)</m:mtext> <m:mo>= </m:mo><m:mtext>P(x&lt;2)</m:mtext><m:mo>=</m:mo><m:mn>0.1</m:mn></m:math>.</para><para id="element-208"><emphasis> Suppose we want to find the area between <m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> 
+and the x-axis where <m:math><m:reln><m:lt/>
+<m:reln><m:lt/>
+<m:mrow><m:mn>4</m:mn></m:mrow>
+<m:mrow><m:mi>x</m:mi></m:mrow></m:reln>
+<m:mrow><m:mn>15</m:mn></m:mrow></m:reln></m:math>
+.</emphasis></para><para id="element-614"><media id="id40137735" alt="f(X)=1/20 graph displaying a boxed region consisting of a horizontal line extending to the right from point 1/20 on the y-axis, a vertical upward line from point 20 on the x-axis, and the x and y-axes. A shaded region ranging from points 4-15 on the x-axis occurs within this area."><image src="../../media/crv_cpf3.png" mime-type="image/png" print-width="3in"/></media></para><para id="element-739"><m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mtext>AREA</m:mtext></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mn>15</m:mn><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mfrac>
+<m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:mrow></m:reln>
+<m:mrow><m:mn>0.55</m:mn></m:mrow></m:reln></m:math>
+</para><para id="element-376"><m:math> <m:mo>(</m:mo><m:mn>15</m:mn><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>11</m:mn> <m:mo>=</m:mo> <m:mtext>the base of a rectangle</m:mtext></m:math></para><para id="element-176"><m:math><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:math> = the height.</para><para id="element-29">The area corresponds to the probability 
+<m:math><m:reln><m:eq/>
+<m:reln><m:lt/>
+<m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>4</m:mn></m:mrow>
+<m:mrow><m:mi>x</m:mi></m:mrow></m:reln>
+<m:mrow><m:mn>15</m:mn><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mn>0.55</m:mn></m:mrow></m:reln></m:math>.
+
+
+</para><para id="element-874"><emphasis> Suppose we want to find <m:math><m:mi>P</m:mi><m:mi>(</m:mi><m:mi>x</m:mi><m:mi> = </m:mi><m:mi>15</m:mi><m:mi>)</m:mi></m:math>.</emphasis> On an x-y graph, <m:math><m:mi>x</m:mi><m:mi> = </m:mi><m:mi>15</m:mi></m:math> is a vertical line. A vertical
+line has no width (or 0 width). Therefore, <m:math><m:mi>P</m:mi><m:mi>(</m:mi><m:mi>x</m:mi><m:mi> = </m:mi><m:mi>15</m:mi><m:mi>)</m:mi> <m:mo>=</m:mo> <m:mtext>(base)</m:mtext><m:mtext>(height)</m:mtext> <m:mo>= </m:mo><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0</m:mn></m:math>.</para><para id="element-70"><media id="id40076640" alt="f(X)=1/20 graph displaying a boxed region consisting of a horizontal line extending to the right from point 1/20 on the y-axis, a vertical upward line from point 20 on the x-axis, and the x and y-axes. A vertical upward line is drawn from point 15 on the x-axis to the horizontal line occurring from point 1/20 on the y-axis."><image src="../../media/crv_cpf4.png" mime-type="image/png" print-width="3in"/></media></para><para id="element-71"><m:math><m:reln><m:leq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln></m:math>
+
+(can be written as 
+<m:math><m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln></m:math>
+
+ for continuous distributions) is called the
+cumulative distribution function or <m:math><m:mi>CDF</m:mi></m:math>. Notice the "less than or equal to" symbol. We
+can use the <m:math><m:mi>CDF</m:mi></m:math> to calculate 
+<m:math><m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln></m:math>
+. The <m:math><m:mi>CDF</m:mi></m:math> gives "area to the left" and 
+
+<m:math><m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln></m:math>
+
+gives "area to the right." We calculate
+<m:math><m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln></m:math>
+
+ for continuous distributions as follows:
+<m:math>
+<m:reln><m:lt/>
+<m:reln><m:eq/>
+<m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+</m:math>.</para><para id="element-369"><media id="id39508301" alt="f(X) graph displaying a boxed region consisting of a horizontal line extending to the right from midway on the y-axis, a vertical upward line from an arbitrary point on the x-axis, and the x and y-axes. A shaded region from points 0-x occurs within this area."><image src="../../media/crv_cpf5.png" mime-type="image/png" print-width="3in"/></media></para><para id="element-473">Label the graph with 
+<m:math><m:mi>f(x)</m:mi></m:math> and <m:math><m:mi>x</m:mi></m:math>. 
+
+Scale the x and y axes with the maximum <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math> values.
+<m:math>
+<m:reln><m:eq/>
+<m:mrow><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply></m:mrow>
+<m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac></m:mrow></m:reln></m:math>,
+
+<m:math><m:reln><m:leq/><m:reln><m:leq/>
+<m:mrow><m:mi>0</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>20</m:mi></m:mrow></m:reln></m:math>.
+</para><para id="element-668"><media id="id40140418" alt="f(X) graph displaying a boxed region consisting of a horizontal line extending to the right from midway on the y-axis, a vertical upward line from an arbitrary point on the x-axis, and the x and y-axes. A shaded region from points 2.3-12.7 occurs within this area."><image src="../../media/crv_cpf6.png" mime-type="image/png" print-width="3in"/></media>
+</para><para id="element-979"><m:math><m:reln><m:eq/><m:reln><m:eq/><m:reln><m:eq/>
+<m:reln><m:lt/><m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>2.3</m:mn></m:mrow>
+<m:mrow><m:mi>x</m:mi></m:mrow></m:reln>
+<m:mrow><m:mn>12.7</m:mn><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo> <m:mo>(</m:mo><m:mtext>height</m:mtext><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mo>(</m:mo><m:mn>12.7</m:mn><m:mo>-</m:mo><m:mn>2.3</m:mn><m:mo>)</m:mo>
+<m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>20</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mn>0.52</m:mn></m:mrow></m:reln></m:math></para></example></content>
+  
+</document>

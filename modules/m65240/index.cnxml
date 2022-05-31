@@ -1,0 +1,295 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Descriptive Statistics: Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65240</md:content-id>
+  <md:title>Descriptive Statistics: Summary of Formulas</md:title>
+  <md:abstract>A summary of useful formulas used in examining descriptive statistics</md:abstract>
+  <md:uuid>4a955127-6892-45c5-9431-805ff2503606</md:uuid>
+</metadata>
+
+<content>
+  <list id="element-91" list-type="bulleted"><title>Commonly Used Symbols</title><item>
+   The symbol 
+<m:math><m:mi>Σ</m:mi></m:math> means to add or to find the sum.
+    </item>
+<item>
+   <m:math><m:mi>n</m:mi></m:math> = the number of data values in a sample
+    </item>
+<item>
+   <m:math><m:mi>N</m:mi></m:math> = the number of people, things, etc. in the population
+    </item>
+
+<item>
+   <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math> = the sample mean </item>
+
+<item><m:math><m:mi>s</m:mi></m:math> = the sample standard deviation
+    </item>
+
+<item>
+   <m:math><m:mi>μ</m:mi></m:math> = the population mean </item>
+<item>
+<m:math><m:mi>σ</m:mi></m:math> = the population standard deviation
+    </item>
+<item>
+   <m:math><m:mi>f</m:mi></m:math> = frequency</item>
+<item>
+<m:math><m:mi>x</m:mi></m:math> = numerical value 
+    </item></list> 
+
+
+
+
+<list id="element-819" list-type="bulleted"><title>Commonly Used Expressions</title><item id="element-361"> <m:math><m:mi>x</m:mi><m:mo>*</m:mo><m:mi>f</m:mi></m:math> = A value multiplied by its respective frequency
+</item>
+
+<item id="element-829"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum {x} } {}</m:annotation></m:semantics></m:math> = The sum of the values</item>
+
+<item id="element-202"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">*</m:mo><m:mi>f</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum {x}  times f} {}</m:annotation></m:semantics></m:math> = The sum of values multiplied by their respective frequencies </item> 
+	
+ 
+	
+<item id="element-22">
+<m:math>
+ <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>−</m:mo>
+  <m:mover>
+    <m:mi>x</m:mi>
+    <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>)</m:mo>
+  </m:math> or <m:math>
+  <m:mo>(</m:mo>
+    <m:mi>x</m:mi>
+  <m:mo>−</m:mo>
+  <m:mi>μ</m:mi>
+  <m:mo>)</m:mo>
+</m:math> = Deviations from the mean (how far a value is from the mean)</item> 
+	
+<item id="element-195"><m:math>
+<m:msup>
+    <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mi>x</m:mi>
+      <m:mo>−</m:mo>
+      <m:mover>
+
+          <m:mi>x</m:mi>
+ 
+
+        <m:mo>¯</m:mo>
+      </m:mover>
+         <m:mo>)</m:mo>  
+  </m:mrow>
+    <m:mn>2</m:mn>
+  </m:msup></m:math>
+ or 
+<m:math>
+  <m:msup>
+    <m:mrow>
+      <m:mo>(</m:mo>
+       <m:mi>x</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>μ</m:mi>
+      <m:mo>)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+  </m:msup>
+</m:math> = Deviations squared
+    </item>
+
+<item id="element-837">
+  <m:math>
+   <m:msup>
+    <m:mrow>
+      <m:mi>f</m:mi>      
+      <m:mo>(</m:mo>
+      <m:mi>x</m:mi>
+      <m:mo>−</m:mo>
+      <m:mover>
+        
+          <m:mi>x</m:mi>
+                
+        <m:mo>¯</m:mo>
+      </m:mover>
+      <m:mo>)</m:mo>
+
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+  </m:math>
+ or 
+<m:math>
+  <m:msup>
+    <m:mrow>
+<m:mi>f</m:mi>
+      <m:mo>(</m:mo>
+       <m:mi>x</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>μ</m:mi>
+      <m:mo>)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+  </m:msup>
+</m:math> = The deviations squared and multiplied by their frequencies
+   
+
+</item> 
+	
+
+
+</list>
+	
+<para id="element-126"><emphasis>Mean Formulas: </emphasis> 
+   <list id="list2"><item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} ={}} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">∑</m:mo><m:mi>x</m:mi></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { Sum {x} }  over  {n} } } {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} ={}} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">· </m:mo><m:mi>x</m:mi></m:mrow></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { Sum {f times x} }  over  {n} } } {}</m:annotation></m:semantics></m:math></item>
+
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">∑</m:mo><m:mi>x</m:mi></m:mrow><m:mi>N</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { Sum {x} }  over  {N} } } {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>μ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation></m:semantics></m:math>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">·</m:mo><m:mi>x</m:mi></m:mrow></m:mrow><m:mi>N</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { Sum {f times x} }  over  {N} } } {}</m:annotation></m:semantics></m:math></item></list>
+    </para> 
+	
+
+	
+<para id="element-449"><emphasis>Standard Deviation Formulas: </emphasis>
+
+<list id="list3"><item>
+   <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s={}} {}</m:annotation></m:semantics></m:math> 
+      <m:math>
+<m:msqrt>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Σ</m:mi>
+        <m:msup>
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mover>
+              <m:mi>x</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:msqrt>
+</m:math>	
+       or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s={}} {}</m:annotation></m:semantics></m:math>
+       <m:math>
+<m:msqrt>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Σ</m:mi>
+        <m:msup>
+          <m:mrow>
+            <m:mi>f</m:mi>
+            <m:mo>·</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mover>
+              <m:mi>x</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:msqrt>
+</m:math>
+    </item>
+
+<item>
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>σ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation></m:semantics></m:math>
+      <m:math>
+ <m:msqrt>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Σ</m:mi>
+        <m:msup>
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mover>
+              <m:mi>μ</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>N</m:mi>
+    </m:mfrac>
+  </m:msqrt>
+</m:math>
+
+or
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>σ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation></m:semantics></m:math> 
+<m:math>
+<m:msqrt>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Σ</m:mi>
+        <m:msup>
+          <m:mrow>
+            <m:mi>f</m:mi>
+            <m:mo>·</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mover>
+              <m:mi>μ</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>N</m:mi>
+    </m:mfrac>
+  </m:msqrt>
+</m:math>
+      </item></list></para> 
+	
+<para id="element-512"><emphasis>Formulas Relating a Value, the Mean, and the Standard Deviation:</emphasis>
+
+<list id="list4"><item>
+value = mean + (#ofSTDEVs)(standard deviation), where #ofSTDEVs = the number of standard deviations 
+    </item>
+
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> = <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math>+ (#ofSTDEVs)(<m:math><m:mi>s</m:mi></m:math>)</item>
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>μ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation></m:semantics></m:math> +  (#ofSTDEVs)(<m:math><m:mi>σ</m:mi></m:math>) </item></list></para>
+
+
+
+   
+  </content>
+  
+</document>

@@ -1,0 +1,85 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Central Limit Theorem: Practice</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65595</md:content-id>
+  <md:title>Central Limit Theorem: Practice</md:title>
+  <md:abstract/>
+  <md:uuid>98cd3040-fca3-401a-bad2-c47981033b87</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 7 practice.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="chap 7 practice.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-701"><title>Student Learning Outcomes</title>
+<list id="element-167" list-type="bulleted"><item>The student will calculate probabilities using the Central Limit Theorem.
+</item>
+</list></section><section id="element-277"><title>Given</title>
+<para id="element-808">Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately 4 hours each to do with a population standard deviation of 1.2 hours. Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> be the random variable representing the time it takes her to complete one review. Assume 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> is normally distributed. Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math> be the random variable representing the mean time to complete the 16 reviews. Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi fontstyle="italic">ΣX</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΣX} {}</m:annotation></m:semantics></m:math> be the total time it takes Yoonie to complete all of the month’s reviews. Assume that the 16 reviews represent a random set of reviews.
+</para></section><section id="element-997"><title>Distribution</title>
+<para id="element-309">Complete the distributions.
+<list id="element-944" list-type="enumerated"><item><m:math><m:mi>X</m:mi></m:math> ~</item>
+
+<item><m:math><m:apply><m:conjugate/><m:mi>X</m:mi></m:apply></m:math> ~</item>
+
+
+</list></para>
+
+</section><section id="element-86"><title>Graphing Probability</title>
+<para id="element-691">For each problem below:
+<list id="two" list-type="labeled-item" mark-suffix="."><item><label>a</label> Sketch the graph. Label and scale the horizontal axis. Shade the region corresponding to the probability.</item><item><label>b</label> Calculate the value.</item></list></para><exercise id="element-446"><problem id="id16709593">
+  <para id="element-345">
+   Find the probability that <emphasis>one</emphasis> review will take Yoonie from 3.5 to 4.25 hours.
+<list id="sublist1346264" mark-suffix="." list-type="labeled-item"><item><label>a</label>
+		
+					<media id="id14288416" alt="Empty normal distribution curve graph with x-axis of x."><image src="../../media/1a-b822.png" mime-type="image/png" print-width="3in"/></media></item>
+	<item><label>b</label>
+		<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( } {}</m:annotation></m:semantics></m:math> ________ 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow/><m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{&lt;x&lt;} {}</m:annotation></m:semantics></m:math> ________ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \) ={}} {}</m:annotation></m:semantics></m:math> _______</item>
+</list></para>
+</problem>
+
+<solution id="id14567929">
+  <para id="element-875"><list id="sublist64236" list-type="labeled-item" mark-suffix="."><item><label>b</label> 3.5, 4.25, 0.2441</item></list></para>
+</solution>
+</exercise><exercise id="element-322"><problem id="id14777355">
+  <para id="element-914">Find the probability that the <emphasis>mean</emphasis> of a month’s reviews will take Yoonie from 3.5 to 4.25 hrs.
+<list id="sublist27646547" mark-suffix="." list-type="labeled-item"><item><label>a</label>
+<media id="id18104670" alt="Empty normal distribution curve graph for the average."><image src="../../media/2a.png" mime-type="image/png" print-width="3in"/></media></item>
+	<item><label>b</label>
+		<m:math><m:mi>P</m:mi><m:mtext>(________________   )</m:mtext><m:mo>=</m:mo></m:math>_______</item>
+</list></para></problem>
+
+<solution id="id18025798">
+  <para id="element-710"><list id="sublist7" list-type="labeled-item" mark-suffix="."><item><label>b</label> 0.7499</item></list></para>
+</solution>
+</exercise><exercise id="element-847"><problem id="id16114940">
+  <para id="element-427">Find the 95th percentile for the <emphasis>mean</emphasis> time to complete one month’s reviews.<list id="sublist376548" list-type="labeled-item" mark-suffix=".">
+	<item><label>a</label><media id="id18775731" alt="Empty normal distribution curve graph for the mean."><image src="../../media/2a.png" mime-type="image/png" print-width="3in"/></media></item>
+<item><label>b</label>The 95th Percentile=</item></list>
+
+  </para></problem>
+
+<solution id="id10367066">
+  <para id="element-865"><list id="sublist8" list-type="labeled-item" mark-suffix="."><item><label>b</label> 4.49 hours</item></list></para>
+</solution>
+</exercise></section><section id="element-46"><title>Discussion Question</title><exercise id="exerciselkjdsf">
+<problem id="id18787293">
+<para id="element-430">What causes the probabilities in <link target-id="element-446"/> and <link target-id="element-322"/> to differ?
+</para>
+</problem>
+</exercise></section>   
+  </content>
+  
+</document>

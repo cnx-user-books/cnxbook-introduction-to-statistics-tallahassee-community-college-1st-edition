@@ -1,0 +1,116 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Continuous Random Variables: Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65534</md:content-id>
+  <md:title>Continuous Random Variables: Introduction</md:title>
+  <md:abstract>This module serves as an introduction to the Continuous Random Variables chapter in the Elementary Statistics textbook.</md:abstract>
+  <md:uuid>6bc92047-cf57-411e-8eda-c26507cc40b0</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m17566/latest/" strength="2">View the Video Lecture for this Chapter</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<section id="element-967"><title>Student Learning Objectives</title>
+<para id="element-103">
+By the end of this chapter, the student should be able to:
+</para>
+
+<list id="list1"><item>Recognize and understand continuous probability density
+functions in general.</item>
+<item>Recognize the uniform probability distribution and apply it
+appropriately.</item>
+</list></section><section id="id14391377"><title>Introduction</title>
+    <para id="delete_me">Continuous random variables have many applications. Baseball batting averages, IQ scores,
+the length of time a long distance telephone call lasts, the amount of money a person carries, the
+length of time a computer chip lasts, and SAT scores are just a few. The field of reliability
+depends on a variety of continuous random variables.
+    </para><para id="element-919">This chapter gives an introduction to continuous random variables and the many continuous
+distributions. We will be studying these continuous distributions for several chapters.</para><para id="element-223">The characteristics of continuous random variables are:
+<list id="list-1" list-type="bulleted"><item>The outcomes are measured, not counted.</item>
+<item>Geometrically, the probability of an outcome is equal to an area under a mathematical curve called the density curve,
+<m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply></m:math>.</item>
+<item>Each individual value has zero probability of occurring. Instead we find the probability
+that the value is between two endpoints.</item>
+</list></para><para id="element-660">We will start with a simplest continuous distributions, the <term target-id="unidist">Uniform</term>.
+<note id="id13580313" type="NOTE"><label>NOTE</label>The values of discrete and continuous random variables can be ambiguous. For
+example, if <m:math><m:mi>X</m:mi></m:math> is equal to the number of miles (to the nearest mile) you drive to work, then <m:math><m:mi>X</m:mi></m:math> is a
+discrete random variable. You count the miles. If <m:math><m:mi>X</m:mi></m:math> is the distance you drive to work, then
+you measure values of <m:math><m:mi>X</m:mi></m:math> and <m:math><m:mi>X</m:mi></m:math> is a continuous random variable. How the random variable is
+defined is very important.</note></para>   </section>
+  </content>
+  
+<glossary>
+<definition id="unidist">
+    <term>Uniform Distribution</term>
+    <meaning id="id14303008">
+A continuous random variable (RV) that has equally likely outcomes over the domain, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a&lt;x&lt;b} {}</m:annotation></m:semantics></m:math>. Often referred as the  <emphasis>Rectangular distribution</emphasis> because the graph of the pdf has the form of a rectangle. Notation: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mtext>~</m:mtext><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X "~" U \( a,b \) } {}</m:annotation></m:semantics></m:math>. 
+
+The mean is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ= {  {a+b}  over  {2} } } {}</m:annotation></m:semantics></m:math>  
+
+and the standard deviation is 
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>σ</m:mi></m:mrow>
+<m:mrow><m:msqrt><m:mfrac>
+<m:mrow><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>a</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mn>12</m:mn></m:mrow>
+</m:mfrac></m:msqrt></m:mrow>
+</m:reln></m:math>
+
+The probability density function is  
+<m:math>
+<m:apply>
+<m:ci type="fn">f</m:ci><m:ci>X</m:ci></m:apply>
+<m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac>
+</m:math>
+for
+<m:math><m:reln><m:lt/><m:reln><m:lt/>
+<m:mrow><m:mi>a</m:mi></m:mrow>
+<m:mrow><m:mi>X</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>b</m:mi></m:mrow></m:reln></m:math>
+or 
+<m:math><m:reln><m:leq/><m:reln><m:leq/>
+<m:mrow><m:mi>a</m:mi></m:mrow>
+<m:mrow><m:mi>X</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>b</m:mi></m:mrow></m:reln></m:math>.
+
+The  cumulative distribution is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">−</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( X &lt;= x \) = {  {x-a}  over  {b-a} } } {}</m:annotation></m:semantics></m:math>.
+    </meaning>
+  </definition>
+
+
+<definition id="expdist">
+    <term>Exponential Distribution</term>
+    <meaning id="id13301408">
+     A continuous random variable (RV) that appears when we are interested in the intervals of time between some random events, for example, the length of time between emergency arrivals at a hospital. Notation: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mtext>~</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Exp</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X "~"  ital "Exp" \( m \) } {}</m:annotation></m:semantics></m:math>. The mean is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ= {  {1}  over  {m} } } {}</m:annotation></m:semantics></m:math> and the standard deviation is  
+<m:math> 
+    <m:mi>σ</m:mi>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mn>1</m:mn>
+      <m:mi>m</m:mi>    
+  </m:mfrac></m:math>. The probability density function is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>me</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow><m:mi>,</m:mi><m:mtext/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = ital "me" rSup { size 8{- ital "mx"} } ,"  "} {}</m:annotation></m:semantics></m:math>  <m:math><m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow></m:math> and the cumulative distribution function is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( X &lt;= x \) =1-e rSup { size 8{- ital "mx"} } } {}</m:annotation></m:semantics></m:math>.
+    </meaning>
+  </definition>
+
+
+</glossary>
+</document>

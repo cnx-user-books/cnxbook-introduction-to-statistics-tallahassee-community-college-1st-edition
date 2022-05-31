@@ -1,0 +1,115 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Descriptive Statistics: Line Graphs and Bar Graphs</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65233</md:content-id>
+  <md:title>Descriptive Statistics: Line Graphs and Bar Graphs</md:title>
+  <md:abstract>This module introduces the use of stem-and-leaf graphs (stemplots), line graphs and bar graphs for describing a set of data visually.</md:abstract>
+  <md:uuid>84ae2f63-9a3a-4f15-8bb5-49719dfcdcb3</md:uuid>
+</metadata>
+
+<content>
+<para id="eip-313">Another type of graph that is useful for specific data values is a <emphasis>line graph</emphasis>.  In the particular line graph shown in the example, the <emphasis>x-axis</emphasis> consists of <emphasis>data values</emphasis> and the <emphasis>y-axis</emphasis> consists of <emphasis>frequency points</emphasis>. The frequency points are connected. </para><example id="eip-324"><title>Line Graphs</title><para id="eip-682">In a survey, 40 mothers were asked how many times per week a teenager must be reminded to do his/her chores.  The results are shown in the table and the line graph.
+</para><table id="eip-82" summary="The first column of the table consists of the number of times a teenager must be reminded to do his/her chores and the second column consists of frequency.">
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Number of times 
+    teenager is reminded</entry>
+    <entry>Frequency</entry>
+  </row>
+</thead>
+
+<tbody>
+  <row>
+    <entry>0</entry><entry>2</entry>
+  </row>
+  <row>
+    <entry>1</entry><entry>5</entry>
+  </row>
+  <row>
+    <entry>2</entry><entry>8</entry>
+  </row>
+  <row>
+    <entry>3</entry><entry>14</entry>
+  </row>
+ <row>
+    <entry>4</entry><entry>7</entry>
+  </row>
+  <row>
+    <entry>5</entry><entry>4</entry>
+  </row> 
+  
+</tbody>
+
+
+
+
+</tgroup>
+</table><para id="eip-629"><media id="line_graph_teenager" alt="A line graph showing the number of times a teenager needs to be reminded to do chores on the x-axis and  frequency on the y-axis.">	   
+  <image src="../../media/desc_stats_line_graph_1.png" mime-type="image/png" print-width="4in"/></media>
+</para>
+
+</example><para id="eip-136"><emphasis>Bar graphs</emphasis> are useful for displaying categorical data.  Bar graphs consist of bars that are separated from each other.  The bars can be rectangles or they can be rectangular boxes and they can be vertical or horizontal. </para><example id="eip-708"><title> Bar Graphs</title><para id="eip-655">The columns in the table below contain the race/ethnicity of U.S. Public Schools: High School Class of 2011, percentages for the Advanced Placement Examinee Population for that class and percentages for the Overall Student Population. The 3-dimensional graph shows the Race/Ethnicity of U.S. Public Schools (qualitative data)
+on the <emphasis>x-axis</emphasis> and Advanced Placement Examinee Population percentages on the <emphasis>y-axis</emphasis>. (<emphasis>Source: http://www.collegeboard.com</emphasis> and <emphasis> Source: http://apreport.collegeboard.org/goals-and-findings/promoting-equity</emphasis>)
+</para><table id="eip-794" summary="The table shows Race and Ethnicity in the first column, Advanced Placement Examinee Population in the second column and Overall Student Population in the third column.">
+<tgroup cols="3"><thead>
+  <row>
+    <entry>Race/Ethnicity</entry>
+    <entry>AP Examinee Population</entry>
+    <entry>Overall Student Population</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>1 = Asian, Asian American or Pacific Islander</entry>
+    <entry>10.3%</entry>
+    <entry>5.7%</entry>
+  </row>
+  <row>
+    <entry>2 = Black or African American</entry>
+    <entry>9.0%</entry>
+    <entry>14.7%</entry>
+  </row>
+  <row>
+    <entry>3 = Hispanic or Latino</entry>
+    <entry>17.0%</entry>
+    <entry>17.6%</entry>
+  </row>
+  <row>
+     <entry>4 = American Indian or Alaska Native</entry>
+     <entry>0.6%</entry>
+     <entry>1.1%</entry>
+  </row>
+  <row>
+    <entry>5 = White</entry>
+    <entry>57.1%</entry>
+    <entry>59.2%</entry>
+  </row>
+   <row>
+    <entry>6 = Not reported/other</entry>
+    <entry>6.0%</entry>
+    <entry>1.7%</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table><para id="eip-908"><media id="bar_graph_Ap_Examinee" alt="A bar graph showing race and ethnicity on the x-axis and percentages of AP examinees on the y-axis.">	   
+  <image src="../../media/desc_stats_bar_graph_4.png" mime-type="image/png" print-width="4in"/></media></para>
+</example><para id="eip-557">Go to <link url="http://nces.ed.gov/pubs2011/2011015_5.pdf">Outcomes of Education Figure 22</link> for an example of a bar graph that shows unemployment rates of persons 25 years and older for 2009.</para><note id="id8560040">This book contains instructions for constructing a <emphasis>histogram</emphasis> and a <emphasis>box plot</emphasis> for the TI-83+ and TI-84 calculators.  You can find additional instructions for using these calculators on the <link url="http://education.ti.com/educationportal/sites/US/sectionHome/support.html">Texas Instruments (TI) website</link>.</note>
+  </content>
+
+<glossary>
+
+<definition id="outlier">
+    <term>Outlier</term>
+    <meaning id="id1171166689919">
+   An observation that does not fit the rest of the data.
+    </meaning>
+  </definition>
+
+
+
+
+</glossary>
+  
+</document>

@@ -1,0 +1,254 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Discrete Random Variables: Probability Distribution Function (PDF) for a Discrete Random Variable</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65526</md:content-id>
+  <md:title>Discrete Random Variables: Probability Distribution Function (PDF) for a Discrete Random Variable</md:title>
+  <md:abstract>This module introduces the Probability Distribution Function (PDF) and its characteristics.</md:abstract>
+  <md:uuid>22f458c0-4444-4015-b36b-259b370bdf0a</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">A discrete <term target-id="pdfelab"> probability distribution function</term> has two characteristics:
+<list id="element-yu2" list-type="bulleted">
+<item>Each probability is between 0 and 1, inclusive.</item>
+<item>The sum of the probabilities is 1.</item>
+</list></para><example id="element-170"><para id="element-165">A child psychologist is interested in the number of times a newborn baby's crying wakes its mother after midnight. For a random sample of 50 mothers, the following information was obtained.  Let <m:math><m:mi>X</m:mi></m:math> = the number of times a newborn wakes its mother after midnight.  For this example, <m:math><m:mi>x</m:mi></m:math> = 0, 1, 2, 3, 4, 5.   
+</para>
+
+<para id="element-166"><m:math><m:mtext>P(x) </m:mtext></m:math> =  probability that <m:math><m:mi>X</m:mi></m:math> takes on a value <m:math><m:mi>x</m:mi></m:math>.</para><table id="element-519" summary="PDF table for the the number of times a newborn wakes its mother after midnight and probabilities.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><m:math><m:mi>x</m:mi></m:math></entry>
+    <entry><m:math><m:mtext>P(x)</m:mtext></m:math></entry>
+  </row>
+  <row>
+    <entry>0</entry>
+    <entry><m:math><m:mtext>P(x=0)</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry><m:math><m:mtext>P(x=1)</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>11</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+ <row>
+    <entry>2</entry>
+    <entry><m:math><m:mtext>P(x=2)</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>23</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+ <row>
+    <entry>3</entry>
+    <entry><m:math><m:mtext>P(x=3)</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+ <row>
+    <entry>4</entry>
+    <entry><m:math><m:mtext>P(x=4)</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+ <row>
+    <entry>5</entry>
+    <entry><m:math><m:mtext>P(x=5)</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table><para id="element-260"><m:math><m:mi>X</m:mi></m:math> takes on the values 0, 1, 2, 3, 4, 5.
+This is a discrete <m:math><m:mi>PDF </m:mi></m:math> because
+<list id="enumprac" list-type="enumerated"><item>Each <m:math><m:mtext>P(x)</m:mtext></m:math> is between 0 and 1, inclusive.</item>
+<item>The sum of the probabilities is 1, that is, </item></list></para><para id="element-135"><equation id="fifsum"><m:math>
+<m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>50</m:mn>
+  </m:mfrac>
+  <m:mo>+</m:mo>
+  <m:mfrac>
+    <m:mn>11</m:mn>
+    <m:mn>50</m:mn>
+  </m:mfrac>
+  <m:mo>+</m:mo>
+  <m:mfrac>
+    <m:mn>23</m:mn>
+    <m:mn>50</m:mn>
+  </m:mfrac>
+  <m:mo>+</m:mo>
+  <m:mfrac>
+    <m:mn>9</m:mn>
+    <m:mn>50</m:mn>
+  </m:mfrac>
+  <m:mo>+</m:mo>
+  <m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>50</m:mn>
+  </m:mfrac>
+  <m:mo>+</m:mo>
+  <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>50</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mn>1</m:mn>
+</m:math></equation></para>
+</example><example id="element-852"><para id="element-500">Suppose Nancy has classes <emphasis>3 days</emphasis> a week. She attends classes 3 days a week <emphasis>80%</emphasis> of the time, <emphasis>2 days 15%</emphasis> of the time, <emphasis>1 day  4% </emphasis>of the time, and <emphasis>no days 1% </emphasis>of the time. Suppose one week is randomly selected.
+</para><exercise id="element-65"><problem id="id1165408009785">
+  <para id="element-810">Let <m:math><m:mi>X</m:mi></m:math> = the number of days Nancy ____________________ .  
+</para>
+</problem>
+
+<solution id="id1165440343838" print-placement="end">
+  <para id="element-150">Let <m:math><m:mi>X</m:mi></m:math> = the number of days Nancy <emphasis>attends class per week</emphasis>.  
+</para>
+</solution>
+</exercise><exercise id="element-354"><problem id="id1165434067870">
+  <para id="element-839"><m:math><m:mi>X</m:mi></m:math> takes on what values?</para>
+</problem>
+
+<solution id="id1165429555990" print-placement="end">
+  <para id="element-591">0, 1, 2, and 3</para>
+</solution>
+</exercise><exercise id="element-589"><problem id="id4753220">
+  <para id="element-312">Suppose one week is randomly chosen. Construct a probability distribution table (called a <m:math><m:mi>PDF</m:mi></m:math> table) like the one in the previous example.  The table should have two columns labeled <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mtext>P(x)</m:mtext></m:math>.   What does the <m:math><m:mtext>P(x)</m:mtext></m:math> column sum to?
+  </para></problem>
+
+<solution id="id1165430115655" print-placement="end">
+  <table id="element-537" summary="PDF table of the number of times Nancy attends class per week and probabilities.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><m:math><m:mi>x</m:mi></m:math></entry>
+    <entry><m:math><m:mi>P(x)</m:mi></m:math></entry>
+  </row>
+  <row>
+    <entry>0</entry>
+    <entry>0.01</entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>0.04</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>0.15</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>0.80</entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise>
+</example>   
+  </content>
+
+  <glossary>
+ <definition id="pdfelab">
+    <term>Probability Distribution Function (PDF)</term>
+    <meaning id="id1165407642895">
+   A mathematical description of a discrete random variable (RV), given either in the form of an equation (formula) , or in the form of a table listing all the possible outcomes of an experiment and the probability associated with each outcome. 
+</meaning>
+<example id="pdfer1"><para id="pdfer2">
+A biased coin with probability 0.7 for a head (in one toss of the coin) is tossed 5 times. We are interested in the number of heads (the RV <m:math><m:mi>X</m:mi></m:math>  = the number of heads). <m:math><m:mi>X</m:mi></m:math>  is Binomial, so
+   
+<m:math><m:mrow><m:mi>X</m:mi><m:mo> ∼ </m:mo><m:mi>B</m:mi>
+  <m:mo>(</m:mo>
+    <m:mn>5</m:mn>
+    <m:mo>,</m:mo>
+      <m:mn>0</m:mn>
+      <m:mo>.</m:mo>
+      <m:mn>7</m:mn>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math> 
+and 
+<m:math>   <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo></m:math> <m:math>  <m:mfenced>
+    <m:mtable>
+      <m:mtr>
+        <m:mtd>
+          <m:mn>5</m:mn>
+        </m:mtd>
+      </m:mtr>
+      <m:mtr>
+        <m:mtd>
+          <m:mi>x</m:mi>
+        </m:mtd>
+      </m:mtr>
+    </m:mtable>
+  </m:mfenced>
+  <m:msup>
+    <m:mrow>
+      <m:mo>.</m:mo>
+      <m:mn>7</m:mn>
+    </m:mrow>
+    <m:mi>x</m:mi>
+  </m:msup>
+  <m:msup>
+    <m:mrow>
+      <m:mo>.</m:mo>
+      <m:mn>3</m:mn>
+    </m:mrow>
+    <m:mrow>
+      <m:mn>5</m:mn>
+      <m:mo>−</m:mo>
+      <m:mi>x</m:mi>
+    </m:mrow>
+  </m:msup></m:math>or in the form of the table:
+<table id="id4500004" frame="none" summary="This table presents the probability that X takes on a value x. The first column lists the X values (0-5) and P(X) values in the second column.">
+
+      <tgroup cols="2" colsep="1" rowsep="0">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+<thead>        
+  <row rowsep="1">
+            <entry><m:math><m:mi>x</m:mi></m:math> </entry>
+            <entry><m:math>   <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+</m:math></entry>
+          </row>
+</thead>        
+<tbody>
+
+          <row>
+            <entry>0</entry>
+            <entry>0.0024</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>0.0284</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>0.1323</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>0.3087</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>0.3602</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>0.1681</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table> 
+    </para></example>
+  </definition>
+
+</glossary>
+</document>

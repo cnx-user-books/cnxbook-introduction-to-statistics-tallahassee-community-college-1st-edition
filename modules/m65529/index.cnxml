@@ -1,0 +1,403 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Discrete Random Variables: Binomial</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65529</md:content-id>
+  <md:title>Discrete Random Variables: Binomial</md:title>
+  <md:abstract>This module describes the characteristics of a binomial experiment and the binomial probability distribution function.</md:abstract>
+  <md:uuid>4814fbc7-de15-4630-bc59-1a723a00749f</md:uuid>
+</metadata>
+
+<content>
+<para id="element-999">The characteristics of a binomial experiment are:
+    <list id="element-591" list-type="enumerated"><item>There are a fixed number of trials. Think of trials as repetitions of an experiment. The letter
+<m:math><m:mi>n</m:mi></m:math> denotes the number of trials. 
+
+</item>
+
+<item>There are only 2 possible outcomes, called "success" and, "failure" for each trial. The
+letter <m:math><m:mi>p</m:mi></m:math> denotes the probability of a success on one trial and <m:math><m:mi>q</m:mi></m:math> denotes the probability of
+a failure on one trial.
+ <m:math><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math>.
+</item>
+
+
+<item>The <m:math><m:mi>n</m:mi></m:math> trials are independent and are repeated using identical
+conditions. Because the <m:math><m:mi>n</m:mi></m:math> trials are independent, the outcome of one trial does not help in predicting the
+outcome of another trial. Another way of saying this is that for each individual trial, the probability, <m:math><m:mi>p</m:mi></m:math>, of a success and probability, <m:math><m:mi>q</m:mi></m:math>, of a failure
+remain the same. For example, randomly guessing at a true - false statistics question has only
+two outcomes. If a success is guessing correctly, then a failure is guessing incorrectly.
+Suppose Joe always guesses correctly on any statistics true - false question with probability <m:math> <m:reln><m:eq/><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow><m:mn>0.6</m:mn></m:mrow></m:reln></m:math>.
+
+Then, <m:math> <m:reln><m:eq/><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow><m:mn>0.4</m:mn></m:mrow></m:reln></m:math> .This means that for every true - false statistics question Joe answers,
+his probability of success (<m:math> <m:reln><m:eq/><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow><m:mn>0.6</m:mn></m:mrow></m:reln></m:math>) and his probability of failure (<m:math> <m:reln><m:eq/><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow><m:mn>0.4</m:mn></m:mrow></m:reln></m:math>) remain the same.</item></list></para>
+<para id="element-229">The outcomes of a binomial experiment fit a <term target-id="bidist">binomial probability distribution</term>.
+The random variable <m:math><m:mi>X</m:mi><m:mo>=</m:mo></m:math> the number of successes obtained in the <m:math><m:mi>n</m:mi></m:math> independent trials.</para><para id="element-108">The mean, <m:math><m:mi>μ</m:mi></m:math>, and variance, <m:math><m:ci><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:ci></m:math>, for the binomial probability distribution is
+<m:math> <m:reln><m:eq/><m:mrow>
+<m:mi>μ</m:mi></m:mrow>
+<m:mrow><m:mi>np</m:mi></m:mrow>
+</m:reln></m:math>
+and 
+<m:math> <m:reln><m:eq/><m:mrow>
+<m:ci><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:ci></m:mrow>
+<m:mrow><m:mi>npq</m:mi><m:mo>.</m:mo></m:mrow>
+</m:reln></m:math> 
+The standard deviation, <m:math><m:mi>σ</m:mi></m:math>, 
+
+is then 
+<m:math> <m:reln><m:eq/><m:mrow>
+<m:mi>σ</m:mi></m:mrow><m:msqrt>
+<m:mrow><m:mi>npq</m:mi></m:mrow></m:msqrt>
+</m:reln></m:math>.</para><para id="element-612">Any experiment that has characteristics 2 and 3 and where n = 1 is called a <term target-id="bernoullitr">Bernoulli Trial</term> (named after
+Jacob Bernoulli who, in the late 1600s, studied them extensively). A binomial experiment
+takes place when the number of successes is counted in one or more Bernoulli Trials.</para><example id="element-375"><para id="element-545">At ABC College, the withdrawal rate from an elementary physics course is
+30% for any given term. This implies that, for any given term, 70% of the students stay in the
+class for the entire term. A "success" could be defined as an individual who withdrew. The
+random variable is <m:math><m:mi>X</m:mi></m:math> = the number of students who withdraw from the randomly selected elementary physics
+class.
+</para>
+</example><example id="element-305"><para id="element-284">Suppose you play a game that you can only either win or lose. The probability
+that you win any game is 55% and the probability that you lose is 45%. Each game you play is independent. If you play the game 20
+times, what is the probability that you win 15 of the 20 games? Here, if you define <m:math>
+<m:mi>X</m:mi></m:math>  = the
+number of wins, then <m:math>
+<m:mi>X</m:mi></m:math> takes on the values 
+ 0, 1, 2, 3, ..., 20. The probability of a success
+is
+<m:math> <m:reln><m:eq/><m:mrow>
+<m:mi>p</m:mi></m:mrow>
+<m:mrow><m:mn>0.55</m:mn></m:mrow>
+</m:reln></m:math>.
+The probability of a failure is
+<m:math> <m:reln><m:eq/><m:mrow>
+<m:mi>q</m:mi></m:mrow>
+<m:mrow><m:mn>0.45</m:mn></m:mrow>
+</m:reln></m:math>.
+The number of trials is
+<m:math> <m:reln><m:eq/><m:mrow>
+<m:mi>n</m:mi></m:mrow>
+<m:mrow><m:mn>20</m:mn></m:mrow>
+</m:reln></m:math>.
+The probability question can be stated mathematically as 
+<m:math><m:reln><m:eq/><m:mrow><m:mi>P</m:mi>
+<m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>15</m:mn><m:mo>)</m:mo></m:mrow></m:reln></m:math>.</para></example><example id="element-167"><para id="element-104">A fair coin is flipped 15 times. Each flip is independent. What is the probability of getting more than 10
+heads?
+Let <m:math>
+<m:mi>X</m:mi></m:math> = the number of heads in 15 flips of the fair coin. <m:math>
+<m:mi>X</m:mi></m:math> takes on the values
+ 0, 1, 2, 3, ..., 15. Since the coin is fair, <m:math>
+<m:mi>p</m:mi></m:math> = 0.5 and <m:math>
+<m:mi>q</m:mi></m:math> = 0.5. The number of trials is
+<m:math>
+<m:mi>n</m:mi></m:math> = 15. The probability question can be stated mathematically as
+<m:math><m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo>
+<m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>10</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln></m:math>.</para></example><example id="element-807"><para id="element-175">Approximately 70% of statistics students do their homework in time for it to be
+collected and graded. Each student does homework independently. In a statistics class of 50 students, what is the probability that at least 40
+will do their homework on time? Students are selected randomly.
+</para><exercise id="element-1751">
+<problem id="id5317083">
+
+<para id="element-732">This is a binomial problem because there is only a success or a __________, there are a
+definite number of trials, and the probability of a success is 0.70 for each trial. 
+</para>
+</problem>
+<solution id="id5321627" print-placement="end">
+ <para id="element-23523">
+  failure
+ </para>
+</solution>
+</exercise>
+
+
+<exercise id="element-1752">
+<problem id="id5318862">
+
+<para id="element-73124">If we are
+interested in the number of students who do their homework, then how do we define <m:math>
+<m:mi>X</m:mi></m:math>?
+</para>
+</problem>
+<solution id="id5318289" print-placement="end">
+ <para id="element-235352">
+ <m:math>
+<m:mi>X</m:mi></m:math> = the number of statistics students who do their homework on time
+ </para>
+</solution>
+</exercise>
+
+
+<exercise id="element-17530">
+<problem id="id5318085">
+
+<para id="element-732324">What values does <m:math>
+<m:mi>x</m:mi></m:math> take on? 
+</para></problem>
+<solution id="id5318055" print-placement="end">
+ <para id="element-23352">
+ 0, 1, 2, …, 50
+ </para>
+</solution>
+</exercise>
+
+
+
+<exercise id="element-1753">
+<problem id="id5317581">
+
+<para id="element-7324">What is a "failure", in words? 
+</para>
+</problem>
+<solution id="id5317186" print-placement="end">
+ <para id="element-232">Failure is a student who does not do his or her homework on time.</para>
+</solution>
+</exercise>
+
+
+<para id="element-8865">The probability of a success is
+<m:math>
+<m:mi>p</m:mi></m:math> = 0.70. The number of trial is <m:math>
+<m:mi>n</m:mi></m:math> = 50.</para>
+
+
+
+<exercise id="element-1753232">
+<problem id="id5317836">
+
+<para id="element-74">If 
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow>
+<m:mrow><m:mn>1</m:mn></m:mrow>
+</m:reln></m:math>,
+then what is <m:math>
+<m:mi>q</m:mi></m:math>? 
+</para>
+</problem>
+<solution id="id5317308" print-placement="end">
+ <para id="element-5352"><m:math><m:mi>q</m:mi></m:math> = 0.30
+ </para>
+</solution>
+</exercise>
+
+
+<exercise id="element-13">
+<problem id="id5317006">
+
+<para id="element-70">The words "at least" translate as what kind of inequality for the probability question 
+<m:math>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo>
+<m:mi>x</m:mi></m:mrow><m:mi>____</m:mi>
+<m:mrow><m:mn>40</m:mn><m:mo>)</m:mo></m:mrow>
+</m:math>.</para></problem>
+<solution id="id5319380" print-placement="end">
+ <para id="element-23532">greater than or equal to (≥)</para>
+</solution>
+</exercise>
+
+
+<para id="element-whatever">The probability question is 
+<m:math><m:reln><m:geq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo>
+<m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>40</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln></m:math>.</para></example><section id="element-501"><title>Notation for the Binomial: B = Binomial Probability Distribution Function</title>
+<para id="element-715"><m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mi>B</m:mi><m:mo>(</m:mo>
+<m:mi>n</m:mi><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:math></para><para id="element-276">Read this as "<m:math>
+<m:mi>X</m:mi></m:math> is a random variable with a binomial distribution."
+The parameters are <m:math>
+<m:mi>n</m:mi></m:math> and <m:math>
+<m:mi>p</m:mi></m:math>. <m:math>
+<m:mi>n</m:mi></m:math> = number of trials <m:math>
+<m:mi>p</m:mi></m:math> = probability of a
+success on each trial</para>
+</section>
+
+<example id="element-972"><para id="element-548">It has been stated that about 41% of adult workers have a high
+school diploma but do not pursue any further education. If 20 adult workers are randomly
+selected, find the probability that at most 12 of them have a high school diploma but do not
+pursue any further education. How many adult workers do you expect to have a high school
+diploma but do not pursue any further education?
+</para><para id="element-992">Let <m:math>
+<m:mi>X</m:mi></m:math> = the number of workers who have a high school diploma but do not pursue any further
+education.</para><para id="element-570"><m:math>
+<m:mi>X</m:mi></m:math> takes on the values 0, 1, 2, ..., 20 where <m:math>
+<m:mi>n</m:mi></m:math> = 20 and <m:math>
+<m:mi>p</m:mi></m:math> = 0.41. <m:math>
+<m:mi>q</m:mi></m:math> = 1 - 0.41 = 0.59.
+<m:math>
+<m:mi>X</m:mi></m:math> ~ <m:math><m:mi>B</m:mi><m:mo>(</m:mo>
+<m:mn>20</m:mn><m:mo>,</m:mo><m:mn>0.41</m:mn><m:mo>)</m:mo>
+</m:math></para><para id="element-66">Find
+<m:math><m:reln><m:leq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo>
+<m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>12</m:mn><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow>
+</m:reln></m:math> 
+ 
+<m:math><m:reln><m:eq/>
+<m:mrow>
+<m:reln><m:leq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>12</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln></m:mrow>
+<m:mrow><m:mn>0.9738</m:mn><m:mo>.</m:mo></m:mrow>
+</m:reln></m:math>
+
+(calculator or computer)</para><para id="element-224">Using the TI-83+ or the TI-84 calculators, the calculations are as follows. Go into 2nd
+DISTR. The syntax for the instructions are</para><para id="element-853"><emphasis>To calculate (<m:math><m:mi>x</m:mi></m:math> = value): binompdf(<m:math><m:mi>n</m:mi></m:math>, <m:math><m:mi>p</m:mi></m:math>, number)</emphasis>
+If "number" is left out, the result is the binomial probability table.
+</para><para id="element-506"><emphasis>To calculate 
+<m:math><m:reln><m:leq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mtext>value</m:mtext><m:mo>)</m:mo></m:mrow>
+</m:reln></m:math>:
+binomcdf(<m:math><m:mi>n</m:mi></m:math>, <m:math><m:mi>p</m:mi></m:math>, number)</emphasis>
+If "number" is left out, the result is the cumulative binomial probability table.</para><para id="element-371"><emphasis>For this problem:
+After you are in 2nd DISTR, arrow down to binomcdf. Press ENTER. Enter
+20,.41,12). The result is
+<m:math><m:reln><m:eq/>
+<m:mrow>
+<m:reln><m:leq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>12</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln></m:mrow>
+<m:mrow><m:mn>0.9738</m:mn></m:mrow>
+</m:reln></m:math>.
+</emphasis></para><note id="id5442988">If you want to find 
+<m:math><m:reln><m:eq/><m:mrow><m:mi>P</m:mi>
+<m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>12</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln></m:math>,
+
+use the pdf (binompdf).
+If you want to find
+
+<m:math><m:mtext>P(x&gt;12)</m:mtext></m:math>,
+
+
+use 1 - binomcdf(20,.41,12).
+
+</note><para id="element-442">The probability at most 12 workers have a high school diploma but do not pursue any further
+education is 0.9738</para><para id="element-586">The graph of
+<m:math>
+<m:mi>x</m:mi></m:math> ~ <m:math><m:mi>B</m:mi><m:mo>(</m:mo>
+<m:mn>20</m:mn><m:mo>,</m:mo><m:mn>0.41</m:mn><m:mo>)</m:mo>
+</m:math> is:</para><para id="element-128"><media id="id5403497" alt="The binomial probability distribution function graph is made up of bars that are fairly normally distributed with an x-axis of 0-20 and a y-axis of 0-0.2 in increments of 0.05."><image src="../../media/disc_rv_graph1-1.png" mime-type="image/png" print-width="4in"/></media>
+
+</para><para id="element-313">The y-axis contains the
+probability of <m:math><m:mi>x</m:mi></m:math>, where
+<m:math><m:mi>X</m:mi></m:math> = the number of
+workers who have only a
+high school diploma.</para><para id="element-363">The number of adult workers that you expect to have a high school diploma but not
+pursue any further education is the mean, <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>np</m:mi><m:mo>=</m:mo> <m:mo>(</m:mo><m:mn>20</m:mn><m:mo>)</m:mo>
+<m:mo>(</m:mo><m:mn>0.41</m:mn><m:mo>)</m:mo><m:mo>=</m:mo>
+<m:mn>8.2</m:mn></m:math>.</para><para id="element-949">The formula for the variance is <m:math><m:reln><m:eq/>
+<m:mrow><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:mrow> 
+<m:mrow><m:mi>npq</m:mi></m:mrow></m:reln></m:math>. The standard deviation is 
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>σ</m:mi></m:mrow> 
+<m:mrow><m:msqrt><m:mi>npq</m:mi></m:msqrt></m:mrow></m:reln></m:math>.
+
+<m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mi>σ</m:mi></m:mrow> 
+<m:mrow>
+<m:msqrt><m:mo>(</m:mo><m:mn>20</m:mn><m:mo>)</m:mo>
+<m:mo>(</m:mo><m:mn>0.41</m:mn><m:mo>)</m:mo>
+<m:mo>(</m:mo><m:mn>0.59</m:mn><m:mo>)</m:mo>
+</m:msqrt>
+</m:mrow></m:reln>
+<m:mrow><m:mn>2.20</m:mn>
+</m:mrow></m:reln></m:math>.
+
+</para>
+</example><example id="element-678"><para id="element-532">The following example illustrates a problem that is <emphasis>not</emphasis> binomial.
+It violates the condition of independence. ABC College has a student advisory
+committee made up of 10 staff members and 6 students. The committee wishes to
+choose a chairperson and a recorder. What is the probability that the
+chairperson and recorder are both students? All names of the committee are put
+into a box and two names are drawn <emphasis>without replacement</emphasis>. The first name
+drawn determines the chairperson and the second name the recorder. There are
+two trials. However, the trials are not independent because the outcome of the
+first trial affects the outcome of the second trial. The probability of a student on
+the first draw is <m:math><m:mfrac><m:mn>6</m:mn><m:mn>16</m:mn></m:mfrac></m:math>. The probability of a student on the second draw is <m:math><m:mfrac><m:mn>5</m:mn><m:mn>15</m:mn></m:mfrac></m:math>,
+when the first draw produces a student. The probability is <m:math><m:mfrac><m:mn>6</m:mn><m:mn>15</m:mn></m:mfrac></m:math> when the first
+draw produces a staff member. The probability of drawing a student's name
+changes for each of the trials and, therefore, violates the condition of
+independence.
+</para>
+</example>   
+  </content>
+
+
+  <glossary>
+
+  <definition id="bernoullitr">
+    <term>Bernoulli Trials</term>
+    <meaning id="id5444014">
+      An experiment with the following characteristics: <list id="gloslst1" list-type="bulleted">
+<item>There are only 2 possible outcomes called “success” and “failure” for each trial.</item>
+<item>The probability <m:math><m:mi>p</m:mi></m:math> of a success is the same for any trial  (so the probability <m:math><m:mi>q</m:mi> <m:mo>=</m:mo> <m:mn>1</m:mn><m:mo>-</m:mo><m:mi>p</m:mi></m:math> of a failure is the same for any trial).
+</item></list></meaning>
+  </definition>
+
+<definition id="bidist">
+    <term>Binomial Distribution</term>
+    <meaning id="id8181257">
+      A discrete random variable (RV) which arises from Bernoulli trials. There are a fixed number, <m:math><m:mi>n</m:mi></m:math>, of independent trials. “Independent” means that the result of any trial (for example, trial 1) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> is defined as the number of successes in <m:math><m:mi>n</m:mi></m:math> trials. The notation is: 
+
+<emphasis><m:math><m:mi>X</m:mi></m:math>~<m:math> <m:mi>B</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>,</m:mo>
+  <m:mi>p</m:mi>
+  <m:mo>)</m:mo></m:math></emphasis>. The mean is <m:math><m:apply>
+  <m:eq/>
+  <m:ci>μ</m:ci>
+  <m:ci>np</m:ci>
+</m:apply>
+</m:math> and the standard deviation is 
+<m:math>
+
+   
+    <m:mi>σ</m:mi>
+  
+  <m:mo>=</m:mo>
+  <m:msqrt><m:mi>npq</m:mi></m:msqrt>
+
+</m:math>. The probability of exactly <m:math><m:mi>x</m:mi></m:math> successes in <m:math><m:mi>n</m:mi></m:math> trials is <m:math>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfenced>
+    <m:mfrac linethickness="0">
+      <m:mi>n</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mfenced>
+  <m:msup>
+    <m:mi>p</m:mi>
+    <m:mi>x</m:mi>
+  </m:msup>
+  <m:msup>
+    <m:mi>q</m:mi>
+    <m:mrow>
+      <m:mi>n</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>x</m:mi>
+    </m:mrow>
+  </m:msup>
+</m:math>.
+    </meaning>
+  </definition>
+
+
+</glossary>
+</document>

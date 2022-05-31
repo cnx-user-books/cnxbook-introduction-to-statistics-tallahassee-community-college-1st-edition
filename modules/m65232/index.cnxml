@@ -1,0 +1,149 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Descriptive Statistics: Stem and Leaf Graphs (Stemplots)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65232</md:content-id>
+  <md:title>Descriptive Statistics: Stem and Leaf Graphs (Stemplots)</md:title>
+  <md:abstract>This module introduces the use of stem-and-leaf graphs (stemplots), line graphs and bar graphs for describing a set of data visually.</md:abstract>
+  <md:uuid>c1b43460-bb03-455e-83df-1f06300c1418</md:uuid>
+</metadata>
+
+<content>
+<para id="id6999853">One simple graph, the <emphasis>stem-and-leaf graph</emphasis> or <emphasis>stem plot</emphasis>, comes from the field of exploratory data analysis.It is a good choice for numerical data sets that are small. To create the plot, divide each observation of data into a stem and a leaf. The leaf consists of a  <emphasis>final significant digit</emphasis>. For example, 23 has stem 2 and leaf 3. Four hundred thirty-two (432) has stem 43 and leaf 2. Five thousand four hundred thirty-two (5,432) has stem 543 and leaf 2. The decimal 9.3 has stem 9 and leaf 3. Write the stems in a vertical line from smallest the largest. Draw a vertical line to the right of the stems. Then write the leaves in increasing order next to their corresponding stem.</para><example id="element-696"><para id="element-948">For Susan Dean's spring pre-calculus class, scores for the first exam were as follows (smallest to largest):
+
+
+
+	</para><para id="id8531969"><list id="set-190" list-type="labeled-item" display="inline"><item>33</item><item>42</item><item>49</item><item>49</item><item>53</item><item>55</item><item>55</item><item>61</item><item>63</item><item>67</item><item>68</item><item>68</item><item>69</item><item>69</item><item>72</item><item>73</item><item>74</item><item>78</item><item>80</item><item>83</item><item>88</item><item>88</item><item>88</item><item>90</item><item>92</item><item>94</item><item>94</item><item>94</item><item>94</item><item>96</item><item>100</item></list></para><table id="element-185" summary="Table displaying stem in first column and leaf in second column for the values listed above."><title>Stem-and-Leaf Diagram</title>
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Stem</entry>
+    <entry>Leaf</entry>
+  </row>
+</thead>
+
+<tbody>
+		<row>
+			<entry>3</entry>
+			<entry>3</entry>
+		</row>
+		<row>
+			<entry>4</entry>
+			<entry>299</entry>
+		</row>
+		<row>
+			<entry>5</entry>
+			<entry>355</entry>
+		</row>
+		<row>
+			<entry>6</entry>
+			<entry>1378899</entry>
+		</row>
+		<row>
+			<entry>7</entry>
+			<entry>2348</entry>
+		</row>
+		<row>
+			<entry>8</entry>
+			<entry>03888</entry>
+		</row>
+		<row>
+			<entry>9</entry>
+			<entry>0244446</entry>
+		</row>
+		<row>
+			<entry>10</entry>
+			<entry>0</entry>
+		</row>
+	</tbody>
+
+</tgroup>
+</table><para id="element-541">The stem plot shows that most scores fell in the 60s, 70s, 80s, and 90s.  Eight out of the 31 scores or approximately 26% of the scores were in the 90's or 100, a fairly high number of As.</para></example><para id="id8073584">The stem plot is a quick way to graph and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <term target-id="outlier">outlier</term> is an observation of data that does not fit the rest of the data. It is sometimes called an <emphasis>extreme value.</emphasis> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes (for example, writing down 50 instead of 500) while others may indicate that something unusual is happening. It takes some background information to explain outliers. In the example above, there were no outliers.</para><example id="element-798"><para id="element-443">Create a stem plot using the data: 
+	</para>
+
+<para id="element-4232"><list id="set-85" list-type="labeled-item" display="inline"><item>1.1</item><item>1.5</item><item>2.3</item><item>2.5</item><item>2.7</item><item>3.2</item><item>3.3</item><item>3.3</item><item>3.5</item><item>3.8</item><item>4.0</item><item>
+4.2</item><item>4.5</item><item>4.5</item><item>4.7</item><item>4.8</item><item>5.5</item><item>5.6</item><item>6.5</item><item>6.7</item><item>12.3</item></list></para>
+<para id="element-534">The data are the distance (in kilometers) from a home to the nearest supermarket. </para>
+<exercise id="element-6923">
+<problem id="id8567884">
+<list id="element-675" list-type="enumerated"><item>Are there any values that might possibly be outliers? </item>
+	<item>Do the data seem to have any concentration of values?</item>
+</list><note id="id8559724" type="Hint"><label>Hint</label>The leaves are to the right of the decimal.</note>
+</problem>
+<solution id="id8559734" print-placement="end">
+<para id="element-23523">The value 12.3 may be an outlier.  Values appear to concentrate at 3 and 4 kilometers.
+</para><table id="element-533" summary="This is a Stem-Leaf graph with stems 1, 2, 3, 4, 5, 6, 12 and leaves to the right of the decimal point.">
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Stem</entry>
+    <entry>Leaf</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>1</entry>
+    <entry>1 5</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>3 5 7</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>2 3 3 5 8</entry>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>0 2 5 5 7 8</entry>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>5 6</entry>
+  </row>
+  <row>
+    <entry>6</entry>
+    <entry>5 7</entry>
+  </row>
+  <row>
+    <entry>7</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>8</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>9</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>11</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>12</entry>
+    <entry>3</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise></example></content>
+
+<glossary>
+
+<definition id="outlier">
+    <term>Outlier</term>
+    <meaning id="id1171166689919">
+   An observation that does not fit the rest of the data.
+    </meaning>
+  </definition>
+
+
+
+
+</glossary>
+  
+</document>

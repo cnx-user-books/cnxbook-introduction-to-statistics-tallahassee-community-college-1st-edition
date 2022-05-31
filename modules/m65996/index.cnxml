@@ -1,0 +1,36 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Appendix D Tables</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65996</md:content-id>
+  <md:title>Appendix D Tables</md:title>
+  <md:abstract>The modules contains links to government site tables used in statistics.</md:abstract>
+  <md:uuid>73420a33-ef9e-425b-987c-a59e0a91d6d7</md:uuid>
+</metadata>
+
+<content>
+    <note id="idm9990192">When you are finished with the table link, use the back button on your browser to return here.</note><list id="element-477" list-type="bulleted"><title>Tables (NIST/SEMATECH e-Handbook of Statistical Methods,  http://www.itl.nist.gov/div898/handbook/, January 3, 2009)</title><item>  
+<link url="http://www.itl.nist.gov/div898/handbook/eda/section3/eda3672.htm">Student-t table</link></item>
+
+<item>  
+<link url="http://www.itl.nist.gov/div898/handbook/eda/section3/eda3671.htm">Normal table</link></item>
+
+<item>  
+<link url="http://www.itl.nist.gov/div898/handbook/eda/section3/eda3674.htm">Chi-Square table</link></item>
+
+<item>  
+<link url="http://www.itl.nist.gov/div898/handbook/eda/section3/eda3673.htm">F-table</link></item>
+
+<item>All four tables can be accessed by going to  
+<link url="http://www.itl.nist.gov/div898/handbook/eda/section3/eda367.htm">http://www.itl.nist.gov/div898/handbook/eda/section3/eda367.htm</link></item></list><list id="element-919" list-type="bulleted"><title>95% Critical Values of the Sample Correlation Coefficient Table</title><item> 
+<link document="m17098">95% Critical Values of the Sample Correlation Coefficient</link>
+<note id="idm3926096">The url for this table is http://cnx.org/content/m17098/latest/</note>
+</item>
+</list><para id="delete_me">
+       <!-- Insert module text here -->
+    </para>
+
+   
+  </content>
+
+  
+</document>

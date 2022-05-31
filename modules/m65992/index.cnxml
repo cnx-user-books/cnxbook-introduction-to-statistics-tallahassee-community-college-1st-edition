@@ -1,0 +1,501 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="review">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Review</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65992</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Review</md:title>
+  <md:abstract>This module provides an overview of Hypothesis Testing of Single Mean and Single Proportion as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>4d2b7c04-9145-453e-aff9-dcb66d207d35</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Hypothesis Testing of Single Mean and Single Proportion (review).doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <exercise id="element-628"><problem id="id25667686">
+  <para id="element-254">Rebecca and Matt are 14 year old twins. Matt’s height is 2 standard deviations below the mean for 14 year old boys’ height. Rebecca’s height is 0.10 standard deviations above the mean for 14 year old girls’ height. Interpret this.
+  </para><list id="element-983" list-type="labeled-item" mark-suffix="."><item><label>A</label>Matt is 2.1 inches shorter than Rebecca</item>
+      <item><label>B</label>Rebecca is very tall compared to other 14 year old girls.</item>
+      <item><label>C</label>Rebecca is taller than Matt.</item>
+      <item><label>D</label>Matt is shorter than the average 14 year old boy.</item>
+    </list>
+</problem>
+
+<solution id="id29979927">
+  <para id="element-182">D</para>
+</solution>
+</exercise>
+    
+    <exercise id="eip-364"><problem id="eip-863">
+  <para id="eip-48">Construct a histogram of the IPO data (see Table of Contents, 14. Appendix, Data Sets). Use 5 intervals.
+  </para>
+</problem>
+
+<solution id="eip-521">
+  <para id="eip-790">No solution provided.  There are several ways in which the histogram could be constructed.
+  </para>
+</solution>
+</exercise>
+    <para id="id8013689"><emphasis>The next three exercises refer to the following information:</emphasis> Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> = the number of estimates.</para>
+    <table id="id8068931" summary="This is a partially filled table with the first column as x values (1, 2, 4, 5), second column of relative frequency, and the blank third column as cumulative relative frequency.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Rel. Freq. </entry>
+            <entry>Cumulative Rel. Freq.</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">1</entry>
+            <entry align="center">0.3</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry align="center">2</entry>
+            <entry align="center">0.2</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry align="center">4</entry>
+            <entry align="center">0.4</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry align="center">5</entry>
+            <entry align="center">0.1</entry>
+            <entry/>
+          </row>
+        </tbody>
+      
+
+
+
+</tgroup>
+</table><para id="id7175226">Complete the cumulative relative frequency column. </para>
+    <exercise id="element-227"><problem id="id29983549">
+  <para id="element-308">Calculate the sample mean (a), the sample standard deviation (b) and the percent of the estimates that fall at or below 4 (c).
+  </para>
+</problem>
+
+<solution id="id29983566">
+  <list id="element-278" mark-suffix="." list-type="labeled-item"><item><label>a</label>2.8</item>
+<item><label>b</label> 1.48</item>
+<item><label>c</label>90%</item></list>
+</solution>
+</exercise>
+    <exercise id="element-970"><problem id="id30018003">
+  <para id="element-248">Calculate the median, M, the first quartile, Q1, the third quartile, Q3.  Then construct a boxplot of the data.
+  </para>
+</problem>
+
+<solution id="id30018021">
+  <para id="element-542"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>M</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{M=3} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ; 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi fontstyle="italic">Q1</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{Q1=1} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ; 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi fontstyle="italic">Q3</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{Q3=4} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+</solution>
+</exercise>
+    <exercise id="element-623"><problem id="id22743078">
+  <para id="element-672">The middle 50% of the data are between _____ and _____.
+  </para>
+</problem>
+
+<solution id="id25604072">
+  <para id="element-826">
+    1 and 4
+  </para>
+</solution>
+</exercise>
+    
+    <para id="id7647742"><emphasis>The next three questions refer to the following table:</emphasis> Seventy 5th and 6th graders were asked their favorite dinner.</para>
+    <table id="id7647697" summary="The table presents data with grade level in the first column, pizza in the second, hamburgers in the third, spaghetti in the fourth, and fried shrimp in the fifth. The first row are 5th graders and the second row are 6th graders.">
+
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>Pizza</entry>
+            <entry>Hamburgers</entry>
+            <entry>Spaghetti</entry>
+            <entry>Fried shrimp</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry>5th grader</entry>
+            <entry>15</entry>
+            <entry>6</entry>
+            <entry>9</entry>
+            <entry>0</entry>
+          </row>
+          <row>
+            <entry>6th grader</entry>
+            <entry>15</entry>
+            <entry>7</entry>
+            <entry>10</entry>
+            <entry>8</entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table>
+    <exercise id="element-952"><problem id="id30321054">
+  <para id="element-498">Find the probability that one randomly chosen child is in the 6th grade and prefers fried shrimp.
+  </para><list id="element-725" list-type="labeled-item" mark-suffix="."><item><label>A</label>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mtext>32</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mtext>70</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{"32"} }  over  { size 8{"70"} } } } {}</m:annotation></m:semantics></m:math></item>
+      <item><label>B</label>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mn>8</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mtext>32</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{8} }  over  { size 8{"32"} } } } {}</m:annotation></m:semantics></m:math></item>
+      <item><label>C</label>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mn>8</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>8</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{8} }  over  { size 8{8} } } } {}</m:annotation></m:semantics></m:math></item>
+      <item><label>D</label>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mn>8</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mtext>70</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{8} }  over  { size 8{"70"} } } } {}</m:annotation></m:semantics></m:math></item>
+    </list>
+</problem>
+
+<solution id="id30022759">
+  <para id="element-319">
+    D
+  </para>
+</solution>
+</exercise>
+    
+    <exercise id="element-187"><problem id="id30022784">
+  <para id="element-726">Find the probability that a child does not prefer pizza.
+  </para><list id="element-184" list-type="labeled-item" mark-suffix="."><item><label>A</label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mtext>30</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mtext>70</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{"30"} }  over  { size 8{"70"} } } } {}</m:annotation></m:semantics></m:math></item>
+      <item><label>B</label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mtext>30</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mtext>40</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{"30"} }  over  { size 8{"40"} } } } {}</m:annotation></m:semantics></m:math></item>
+      <item><label>C</label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mtext>40</m:mtext></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mtext>70</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{"40"} }  over  { size 8{"70"} } } } {}</m:annotation></m:semantics></m:math></item>
+      <item><label>D</label>1</item>
+    </list>
+</problem>
+
+<solution id="id29901009">
+  <para id="element-441">
+    C
+  </para>
+</solution>
+</exercise>
+    
+    <exercise id="element-199"><problem id="id29901033">
+  <para id="element-685">Find the probability a child is in the 5th grade given that the child prefers spaghetti.
+  </para><list id="element-237" list-type="labeled-item" mark-suffix="."><item><label>A</label>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>9</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mtext>19</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{9} }  over  { size 8{"19"} } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </item>
+      <item><label>B</label>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>9</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mtext>70</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{9} }  over  { size 8{"70"} } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </item>
+      <item><label>C</label>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>9</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mtext>30</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{9} }  over  { size 8{"30"} } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </item>
+      <item><label>D</label>
+        
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mtext>19</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mtext>70</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{"19"} }  over  { size 8{"70"} } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        
+      </item>
+    </list>
+</problem>
+
+<solution id="id28183220">
+  <para id="element-989">
+    A
+  </para>
+</solution>
+</exercise>
+    
+    <exercise id="element-167"><problem id="id28183249">
+  <para id="element-57">A sample of convenience is a random sample.</para><list id="element-101" list-type="labeled-item" mark-suffix="."><item><label>A</label>true</item>
+      <item><label>B</label>false</item>
+    </list>
+</problem>
+
+<solution id="id30018138">
+  <para id="element-65">B
+  </para>
+</solution>
+</exercise>
+    
+    <exercise id="element-546"><problem id="id30018166">
+  <para id="element-979">A statistic is a number that is a property of the population.
+  </para><list id="element-290" list-type="labeled-item" mark-suffix="."><item><label>A</label>true</item>
+      <item><label>B</label>false</item>
+    </list>
+</problem>
+
+<solution id="id30018227">
+  <para id="element-87">B</para>
+</solution>
+</exercise>
+    
+    <exercise id="element-849"><problem id="id30018255">
+  <para id="element-5">You should always throw out any data that are outliers.
+  </para><list id="element-834" list-type="labeled-item" mark-suffix="."><item><label>A</label>true</item>
+      <item><label>B</label>false</item>
+    </list>
+</problem>
+
+<solution id="id25605856">
+  <para id="element-318">B</para>
+</solution>
+</exercise>
+    
+    <exercise id="element-373"><problem id="id25605885">
+  <para id="element-682">Lee bakes pies for a small restaurant in Felton, CA. She generally bakes 20 pies in a day, on the average. Of interest is the num.ber of pies she bakes each day</para><list id="element-41" list-type="labeled-item" mark-suffix="."><item><label>a</label>Define the Random Variable 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math>.</item>
+      <item><label>b</label>State the distribution for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math>.</item>
+      <item><label>c</label>Find the probability that Lee bakes more than 25 pies in any given day.</item>
+    </list>
+</problem>
+
+<solution id="id25605996">
+  <list id="element-85" list-type="labeled-item" mark-suffix="."><item><label>b</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>20</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( "20" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>c</label>0.1122</item>
+</list>
+</solution>
+</exercise>
+    
+    <exercise id="element-125"><problem id="id28246852">
+  <para id="element-471">Six different brands of Italian salad dressing were randomly selected at a supermarket. The grams of fat per serving are 7, 7, 9, 6, 8, 5. Assume that the underlying distribution is normal. Calculate a 95% confidence interval for the population mean grams of fat per serving of Italian salad dressing sold in supermarkets.
+  </para></problem>
+
+<solution id="id28246876">
+  <para id="element-135">CI: <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                
+                  
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>52</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>8</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>48</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "CI": \( 5 "." "52",8 "." "48" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+</solution>
+</exercise><exercise id="element-365"><problem id="id29958651">
+  <para id="element-518">Given: uniform, exponential, normal distributions. Match each to a statement below.
+  </para><list id="element-609" list-type="labeled-item" mark-suffix="."><item><label>a</label>mean = median ≠ mode</item>
+      <item><label>b</label>mean &gt; median &gt; mode</item>
+      <item><label>c</label>mean = median = mode</item>
+    </list>
+</problem>
+
+<solution id="id29958727">
+  <list id="element-811" list-type="labeled-item" mark-suffix="."><item><label>a</label>uniform</item>
+<item><label>b</label>exponential</item>
+<item><label>c</label>normal</item></list>
+</solution>
+</exercise>
+    
+    
+    
+    
+    
+    
+    
+  </content>
+</document>

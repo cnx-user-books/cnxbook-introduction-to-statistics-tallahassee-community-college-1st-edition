@@ -1,0 +1,1930 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="homework">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Homework</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65989</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Homework</md:title>
+  <md:abstract>This module provides a homework of Hypothesis Testing of Single Mean and Single Proportion as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>62658c0f-79ad-4fbc-bdd2-7f0ad0b709e7</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Hypothesis Testing of Single Mean and Single Proportion.doc" strength="3">Download handout (.doc)</link>
+      <link url="Hypothesis Testing of Single Mean and Single Proportion.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    
+    
+    <exercise id="element-919"><problem id="id8382572">
+  <para id="element-802">Some of the statements below refer to the null hypothesis, some to the alternate hypothesis.
+  </para><para id="element-449">State the null hypothesis, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>, and the alternative hypothesis, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math>, in terms of the appropriate parameter (<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>μ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>). </para><list id="element-222" mark-suffix="." list-type="labeled-item"><item><label>a</label>The mean number of years Americans work before retiring is 34.</item>
+      <item><label>b</label>At most 60% of Americans vote in presidential elections.</item>
+      <item><label>c</label>The mean starting salary for San Jose State University graduates is at least $100,000 per year.</item>
+      <item><label>d</label>29% of high school seniors get drunk each month.</item>
+      <item><label>e</label>Fewer than 5% of adults ride the bus to work in Los Angeles.</item>
+      <item><label>f</label>The mean number of cars a person owns in her lifetime is not more than 10.</item>
+      <item><label>g</label>About half of Americans prefer to live away from cities, given the choice.</item>
+      <item><label>h</label>Europeans have a mean paid vacation each year of six weeks.</item>
+      <item><label>i</label>The chance of developing breast cancer is under 11% for women.</item>
+      <item><label>j</label>Private universities mean tuition cost is more than $20,000 per year.</item></list></problem>
+
+<solution id="id9205906">
+  <list id="element-365" list-type="labeled-item" mark-suffix="."><item><label>a</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>o</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>μ</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>34</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :μ="34"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ; 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>μ</m:mi>
+                    <m:mo stretchy="false">≠</m:mo>
+                    <m:mtext>34</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :μ &lt;&gt; "34"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>c</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>o</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>μ</m:mi>
+                    <m:mo stretchy="false">≥</m:mo>
+                    <m:mtext>100</m:mtext>
+                  </m:mrow>
+                  <m:mi>,</m:mi>
+                  <m:mtext>000</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :μ &gt;= "100","000"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ; 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>μ</m:mi>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mtext>100</m:mtext>
+                  </m:mrow>
+                  <m:mi>,</m:mi>
+                  <m:mtext>000</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :μ&lt;"100","000"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>d</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>o</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>29</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :p=0 "." "29"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ; 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">≠</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>29</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :p &lt;&gt; 0 "." "29"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>g</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>o</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>50</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :p=0 "." "50"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ; 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">≠</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>50</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :p &lt;&gt; 0 "." "50"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>i</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>o</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">≥</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>11</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :p &gt;= 0 "." "11"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ; 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>11</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :p&lt;0 "." "11"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</solution>
+</exercise>
+    
+    
+    
+    
+    <exercise id="element-612"><problem id="id8384344">
+  <para id="element-281">
+    For (a) - (j) above, state the Type I and Type II errors in complete sentences.
+  </para>
+</problem>
+
+<solution id="id8384364">
+<list id="element-276" mark-suffix="." list-type="labeled-item"><item><label>a</label>Type I error: We conclude that the mean is not 34 years, when it really is 34 years. Type II error: We do not conclude that the mean is not 34 years, when it is not really 34 years. </item>
+<item><label>c</label>Type I error: We conclude that the mean is less than $100,000, when it really is at least $100,000. Type II error: We do not conclude  that the mean is less than $100,000, when it is really less than $100,000. </item>
+<item><label>d</label>Type I error: We conclude that the proportion of h.s. seniors who get drunk each month is not 29%, when it really is 29%. Type II error: We do not conclude that the proportion of h.s. seniors that get drunk each month is not 29%, when it is really not 29%.</item>
+<item><label>i</label>Type I error: We conclude that the proportion is less than 11%, when it is really at least 11%. Type II error: We do not conclude that the proportion is less than 11%, when it really is less than 11%. </item></list></solution></exercise><exercise id="element-231"><problem id="id8395653">
+  <para id="element-818">
+   For (a) - (j) above, in complete sentences:
+  </para><list id="element-295" list-type="labeled-item" mark-suffix="."><item><label>a</label>State a consequence of committing a Type I error. </item>
+      <item><label>b</label>State a consequence of committing a Type II error. </item>
+    </list>
+</problem>
+
+
+</exercise>
+    
+<note id="id8395716" type="Directions"><label>Directions</label>For each of the word problems, use a solution sheet to do the hypothesis test.  The solution sheet is found in 14. Appendix (online book version: the link is "Solution Sheets"; PDF book version: look under 14.5 Solution Sheets).  Please feel free to make copies of the solution sheets.  For the online version of the book, it is suggested that you copy the .doc or the .pdf files. </note><para id="element-640"><note id="id8395739">If you are using a student's-t distribution for a homework problem below, you may assume that the underlying population is normally distributed. (In general, you must first prove that assumption, though.)</note></para><exercise id="element-816"><problem id="id8395759">
+  <para id="element-328">A particular brand of tires claims that its deluxe tire averages at least 50,000 miles before it needs to be replaced. From past studies of this tire, the standard deviation is known to be 8000. A survey of owners of that tire design is conducted. From the 28 tires surveyed, the mean lifespan was 46,500 miles with a standard deviation of 9800 miles. Do the data support the claim at the 5% level?
+  </para></problem>
+
+</exercise><exercise id="element-809"><problem id="id8395793">
+  <para id="element-138">From generation to generation, the mean age when smokers first start to smoke varies. However, the standard deviation of that age remains constant of around 2.1 years. A survey of 40 smokers of this generation was done to see if the mean starting age is at least 19. The sample mean was 18.1 with a sample standard deviation of 1.3. Do the data support the claim at the 5% level?
+  </para></problem>
+
+<solution id="id8395818">
+  <list id="element-738" list-type="labeled-item" mark-suffix="."><item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>z</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>71</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{z= - 2 "." "71"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label>0.0034</item>
+<item><label>h</label>Decision: Reject null; Conclusion: 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">&lt;</m:mo>
+                  <m:mtext>19</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ&lt;"19"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>i</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>17</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>449</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>18</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>757</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( "17" "." "449","18" "." "757" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</solution>
+</exercise><exercise id="element-635"><problem id="id9424298">
+  <para id="element-326">The cost of a daily newspaper varies from city to city. However, the variation among prices remains steady with a standard deviation of 20¢. A study was done to test the claim that the mean cost of a daily newspaper is $1.00. Twelve costs yield a mean cost of 95¢ with a standard deviation of 18¢. Do the data support the claim at the 1% level?
+  </para></problem>
+
+</exercise><exercise id="element-94"><problem id="id9424338">
+  <para id="element-977">An article in the <emphasis>San Jose Mercury News</emphasis> stated that students in the California state university system take 4.5 years, on average, to finish their undergraduate degrees. Suppose you believe that the mean time is longer. You conduct a survey of 49 students and obtain a sample mean of 5.1 with a sample standard deviation of 1.2. Do the data support your claim at the 1% level?
+  </para></problem>
+
+<solution id="id9424370">
+  <list id="element-377" list-type="labeled-item" mark-suffix="."><item><label>e</label>3.5</item>
+<item><label>f</label>0.0005</item>
+<item><label>h</label>Decision: Reject null; Conclusion: 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>μ</m:mi>
+                    <m:mo stretchy="false">&gt;</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ&gt;4 "." 5} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>i</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>7553</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>5</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>4447</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( 4 "." "7553",5 "." "4447" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</solution>
+</exercise><exercise id="element-932"><problem id="id9424572">
+  <para id="element-567">The mean number of sick days an employee takes per year is believed to be about 10. Members of a personnel department do not believe this figure. They randomly survey 8 employees. The number of sick days they took for the past year are as follows: 12; 4; 15; 3; 11; 8; 6; 8. Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> = the number of sick days they took for the past year. Should the personnel team believe that the mean number is about 10?
+  </para></problem>
+
+
+</exercise><exercise id="element-950"><problem id="id9424624">
+  <para id="element-282">In 1955, <emphasis>Life Magazine</emphasis> reported that the 25 year-old mother of three worked, on average, an 80 hour week. Recently, many groups have been studying whether or not the women's movement has, in fact, resulted in an increase in the average work week for women (combining employment and at-home work). Suppose a study was done to determine if the mean work week has increased. 81 women were surveyed with the following results. The sample mean was 83; the sample standard deviation was 10. Does it appear that the mean work week has increased for women at the 5% level?
+  </para></problem>
+
+<solution id="id9424659">
+  <list id="element-16" list-type="labeled-item" mark-suffix="."><item><label>e</label>2.7</item>
+<item><label>f</label>0.0042</item>
+<item><label>h</label>Decision: Reject Null</item>
+<item><label>i</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>80</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>789</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>85</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>211</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( "80" "." "789","85" "." "211" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</solution>
+</exercise><exercise id="element-321"><problem id="id9400577">
+  <para id="element-828">
+    Your statistics instructor claims that 60 percent of the students who take her Elementary Statistics class go through life feeling more enriched. For some reason that she can't quite figure out, most people don't believe her. You decide to check this out on your own. You randomly survey 64 of her past Elementary Statistics students and find that 34 feel more enriched as a result of her class. Now, what do you think?
+  </para>
+</problem>
+
+</exercise><exercise id="element-410"><problem id="id9400611">
+  <para id="element-921">A Nissan Motor Corporation advertisement read, “The average man’s I.Q. is 107. The average brown trout’s I.Q. is 4. So why can’t man catch brown trout?” Suppose you believe that the brown trout’s mean I.Q. is greater than 4. You catch 12 brown trout. A fish psychologist determines the I.Q.s as follows: 5; 4; 7; 3; 6; 4; 5; 3; 6; 3; 8; 5. Conduct a hypothesis test of your belief.
+  </para></problem>
+
+<solution id="id9400641">
+  <list id="element-644" list-type="labeled-item" mark-suffix="."><item><label>d</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>t</m:mi>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mtext>11</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:msub>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{"11"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>e</label>1.96</item>
+<item><label>f</label>0.0380</item>
+<item><label>h</label>Decision: Reject null when 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>05</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{a=0 "." "05"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ; do not reject null when 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>01</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{a=0 "." "01"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>8865</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>5</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>9468</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( 3 "." "8865",5 "." "9468" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</solution>
+</exercise><exercise id="element-814"><problem id="id9400954">
+  <para id="element-694">Refer to the previous problem. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is <emphasis>not</emphasis> 4.
+  </para></problem>
+
+</exercise><exercise id="element-191"><problem id="id9400994">
+  <para id="element-426">
+    According to an article in <emphasis>Newsweek</emphasis>, the natural ratio of girls to boys is 100:105. In China, the birth ratio is 100: 114 (46.7% girls). Suppose you don’t believe the reported figures of the percent of girls born in China. You conduct a study. In this study, you count the number of girls and boys born in 150 randomly chosen recent births. There are 60 girls and 90 boys born of the 150. Based on your study, do you believe that the percent of girls born in China is 46.7?
+  </para>
+</problem>
+
+<solution id="id9401035">
+  <list id="element-451" list-type="labeled-item" mark-suffix="."><item><label>e</label>-1.64</item>
+<item><label>f</label>0.1000</item>
+<item><label>h</label>Decision: Do not reject null</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>3216</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>4784</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( 0 "." "3216",0 "." "4784" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</solution>
+</exercise><exercise id="element-658"><problem id="id9401185">
+  <para id="element-87">
+    A poll done for <emphasis>Newsweek </emphasis>found that 13% of Americans have seen or sensed the presence of an angel. A contingent doubts that the percent is really that high. It conducts its own survey. Out of 76 Americans surveyed, only 2 had seen or sensed the presence of an angel. As a result of the contingent’s survey, would you agree with the<emphasis> Newsweek</emphasis> poll? In complete sentences, also give three reasons why the two polls might give different results.
+  </para>
+</problem>
+
+</exercise><exercise id="element-53"><problem id="id9401240">
+  <para id="element-140">The mean work week for engineers in a start-up company is believed to be about 60 hours. A newly hired engineer hopes that it’s shorter. She asks 10 engineering friends in start-ups for the lengths of their mean work weeks. Based on the results that follow, should she count on the mean work week to be shorter than 60 hours? 
+  </para><para id="element-44">Data (length of mean work week): 70; 45; 55; 60; 65; 55; 55; 60; 50; 55.</para></problem>
+
+<solution id="id9401282"><list id="element-418" list-type="labeled-item" mark-suffix="."><item><label>d</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>t</m:mi>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mn>9</m:mn>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:msub>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{9} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>e</label>-1.33</item>
+<item><label>f</label>0.1086</item>
+<item><label>h</label>Decision: Do not reject null</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>51</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>886</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>62</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>114</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( "51" "." "886","62" "." "114" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</solution></exercise><exercise id="element-761"><problem id="id9401488">
+  <para id="element-926">Use the “Lap time” data for Lap 4 (see Table of Contents) to test the claim that Terri finishes Lap 4, on average, in less than 129 seconds. Use all twenty races given.
+  </para></problem>
+
+
+</exercise><exercise id="element-986"><problem id="id9401521">
+  <para id="element-564">Use the “Initial Public Offering” data (see Table of Contents) to test the claim that the mean offer price was $18 per share. Do not use all the data. Use your random number generator to randomly survey 15 prices.
+  </para></problem>
+
+
+</exercise>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+<note id="id9401550">The following questions were written by past students. They are excellent problems!</note><exercise id="ex1"><problem id="id9401566"><para id="id10961970">18. "Asian Family Reunion" by Chau Nguyen</para>
+      
+      <code id="id9401583" display="block">Every two years it comes around
+We all get together from different towns.
+In my honest opinion
+It's not a typical family reunion
+Not forty, or fifty, or sixty,
+But how about seventy companions!
+The kids would play, scream, and shout
+One minute they're happy, another they'll pout.
+The teenagers would look, stare, and compare
+From how they look to what they wear.
+The men would chat about their business
+That they make more, but never less.
+Money is always their subject
+And there's always talk of more new projects.
+The women get tired from all of the chats
+They head to the kitchen to set out the mats.
+Some would sit and some would stand
+Eating and talking with plates in their hands.
+Then come the games and the songs
+And suddenly, everyone gets along!
+With all that laughter, it's sad to say
+That it always ends in the same old way.
+They hug and kiss and say "good-bye"
+And then they all begin to cry!
+I say that 60 percent shed their tears
+But my mom counted 35 people this year.
+She said that boys and men will always have their pride, 
+So we won't ever see them cry.
+I myself don't think she's correct,
+So could you please try this problem to see if you object?
+</code></problem></exercise>
+
+<exercise id="ex2"><problem id="id9401620"><para id="id5063144"> "The Problem with Angels" by Cyndy Dowling</para>
+      
+      <code id="id9401637" display="block">Although this problem is wholly mine,
+The catalyst came from the magazine, Time.
+On the magazine cover I did find
+The realm of angels tickling my mind.
+</code><code id="id9401648" display="block">Inside, 69% I found to be
+In angels, Americans do believe.
+</code><code id="id9401658" display="block">Then, it was time to rise to the task,
+Ninety-five high school and college students I did ask.
+Viewing all as one group,
+Random sampling to get the scoop.</code><code id="id9401670" display="block">So, I asked each to be true,
+"Do you believe in angels?"  Tell me, do!</code><code id="id9401680" display="block">Hypothesizing at the start,
+Totally believing in my heart
+That the proportion who said yes 
+Would be equal on this test.
+</code><code id="id9401690" display="block">Lo and behold, seventy-three did arrive,
+Out of the sample of ninety-five.
+Now your job has just begun,
+Solve this problem and have some fun. 
+</code></problem>
+
+<solution id="id9401703"><list id="element-228" list-type="labeled-item" mark-suffix="."><item><label>e</label>1.65</item>
+<item><label>f</label>0.0984</item>
+<item><label>h</label>Decision: Do not reject null</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>6836</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>8533</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( 0 "." "6836",0 "." "8533" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list></solution></exercise>
+
+
+
+
+<exercise id="exer4"><problem id="id9401850"><para id="id9415993"> "Blowing Bubbles" by Sondra Prull</para>
+      <code id="id9401867" display="block">Studying stats just made me tense,
+I had to find some sane defense.
+Some light and lifting simple play
+To float my math anxiety away.
+</code><code id="id9401878" display="block">Blowing bubbles lifts me high
+Takes my troubles to the sky.
+POIK! They're gone, with all my stress
+Bubble therapy is the best.</code><code id="id9401888" display="block">The label said each time I blew
+The average number of bubbles would be at least 22.
+I blew and blew and this I found
+From 64 blows, they all are round!
+</code><code id="id9401900" display="block">But the number of bubbles in 64 blows
+Varied widely, this I know.
+20 per blow became the mean
+They deviated by 6, and not 16.
+</code><code id="id9401911" display="block">From counting bubbles, I sure did relax
+But now I give to you your task.
+Was 22 a reasonable guess?
+Find the answer and pass this test!
+</code></problem></exercise>
+      <exercise id="ex3"><problem id="id9401931"><para id="id11754724">21. "Dalmatian Darnation" by Kathy Sparling</para>
+      
+      <code id="id9401949" display="block">A greedy dog breeder named Spreckles
+Bred puppies with numerous freckles
+The Dalmatians he sought
+Possessed spot upon spot
+The more spots, he thought, the more shekels.
+</code><code id="id9401960" display="block">His competitors did not agree
+That freckles would increase the fee.
+They said, “Spots are quite nice
+But they don't affect price;
+One should breed for improved pedigree.”</code><code id="id9401975" display="block">The breeders decided to prove
+This strategy was a wrong move.
+Breeding only for spots
+Would wreak havoc, they thought.
+His theory they want to disprove.
+</code><code id="id9401986" display="block">They proposed a contest to Spreckles
+Comparing dog prices to freckles.
+In records they looked up
+One hundred one pups:
+Dalmatians that fetched the most shekels.
+</code><code id="id9401998" display="block">They asked Mr. Spreckles to name
+An average spot count he'd claim
+To bring in big bucks.
+Said Spreckles, “Well, shucks,
+It's for one hundred one that I aim.”
+</code><code id="id9402012" display="block">Said an amateur statistician
+Who wanted to help with this mission.
+“Twenty-one for the sample
+Standard deviation's ample:
+</code><code id="id9402025" display="block">They examined one hundred and one
+Dalmatians that fetched a good sum.
+They counted each spot,
+Mark, freckle and dot
+And tallied up every one.
+</code><code id="id9402036" display="block">Instead of one hundred one spots
+They averaged ninety six dots
+Can they muzzle Spreckles’
+Obsession with freckles
+Based on all the dog data they've got?
+</code></problem>
+
+<solution id="id9402051"><list id="element-142" list-type="labeled-item" mark-suffix="."><item><label>e</label>-2.39</item>
+<item><label>f</label>0.0093</item>
+<item><label>h</label>Decision: Reject null</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>91</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>854</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>100</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>15</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( "91" "." "854","100" "." "15" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list></solution></exercise>
+
+<exercise id="exer5"><problem id="id9402199"><para id="id9870720"> "Macaroni and Cheese, please!!" by Nedda Misherghi and Rachelle Hall</para>
+      
+      <para id="id11671377">As a poor starving student I don't have much money to spend for even the bare necessities. So my favorite and main staple food is macaroni and cheese. It's high in taste and low in cost and nutritional value.</para>
+      <para id="id8780562">One day, as I sat down to determine the meaning of life, I got a serious craving for this, oh, so important, food of my life. So I went down the street to Greatway to get a box of macaroni and cheese, but it was SO expensive! $2.02 !!! Can you believe it? It made me stop and think. The world is changing fast. I had thought that the mean cost of a box (the normal size, not some super-gigantic-family-value-pack) was at most $1, but now I wasn't so sure. However, I was determined to find out. I went to 53 of the closest grocery stores and surveyed the prices of macaroni and cheese. Here are the data I wrote in my notebook:</para><list id="element-357" list-type="bulleted"><title>Price per box of Mac and Cheese:</title><item>5 stores @ $2.02</item>
+<item>15 stores @ $0.25</item>
+<item>3 stores @ $1.29</item>
+<item>6 stores @ $0.35</item>
+<item>4 stores @ $2.27</item>
+<item>7 stores @ $1.50</item>
+<item>5 stores @ $1.89</item>
+<item>8 stores @ 0.75.</item></list>
+      
+      
+      
+      
+      
+      
+      
+      
+      <para id="id5072942">I could see that the costs varied but I had to sit down to figure out whether or not I was right. If it does turn out that this mouth-watering dish is at most $1, then I'll throw a big cheesy party in our next statistics lab, with enough macaroni and cheese for just me. (After all, as a poor starving student I can't be expected to feed our class of animals!)</para></problem></exercise>
+  
+      <exercise id="exer8"><problem id="id9402361"><para id="id8933019">"William Shakespeare: The Tragedy of Hamlet, Prince of Denmark" by Jacqueline Ghodsi</para>
+      
+      <list id="element-392" list-type="bulleted"><title>THE CHARACTERS (in order of appearance):</title><item>HAMLET, Prince of Denmark and student of Statistics</item>
+<item>POLONIUS, Hamlet’s tutor</item>
+<item>HOROTIO, friend to Hamlet and fellow student</item></list><para id="element-158">Scene: The great library of the castle, in which Hamlet does his lessons</para>
+      
+      
+      
+      
+      <para id="id10572210">Act I</para>
+      <para id="id10572215">(The day is fair, but the face of Hamlet is clouded. He paces the large room. His tutor, Polonius, is reprimanding Hamlet regarding the latter’s recent experience. Horatio is seated at the large table at right stage.)</para>
+      <para id="id10603284">POLONIUS: My Lord, how cans’t thou admit that thou hast seen a ghost! It is but a figment of your imagination!</para>
+      <para id="id4997547">HAMLET: I beg to differ; I know of a certainty that five-and-seventy in one hundred of us, condemned to the whips and scorns of time as we are, have gazed upon a spirit of health, or goblin damn’d, be their intents wicked or charitable.</para>
+      <para id="id9031598">POLONIUS If thou doest insist upon thy wretched vision then let me invest your time; be true to thy work and speak to me through the reason of the null and alternate hypotheses. (He turns to Horatio.) Did not Hamlet himself say, “What piece of work is man, how noble in reason, how infinite in faculties? Then let not this foolishness persist. Go, Horatio, make a survey of three-and-sixty and discover what the true proportion be. For my part, I will never succumb to this fantasy, but deem man to be devoid of all reason should thy proposal of at least five-and-seventy in one hundred hold true.</para>
+      <para id="id10821885">HORATIO (to Hamlet): What should we do, my Lord?</para>
+      <para id="id10821892">HAMLET: Go to thy purpose, Horatio.</para>
+      <para id="id9142272">HORATIO: To what end, my Lord?</para>
+      <para id="id9142279">HAMLET: That you must teach me. But let me conjure you by the rights of our fellowship, by the consonance of our youth, but the obligation of our ever-preserved love, be even and direct with me, whether I am right or no.</para>
+      <para id="id5011881">(Horatio exits, followed by Polonius, leaving Hamlet to ponder alone.)</para>
+      <para id="id10626816">Act II</para>
+      <para id="id10626821">(The next day, Hamlet awaits anxiously the presence of his friend, Horatio. Polonius enters and places some books upon the table just a moment before Horatio enters.)</para>
+      <para id="id11671359">POLONIUS: So, Horatio, what is it thou didst reveal through thy deliberations?</para>
+      <para id="id11671367">HORATIO: In a random survey, for which purpose thou thyself sent me forth, I did discover that one-and-forty believe fervently that the spirits of the dead walk with us. Before my God, I might not this believe, without the sensible and true avouch of mine own eyes.</para>
+      <para id="id4945509">POLONIUS: Give thine own thoughts no tongue, Horatio. (Polonius turns to Hamlet.) But look to’t I charge you, my Lord. Come Horatio, let us go together, for this is not our test. (Horatio and Polonius leave together.)</para>
+      <para id="id4986106">HAMLET: To reject, or not reject, that is the question: whether ‘tis nobler in the mind to suffer the slings and arrows of outrageous statistics, or to take arms against a sea of data, and, by opposing, end them. (Hamlet resignedly attends to his task.)</para>
+      <para id="id10766013">(Curtain falls)</para></problem>
+
+<solution id="id9402692"><list id="element-903" list-type="labeled-item" mark-suffix="."><item><label>e</label>-1.82</item>
+<item><label>f</label>0.0345</item>
+<item><label>h</label>Decision: Do not reject null</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>5331</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>7685</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( 0 "." "5331",0 "." "7685" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list></solution></exercise>
+   
+      <exercise id="exer7"><problem id="id9402839"><para id="id8293070">"Untitled" by Stephen Chen</para>
+      <para id="id5050494">I've often wondered how software is released and sold to the public. Ironically, I work for a company that sells products with known problems. Unfortunately, most of the problems are difficult to create, which makes them difficult to fix. I usually use the test program X, which tests the product, to try to create a specific problem. When the test program is run to make an error occur, the likelihood of generating an error is 1%.</para>
+      <para id="id11215303">So, armed with this knowledge, I wrote a new test program Y that will generate the same error that test program X creates, but more often. To find out if my test program is better than the original, so that I can convince the management that I'm right, I ran my test program to find out how often I can generate the same error. When I ran my test program 50 times, I generated the error twice. While this may not seem much better, I think that I can convince the management to use my test program instead of the original test program. Am I right?</para></problem></exercise>
+      <exercise id="exer6"><problem id="id9402904"><para id="id10126776"> Japanese Girls’ Names</para>
+      <para id="id9977266">by Kumi Furuichi</para>
+      <para id="id5031080">It used to be very typical for Japanese girls’ names to end with “ko.” (The trend might have started around my grandmothers’ generation and its peak might have been around my mother’s generation.) “Ko” means “child” in Chinese character. Parents would name their daughters with “ko” attaching to other Chinese characters which have meanings that they want their daughters to become, such as Sachiko – a happy child, Yoshiko – a good child, Yasuko – a healthy child, and so on.</para>
+      <para id="id4930619">However, I noticed recently that only two out of nine of my Japanese girlfriends at this school have names which end with “ko.” More and more, parents seem to have become creative, modernized, and, sometimes, westernized in naming their children.</para>
+      <para id="id5048749">I have a feeling that, while 70 percent or more of my mother’s generation would have names with “ko” at the end, the proportion has dropped among my peers. I wrote down all my Japanese friends’, ex-classmates’, co-workers, and acquaintances’ names that I could remember. Below are the names. (Some are repeats.) Test to see if the proportion has dropped for this generation.</para>
+      
+      <para id="id12545176">Ai, Akemi, Akiko, Ayumi, Chiaki, Chie, Eiko, Eri, Eriko, Fumiko, Harumi, Hitomi, Hiroko, Hiroko, Hidemi, Hisako, Hinako, Izumi, Izumi, Junko, Junko, Kana, Kanako, Kanayo, Kayo, Kayoko, Kazumi, Keiko, Keiko, Kei, Kumi, Kumiko, Kyoko, Kyoko, Madoka, Maho, Mai, Maiko, Maki, Miki, Miki, Mikiko, Mina, Minako, Miyako, Momoko, Nana, Naoko, Naoko, Naoko, Noriko, Rieko, Rika, Rika, Rumiko, Rei, Reiko, Reiko, Sachiko, Sachiko, Sachiyo, Saki, Sayaka, Sayoko, Sayuri, Seiko, Shiho, Shizuka, Sumiko, Takako, Takako, Tomoe, Tomoe, Tomoko, Touko, Yasuko, Yasuko, Yasuyo, Yoko, Yoko, Yoko, Yoshiko, Yoshiko, Yoshiko, Yuka, Yuki, Yuki, Yukiko, Yuko, Yuko.</para></problem>
+
+<solution id="id9403022"><list id="element-608" list-type="labeled-item" mark-suffix="."><item><label>e</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>z</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>99</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{z= - 2 "." "99"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label>0.0014</item>
+<item><label>h</label>Decision: Reject null; Conclusion: 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                  <m:mtext>70</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{p&lt; "." "70"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>4529</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>6582</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( 0 "." "4529",0 "." "6582" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list></solution></exercise>
+   
+    
+      <exercise id="exerrr"><problem id="id9403278"><para id="id4925098"> Phillip’s Wish by Suzanne Osorio</para>
+      <code id="id9403296" display="block">My nephew likes to play
+Chasing the girls makes his day.
+He asked his mother
+If it is okay
+To get his ear pierced.
+She said, “No way!”
+To poke a hole through your ear,
+Is not what I want for you, dear.
+He argued his point quite well,
+Says even my macho pal,  Mel,
+Has gotten this done.
+It’s all just for fun.
+C’mon please, mom, please, what the hell.
+Again Phillip complained to his mother,
+Saying half his friends (including their brothers)
+Are piercing their ears
+And they have no fears
+He wants to be like the others.
+She said, “I think it’s much less.
+We must do a hypothesis test.
+And if you are right,
+I won’t put up a fight.
+But, if not, then my case will rest.”
+We proceeded to call fifty guys
+To see whose prediction would fly.
+Nineteen of the fifty
+Said piercing was nifty
+And earrings they’d occasionally buy.
+Then there’s the other thirty-one,
+Who said they’d never have this done.
+So now this poem’s finished.
+Will his hopes be diminished,
+Or will my nephew have his fun?
+</code></problem></exercise>
+     <exercise id="exercise"><problem id="id9403352"> <para id="id8450089">The Craven by Mark Salangsang</para>
+      <code id="id9403370" display="block">Once upon a morning dreary
+In stats class I was weak and weary.
+Pondering over last night’s homework
+Whose answers were now on the board
+This I did and nothing more.
+</code><code id="id9403384" display="block">While I nodded nearly napping
+Suddenly, there came a tapping.
+As someone gently rapping,
+Rapping my head as I snore.
+Quoth the teacher, “Sleep no more.”
+</code><code id="id9403398" display="block">“In every class you fall asleep,”
+The teacher said, his voice was deep.
+“So a tally I’ve begun to keep
+Of every class you nap and snore.
+The percentage being forty-four.”
+</code><code id="id9403410" display="block">“My dear teacher I must confess,
+While sleeping is what I do best.  
+The percentage, I think, must be less,
+A percentage less than forty-four.”
+This I said and nothing more.
+</code><code id="id9403422" display="block">“We’ll see,” he said and walked away,
+And fifty classes from that day
+He counted till the month of May
+The classes in which I napped and snored.
+The number he found was twenty-four.
+</code><code id="id9403434" display="block">At a significance level of 0.05,
+Please tell me am I still alive?
+Or did my grade just take a dive
+Plunging down beneath the floor?
+Upon thee I hereby implore.
+</code></problem>
+
+<solution id="id9403446">
+<list id="listy" list-type="labeled-item" mark-suffix="."><item><label>e</label>0.57</item>
+<item><label>f</label>0.7156</item>
+<item><label>h</label>Decision: Do not reject null</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>3415</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>6185</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( 0 "." "3415",0 "." "6185" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list></solution></exercise>
+    
+    <exercise id="element-378"><problem id="id9403596">
+  <para id="element-649">Toastmasters International cites a report by Gallop Poll that 40% of Americans fear public speaking. A student believes that less than 40% of students at her school fear public speaking. She randomly surveys 361 schoolmates and finds that 135 report they fear public speaking. Conduct a hypothesis test to determine if the percent at her school is less than 40%. (<cite><cite-title>Source: </cite-title></cite><link url="http://toastmasters.org/artisan/detail.asp?CategoryID=1&amp;SubCategoryID=10&amp;ArticleID=429&amp;Page=1"><cite><cite-title>http://toastmasters.org/artisan/detail.asp?CategoryID=1&amp;SubCategoryID=10&amp;ArticleID=429&amp;Page=1</cite-title></cite></link>)
+  </para></problem>
+
+</exercise>
+    <exercise id="element-48"><problem id="id9403657">
+  <para id="element-80">68% of online courses taught at community colleges nationwide were taught by full-time faculty. To test if 68% also represents California’s percent for full-time faculty teaching the online classes, Long Beach City College (LBCC), CA, was randomly selected for comparison. In the same year, 34 of the 44 online courses LBCC offered were taught by full-time faculty. Conduct a hypothesis test to determine if 68% represents CA. NOTE: For more accurate results, use more CA community colleges and this past year's data. (Sources: <emphasis>Growing by Degrees</emphasis> by Allen and Seaman; Amit Schitai, Director of Instructional Technology and Distance Learning, LBCC).
+  </para></problem>
+
+<solution id="id9403708">
+  <list id="element-255" list-type="labeled-item" mark-suffix="."><item><label>e</label>1.32</item>
+<item><label>f</label>0.1873</item>
+<item><label>h</label>Decision: Do not reject null</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>65</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>90</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( 0 "." "65",0 "." "90" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</solution>
+</exercise>
+    <exercise id="element-874"><problem id="id9403858">
+  <para id="element-214">According to an article in <emphasis>Bloomberg Businessweek</emphasis>, New York City's most recent adult smoking rate is 14%. Suppose that a survey is conducted to determine this year’s rate. Nine out of 70 randomly chosen N.Y. City residents reply that they smoke. Conduct a hypothesis test to determine if the rate is still 14% or if it has decreased. (<cite><cite-title>Source: </cite-title></cite><link url="http://www.businessweek.com/news/2011-09-15/nyc-smoking-rate-falls-to-record-low-of-14-bloomberg-says.html"> 
+<cite><cite-title>
+http://www.businessweek.com/news/2011-09-15/nyc-smoking-rate-falls-to-record-low-of-14-bloomberg-says.html</cite-title></cite></link>) 
+
+
+  </para></problem>
+
+</exercise>
+    <exercise id="element-767"><problem id="id9403905">
+  <para id="element-528">The mean age of De Anza College students in a previous term was 26.6 years old. An instructor thinks the mean age for online students is older than 26.6. She randomly surveys 56 online students and finds that the sample mean is 29.4 with a standard deviation of 2.1. Conduct a hypothesis test. (<cite><cite-title>Source: </cite-title></cite><link url="http://research.fhda.edu/factbook/DAdemofs/Fact_sheet_da_2006w.pdf"><cite><cite-title>http://research.fhda.edu/factbook/DAdemofs/Fact_sheet_da_2006w.pdf</cite-title></cite></link>)
+  </para></problem>
+
+<solution id="id9403952">
+  <list id="element-871" list-type="labeled-item" mark-suffix="."><item><label>e</label>9.98</item>
+<item><label>f</label>0.0000</item>
+<item><label>h</label>Decision: Reject null</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>28</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>8,</m:mn>
+                  <m:mtext>30</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( "28" "." 8,"30" "." 0 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</solution>
+</exercise>
+    <exercise id="element-408"><problem id="id9404099">
+  <para id="element-877">Registered nurses earned an average annual salary of $69,110. For that same year, a survey was conducted of 41 California registered nurses to determine if the annual salary is higher than $69,110 for California nurses. The sample average was $71,121 with a sample standard deviation of $7,489. Conduct a hypothesis test. 
+(<cite><cite-title>Source: </cite-title></cite><link url="http://www.bls.gov/oes/current/oes291111.htm">
+<cite><cite-title>
+http://www.bls.gov/oes/current/oes291111.htm</cite-title></cite></link>)
+  </para></problem>
+
+</exercise><exercise id="element-50"><problem id="id9404155">
+  <para id="element-702">La Leche League International reports that the mean age of weaning a child from breastfeeding is age 4 to 5 worldwide. In America, most nursing mothers wean their children much earlier. Suppose a random survey is conducted of 21 U.S. mothers who recently weaned their children. The mean weaning age was 9 months (3/4 year) with a standard deviation of 4 months. Conduct a hypothesis test to determine if the mean weaning age in the U.S. is less than 4 years old. (<cite><cite-title>Source: </cite-title></cite><link url="http://www.lalecheleague.org/Law/BAFeb01.html"><cite><cite-title>http://www.lalecheleague.org/Law/BAFeb01.html</cite-title></cite></link>)
+  </para></problem>
+
+<solution id="id9404205">
+  <list id="element-156" list-type="labeled-item" mark-suffix="."><item><label>e</label>-44.7</item>
+<item><label>f</label>0.0000</item>
+<item><label>h</label>Decision: Reject null</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>60</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>90</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \( 0 "." "60",0 "." "90" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     - in years</item></list>
+</solution>
+</exercise>
+      <section id="element-966"><title>Try these multiple choice questions.</title>
+
+      <exercise id="exer10"><problem id="id9404374"><para id="id8618928"> When a new drug is created, the pharmaceutical company must subject it to testing before receiving the necessary permission from the Food and Drug Administration (FDA) to market the drug. Suppose the null hypothesis is “the drug is unsafe.” What is the Type II Error? </para>
+      <list id="id5046364" mark-suffix="." list-type="labeled-item"><item><label>A</label>To conclude the drug is safe when in, fact, it is unsafe</item>
+        <item><label>B</label>To not conclude the drug is safe when, in fact, it is safe.</item>
+        <item><label>C</label>To conclude the drug is safe when, in fact, it is safe.</item>
+        <item><label>D</label>To not conclude the drug is unsafe when, in fact, it is unsafe</item>
+      </list></problem>
+
+<solution id="id9404499"><para id="paragraphs">B</para></solution></exercise>
+      <para id="eip-986"><emphasis>The next two questions refer to the following information:</emphasis> Over the past few decades, public health officials have examined the link between weight concerns and teen girls smoking. Researchers surveyed a group of 273 randomly selected teen girls living in Massachusetts (between 12 and 15 years old). After four years the girls were surveyed again. Sixty-three (63) said they smoked to stay thin. Is there good evidence that more than thirty percent of the teen girls smoke to stay thin? </para><exercise id="exer11"><problem id="id9404524"><para id="id5049073"> The alternate hypothesis is</para>
+      <list id="id12166958" list-type="labeled-item" mark-suffix="."><item><label>A</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                        <m:mo stretchy="false">&lt;</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>30</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{p&lt;0 "." "30"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>B</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>30</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{p &lt;= 0 "." "30"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>C</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                        <m:mo stretchy="false">≥</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>30</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{p &gt;= 0 "." "30"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>D</label>
+           <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                          <m:mo stretchy="false">&gt;</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>30</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{p&gt;0 "." "30"} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          
+        </item>
+      </list></problem>
+
+<solution id="id8184168"><para id="solutttion">D</para></solution></exercise>
+      <exercise id="exer12"><problem id="id8184194"><para id="id10291861"> After conducting the test, your decision and conclusion are</para>
+      <list id="id10291869" mark-suffix="." list-type="labeled-item"><item><label>A</label>Reject 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>: There is sufficient evidence to conclude that more than 30% of teen girls smoke to stay thin.</item>
+        <item><label>B</label>Do not reject 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>: There is not sufficient evidence to conclude that less than 30% of teen girls smoke to stay thin.</item>
+        <item><label>C</label>Do not reject 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>: There is not sufficient evidence to conclude that more than 30% of teen girls smoke to stay thin.</item>
+        <item><label>D</label>Reject 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>: There is sufficient evidence to conclude that less than 30% of teen girls smoke to stay thin.</item>
+      </list></problem>
+
+<solution id="id8184383"><para id="sulution">C</para></solution></exercise>
+      <para id="id10835505"><emphasis>The next three questions refer to the following information:</emphasis> A statistics instructor believes that fewer than 20% of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Harry Potter movie. She surveys 84 of her students and finds that 11 of attended the midnight showing. </para>
+     <exercise id="exer13"><problem id="id8184432"> <para id="id8618729"> An appropriate alternative hypothesis is</para>
+      <list id="id8618736" list-type="labeled-item" mark-suffix="."><item><label>A</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>20</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{p=0 "." "20"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>B</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                        <m:mo stretchy="false">&gt;</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>20</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{p&gt;0 "." "20"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>C</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                        <m:mo stretchy="false">&lt;</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>20</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{p&lt;0 "." "20"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>D</label>
+           <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                          <m:mo stretchy="false">≤</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>20</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{p &lt;= 0 "." "20"} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          
+          
+        </item>
+      </list></problem>
+
+<solution id="id8184727"><para id="paragrams">C</para></solution></exercise>
+      <exercise id="exer14"><problem id="id8184753"><para id="id9618345"> At a 1% level of significance, an appropriate conclusion is:</para>
+      <list id="id6241780" mark-suffix="." list-type="labeled-item"><item><label>A</label>There is insufficient evidence to conclude that the percent of EVC students that attended the midnight showing of Harry Potter is less than 20%.</item>
+        <item><label>B</label>There is sufficient evidence to conclude that the  percent of EVC students that attended the midnight showing of Harry Potter is more than 20%.</item>
+        <item><label>C</label>There is sufficient evidence to conclude that the percent of EVC students that attended the midnight showing of Harry Potter is less than 20%.</item>
+        <item><label>D</label>There is insufficient evidence to conclude that the percent of EVC students that attended the midnight showing of Harry Potter is at least 20%.</item>
+      </list></problem>
+
+<solution id="id8184846"><para id="salutation">A</para></solution></exercise>
+      <exercise id="exer15"><problem id="id8184871"><para id="id8435364">The Type I error is to conclude that the percent of EVC students who attended is</para><list id="id7995329" list-type="labeled-item" mark-suffix="."><item><label>A</label>at least 20%, when in fact, it is less than 20%.</item>
+        <item><label>B</label>20%, when in fact, it is 20%.</item>
+        <item><label>C</label>less than 20%, when in fact, it is at least 20%.</item>
+        <item><label>D</label>less than 20%, when in fact, it is less than 20%.</item>
+      </list></problem>
+
+<solution id="id8184962"><para id="paragramatic">C</para></solution></exercise>
+      <para id="id8999427"><emphasis>The next two questions refer to the following information:</emphasis></para>
+      <para id="id4997894">It is believed that Lake Tahoe Community College (LTCC) Intermediate Algebra students get less than 7 hours of sleep per night, on average. A survey of 22 LTCC Intermediate Algebra students generated a mean of 7.24 hours with a standard deviation of 1.93 hours. At a level of significance of 5%, do LTCC Intermediate Algebra students get less than 7 hours of sleep per night, on average?</para><exercise id="exer16"><problem id="id8185023"><para id="id4950843">The distribution to be used for this test is <m:math><m:apply><m:conjugate/><m:mi>X</m:mi></m:apply></m:math> ~</para>
+      <list id="id9196515" list-type="labeled-item" mark-suffix="."><item><label>A</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>N</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>7</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>24</m:mtext>
+                      <m:mi>,</m:mi>
+                      <m:mfrac>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>93</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:msqrt>
+                              <m:mtext>22</m:mtext>
+                            </m:msqrt>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mfrac>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{N \( 7 "." "24", {  { size 8{1 "." "93"} }  over  { size 8{ sqrt {"22"} } } }  \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>B</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>N</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>7</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>24</m:mtext>
+                      <m:mi>,</m:mi>
+                      <m:mn>1</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>93</m:mtext>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{N \( 7 "." "24",1 "." "93" \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>C</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>t</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mtext>22</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{"22"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>D</label>
+          
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>t</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mtext>21</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{"21"} } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          
+        </item>
+      </list></problem>
+
+<solution id="id8185371"><para id="paragrrraph">D</para></solution></exercise>
+      <exercise id="exer17"><problem id="id8185396"><para id="id4936080">The Type II error is to not reject that the mean number of hours of sleep LTCC students get per night is at least 7 when, in fact, the mean number of hours</para><list id="id8434145" mark-suffix="." list-type="labeled-item"><item><label>A</label>is more than 7 hours.</item>
+        <item><label>B</label>is at most 7 hours.</item>
+        <item><label>C</label>is at least 7 hours.</item>
+        <item><label>D</label>is less than 7 hours.</item>
+      </list></problem>
+
+<solution id="id8185494"><para id="parrrra">D</para></solution></exercise>
+      <para id="id8521524"><emphasis>The next three questions refer to the following information:</emphasis>  Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen (15) randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test.</para><exercise id="exer18"><problem id="id8185544"><para id="id12141696"> The null and alternate hypotheses are:</para>
+      <list id="id9908251" list-type="labeled-item" mark-suffix="."><item><label>A</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } : {overline  {x}} =4 "." 5} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">&gt;</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } : {overline  {x}} &gt;4 "." 5} {}</m:annotation></m:semantics></m:math></item>
+        <item><label>B</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>o</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mi>:</m:mi>
+                      <m:mrow>
+                        <m:mi>μ</m:mi>
+                        <m:mo stretchy="false">≥</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :μ &gt;= 4 "." 5} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mi>:</m:mi>
+                      <m:mrow>
+                        <m:mi>μ</m:mi>
+                        <m:mo stretchy="false">&lt;</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :μ&lt;4 "." 5} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>C</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>o</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mi>:</m:mi>
+                      <m:mrow>
+                        <m:mi>μ</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>75</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :μ=4 "." "75"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mi>:</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mrow>
+                        <m:mi>μ</m:mi>
+                        <m:mo stretchy="false">&gt;</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>75</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a:} } μ&gt;4 "." "75"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>D</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>o</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mi>:</m:mi>
+                      <m:mrow>
+                        <m:mi>μ</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :μ=4 "." 5} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mi>:</m:mi>
+                      <m:mrow>
+                        <m:mi>μ</m:mi>
+                        <m:mo stretchy="false">&gt;</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :μ&gt;4 "." 5} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+      </list></problem>
+
+<solution id="id8186170"><para id="paragraph23423">D</para></solution></exercise>
+      <exercise id="exer19"><problem id="id8186196"><para id="id11679199">At a significance level of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>05</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=0 "." "05"} {}</m:annotation></m:semantics></m:math>, what is the correct conclusion?</para><list id="id4986877" mark-suffix="." list-type="labeled-item"><item><label>A</label>There is enough evidence to conclude that the mean number of hours is more than 4.75</item>
+        <item><label>B</label>There is enough evidence to conclude that the mean number of hours is more than 4.5</item>
+        <item><label>C</label>There is not enough evidence to conclude that the mean number of hours is more than 4.5</item>
+        <item><label>D</label>There is not enough evidence to conclude that the mean number of hours is more than 4.75</item>
+      </list></problem>
+
+<solution id="id8186317"><para id="paragraph123">C</para></solution></exercise>
+      <exercise id="exer20"><problem id="id8186343"><para id="id9140322"> The Type I error is:</para>
+      <list id="id9140329" mark-suffix="." list-type="labeled-item"><item><label>A</label>To conclude that the current mean hours per week is higher than 4.5, when in fact, it is higher.</item>
+        <item><label>B</label>To conclude that the current mean hours per week is higher than 4.5, when in fact, it is the same.</item>
+        <item><label>C</label>To conclude that the mean hours per week currently is 4.5, when in fact, it is higher.</item>
+        <item><label>D</label>To conclude that the mean hours per week currently is no higher than 4.5, when in fact, it is not higher.</item> 
+      </list></problem>
+
+<solution id="id8186435"><para id="theend123">B</para></solution></exercise></section>
+  </content>
+</document>

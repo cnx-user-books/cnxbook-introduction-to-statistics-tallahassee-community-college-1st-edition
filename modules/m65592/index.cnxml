@@ -1,0 +1,157 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Central Limit Theorem: Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65592</md:content-id>
+  <md:title>Central Limit Theorem: Introduction</md:title>
+  <md:abstract>This module provides a brief introduction to the Central Limit Theorem.</md:abstract>
+  <md:uuid>e076500e-2485-43c4-836e-8a145df77558</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m17568/latest/" strength="2">View the Video Lecture for this Chapter</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<section id="element-650"><title>Student Learning Outcomes</title><para id="element-745">
+By the end of this chapter, the student should be able to:
+</para>
+
+<list id="list6234"><item>Recognize the Central Limit Theorem problems.</item>
+<item>Classify continuous word problems by their distributions.</item>
+<item>Apply and interpret the Central Limit Theorem for Means.</item>
+<item>Apply and interpret the Central Limit Theorem for Sums.</item>
+</list></section><section id="id11083952"><title>Introduction</title>
+    <para id="delete_me">Why are we so concerned with means? Two
+reasons are that they give us a middle ground for comparison and they are easy to
+calculate. In this chapter, you will study means and the Central Limit Theorem.</para><para id="element-164"><term target-id="centlimit">The Central Limit Theorem</term> (CLT for short) is one of the most powerful and
+useful ideas in all of statistics. Both alternatives are concerned with drawing finite
+samples of size <m:math><m:mi>n</m:mi></m:math> from a population with a known mean,
+
+<m:math>
+<m:mi>μ</m:mi>
+</m:math>, and a known standard
+deviation, 
+
+<m:math>
+<m:mi>σ</m:mi>
+</m:math>. The first alternative says that if we collect samples of size 
+<m:math>
+<m:mi>n</m:mi>
+</m:math> and 
+<m:math>
+<m:mi>n</m:mi>
+</m:math> is
+"large enough," calculate each sample's mean, and create a histogram of those means,
+then the resulting histogram will tend to have an approximate normal bell shape. The
+second alternative says that if we again collect samples of size n that are "large
+enough," calculate the sum of each sample and create a histogram, then the resulting
+histogram will again tend to have a normal bell-shape.</para><para id="element-328"><emphasis>In either case, it does not matter what the distribution of the original
+population is, or whether you even need to know it. The important fact is
+that the sample means and the sums tend to follow the normal
+distribution.</emphasis> And, the rest you will learn in this chapter.</para><para id="element-17">The size of the sample, 
+<m:math><m:mi>n</m:mi></m:math>, that is required in order to be to be 'large enough' depends on the original population from which the samples are
+drawn. If the original population is far from normal then more observations are needed
+for the sample means or the sample sums to be normal. <emphasis>Sampling is done with
+replacement.</emphasis></para><para id="element-166"><title>Optional Collaborative Classroom Activity</title></para><para id="element-332"><emphasis>Do the following example in class:</emphasis> Suppose 8 of you roll 1 fair die 10 times, 7 of you
+roll 2 fair dice 10 times, 9 of you roll 5 fair dice 10 times, and 11 of you roll 10 fair dice
+10 times.</para><para id="element-42">Each time a person rolls more than one die, he/she calculates the sample <term target-id="mean">mean</term> of the faces
+showing. For example, one person might roll 5 fair dice and get a 2, 2, 3, 4, 6 on one
+roll.</para><para id="element-994">The mean is
+<m:math>
+<m:mspace width="10pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>3.4</m:mn>
+</m:math>.
+<m:math><m:mspace width="10pt"/></m:math>
+The 3.4 is one mean when 5 fair dice are rolled. This same person would roll the 5 dice 9 more times and calculate 9 more means for a total of 10 means.</para><para id="element-200">Your instructor will pass out the dice to several people as described above. Roll your
+dice 10 times. For each roll, record the faces and find the mean. Round to the nearest
+0.5.</para><para id="element-73">Your instructor (and possibly you) will produce one graph (it might be a histogram)
+for 1 die, one graph for 2 dice, one graph for 5 dice, and one graph for 10 dice.
+Since the "mean" when you roll one die, is just the face on the die, what distribution
+do these <emphasis>means</emphasis> appear to be representing?</para><para id="element-938"><emphasis>Draw the graph for the means using 2 dice.</emphasis> Do the sample means show any kind of pattern?
+</para><para id="element-182"><emphasis>Draw the graph for the means using 5 dice.</emphasis> Do you see any pattern emerging?
+</para><para id="element-131"><emphasis>Finally, draw the graph for the means using 10 dice.</emphasis> Do you see any pattern to the
+graph? What can you conclude as you increase the number of dice?</para><para id="element-368">As the number of dice rolled increases from 1 to 2 to 5 to 10, the following is happening:
+
+<list id="list-1" list-type="enumerated"><item>The mean of the sample means remains approximately the same.</item>
+<item>The spread of the sample means (the standard deviation of the sample means) gets smaller.</item>
+<item>The graph appears steeper and thinner.</item>
+</list></para><para id="element-730">You have just demonstrated the Central Limit Theorem (CLT).</para><para id="element-266">The Central Limit Theorem tells you that as you increase the number of dice, <emphasis>the sample means  tend toward a normal distribution (the sampling distribution).</emphasis></para></section>  
+  </content>
+  <glossary>
+
+  <definition id="average">
+    <term>Average</term>
+    <meaning id="id16316921">
+      A number that describes the central tendency of the data. There are a number of specialized averages, including the arithmetic mean, weighted mean, median, mode, and geometric mean.
+    </meaning>
+  </definition>
+
+
+
+  <definition id="centlimit">
+    <term>Central Limit Theorem</term>
+    <meaning id="id43867050">
+     Given a random variable (RV) with known mean <m:math><m:mi>μ</m:mi></m:math> and known standard deviation <m:math><m:mi>σ</m:mi></m:math>. We are sampling with size n and we are interested in two new RVs - the sample mean, 
+<m:math><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo stretchy="false">¯</m:mo></m:mover></m:mrow></m:math>,
+
+and the sample sum, <m:math><m:mrow><m:mi>Σ</m:mi><m:mi>X</m:mi></m:mrow></m:math>. 
+
+If the size <m:math><m:mi>n</m:mi></m:math> of the sample is sufficiently large, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo stretchy="false">¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {X}}} {}</m:annotation></m:semantics></m:math>∼ 
+
+<m:math>
+ <m:mi>N</m:mi>
+  <m:mfenced>
+    <m:mi>μ</m:mi>
+    <m:mfrac>
+        <m:mi>σ</m:mi>
+      <m:msqrt><m:mi>n</m:mi></m:msqrt>
+    </m:mfrac>
+  </m:mfenced>
+</m:math>
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mrow/><m:mstyle fontsize="8pt"><m:mrow><m:mn/></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> </m:annotation></m:semantics></m:math> and 
+
+<m:math> <m:mi>Σ</m:mi><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> ∼  
+<m:math><m:mi>N</m:mi>
+  <m:mo>(</m:mo>
+    <m:mi>nμ</m:mi>
+    <m:mo>,</m:mo>
+    <m:msqrt><m:mi>n</m:mi></m:msqrt>
+    <m:mi>σ</m:mi>
+  <m:mo>)</m:mo></m:math>. 
+
+If the size n of the sample is sufficiently large, then the distribution of the sample means and the distribution of the sample sums will approximate a normal distribution regardless of the shape of the population. The mean of the sample  means will equal the population mean and the mean of the sample sums will equal n times the population mean. The standard deviation of the distribution of the sample means, 
+<m:math> <m:mfrac>
+    <m:mi>σ</m:mi>
+    <m:msqrt>
+      <m:mi>n</m:mi>
+    </m:msqrt>
+  </m:mfrac></m:math>, is called the standard error of the mean.
+    </meaning>
+  </definition>
+
+
+</glossary>
+</document>

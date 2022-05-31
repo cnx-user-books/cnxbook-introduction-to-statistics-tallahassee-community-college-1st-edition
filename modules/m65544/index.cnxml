@@ -1,0 +1,527 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Continuous Random Variables: Practice</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65544</md:content-id>
+  <md:title>Continuous Random Variables: Practice</md:title>
+  <md:abstract>In this module the student will explore the properties of data with a uniform distribution.</md:abstract>
+  <md:uuid>f130355d-03d9-4589-b395-f07d88c17ff8</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 5.1 practice.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="chap 5.1 practice.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-686"><title>Student Learning Outcomes</title>
+<list id="element-273" list-type="bulleted"><item>The student will analyze data following a uniform distribution.</item>
+</list></section><section id="element-85"><title>Given</title>
+<para id="element-195">The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.</para></section><section id="element-88"><title>Describe the Data</title>
+<exercise id="element-397"><problem id="id7272150">
+  <para id="element-191">
+    What is being measured here?
+  </para>
+</problem>
+
+<solution id="id13390875">
+<para id="element-08923">
+The age of cars in the staff parking lot
+</para>
+</solution></exercise>
+
+<exercise id="element-926"><problem id="id15544528">
+  <para id="element-288">In words, define the Random Variable       <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>X</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math>.
+  </para>
+</problem>
+
+<solution id="id3733024">
+  <para id="element-333"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>X</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math> = The age (in years) of cars in the staff parking lot
+  </para>
+</solution>
+</exercise>
+
+<exercise id="element-891"><problem id="id11823560">
+  <para id="element-892">
+    Are the data discrete or continuous?
+  </para>
+</problem>
+
+<solution id="id16198444">
+  <para id="element-648">
+    Continuous
+  </para>
+</solution>
+</exercise>
+
+<exercise id="element-589"><problem id="id15697618">
+  <para id="element-128">The interval of values for <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math> is:</para></problem>
+
+<solution id="id3507088">
+  <para id="element-841">0.5 - 9.5
+  </para>
+</solution>
+</exercise><exercise id="element-287"><problem id="id8771142">
+  <para id="element-168">
+The distribution for <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>X</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math> is:
+  </para>
+</problem>
+
+<solution id="id13858437">
+  <para id="element-501"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>X</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math> ~ <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>5,9</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>5</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{U \( 0 "." 5,9 "." 5 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+  </para>
+</solution>
+</exercise></section>
+
+
+<section id="element-626"><title>Probability Distribution</title>
+<exercise id="element-8"><problem id="id13399449">
+  <para id="element-416">
+    Write the probability density function.
+  </para>
+</problem>
+
+<solution id="id15148444">
+  <para id="element-758"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+ 
+<m:math><m:mrow><m:mspace/><m:mi>
+=</m:mi></m:mrow></m:math>
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>9</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {9} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></para>
+</solution>
+</exercise><exercise id="element-604"><problem id="id14224006">
+  <para id="element-504">
+    Graph the probability distribution.
+  </para>
+
+<list id="element-420" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>Sketch the graph of the probability distribution.
+<figure id="element-123987"><media id="id7261010" alt=""><image src="../../media/graph.png" mime-type="image/png" print-width="4in"/></media></figure></item>
+
+<item><label>b</label>Identify the following values:
+
+ <list id="element-123321" mark-suffix="." list-type="labeled-item"><item><label>i</label>Lowest value for <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math>:</item>
+<item><label>ii</label>Highest value for <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math>:</item>
+<item><label>iii</label>Height of the rectangle:</item>
+<item><label>iv</label>Label for x-axis (words):</item>
+<item><label>v</label>Label for y-axis (words):</item>
+
+</list></item></list>
+
+
+</problem>
+
+<solution id="id10125743">
+<list id="element-43454" mark-suffix="." list-type="labeled-item"><item><label>b.i</label>0.5</item>
+ <item><label>b.ii</label>9.5</item>
+ 
+ <item><label>b.iii</label><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>9</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {9} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></item>
+
+<item><label>b.iv</label>Age of Cars</item>
+
+  <item><label>b.v</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation>
+        </m:semantics>
+      </m:math></item></list>
+</solution>
+</exercise></section><section id="element-109"><title>Random Probability</title>
+<exercise id="element-927"><problem id="id15131796">
+  <para id="element-59">
+    Find the probability that a randomly chosen car in the lot was less than 4 years old.
+  </para>
+  <list id="element-42230" mark-suffix="." list-type="labeled-item"><item><label>a</label>Sketch the graph.  Shade the area of interest.
+<figure id="element-12987"><media id="id13706334" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph.png" mime-type="image/png" print-width="4in"/></media></figure></item>
+
+<item><label>b</label>Find the probability.  <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mtext>4</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( X&lt;"5730" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math> =</item></list></problem>
+
+<solution id="id4707738">
+  <list id="element-233212" list-type="labeled-item">
+<item><label>b.</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                  <m:mn>9</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3 "." 5}  over  {9} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></item>
+  </list>
+
+</solution>
+</exercise><exercise id="element-718"><problem id="id13734232">
+  <para id="element-5009">Out of just the cars less than 7.5 years old, find the probability that a randomly chosen car in the lot was less than 4 years old.</para>
+  <list id="element-40030" mark-suffix="." list-type="labeled-item"><item><label>a</label>Sketch the graph.  Shade the area of interest.
+<figure id="element-10987"><media id="id15551200" alt=""><image src="../../media/graph.png" mime-type="image/png" print-width="4in"/></media></figure></item>
+
+<item><label>b</label>Find the probability.  <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>5</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( X&lt;4 \lline X&lt;7 "." 5 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math> =</item></list></problem>
+
+<solution id="id4618642">
+  <list id="element-200212" list-type="labeled-item"><item><label>b</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                  <m:mn>7</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3 "." 5}  over  {7} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></item>
+  </list>
+
+</solution>
+</exercise><exercise id="element-930"><title>Discussion Question</title><problem id="id16130411">
+  <para id="element-450">
+    What has changed in the previous two problems that made the solutions different?
+  </para>
+</problem>
+
+</exercise></section><section id="element-275"><title>Quartiles</title>
+<exercise id="element-831"><problem id="id13569317">
+  <para id="element-903">
+    Find the average age of the cars in the lot.
+  </para>
+</problem>
+
+<solution id="id15971065">
+  <para id="element-873"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>μ</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation>
+        </m:semantics>
+      </m:math> = 5</para>
+</solution>
+</exercise><exercise id="element-778"><problem id="id16134539">
+  <para id="element-4">Find the third quartile of ages of cars in the lot.  This means you will have to find the value such that <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {4} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>, or 75%, of the cars are at most (less than or equal to) that age.
+  </para>
+<list id="element-09898" mark-suffix="." list-type="labeled-item"><item><label>a</label>Sketch the graph.  Shade the area of interest.
+<figure id="element-101987"><media id="id11206333" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph.png" mime-type="image/png" print-width="4in"/></media></figure></item>
+
+<item><label>b</label>Find the value 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>k</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     such that 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mi>k</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>75</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( X&lt;k \) =0 "." "75"} {}</m:annotation>
+        </m:semantics>
+      </m:math>.</item>
+<item><label>c</label>The third quartile is:</item></list></problem>
+
+<solution id="id16204035"><list id="element-12398" list-type="labeled-item" mark-suffix="."><item><label>b</label><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>k</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation>
+        </m:semantics>
+      </m:math> = 7.25</item></list>
+</solution>
+</exercise></section>   
+  </content>
+  
+</document>

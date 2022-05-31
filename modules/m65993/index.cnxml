@@ -1,0 +1,1191 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Appendix A Symbols and their Meanings</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65993</md:content-id>
+  <md:title>Appendix A Symbols and their Meanings</md:title>
+  <md:abstract>This module defines symbols used throughout the Collaborative Statistics textbook.</md:abstract>
+  <md:uuid>f026bfcb-a933-4662-bc0d-4b7ea6876934</md:uuid>
+</metadata>
+
+<content>
+    <table id="id7923354" summary="Symbols together with how they are pronounced are shown in a table."><title>Symbols and their Meanings</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="header_c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>Chapter (1st used)</entry>
+            <entry>Symbol</entry>
+            <entry>Spoken</entry>
+            <entry>Meaning</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>Sampling and Data</entry>
+            <entry><m:math>  <m:msqrt>
+    <m:mi/>
+  </m:msqrt>
+</m:math></entry>
+            <entry>The square root of</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Sampling and Data</entry>
+            <entry><m:math><m:mi>π</m:mi></m:math></entry>
+            <entry>Pi</entry>
+            <entry>3.14159… (a specific number)</entry>
+          </row>
+          <row>
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:mi>Q1</m:mi></m:math></entry>
+            <entry>Quartile one</entry>
+            <entry>the first quartile</entry>
+          </row>
+          <row>
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:mi>Q2</m:mi></m:math></entry>
+            <entry>Quartile two</entry>
+            <entry>the second quartile</entry>
+          </row>
+          <row>
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:mi>Q3</m:mi></m:math></entry>
+            <entry>Quartile three</entry>
+            <entry>the third quartile</entry>
+          </row>
+          <row>
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:mi>IQR</m:mi></m:math></entry>
+            <entry>inter-quartile range</entry>
+            <entry>Q3-Q1=IQR</entry>
+          </row>
+          <row>
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:mover>
+    <m:mi>x</m:mi>
+    <m:mo>¯</m:mo>
+  </m:mover>
+</m:math></entry>
+            <entry>x-bar</entry>
+            <entry>sample mean</entry>
+          </row>
+          <row>
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:mi>μ</m:mi></m:math></entry>
+            <entry>mu</entry>
+            <entry>population mean</entry>
+          </row>
+          <row>
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:mi>s</m:mi></m:math> <m:math><m:msub><m:mi>s</m:mi><m:mi>x</m:mi></m:msub></m:math> <m:math><m:mi>sx</m:mi></m:math></entry>
+            <entry>s</entry>
+            <entry>sample standard deviation</entry>
+          </row>
+
+
+          <row>
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:math> <m:math><m:msubsup><m:mi>s</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup> </m:math></entry>
+            <entry>s-squared</entry>
+            <entry>sample variance</entry>
+          </row>
+          <row>
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:mi>σ</m:mi></m:math> <m:math><m:msub><m:mi>σ</m:mi><m:mi>x</m:mi></m:msub></m:math> <m:math><m:mi>σx</m:mi></m:math></entry>
+            <entry>sigma</entry>
+            <entry>population standard deviation</entry>
+          </row>
+          <row>
+
+
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:math> <m:math><m:msubsup><m:mi>σ</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup> </m:math></entry>
+            <entry>sigma-squared</entry>
+            <entry>population variance</entry>
+          </row>
+
+
+          <row>
+            <entry>Descriptive Statistics</entry>
+            <entry><m:math><m:mi>Σ</m:mi></m:math></entry>
+            <entry>capital sigma</entry>
+            <entry>sum</entry>
+          </row>
+
+<!--Marker 1 //-->
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math>
+<m:mo>{</m:mo>
+  <m:mo>}</m:mo>
+</m:math></entry>
+            <entry>brackets</entry>
+            <entry>set notation</entry>
+          </row>
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math><m:mi>S</m:mi></m:math></entry>
+            <entry>S</entry>
+            <entry>sample space</entry>
+          </row>
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math><m:mi>A</m:mi></m:math></entry>
+            <entry>Event A</entry>
+            <entry>event A</entry>
+          </row>
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math>
+<m:mi>P</m:mi>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math></entry>
+            <entry>probability of A</entry>
+            <entry>probability of A occurring</entry>
+          </row>
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math>
+<m:mi>P</m:mi>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mrow>
+      <m:mi>A</m:mi>
+      <m:mo>∣</m:mo>
+      <m:mi>B</m:mi>
+    </m:mrow>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math></entry>
+            <entry>probability of A given B</entry>
+            <entry>prob. of A occurring given B has occurred</entry>
+          </row>
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math>
+ <m:mi>P</m:mi>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mrow>
+      <m:mi>A</m:mi>
+      <m:mi>or</m:mi>
+      <m:mi>B</m:mi>
+    </m:mrow>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math></entry>
+            <entry>prob. of A or B</entry>
+            <entry>prob. of A or B or both occurring</entry>
+          </row>
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math>
+ <m:mi>P</m:mi>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mrow>
+      <m:mi>A</m:mi>
+      <m:mi>and</m:mi>
+      <m:mi>B</m:mi>
+    </m:mrow>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math></entry>
+            <entry>prob. of A and B</entry>
+            <entry>prob. of both A and B occurring (same time)</entry>
+          </row>
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math><m:mi>A'</m:mi></m:math></entry>
+            <entry>A-prime, complement of A</entry>
+            <entry>complement of A, not A</entry>
+          </row>
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math>
+<m:mi>P</m:mi>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mi>A'</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math></entry>
+            <entry>prob. of complement of A </entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math>
+ <m:msub>
+    <m:mi>G</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+</m:math></entry>
+            <entry>green on first pick</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Probability Topics</entry>
+            <entry><m:math>
+<m:mi>P</m:mi>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:msub>
+      <m:mi>G</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math></entry>
+            <entry>prob. of green on first pick </entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math><m:mi>PDF</m:mi></m:math></entry>
+            <entry>prob. distribution function </entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math><m:mi>X</m:mi></m:math></entry>
+            <entry>X</entry>
+            <entry>the random variable X</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math><m:mi>X~</m:mi></m:math></entry>
+            <entry>the distribution of X </entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math><m:mi>B</m:mi></m:math></entry>
+            <entry>binomial distribution</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math><m:mi>G</m:mi></m:math></entry>
+            <entry>geometric distribution</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math><m:mi>H</m:mi></m:math></entry>
+            <entry>hypergeometric dist.</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math><m:mi>P</m:mi></m:math></entry>
+            <entry>Poisson dist.</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math><m:mi>λ</m:mi></m:math></entry>
+            <entry>Lambda</entry>
+            <entry>average of Poisson distribution</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math>
+ <m:mrow>
+    <m:mrow>
+      <m:mi/>
+    </m:mrow>
+    <m:mo>≥</m:mo>
+    <m:mrow>
+      <m:mi/>
+    </m:mrow>
+  </m:mrow>
+</m:math></entry>
+            <entry>greater than or equal to</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math>
+ <m:mrow>
+    <m:mrow>
+      <m:mi/>
+    </m:mrow>
+    <m:mo>≤</m:mo>
+    <m:mrow>
+      <m:mi/>
+    </m:mrow>
+  </m:mrow>
+</m:math></entry>
+            <entry>less than or equal to</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math><m:mo>=</m:mo></m:math></entry>
+            <entry>equal to </entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Discrete Random Variables</entry>
+            <entry><m:math>
+ <m:mrow>
+    <m:mrow>
+      <m:mi/>
+    </m:mrow>
+    <m:mo>≠</m:mo>
+    <m:mrow>
+      <m:mi/>
+    </m:mrow>
+  </m:mrow>
+</m:math></entry>
+            <entry>not equal to</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Continuous Random Variables</entry>
+            <entry><m:math>
+<m:mi>f</m:mi>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math></entry>
+            <entry>f of x</entry>
+            <entry>function of x</entry>
+          </row>
+          <row>
+            <entry>Continuous Random Variables</entry>
+            <entry><m:math><m:mi>pdf</m:mi></m:math></entry>
+            <entry>prob. density function </entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Continuous Random Variables</entry>
+            <entry><m:math><m:mi>U</m:mi></m:math></entry>
+            <entry>uniform distribution</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Continuous Random Variables</entry>
+            <entry><m:math><m:mi>Exp</m:mi></m:math></entry>
+            <entry>exponential distribution</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Continuous Random Variables</entry>
+            <entry><m:math><m:mi>k</m:mi></m:math></entry>
+            <entry>k</entry>
+            <entry>critical value</entry>
+          </row>
+          <row>
+            <entry>Continuous Random Variables</entry>
+            <entry><m:math>
+<m:mi>f</m:mi>
+  <m:mrow>
+    <m:mo>(</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>)</m:mo>
+    <m:mo>=</m:mo>
+  </m:mrow>
+</m:math></entry>
+            <entry>f of x equals</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Continuous Random Variables</entry>
+            <entry><m:math><m:mi>m</m:mi></m:math></entry>
+            <entry>m</entry>
+            <entry>decay rate (for exp. dist.)</entry>
+          </row>
+    
+          <row>
+            <entry>The Normal Distribution</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mi>N</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>normal distribution</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>The Normal Distribution</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mi>z</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>z-score</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>The Normal Distribution</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mi>Z</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Z} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>standard normal dist.</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>The Central Limit Theorem</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>CLT</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "CLT"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Central Limit Theorem</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>The Central Limit Theorem</entry>
+            <entry>
+               <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math>
+            </entry>
+            <entry>X-bar</entry>
+            <entry>the random variable X-bar</entry>
+          </row>
+          <row>
+            <entry>The Central Limit Theorem</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>μ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{x} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>mean of X</entry>
+            <entry>the average of X</entry>
+          </row>
+          <row>
+            <entry>The Central Limit Theorem</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>μ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mover accent="true">
+                                <m:mi>x</m:mi>
+                                <m:mo>¯</m:mo>
+                              </m:mover>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{ {overline  {x}} } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>mean of X-bar</entry>
+            <entry>the average of X-bar</entry>
+          </row>
+          <row>
+            <entry>The Central Limit Theorem</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>σ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{σ rSub { size 8{x} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>standard deviation of X</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>The Central Limit Theorem</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>σ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mover accent="true">
+                                <m:mi>x</m:mi>
+                                <m:mo>¯</m:mo>
+                              </m:mover>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{σ rSub { size 8{ {overline  {x}} } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>standard deviation of X-bar </entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>The Central Limit Theorem</entry>
+            <entry><m:math><m:mi>Σ</m:mi><m:mi>X</m:mi></m:math></entry>
+            <entry>sum of X</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>The Central Limit Theorem</entry>
+            <entry><m:math><m:mi>Σ</m:mi><m:mi>x</m:mi></m:math></entry>
+            <entry>sum of x</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Confidence Intervals</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>CL</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "CL"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>confidence level</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Confidence Intervals</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>CI</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "CI"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>confidence interval</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Confidence Intervals</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>EBM</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "EBM"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>error bound for a mean</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Confidence Intervals</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>EBP</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "EBP"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>error bound for a proportion </entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Confidence Intervals</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>student-t distribution</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Confidence Intervals</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>df</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "df"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>degrees of freedom</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry>Confidence Intervals</entry>
+            <entry><m:math>
+ <m:msub>
+    <m:mi>t</m:mi>
+    <m:mfrac>
+      <m:mi>α</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:msub>
+</m:math></entry>
+            <entry>student-t with a/2 area in right tail </entry>
+            <entry>same</entry>
+          </row>
+
+
+          <row>
+            <entry>Confidence Intervals</entry>
+            <entry><m:math><m:mi>p'</m:mi></m:math>    <m:math><m:mover>
+    <m:mi>p</m:mi>
+    <m:mo>^</m:mo>
+  </m:mover>
+</m:math>
+</entry>
+            <entry>p-prime; p-hat</entry>
+            <entry>sample proportion of success</entry>
+          </row>
+
+
+          
+
+
+          <row>
+            <entry>Confidence Intervals</entry>
+            <entry><m:math><m:mi>q'</m:mi></m:math>   <m:math><m:mover>
+    <m:mi>q</m:mi>
+    <m:mo>^</m:mo>
+  </m:mover>
+</m:math></entry>
+            <entry>q-prime; q-hat</entry>
+            <entry>sample proportion of failure</entry>
+          </row>
+
+
+          <row>
+            <entry>Hypothesis Testing</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>H</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>H-naught, H-sub 0</entry>
+            <entry>null hypothesis</entry>
+          </row>
+          <row>
+            <entry>Hypothesis Testing</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>H</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>H-a, H-sub a</entry>
+            <entry>alternate hypothesis</entry>
+          </row>
+          <row>
+            <entry>Hypothesis Testing</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>H</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{1} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>H-1, H-sub 1</entry>
+            <entry>alternate hypothesis</entry>
+          </row>
+          <row>
+            <entry>Hypothesis Testing</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mi>α</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>alpha</entry>
+            <entry>probability of Type I error</entry>
+          </row>
+          <row>
+            <entry>Hypothesis Testing</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mi>β</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{β} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>beta</entry>
+            <entry>probability of Type II error</entry>
+          </row>
+          <row>
+            <entry>Hypothesis Testing</entry>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mover accent="true">
+                            <m:mi fontstyle="italic">X1</m:mi>
+                            <m:mo>¯</m:mo>
+                          </m:mover>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mover accent="true">
+                            <m:mi fontstyle="italic">X2</m:mi>
+                            <m:mo>¯</m:mo>
+                          </m:mover>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X1}}  -  {overline  {X2}} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>X1-bar minus X2-bar</entry>
+            <entry>difference in sample means</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>μ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>μ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{1} }  - μ rSub { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>mu-1 minus mu-2</entry>
+            <entry>difference in population means</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>P</m:mi>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>'</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>P</m:mi>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>'</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{P' rSub { size 8{1} }  - P' rSub { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>P1-prime minus P2-prime</entry>
+            <entry>difference in sample proportions</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>p</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>p</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{p rSub { size 8{1} }  - p rSub { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>p1 minus p2</entry>
+            <entry>difference in population proportions</entry>
+          </row>
+          <row>
+            <entry>Chi-Square Distribution</entry>
+            <entry><m:math>
+<m:msup>
+    <m:mi>Χ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+</m:math></entry>
+            <entry>Ky-square</entry>
+            <entry>Chi-square</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry><m:math><m:mi>O</m:mi></m:math></entry>
+            <entry>Observed</entry>
+            <entry>Observed frequency</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry><m:math><m:mi>E</m:mi></m:math></entry>
+            <entry>Expected</entry>
+            <entry>Expected frequency</entry>
+          </row>
+          <row>
+            <entry>Linear Regression and Correlation</entry>
+            <entry><m:math>
+<m:mi>y</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>a</m:mi>
+  <m:mo>+</m:mo>
+  <m:mi>bx</m:mi>
+</m:math></entry>
+            <entry>y equals a plus b-x</entry>
+            <entry>equation of a line</entry>
+          </row>
+
+
+          <row>
+            <entry/>
+            <entry><m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:math></entry>
+            <entry>y-hat</entry>
+            <entry>estimated value of y</entry>
+          </row>
+
+
+          <row>
+            <entry/>
+            <entry><m:math><m:mi>r</m:mi></m:math></entry>
+            <entry>correlation coefficient</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry><m:math><m:mi>ε</m:mi></m:math></entry>
+            <entry>error</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry><m:math><m:mi>SSE</m:mi></m:math></entry>
+            <entry>Sum of Squared Errors</entry>
+            <entry>same</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry><m:math>
+<m:mn>1.9</m:mn>
+  <m:mi>s</m:mi>
+</m:math></entry>
+            <entry>1.9 times s</entry>
+            <entry>cut-off value for outliers</entry>
+          </row>
+          <row>
+            <entry>F-Distribution and ANOVA</entry>
+            <entry><m:math><m:mi>F</m:mi></m:math></entry>
+            <entry>F-ratio</entry>
+            <entry>F ratio</entry>
+          </row>
+        </tbody>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+  </content>
+</document>

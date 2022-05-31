@@ -1,0 +1,359 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="review">
+  <title>Discrete Random Variables: Mid Material Review</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65528</md:content-id>
+  <md:title>Discrete Random Variables: Mid Material Review</md:title>
+  <md:abstract>This module provides a number of homework/review exercises summarizing topics related to Discrete Random Variables.</md:abstract>
+  <md:uuid>da4648ac-b4ec-4b1d-9fde-5ffd4b13fcdc</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Discrete Random Variables (review).doc" strength="3">Download handout (.doc)</link>
+      <link url="Discrete Random Variables _review.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    
+    
+    
+    
+    
+    
+    <exercise id="element-427"><problem id="id22636181">
+  <para id="element-975">
+    A sociologist wants to know the opinions of employed adult women about government funding for day care. She obtains a list of 520 members of a local business and professional women’s club and mails a questionnaire to 100 of these women selected at random. 68 questionnaires are returned. What is the population in this study?
+  </para><list id="element-49" list-type="labeled-item" mark-suffix="."><item><label>A</label>All employed adult women</item>
+      <item><label>B</label>All the members of a local business and professional women’s club</item>
+      <item><label>C</label>The 100 women who received the questionnaire</item>
+      <item><label>D</label>All employed women with children</item>
+    </list>
+</problem>
+
+<solution id="id3476233">
+  <para id="element-390">A
+  </para>
+</solution>
+</exercise>
+    
+    <para id="id7594876">The next two questions refer to the following: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.)</para>
+    <table id="id7594900" summary="Table presents the ethnic group by gender. The first column is gender, second column is White, third column is Asian, fourth column is Hispanic, fifth column is Black, and the sixth column is American Indian. The first row lists males and the second row lists females.">
+
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+<thead>
+          <row>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry>Ethnic Group</entry>
+            <entry/>
+            <entry/>
+          </row>
+</thead>    
+    <tbody>
+
+          <row>
+            <entry>Gender</entry>
+            <entry>White</entry>
+            <entry>Asian</entry>
+            <entry>Hispanic</entry>
+            <entry>Black</entry>
+            <entry>American Indian</entry>
+          </row>
+          <row>
+            <entry>Male</entry>
+            <entry>400</entry>
+            <entry>168</entry>
+            <entry>115</entry>
+            <entry>35</entry>
+            <entry>16</entry>
+          </row>
+          <row>
+            <entry>Female</entry>
+            <entry>440</entry>
+            <entry>132</entry>
+            <entry>140</entry>
+            <entry>40</entry>
+            <entry>14</entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table>
+    <exercise id="element-604"><problem id="id4907575">
+  <para id="element-408">
+   Find the probability that a student is Asian or Male.
+  </para>
+</problem>
+
+<solution id="id9863900">
+  <para id="element-914">0.5773</para>
+</solution>
+</exercise>
+    <exercise id="element-10"><problem id="id22623860">
+  <para id="element-795">
+     Find the probability that a student is Black given that the student is Female.
+  </para>
+</problem>
+
+<solution id="id25783928">
+  <para id="element-853">0.0522
+  </para>
+</solution>
+</exercise>
+    <exercise id="element-750"><problem id="id9075962">
+  <para id="element-652">
+    A sample of pounds lost, in a certain month, by individual members of a weight reducing clinic produced the following statistics:
+  </para><list id="element-259" list-type="bulleted"><item>Mean = 5 lbs. </item>
+<item>Median = 4.5 lbs.</item>
+<item>Mode = 4 lbs.</item>
+<item>Standard deviation = 3.8 lbs.</item>
+<item>First quartile = 2 lbs.</item>
+<item>Third quartile = 8.5 lbs.</item></list><para id="element-901">The correct statement is:</para><list id="element-544" list-type="labeled-item" mark-suffix="."><item><label>A</label>One fourth of the members lost exactly 2 pounds.</item>
+      <item><label>B</label>The middle fifty percent of the members lost from 2 to 8.5 lbs.</item>
+      <item><label>C</label>Most people lost 3.5 to 4.5 lbs.</item>
+      <item><label>D</label>All of the choices above are correct.</item>
+    </list>
+</problem>
+
+<solution id="id8385973">
+  <para id="element-851">B</para>
+</solution>
+</exercise>
+    
+    
+    
+    
+    
+    
+    
+    
+    <exercise id="element-440"><problem id="id9074197">
+  <para id="element-183">
+    What does it mean when a data set has a standard deviation equal to zero?
+  </para><list id="element-523" list-type="labeled-item" mark-suffix="."><item><label>A</label>All values of the data appear with the same frequency.</item>
+      <item><label>B</label>The mean of the data is also zero.</item>
+      <item><label>C</label>All of the data have the same value.</item>
+      <item><label>D</label>There are no data to begin with.</item>
+    </list>
+</problem>
+
+<solution id="id20142911">
+  <para id="element-592">C
+  </para>
+</solution>
+</exercise>
+    
+    <exercise id="element-520"><problem id="id20144814">
+  <para id="element-92">The statement that best describes the illustration below is: 
+  </para><para id="element-324"><figure id="id17617526"><media id="id17617530" alt="Horizontal boxplot starting with a dashed line and ending with one whisker on the right."><image src="../../media/boxplot.PNG" mime-type="image/png" width="400" print-width="4in"/></media></figure></para><list id="element-300" list-type="labeled-item" mark-suffix="."><item><label>A</label>The mean is equal to the median.</item>
+      <item><label>B</label>There is no first quartile.</item>
+      <item><label>C</label>The lowest data value is the median.</item>
+      <item><label>D</label>The median equals 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi fontstyle="italic">Q1</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi fontstyle="italic">Q3</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{ \( Q1+Q3 \) } }  over  { size 8{2} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+    </list>
+</problem>
+
+<solution id="id15597780">
+  <para id="element-294">C
+  </para>
+</solution>
+</exercise>
+    
+    
+    
+    
+    <exercise id="element-134"><problem id="id18734941">
+  <para id="element-633">
+     A “friend” offers you the following “deal.” For a $10 fee, you may pick an envelope from a box containing 100 seemingly identical envelopes. However, each envelope contains a coupon for a free gift.
+  </para><list id="element-982" list-type="bulleted"><item>10 of the coupons are for a free gift worth $6.</item>
+<item>80 of the coupons are for a free gift worth $8.</item>
+<item>6 of the coupons are for a free gift worth $12.</item>
+<item>4 of the coupons are for a free gift worth $40.</item></list><para id="element-380">Based upon the financial gain or loss over the long run, should you play the game?</para><list id="element-497" list-type="labeled-item" mark-suffix="."><item><label>A</label>Yes, I expect to come out ahead in money.</item>
+      <item><label>B</label>No, I expect to come out behind in money.</item>
+      <item><label>C</label>It doesn’t matter. I expect to break even.</item>
+    </list>
+</problem>
+
+<solution id="id7842142">
+  <para id="element-970">B</para>
+</solution>
+</exercise>
+    
+    
+    
+    
+    
+    
+    <para id="id7595463">The next four questions refer to the following: Recently, a nurse commented that when a patient calls the medical advice line claiming to have <emphasis>the flu</emphasis>, the chance that he/she truly has <emphasis>the flu</emphasis> (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have <emphasis>the flu</emphasis>, we are interested in how many actually have <emphasis>the flu</emphasis>.</para>
+    <exercise id="element-963"><problem id="id25775829">
+  <para id="element-472">
+    Define the Random Variable and list its possible values.
+  </para>
+</problem>
+
+<solution id="id24488972">
+  <para id="element-286"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>X</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    = the number of patients calling in claiming to have <emphasis>the flu</emphasis>, who actually have <emphasis>the flu</emphasis>. 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>X</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    = 0, 1, 2, ...25 </para>
+</solution>
+</exercise>
+    <exercise id="element-571"><problem id="id9138449">
+  <para id="element-903">State the distribution of 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>X</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    .
+  </para>
+</problem>
+
+<solution id="id14594706">
+  <para id="element-354"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>B</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>25</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>04</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{B \( "25",0 "." "04" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+</solution>
+</exercise>
+    <exercise id="element-399"><problem id="id19972631">
+  <para id="element-334">Find the probability that at least 4 of the 25 patients actually have <emphasis>the flu</emphasis>.
+  </para>
+</problem>
+
+<solution id="id22845083">
+  <para id="element-471">0.0165
+  </para>
+</solution>
+</exercise><exercise id="element-590"><problem id="id22280679">
+  <para id="element-699">
+       On average, for every 25 patients calling in, how many do you expect to have <emphasis>the flu</emphasis>?
+  </para>
+</problem>
+
+<solution id="id25790153">
+  <para id="element-266">1
+  </para>
+</solution>
+</exercise>
+    <para id="id7595513">The next two questions refer to the following: Different types of writing can sometimes be distinguished by the number of letters in the words used. A student interested in this fact wants to study the number of letters of words used by Tom Clancy in his novels. She opens a Clancy novel at random and records the number of letters of the first 250 words on the page.</para>
+    <exercise id="element-73"><problem id="id13483180">
+  <para id="element-0">
+    What kind of data was collected? 
+  </para><list id="element-793" list-type="labeled-item" mark-suffix="."><item><label>A</label>qualitative </item>
+      <item><label>B</label>quantitative - continuous </item>
+      <item><label>C</label>quantitative – discrete</item>
+    </list>
+</problem>
+
+<solution id="id9701268">
+  <para id="element-739">C</para>
+</solution>
+</exercise>
+    
+    <exercise id="element-40"><problem id="id20372656">
+  <para id="element-828">
+    What is the population under study?
+  </para>
+</problem>
+
+<solution id="id18093803">
+  <para id="element-720">
+    All words used by Tom Clancy in his novels
+  </para>
+</solution>
+</exercise>
+  </content>
+</document>

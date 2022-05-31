@@ -1,0 +1,714 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Descriptive Statistics: Measuring the Location of the Data</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65236</md:content-id>
+  <md:title>Descriptive Statistics: Measuring the Location of the Data</md:title>
+  <md:abstract>Descriptive Statistics: Measuring the Location of Data explains percentiles and quartiles and is part of the collection col10555 written by Barbara Illowsky and Susan Dean.  Roberta Bloom contributed the section "Interpreting Percentiles, Quartile and the Median."</md:abstract>
+  <md:uuid>5451cf1d-544a-4439-ab5e-53388862f20a</md:uuid>
+</metadata>
+
+<content>
+  
+<para id="element-280">The common measures of location are <term target-id="quartiles">quartiles</term> and <term target-id="percentile">percentiles</term> (%iles).  Quartiles are special percentiles. The first quartile, <m:math>
+ <m:msub>
+    <m:mi>Q</m:mi><m:mi>1</m:mi>
+  </m:msub>
+</m:math> is the same as the 25th percentile (25th %ile) and the third quartile, <m:math>
+ <m:msub>
+    <m:mi>Q</m:mi><m:mi>3</m:mi>
+  </m:msub>
+</m:math>, is the same as the 75th percentile (75th %ile).  The median, <m:math><m:mi>M</m:mi></m:math>, is called both the second quartile and the 50th percentile (50th %ile).</para><note id="eip-846">Quartiles are given special attention in the Box Plots module in this chapter.</note><para id="element-105">To calculate quartiles and percentiles, the data must be ordered from smallest to largest.  Recall that quartiles divide ordered data into quarters.  Percentiles divide ordered data into hundredths.  To score in the 90th percentile of an exam does not mean, necessarily, that you received 90% on a test. It means that 90% of test scores are the same or less than your score and 10% of the test scores are the same or greater than your test score.
+<newline/><newline/>
+Percentiles are useful for comparing values.  For this reason, universities and colleges use percentiles extensively. 
+<newline/><newline/>
+Percentiles are mostly used with very large populations.  Therefore, if you were to say that 90% of the test scores are less (and not the same or less) than your score, it would be acceptable because removing one particular data value is not significant. </para><para id="element-716">The <term target-id="IQR">interquartile range</term> is a number that indicates the spread of the middle half or the middle 50% of the data.  It is the difference between the third quartile (<m:math>
+ <m:msub>
+    <m:mi>Q</m:mi><m:mi>3</m:mi>
+  </m:msub>
+</m:math>) and the first quartile (<m:math>
+ <m:msub>
+    <m:mi>Q</m:mi><m:mi>1</m:mi>
+  </m:msub>
+</m:math>).</para><para id="delete_me"><equation id="quart"><m:math>
+ <m:mi>IQR</m:mi>
+  <m:mo>=</m:mo>
+
+ <m:msub>
+    <m:mi>Q</m:mi><m:mi>3</m:mi>
+  </m:msub>
+
+  <m:mo>-</m:mo>
+
+ <m:msub>
+    <m:mi>Q</m:mi><m:mi>1</m:mi>
+  </m:msub>
+
+</m:math>
+</equation></para><para id="element-847">The IQR can help to determine potential <term>outliers</term>.  <emphasis>A value is suspected to be a potential outlier if it is less than <m:math> <m:mi>(1.5)(IQR)</m:mi></m:math> below the first quartile or more than <m:math><m:mi>(1.5)(IQR)</m:mi></m:math> above the third quartile</emphasis>.  Potential outliers always need further investigation.</para><example id="element-826"><exercise id="exer5"><problem id="id45036025"><para id="element-720">For the following 13 real estate prices, calculate the <m:math><m:mi>IQR </m:mi></m:math> and determine if any prices are outliers.  Prices are in dollars.  (<cite><cite-title>Source: San Jose Mercury News</cite-title></cite>)
+</para><para id="element-447"><list id="set-651" list-type="labeled-item" display="inline"><item>389,950</item>
+<item>230,500</item>
+<item>158,000</item>
+<item>479,000</item>
+<item>639,000</item>
+<item>114,950</item>
+<item>5,500,000</item>
+<item>387,000</item>
+<item>659,000</item>
+<item>529,000</item>
+<item>575,000</item>
+<item>488,800</item>
+<item>1,095,000</item></list></para></problem>
+
+
+<solution id="id45746296"><para id="element-939">Order the data from smallest to largest.</para><para id="element-771"><list id="set-122" list-type="labeled-item" display="inline"><item>114,950</item>
+
+<item>158,000</item>
+<item>230,500</item>
+<item>387,000</item>
+<item>389,950</item>
+<item>479,000</item>
+<item>488,800</item>
+<item>529,000</item>
+<item>575,000</item>
+<item>639,000</item>
+<item>659,000</item>
+<item>1,095,000</item>
+<item>5,500,000</item></list></para><para id="element-170"><m:math>
+		<m:mi>M</m:mi>
+		<m:mo>=</m:mo>
+		<m:mn>488,800</m:mn>
+	</m:math>
+</para><para id="element-563"><m:math>
+<m:msub>
+    <m:mi>Q</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:mn>230500</m:mn>
+      <m:mo>+</m:mo>
+      <m:mn>387000</m:mn>
+    </m:mrow>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mn>308750</m:mn>
+</m:math></para><para id="element-756"><m:math>
+<m:msub>
+    <m:mi>Q</m:mi>
+    <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:mn>639000</m:mn>
+      <m:mo>+</m:mo>
+      <m:mn>659000</m:mn>
+    </m:mrow>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mn>649000</m:mn>
+</m:math></para><para id="element-290"><m:math>
+ <m:mi>IQR</m:mi>
+  <m:mo>=</m:mo>
+  <m:mn>649000</m:mn>
+  <m:mo>-</m:mo>
+  <m:mn>308750</m:mn>
+  <m:mo>=</m:mo>
+  <m:mn>340250</m:mn>
+
+</m:math></para><para id="element-166"><m:math> 
+  <m:mo>(</m:mo>
+  <m:mn>1.5</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo>(</m:mo>
+  <m:mi>IQR</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+
+
+  <m:mo>(</m:mo>
+  <m:mn>1.5</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo>(</m:mo>
+  <m:mn>340250</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mn>510375</m:mn>
+</m:math></para><para id="element-348"><m:math>
+<m:msub>
+    <m:mi>Q</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>-</m:mo>
+  <m:mo>(</m:mo>
+  <m:mn>1.5</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo>(</m:mo>
+  <m:mi>IQR</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mn>308750</m:mn>
+  <m:mo>-</m:mo>
+  <m:mn>510375</m:mn>
+  <m:mo>=</m:mo>
+  <m:mo>-</m:mo>
+  <m:mn>201625</m:mn>
+</m:math></para><para id="element-211"><m:math>
+<m:msub>
+    <m:mi>Q</m:mi>
+    <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo>
+  <m:mo>(</m:mo>
+  <m:mn>1.5</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo>(</m:mo>
+  <m:mi>IQR</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mn>649000</m:mn>
+  <m:mo>+</m:mo>
+  <m:mn>510375</m:mn>
+  <m:mo>=</m:mo>
+  <m:mn>1159375</m:mn>
+</m:math></para><para id="element-109">No house price is less than -201625.  However, 5,500,000 is more than 1,159,375.  Therefore, 5,500,000 is a potential <term target-id="outlier">outlier</term>.  </para>
+</solution></exercise></example><example id="element-17"><exercise id="element-889">
+<problem id="id45587381">
+  <para id="element-880">
+    For the two data sets in the <link document="m16296" target-id="element-601" class="cnxn">test scores example</link>, find the following:
+  </para>
+<list id="element-971" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>The interquartile range.  Compare the two interquartile ranges.</item>
+<item><label>b</label>Any outliers in either set.</item>
+<item><label>c</label>The 30th percentile and the 80th percentile for each set.  How much data falls below the 
+      30th percentile? Above the 80th percentile?</item></list>
+</problem>
+
+<solution id="id45262354" print-placement="end">
+  <para id="element-830">
+    For the IQRs, see the <link document="m16296" target-id="element-601s" class="cnxn">answer to the test scores example</link>.  The first data set has the larger IQR, so the scores between <m:math><m:mi>Q3</m:mi></m:math> and <m:math><m:mi>Q1</m:mi></m:math> (middle 50%) for the first data set are more spread out and not clustered about the median.
+  </para><para id="element-306"><title>First Data Set</title><list id="element-q353" list-type="bulleted">
+<item>
+<m:math>
+  <m:mo>(</m:mo>
+  <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>)</m:mo>
+  <m:mo> ⋅ </m:mo>
+  <m:mo>(</m:mo>
+  <m:mi>IQR</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo> = </m:mo>
+  <m:mo>(</m:mo>
+  <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>)</m:mo>
+  <m:mo> ⋅ </m:mo>
+  <m:mo>(</m:mo>
+  <m:mn>26.5</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo> = </m:mo>
+  <m:mn>39.75</m:mn>
+</m:math>
+</item>
+<item>
+ <m:math>
+ <m:mi>Xmax</m:mi>
+ <m:mo> - </m:mo>
+ <m:mi>Q3</m:mi>
+ <m:mo> = </m:mo>
+ <m:mn>99</m:mn>
+ <m:mo> - </m:mo>
+ <m:mn>82.5</m:mn>
+ <m:mo> = </m:mo>
+ <m:mn>16.5</m:mn>
+ </m:math>
+</item>
+<item>
+ <m:math>
+ <m:mi>Q1</m:mi>
+ <m:mo> - </m:mo>
+ <m:mi>Xmin</m:mi>
+ <m:mo> = </m:mo>
+ <m:mn>56</m:mn>
+ <m:mo> - </m:mo>
+ <m:mn>32</m:mn>
+ <m:mo> = </m:mo>
+ <m:mn>24</m:mn>
+ </m:math>
+</item>
+</list>
+
+<m:math>
+  <m:mo>(</m:mo>
+  <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>)</m:mo>
+  <m:mo> ⋅ </m:mo>
+  <m:mo>(</m:mo>
+  <m:mi>IQR</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo> = </m:mo>
+  <m:mn>39.75</m:mn>
+</m:math>
+is larger than 16.5 and larger than 24, so the first set has no outliers.</para>
+
+<para id="element-3062"><title>Second Data Set</title><list id="element-q3532" list-type="bulleted">
+<item>
+<m:math>
+  <m:mo>(</m:mo>
+  <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>)</m:mo>
+  <m:mo> ⋅ </m:mo>
+  <m:mo>(</m:mo>
+  <m:mi>IQR</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo> = </m:mo>
+  <m:mo>(</m:mo>
+  <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>)</m:mo>
+  <m:mo> ⋅ </m:mo>
+  <m:mo>(</m:mo>
+  <m:mn>11</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo> = </m:mo>
+  <m:mn>16.5</m:mn>
+</m:math>
+</item>
+<item>
+ <m:math>
+ <m:mi>Xmax</m:mi>
+ <m:mo> - </m:mo>
+ <m:mi>Q3</m:mi>
+ <m:mo> = </m:mo>
+ <m:mn>98</m:mn>
+ <m:mo> - </m:mo>
+ <m:mn>89</m:mn>
+ <m:mo> = </m:mo>
+ <m:mn>9</m:mn>
+ </m:math>
+</item>
+<item>
+ <m:math>
+ <m:mi>Q1</m:mi>
+ <m:mo> - </m:mo>
+ <m:mi>Xmin</m:mi>
+ <m:mo> = </m:mo>
+ <m:mn>78</m:mn>
+ <m:mo> - </m:mo>
+ <m:mn>25.5</m:mn>
+ <m:mo> = </m:mo>
+ <m:mn>52.5</m:mn>
+ </m:math>
+</item>
+</list>
+
+<m:math>
+  <m:mo>(</m:mo>
+  <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>)</m:mo>
+  <m:mo> ⋅ </m:mo>
+  <m:mo>(</m:mo>
+  <m:mi>IQR</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo> = </m:mo>
+  <m:mn>16.5</m:mn>
+</m:math>
+is larger than 9 but smaller than 52.5, so for the second set 45 and 25.5 are outliers.</para><para id="element-142">To find the percentiles, create a frequency, relative frequency, and cumulative relative frequency chart (see <link document="m16012" class="cnxn">"Frequency" from the Sampling and Data Chapter</link>).  Get the percentiles from that chart.</para><list id="element-146" list-type="bulleted"><title>First Data Set</title><item>
+<m:math>
+<m:mtext>30th %ile (between the 6th and 7th values)</m:mtext>
+ <m:mo> = </m:mo>
+ <m:mfrac> 
+  <m:mrow>
+   <m:mo>(</m:mo>
+   <m:mn>56</m:mn>
+   <m:mo> + </m:mo>
+   <m:mn>59</m:mn>
+   <m:mo>)</m:mo>
+  </m:mrow>
+  <m:mn>2</m:mn>
+  </m:mfrac>
+ <m:mo> = </m:mo>
+  <m:mn>57.5</m:mn>
+</m:math>
+ </item>
+
+
+<item>
+<m:math>
+<m:mtext>80th %ile (between the 16th and 17th values)</m:mtext>
+ <m:mo> = </m:mo>
+ <m:mfrac> 
+  <m:mrow>
+   <m:mo>(</m:mo>
+   <m:mn>84</m:mn>
+   <m:mo> + </m:mo>
+   <m:mn>84.5</m:mn>
+   <m:mo>)</m:mo>
+  </m:mrow>
+  <m:mn>2</m:mn>
+  </m:mfrac>
+ <m:mo> = </m:mo>
+  <m:mn>84.25</m:mn>
+ </m:math>
+ </item>
+</list>
+
+
+<list id="element-1462" list-type="bulleted"><title>Second Data Set</title><item>
+<m:math>
+<m:mtext>30th %ile (7th value)</m:mtext>
+ <m:mo> = </m:mo>
+
+  <m:mn>78</m:mn>
+</m:math>
+ </item>
+
+
+<item>
+<m:math>
+<m:mtext>80th %ile (18th value)</m:mtext>
+ <m:mo> = </m:mo>
+
+  <m:mn>90</m:mn>
+ </m:math>
+ </item>
+</list>
+
+<para id="element-0239">
+
+30% of the data falls below the 30th %ile, and 20% falls above the 80th %ile.
+
+</para>
+
+
+</solution>
+</exercise>
+
+
+
+</example><example id="element-84"><title>Finding Quartiles and Percentiles Using a Table</title><para id="element-913">
+  Fifty statistics students were asked how much sleep they get per school night (rounded to the nearest hour).  The results were (student data):
+</para>
+    <table id="id4431204" summary="This table presents the amount of sleep per school night in hours in the first column, from 4-10 hours, frequency in the second column, relative frequency in the third column, and cumulative relative frequency in the fourth column.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>AMOUNT OF SLEEP PER SCHOOL NIGHT (HOURS)</entry>
+            <entry>FREQUENCY</entry>
+            <entry>RELATIVE FREQUENCY</entry>
+            <entry>CUMULATIVE RELATIVE FREQUENCY</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>4</entry>
+            <entry>2</entry>
+            <entry>0.04</entry>
+            <entry>0.04</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>5</entry>
+            <entry>0.10</entry>
+            <entry>0.14</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>7</entry>
+            <entry>0.14</entry>
+            <entry>0.28</entry>
+          </row>
+          <row>
+            <entry>7</entry>
+            <entry>12</entry>
+            <entry>0.24</entry>
+            <entry>0.52</entry>
+          </row>
+          <row>
+            <entry>8</entry>
+            <entry>14</entry>
+            <entry>0.28</entry>
+            <entry>0.80</entry>
+          </row>
+          <row>
+            <entry>9</entry>
+            <entry>7</entry>
+            <entry>0.14</entry>
+            <entry>0.94</entry>
+          </row>
+          <row>
+            <entry>10</entry>
+            <entry>3</entry>
+            <entry>0.06</entry>
+            <entry>1.00</entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table>
+<para id="element-688"><emphasis>Find the 28th percentile</emphasis>: Notice the 0.28 in the "cumulative relative frequency" column.  28% of 50 data values = 14.  There are 14 values less than the 28th %ile.  They include the two 4s, the five 5s, and the seven 6s.  The 28th %ile is between the last 6 and the first 7.  <emphasis>The 28th %ile is 6.5.</emphasis>
+</para><para id="element-488"><emphasis>Find the median</emphasis>: Look again at the "cumulative relative frequency " column and find 0.52.  The median is the 50th %ile or the second quartile.  50% of 50 = 25.  There are 25 values less than the median. They include the two 4s, the five 5s, the seven 6s, and eleven of the 7s.  The median or 50th %ile is between the 25th (7) and 26th (7) values.  <emphasis>The median is 7. </emphasis></para><para id="element-539"><emphasis> Find the third quartile</emphasis>: The third quartile is the same as the 75th percentile.  You can "eyeball" this answer. If  you look at the "cumulative relative frequency" column, you find 0.52 and 0.80.  When you have all the 4s, 5s, 6s and 7s, you have 52% of the data.  When you include all the 8s, you have 80% of the data.  <emphasis>The 75th %ile, then,  must be an 8</emphasis> .  Another way to look at the problem is to find 75% of 50 (= 37.5) and round up to 38.  The third quartile, <m:math>
+ <m:msub>
+    <m:mi>Q</m:mi><m:mi>3</m:mi>
+  </m:msub>
+</m:math>,  is the 38th value which is an 8.  You can check this answer by counting the values.  (There are 37 values below the third quartile and 12 values above.)</para></example><example id="element-572"><exercise id="element-2353">
+<problem id="id45288379">
+
+<para id="element-23532">Using the table:</para>
+<list id="element-6" list-type="enumerated"><item>Find the 80th percentile.</item>
+<item>Find the 90th percentile.</item>
+<item>Find the first quartile.  </item>
+<item>What is another name for the first quartile?</item></list></problem>
+
+
+<solution id="id45288442" print-placement="end">
+<list id="element-6s" list-type="enumerated"><item>
+<m:math>
+ <m:mfrac> 
+  <m:mrow>
+   <m:mo>(</m:mo>
+   <m:mn>8</m:mn>
+   <m:mo> + </m:mo>
+   <m:mn>9</m:mn>
+   <m:mo>)</m:mo>
+  </m:mrow>
+  <m:mn>2</m:mn>
+  </m:mfrac>
+ <m:mo> = </m:mo>
+<m:mn>8.5</m:mn>
+</m:math><newline/>Look where cum. rel. freq. = 0.80. 80% of the data is 8 or less. 80th %ile is between the last 8 and first 9. 
+</item>
+
+<item>9</item>
+<item>6</item>
+<item>First Quartile = 25th %ile</item>
+</list></solution>
+</exercise></example><para id="element-758"><emphasis>Collaborative Classroom Exercise</emphasis>: Your instructor or a member of the class will ask everyone in class how many sweaters they own.  Answer the following questions.
+<list id="exlist" list-type="enumerated"><item> How many students were surveyed?</item>
+<item>What kind of sampling did you do?</item>
+<item>Construct a table of the data.</item>
+<item>Construct 2 different histograms.  For each, starting value = _____  ending value = ____. </item>
+<item>Use the table to find the median, first quartile, and third quartile.</item>
+<item>Construct a box plot.</item>
+<item>Use the table to find the following:<list id="exlist2" list-type="bulleted"><item> The 10th percentile</item>
+<item> The 70th percentile</item>
+<item> The percent of students who own less than 4 sweaters</item>
+</list></item>
+</list></para><para id="eip-400"><title>Interpreting Percentiles, Quartiles, and Median</title>A percentile indicates the relative standing of a data value when data are sorted into numerical order, from smallest to largest. p% of data values are less than or equal to the pth percentile.  For example, 15% of data values are less than or equal to the 15th percentile.
+
+<list id="eip-id1164310609380"><item>Low percentiles always correspond to lower data values. </item>
+<item>High percentiles always correspond to higher data values.</item>
+</list>
+
+A percentile may or may not correspond to a value judgment about whether it is "good" or "bad". The interpretation of whether a certain percentile is good or bad depends on the context of the situation to which the data applies. In some situations, a low percentile would be considered "good'; in other contexts a high percentile might be considered "good".  In many situations, there is no value judgment that applies.
+<newline/>
+<newline/>
+Understanding how to properly interpret percentiles is important not only when describing data, but is also important in later chapters of this textbook when calculating probabilities. 
+
+<newline/><newline/>
+<emphasis>Guideline:</emphasis>
+<newline/><newline/>
+
+When writing the interpretation of a percentile in the context of the given data, the sentence should contain the following information:
+
+
+
+
+<list id="eip-id1168197264788"><item>information about the context of the situation being considered,</item>
+<item>the data value (value of the variable) that represents the percentile,</item>
+<item>the percent of individuals or items with data values below the percentile. </item>
+<item>Additionally, you may also choose to state the percent of individuals or items with data values above the percentile.</item></list>
+
+
+    
+<example id="eip-id1170215995305"><para id="eip-id1170184310084">On a timed math test, the first quartile for times for finishing the exam was 35 minutes. Interpret the first quartile in the context of this situation.
+</para><list id="eip-id1170179452695" list-type="bulleted"><item>25% of students finished the exam in 35 minutes or less. </item>
+<item>75% of students finished the exam in 35 minutes or more.</item>
+<item>A low percentile could be considered good, as finishing more quickly on a timed exam is desirable. (If you take too long, you might not be able to finish.)</item></list></example>
+
+<example id="eip-id1170441826663"><para id="eip-id1170436117670">
+On a 20 question math test, the 70th percentile for number of correct answers was 16. Interpret the 70th percentile in the context of this situation.
+</para><list id="element-616" list-type="bulleted"><item>70% of students answered 16 or fewer questions correctly.</item>
+<item>30% of students answered 16 or more questions correctly.</item>
+<item>Note: A high percentile could be considered good, as answering more questions correctly is desirable.</item></list></example>
+
+<example id="eip-id7060500"><para id="eip-id1170610063171">At a certain community college, it was found that the 30th percentile of credit units that students are enrolled for is 7 units. Interpret the 30th percentile in the context of this situation.
+</para><list id="element-410" list-type="bulleted"><item>30% of students are enrolled in 7 or fewer credit units</item>
+<item>70% of students are enrolled in 7 or more credit units</item>
+<item>In this example, there is no "good" or "bad" value judgment associated with a higher or lower percentile. Students attend community college for varied reasons and needs, and their course load varies according to their needs.</item></list>
+</example>
+<newline/>
+<newline/>
+<emphasis>Do the following Practice Problems for Interpreting Percentiles</emphasis>
+    <exercise id="eip-id1168182229232"><problem id="eip-id1168183555687">
+  <list id="eip-id1168185190290" list-type="labeled-item" mark-suffix="."><item><label>a</label>  For runners in a race, a low time means a faster run. The winners in a race have the shortest running times. Is it more desirable to have a finish time with a high or a low percentile when running a race?</item>
+<item><label>b</label> The 20th percentile of run times in a particular race is 5.2 minutes. Write a sentence interpreting the 20th percentile in the context of the situation.</item>
+<item><label>c</label> A bicyclist in the 90th percentile of a bicycle race between two towns completed the race in 1 hour and 12 minutes. Is he among the fastest or slowest cyclists in the race? Write a sentence interpreting the 90th percentile in the context of the situation.</item></list>
+</problem>
+
+<solution id="eip-id1168182458008">
+  <list id="eip-id1168180861399" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>  For runners in a race it is more desirable to have a low percentile for finish time. A low percentile means a short time, which is faster.</item>
+<item><label>b</label>INTERPRETATION: 20% of runners finished the race in 5.2 minutes or less. 80% of runners finished the race in 5.2 minutes or longer.</item>
+<item><label>c</label>He is among the slowest cyclists (90% of cyclists were faster than him.) INTERPRETATION: 90% of cyclists had a finish time of 1 hour, 12 minutes or less.Only 10% of cyclists had a finish time of 1 hour, 12 minutes or longer</item></list>
+</solution>
+</exercise>
+    
+    
+    <exercise id="eip-id1168182273864"><problem id="eip-id1168191796049">
+  <list id="eip-id5724192" list-type="labeled-item" mark-suffix="."><item><label>a</label> For runners in a race, a higher speed means a faster run. Is it more desirable to have a speed with a high or a low percentile when running a race?</item>
+<item><label>b</label>The 40th percentile of speeds in a particular race is 7.5 miles per hour. Write a sentence interpreting the 40th percentile in the context of the situation.</item>
+</list>
+</problem>
+
+<solution id="eip-id1168199883378">
+  <list id="eip-id1168196369910" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>For runners in a race it is more desirable to have a high percentile for speed. A high percentile means a higher speed, which is faster.</item>
+<item><label>b</label>INTERPRETATION: 40% of runners ran at speeds of 7.5 miles per hour or less (slower). 60% of runners ran at speeds of 7.5 miles per hour or more (faster).</item>
+</list>
+</solution>
+</exercise>
+    
+    <exercise id="eip-id1168217995987"><problem id="eip-id1168183864592">
+  <para id="eip-id1168226425380">On an exam, would it be more desirable to earn a grade with a high or low percentile? Explain. 
+  </para>
+</problem>
+
+<solution id="eip-id1168211160847">
+  <para id="eip-id1168192445886">On an exam you would prefer a high percentile; higher percentiles correspond to higher grades on the exam.</para>
+</solution>
+</exercise>
+    <exercise id="eip-id1168183173702"><problem id="eip-id1168227404691">
+  <para id="eip-id1168230025239">Mina is waiting in line at the Department of Motor Vehicles (DMV). Her wait time of 32 minutes is the  85th percentile of wait times. Is that good or bad? Write a sentence interpreting the 85th percentile in the context of this situation.
+  </para>
+</problem>
+
+<solution id="eip-id7704128">
+  <para id="eip-id1168214950316">When waiting in line at the DMV, the 85th percentile would be a long wait time compared to the other people waiting. 85% of people had shorter wait times than you did. In this context, you would prefer a wait time corresponding to a lower percentile. INTERPRETATION: 85% of people at the DMV waited 32 minutes or less. 15% of people at the DMV waited 32 minutes or longer.
+  </para>
+</solution>
+</exercise><exercise id="eip-id1168213546999"><problem id="eip-id1168188876815">
+  <para id="eip-id7349223">In a survey collecting data about the salaries earned by recent college graduates, Li found that her salary was in the 78th percentile. Should Li be pleased or upset by this result? Explain. 
+  </para>
+</problem>
+
+<solution id="eip-id1168226425052">
+  <para id="eip-id1168226437927">
+   Li should be pleased. Her salary is relatively high compared to other recent college grads. 78% of recent college graduates earn less than Li does. 22% of recent college graduates earn more than Li does.
+  </para>
+</solution>
+</exercise>
+    
+    
+    
+    <exercise id="eip-id1168214876383"><problem id="eip-id7327842">
+  <para id="eip-id1168230657040">
+    In a study collecting data about the repair costs of damage to automobiles in a certain type of crash tests, a certain model of car had $1700 in damage and was in the 90th percentile. Should the manufacturer and/or a consumer be pleased or upset by this result? Explain. Write a sentence that interprets the 90th percentile in the context of this problem.
+  </para>
+</problem>
+
+<solution id="eip-id1168214946038">
+  <para id="eip-id1168234799988">The manufacturer and the consumer would be upset.  This is a large repair cost for the damages, compared to the other cars in the sample. INTERPRETATION: 90% of the crash tested cars had damage repair costs of $1700 or less; only 10% had damage repair costs of $1700 or more.
+  </para>
+</solution>
+</exercise>
+    
+    
+    <exercise id="eip-id1168195852900"><problem id="eip-id1168225195383">
+  <list id="eip-id1168211096380" list-type="labeled-item" mark-suffix="">
+<item>The University of California has two criteria used to set admission standards for freshman to be admitted to a college in the UC system: </item>
+<item>a. Students' GPAs and scores on standardized tests (SATs and ACTs) are entered into a formula that calculates an "admissions index" score. The admissions index score is used to set eligibility standards intended to meet the goal of admitting the top 12% of high school students in the state. In this context, what percentile does the top 12% represent?</item>
+<item>b. Students whose GPAs are at or above the 96th percentile of all students at their high school are eligible (called eligible in the local context), even if they are not in the top 12% of all students in the state. What percent of students from each high school are "eligible in the local context"?</item></list>
+</problem>
+
+<solution id="eip-id1168230020582">
+  <list id="eip-id1168183686824" list-type="labeled-item" mark-suffix="."><item><label>a</label>The top 12% of students are those who are at or above the <emphasis> 88th percentile </emphasis>of admissions index scores.</item>
+<item><label>b</label> The <emphasis> top 4% </emphasis>of students' GPAs are at or above the 96th percentile, making the top 4% of students "eligible in the local context".</item>
+</list>
+</solution>
+</exercise>
+    
+    
+    <exercise id="eip-id1168223160542"><problem id="eip-id7507305">
+  <para id="eip-id1168211272126">Suppose that you are buying a house. You and your realtor have determined that the most expensive house you can afford is the 34th percentile. The 34th percentile of housing prices is $240,000 in the town you want to move to. In this town, can you afford 34% of the houses or 66% of the houses? 
+  </para>
+</problem>
+
+<solution id="eip-id1168213876148">
+  <para id="eip-id1168225765198">You can afford 34% of houses. 66% of the houses are too expensive for your budget.  INTERPRETATION: 34% of houses cost $240,000 or less. 66% of houses cost $240,000 or more.</para>
+</solution>
+</exercise>
+</para><para id="eip-486">**With contributions from Roberta Bloom</para>
+
+  </content>
+  <glossary>
+
+<definition id="iqr">
+    <term>Interquartile Range (IRQ)</term>
+    <meaning id="id15896860">
+   The distance between the third quartile (Q3) and the first quartile (Q1). IQR = Q3 - Q1.
+    </meaning>
+  </definition>
+
+
+<definition id="outlier">
+    <term>Outlier</term>
+    <meaning id="id1171166689919">
+   An observation that does not fit the rest of the data.
+    </meaning>
+  </definition>
+
+
+
+<definition id="percentile">
+    <term>Percentile</term>
+    <meaning id="id19436015">
+ A number that divides ordered data into hundredths.</meaning>
+
+<example id="prtil1"><para id="prtil2">
+Let a data set contain 200 ordered observations starting with 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mn>3,2</m:mn><m:mtext>.</m:mtext><m:mn>7,2</m:mn><m:mtext>.</m:mtext><m:mn>8,2</m:mn><m:mtext>.</m:mtext><m:mn>9,2</m:mn><m:mtext>.</m:mtext><m:mn>9,3</m:mn><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace 2 "." 3,2 "." 7,2 "." 8,2 "." 9,2 "." 9,3 "." 0 "."  "."  "."  rbrace } {}</m:annotation></m:semantics></m:math>. Then the first percentile is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>7</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>75</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { \( 2 "." 7+2 "." 8 \) }  over  {2} } =2 "." "75"} {}</m:annotation></m:semantics></m:math>, because 1% of the data is to the left of this point on the number line and 99% of the data is on its right. The second percentile is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>9</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>9</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { \( 2 "." 9+2 "." 9 \) }  over  {2} } =2 "." 9} {}</m:annotation></m:semantics></m:math>. Percentiles may or may not be part of the data. In this example, the first percentile is not in the data, but the second percentile is. The median of the data is the second quartile and the 50th percentile. The first and third quartiles are the 25th and the 75th percentiles, respectively.
+    </para></example>
+
+
+  </definition>
+
+
+<definition id="quartiles">
+    <term>Quartiles</term>
+    <meaning id="id1164416504778">
+The numbers that separate the data into quarters. Quartiles may or may not be part of the data. The second quartile is the median of the data.
+    </meaning>
+  </definition>
+
+
+
+
+
+</glossary>
+
+</document>

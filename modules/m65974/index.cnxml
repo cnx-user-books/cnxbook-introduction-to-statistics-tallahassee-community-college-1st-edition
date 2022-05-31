@@ -1,0 +1,149 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Assumptions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65974</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Assumptions</md:title>
+  <md:abstract/>
+  <md:uuid>7786217f-ce2d-408b-9c63-f36c72c36bae</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">When you perform a <term target-id="hypotest">hypothesis test</term><emphasis> of a single population mean <m:math><m:mi>μ</m:mi></m:math></emphasis> using a
+<term target-id="studenttdist">Student's-t distribution</term> (often called a t-test), there are fundamental assumptions
+that need to be met in order for the test to work properly. Your data should be a
+<emphasis>simple random sample</emphasis> that comes from a population that is approximately
+<term target-id="nrmdist">normally distributed</term>. You use the sample <term target-id="stddev">standard deviation</term> to approximate the
+population standard deviation. (Note that if the sample size is sufficiently large, a t-test will work even if the population is not approximately normally distributed).</para><para id="element-849">When you perform a <emphasis>hypothesis test of a single population mean <m:math><m:mi>μ</m:mi></m:math></emphasis> using a
+normal distribution (often called a z-test), you take a simple random sample from
+the population. The population you are testing is normally distributed or your sample size is sufficiently large, usually 30 and above. You know the value of the population
+standard deviation.
+
+</para><para id="element-395">When you perform a <emphasis>hypothesis test of a single population proportion <m:math><m:mi>p</m:mi></m:math></emphasis>, you
+take a simple random sample from the population. You must meet the conditions
+for a <term target-id="bidist">binomial distribution</term> which are there are a certain number <m:math><m:mi>n</m:mi></m:math> of independent
+trials, the outcomes of any
+trial are success or failure, and each trial has the same probability of a success <m:math><m:mi>p</m:mi></m:math>. The shape of the binomial distribution needs to be
+similar to the shape of the normal distribution. To ensure this, the quantities <m:math><m:mi>n</m:mi><m:mi>p</m:mi></m:math>
+and <m:math><m:mi>n</m:mi><m:mi>(1-p)</m:mi></m:math> must both be greater than ten (<m:math><m:mi>n</m:mi><m:mi>p</m:mi><m:mo>&gt;</m:mo><m:mn>10</m:mn></m:math> and <m:math><m:mi>n</m:mi><m:mi>(1-p)</m:mi><m:mo>&gt;</m:mo><m:mn>10</m:mn></m:math>). Then the binomial distribution of sample (estimated)
+proportion can be approximated by the normal distribution with
+<m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>p</m:mi></m:math>
+ 
+and
+
+<m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
+
+
+    <m:mfrac>
+      
+<m:mrow>
+<m:mi>p</m:mi>
+<m:mo>⋅</m:mo>
+<m:mi>(1-p)</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+
+    </m:mfrac>
+  
+</m:msqrt>
+</m:math>.
+
+</para></content>
+<glossary>
+<definition id="bidist">
+    <term>Binomial Distribution</term>
+    <meaning id="id8181257">
+      A discrete random variable (RV) which arises from Bernoulli trials. There are a fixed number, <m:math><m:mi>n</m:mi></m:math>, of independent trials. “Independent” means that the result of any trial (for example, trial 1) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> is defined as the number of successes in <m:math><m:mi>n</m:mi></m:math> trials. The notation is: 
+
+<emphasis><m:math><m:mi>X</m:mi></m:math>~<m:math> <m:mi>B</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>,</m:mo>
+  <m:mi>p</m:mi>
+  <m:mo>)</m:mo></m:math></emphasis>. The mean is <m:math><m:apply>
+  <m:eq/>
+  <m:ci>μ</m:ci>
+  <m:ci>np</m:ci>
+</m:apply>
+</m:math> and the standard deviation is 
+<m:math>
+
+   
+    <m:mi>σ</m:mi>
+  
+  <m:mo>=</m:mo>
+  <m:msqrt><m:mi>npq</m:mi></m:msqrt>
+
+</m:math>. The probability of exactly <m:math><m:mi>x</m:mi></m:math> successes in <m:math><m:mi>n</m:mi></m:math> trials is <m:math>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfenced>
+    <m:mfrac linethickness="0">
+      <m:mi>n</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mfenced>
+  <m:msup>
+    <m:mi>p</m:mi>
+    <m:mi>x</m:mi>
+  </m:msup>
+  <m:msup>
+    <m:mi>q</m:mi>
+    <m:mrow>
+      <m:mi>n</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>x</m:mi>
+    </m:mrow>
+  </m:msup>
+</m:math>.
+    </meaning>
+  </definition>
+
+
+  
+
+<definition id="normdist">
+    <term>Normal Distribution</term>
+    <meaning id="id42733014">
+   A continuous random variable (RV) with pdf  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>f(x)</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>σ</m:mi><m:msqrt><m:mn>2π</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mn>2σ</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "pdf"= {  {1}  over  {σ sqrt {2π} } } e rSup { size 8{ -  \( x - μ \)  rSup { size 6{2} } /2σ rSup { size 6{2} } } } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:mi>μ</m:mi></m:math>  is the mean of the distribution and <m:math><m:mi>σ</m:mi></m:math>  is the standard deviation. Notation: <m:math><m:mi>X</m:mi></m:math>  ~  <m:math> <m:mi>N</m:mi>
+  <m:mfenced>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>σ</m:mi>
+      <m:mn/>
+    </m:msup>
+  </m:mfenced></m:math>. If <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> and <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math>, the RV is called <emphasis>the standard normal distribution</emphasis>.
+    </meaning>
+  </definition>
+
+<definition id="stddev">
+    <term>Standard Deviation</term>
+    <meaning id="id20302532">
+A number that is equal to the square root of the variance and measures how far data values are from their mean. Notation: s for sample standard deviation and   <m:math><m:ci>σ</m:ci></m:math> for population standard deviation.
+    </meaning>
+  </definition>
+
+
+<definition id="studenttdist">
+    <term>Student-<emphasis>t</emphasis> Distribution</term>
+    <meaning id="id8759760">
+Investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are: 
+
+<list id="tdist1" list-type="bulleted"><item>It is continuous and assumes any real values. </item><item>The pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution. </item><item>  It approaches the standard normal distribution as n gets larger. </item><item>  There is a "family" of t distributions: every representative of the family is completely defined by the number of degrees of freedom which is one less than the number of data.</item></list>
+
+    </meaning>
+  </definition>
+
+
+
+
+</glossary>  
+</document>

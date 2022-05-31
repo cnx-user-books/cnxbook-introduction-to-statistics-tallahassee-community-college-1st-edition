@@ -1,0 +1,258 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Practice 1</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65981</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Practice 1</md:title>
+  <md:abstract>This module provides a practice of Hypothesis Testing of Single Mean and Single Proportion as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>21daf06f-c6e3-4d81-bd6c-5d2a487ad27f</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 9.1 practice.doc" strength="3">Download handout (.doc)</link>
+      <link url=" chap 9.1 practice.pdf  " strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-670"><title>Student Learning Outcomes</title>
+<list id="list-2356123424" list-type="bulleted"><item>The student will conduct a hypothesis test of a single mean with known population standard deviation.</item>
+</list></section><section id="element-130"><title>Given</title>
+<para id="element-626">Suppose that a recent article stated that the mean time spent in jail by a first–time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first–time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was 3 years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5.  Conduct a hypothesis test to determine if the mean length of jail time has increased. The distribution of the population is normal.
+</para></section><section id="element-199"><title>Hypothesis Testing: Single Mean</title><exercise id="element-176"><problem id="id7395966">
+  <para id="element-4">Is this a test of means or proportions?
+  </para></problem>
+
+<solution id="id7395983">
+  <para id="element-660">Means
+  </para></solution>
+</exercise><exercise id="element-242"><problem id="id7396007">
+  <para id="element-203">State the null and alternative hypotheses.
+
+<list id="list-986798234" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{O} } } {}</m:annotation></m:semantics></m:math>:</item>
+
+<item><label>b</label>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math>: </item></list></para>
+</problem>
+
+<solution id="id13755535">
+<list id="list-789236459762" list-type="labeled-item"><item><label>a</label>  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>. </m:mtext><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{O} } :μ=2 "." 5} {}</m:annotation></m:semantics></m:math> (or, 
+ <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{O} } :μ &lt;= 2 "." 5} {}</m:annotation></m:semantics></m:math>)</item>
+<item><label>b</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                  <m:mrow>
+                    <m:mi>μ</m:mi>
+                    <m:mo stretchy="false">&gt;</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :μ&gt;2 "." 5} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+</item>
+     </list>
+</solution>
+</exercise><exercise id="element-407"><problem id="id13277189">
+  <para id="element-248">Is this a right-tailed, left-tailed, or two-tailed test?  
+     How do you know?
+  </para>
+</problem>
+
+<solution id="id13277209">
+  <para id="element-298">
+right-tailed
+  </para>
+</solution>
+</exercise><exercise id="element-173"><problem id="id13277236">
+  <para id="element-732">What symbol represents the Random Variable for this test? 
+  </para>
+</problem>
+
+<solution id="id13277256">
+  <para id="element-238"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mover accent="true">
+                  <m:mi>X</m:mi>
+                  <m:mo>¯</m:mo>
+                </m:mover>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+</solution>
+</exercise><exercise id="element-126"><problem id="id9153115">
+  <para id="element-504">
+In words, define the Random Variable for this test.
+  </para>
+</problem>
+
+<solution id="id9153134">
+  <para id="element-663">The mean time spent in jail for 26 first time convicted burglars
+  </para></solution>
+</exercise><exercise id="element-797"><problem id="id9153163">
+  <para id="element-922">Is the population standard deviation known and, if so, what is it? 
+  </para>
+</problem>
+
+<solution id="id9153182">
+  <para id="element-788">Yes, 1.5</para>
+</solution>
+</exercise><exercise id="element-877"><problem id="id9153210"><para id="element-235235">
+Calculate the following:
+<list id="list-8276387645" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>
+  <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} ={}} {}</m:annotation></m:semantics></m:math>
+</item>
+<item><label>b</label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>σ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation></m:semantics></m:math>
+</item>
+<item><label>c</label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>s</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s rSub { size 8{x} } ={}} {}</m:annotation></m:semantics></m:math></item>
+<item><label>d</label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n={}} {}</m:annotation></m:semantics></m:math></item>
+</list>
+</para>
+</problem>
+
+<solution id="id13779592">
+  <list id="list-23512532" list-type="labeled-item" mark-suffix=".">
+
+<item><label>a</label>3</item>
+<item><label>b</label>1.5</item>
+<item><label>c</label>1.8</item>
+<item><label>d</label>26</item></list>
+</solution>
+</exercise><exercise id="element-95"><problem id="id13779679">
+  <para id="element-88">Since both 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>σ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{σ} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>s</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> are given, which should be used? In 1 -2 complete sentences, explain why.</para>
+</problem>
+
+<solution id="id13779741">
+  <para id="element-105"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>σ</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+</solution>
+</exercise><exercise id="element-121"><problem id="id13779798">
+  <para id="element-136">
+State the distribution to use for the hypothesis test.  
+  </para>
+</problem>
+
+<solution id="id13779818">
+  <para id="element-1000"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mover accent="true">
+                    <m:mi>X</m:mi>
+                    <m:mo>¯</m:mo>
+                  </m:mover>
+                  <m:mtext>~</m:mtext>
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>5</m:mn>
+                  <m:mtext>,</m:mtext>
+                  <m:mfrac>
+                  <m:mn>1.5</m:mn>
+                  <m:msqrt>
+                    <m:mtext>26</m:mtext>
+                  </m:msqrt>
+                  </m:mfrac>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" N \( 2 "." 5,1 "." 5 sqrt {"26"}  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+</solution>
+</exercise><exercise id="element-463"><problem id="id13779931">
+  <para id="element-901">Sketch a graph of the situation. Label the horizontal axis. Mark the hypothesized mean and the sample mean
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>. Shade the area corresponding to the p-value.
+
+</para><para id="element-582"><media id="id13779981" alt="Blank horizontal axis of the sample mean."><image src="../../media/10.png" mime-type="image/png" print-width="3in"/></media></para>
+</problem>
+</exercise><exercise id="element-952"><problem id="id13190907">
+  <para id="element-182">Find the p-value.</para>
+</problem>
+
+<solution id="id13190925">
+  <para id="element-827">0.0446</para>
+</solution>
+</exercise><exercise id="element-475"><problem id="id13190953">
+  <para id="element-99">
+   At a pre-conceived 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>05</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α=0 "." "05"} {}</m:annotation></m:semantics></m:math>, what is your:
+<list id="list-2353627788" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>
+Decision:</item>
+<item><label>b</label>
+Reason for the decision:</item>
+<item><label>c</label>
+Conclusion (write out in a complete sentence):</item>
+</list>
+</para>
+</problem>
+
+<solution id="id13191061">
+  <list id="element-307" list-type="labeled-item" mark-suffix="."><item><label>a</label>Reject the null hypothesis</item></list>
+</solution>
+</exercise></section><section id="element-730"><title>Discussion Questions</title>
+<exercise id="element-253"><problem id="id13191121">
+  <para id="element-122">Does it appear that the mean jail time spent for first time convicted 	burglars has increased? Why or why not?
+  </para></problem>
+
+</exercise></section>   
+  </content>
+  
+</document>

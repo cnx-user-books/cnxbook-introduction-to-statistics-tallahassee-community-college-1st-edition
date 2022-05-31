@@ -1,0 +1,923 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="homework">
+  <title>Central Limit Theorem: Homework</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65900</md:content-id>
+  <md:title>Central Limit Theorem: Homework</md:title>
+  <md:abstract>The Central Limit Theorem: Homework is part of the collection col10555 written by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>eae5a923-7c97-4945-930d-ca20cb97b84a</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="The Central Limit Theorem.doc" strength="3">Download handout (.doc)</link>
+      <link url="The Central Limit Theorem.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <exercise id="element-440"><problem id="id6182284">
+  <para id="element-569"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:semantics></m:math> ~ <m:math><m:semantics><m:mrow><m:mstyle><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>60</m:mtext><m:mi>,</m:mi><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X "~" N \( "60",9 \) } {}</m:annotation></m:semantics></m:math>. Suppose that you form random samples of 25 from this distribution. Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math> be the random variable of averages. Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi fontstyle="italic">ΣX</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΣX} {}</m:annotation></m:semantics></m:math> be the random variable of sums. For <emphasis>c - f</emphasis>, sketch the graph, shade the region, label and scale the horizontal axis for
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math>, and find the probability.</para><list id="element-455" mark-suffix="." list-type="labeled-item"><item><label>a</label> Sketch the distributions of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math> on the same graph.</item>
+	<item><label>b</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>X</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math> ~
+    </item>
+	<item><label>c</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mi>P</m:mi>
+								<m:mo stretchy="false">(</m:mo>
+								<m:mrow>
+									<m:mover accent="true">
+										<m:mi>x</m:mi>
+										<m:mo>¯</m:mo>
+									</m:mover>
+									<m:mo stretchy="false">&lt;</m:mo>
+									<m:mtext>60</m:mtext>
+								</m:mrow>
+								<m:mrow>
+									<m:mo stretchy="false">)</m:mo>
+									<m:mo stretchy="false">=</m:mo>
+									<m:mrow/>
+								</m:mrow>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{P \(  {overline  {x}} &lt;"60" \) ={}} {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>d</label> Find the 30th percentile for the mean.</item>
+	<item><label>e</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mi>P</m:mi>
+								<m:mo stretchy="false">(</m:mo>
+								<m:mrow>
+									<m:mrow>
+										<m:mtext>56</m:mtext>
+										<m:mo stretchy="false">&lt;</m:mo>
+										<m:mover accent="true">
+											<m:mi>x</m:mi>
+											<m:mo>¯</m:mo>
+										</m:mover>
+									</m:mrow>
+									<m:mo stretchy="false">&lt;</m:mo>
+									<m:mtext>62</m:mtext>
+								</m:mrow>
+								<m:mrow>
+									<m:mo stretchy="false">)</m:mo>
+									<m:mo stretchy="false">=</m:mo>
+									<m:mrow/>
+								</m:mrow>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{P \( "56"&lt; {overline  {x}} &lt;"62" \) ={}} {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>f</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mi>P</m:mi>
+								<m:mo stretchy="false">(</m:mo>
+								<m:mrow>
+									<m:mrow>
+										<m:mtext>18</m:mtext>
+										<m:mo stretchy="false">&lt;</m:mo>
+										<m:mover accent="true">
+											<m:mi>x</m:mi>
+											<m:mo>¯</m:mo>
+										</m:mover>
+									</m:mrow>
+									<m:mo stretchy="false">&lt;</m:mo>
+									<m:mtext>58</m:mtext>
+								</m:mrow>
+								<m:mrow>
+									<m:mo stretchy="false">)</m:mo>
+									<m:mo stretchy="false">=</m:mo>
+									<m:mrow/>
+								</m:mrow>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{P \( "18"&lt; {overline  {x}} &lt;"58" \) ={}} {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	</list></problem>
+
+<solution id="id6009706">
+  <list id="element-209" mark-suffix="." list-type="labeled-item"><item><label>b</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mstyle fontstyle="italic">
+									<m:mrow>
+										<m:mtext>Xbar</m:mtext>
+									</m:mrow>
+								</m:mstyle>
+								<m:mtext>~</m:mtext>
+								<m:mi>N</m:mi>
+								<m:mo stretchy="false">(</m:mo>
+								<m:mtext>60</m:mtext>
+								<m:mi>,</m:mi>
+								<m:mfrac>
+									<m:mn>9</m:mn>
+									<m:msqrt>
+										<m:mtext>25</m:mtext>
+									</m:msqrt>
+								</m:mfrac>
+								<m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ ital "Xbar" "~" N \( "60", {  {9}  over  { sqrt {"25"} } }  \) } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>c</label>0.5000</item>
+	<item><label>d</label>59.06</item>
+	<item><label>e</label>0.8536</item>
+	<item><label>f</label>0.1333</item>
+	<item><label>h</label>1530.35</item>
+	<item><label>i</label>0.8536</item></list></solution>
+</exercise><exercise id="element-371"><problem id="id6264723">
+  <para id="element-597">
+ Determine which of the following are true and which are false.  Then, in complete sentences, justify your answers.
+  </para><list id="element-832" list-type="labeled-item" mark-suffix="."><item><label>a</label> When the sample size is large, the mean of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math> is approximately equal to the mean of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math>.</item>
+<item><label>b</label> When the sample size is large, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math> is approximately normally distributed.</item>
+<item><label>c</label> When the sample size is large, the standard deviation of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math> is approximately the same as the standard deviation of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math>.</item></list>
+</problem>
+</exercise><exercise id="element-169"><problem id="id6272391">
+  <para id="element-76">
+    The percent of fat calories that a person in America consumes each day is normally distributed with a mean of about 36 and a standard deviation of about 10.  Suppose that 16 individuals are randomly chosen. 
+  </para><para id="element-774">Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} ={}} {}</m:annotation></m:semantics></m:math>average percent of fat calories.</para><list id="element-182" list-type="labeled-item" mark-suffix="."><item><label>a</label>
+		<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mtext>~</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation></m:semantics></m:math>______ ( ______ , ______ )</item>
+	<item><label>b</label> For the group of 16, find the probability that the average percent of fat calories consumed is more than 5.  Graph the situation and shade in the area to be determined.</item>
+	<item><label>c</label> Find the first quartile for the average percent of fat calories.</item></list>
+</problem>
+
+<solution id="id6272525">
+  <list id="element-89" list-type="labeled-item" mark-suffix="."><item><label>a</label> <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>36</m:mtext><m:mi>,</m:mi><m:mfrac><m:mtext>10</m:mtext><m:msqrt><m:mtext>16</m:mtext></m:msqrt></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Xbar" "~" N \( "36", {  {"10"}  over  { sqrt {"16"} } }  \) } {}</m:annotation></m:semantics></m:math> </item>
+<item><label>b</label> 
+      1
+    </item>
+
+<item><label>c</label> 34.31</item></list>
+</solution>
+</exercise><exercise id="element-475"><problem id="id6273705">
+  <para id="element-850">Previously, De Anza statistics students estimated that the amount of change daytime statistics students carry is exponentially distributed with a mean of $0.88.  Suppose that we randomly pick 25 daytime statistics students. </para><list id="element-224" list-type="labeled-item" mark-suffix="."><item><label>a</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math>
+	</item>
+	<item><label>b</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mi>X</m:mi>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>c</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} ={}} {}</m:annotation></m:semantics></m:math>
+	</item>
+	<item><label>d</label>
+		<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mtext>~</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation></m:semantics></m:math> ______ ( ______ , ______ )</item>
+	<item><label>e</label> Find the probability that an individual had between $0.80 and $1.00. Graph the situation and shade in the area to be determined.</item>
+	<item><label>f</label> Find the probability that the average of the 25 students was between $0.80 and $1.00.  Graph the situation and shade in the area to be determined.</item>
+	<item><label>g</label> Explain the why there is a difference in (e) and (f).</item>
+</list>
+</problem>
+</exercise><exercise id="element-51"><problem id="id6273949">
+  <para id="element-365">
+   Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet.  We randomly sample 49 fly balls.
+  </para><list id="element-530" list-type="labeled-item" mark-suffix="."><item><label>a</label> If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} ={}} {}</m:annotation></m:semantics></m:math> average distance in feet for 49 fly balls, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mtext>~</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation></m:semantics></m:math>_______ ( _______ , _______ )</item>
+	<item><label>b</label> What is the probability that the 49 balls traveled an average of less than 240 feet? Sketch the graph. Scale the horizontal axis for
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math>. Shade the region corresponding to the probability. Find the probability.</item>
+	<item><label>c</label> Find the 80th percentile of the distribution of the average of 49 fly balls.</item>
+</list>
+</problem>
+
+<solution id="id6274098">
+  <list id="element-804" list-type="labeled-item" mark-suffix="."><item><label>a</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+              
+               
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>250</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mfrac>
+                    <m:mtext>50</m:mtext>
+                    <m:msqrt>
+                      <m:mtext>49</m:mtext>
+                    </m:msqrt>
+                  </m:mfrac>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "Xbar" "~" N \( "250", {  {"50"}  over  { sqrt {"49"} } }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>b</label> 
+     0.0808
+    </item>
+<item><label>c</label>256.01 feet</item></list>
+</solution>
+</exercise><exercise id="element-820"><problem id="id6533450">
+  <para id="element-518">
+   According to the Internal Revenue Service, the average length of time for an individual to complete (record keep, learn, prepare, copy, assemble and send) IRS Form 1040 is 10.53 hours (without any attached schedules).  The distribution is unknown.  Let us assume that the standard deviation is 2 hours.  Suppose we randomly sample 36 taxpayers.
+  </para><list id="element-685" list-type="labeled-item" mark-suffix="."><item><label>a</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math>
+	</item>
+	<item><label>b</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} ={}} {}</m:annotation></m:semantics></m:math>
+	</item>
+	<item><label>c</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>X</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>d</label> Would you be surprised if the 36 taxpayers finished their Form 1040s in an average of more than 12 hours?  Explain why or why not in complete sentences.</item>
+	<item><label>e</label> Would you be surprised if one taxpayer finished his Form 1040 in more than 12 hours? In a complete sentence, explain why.</item></list>
+</problem>
+</exercise><exercise id="element-133"><problem id="id6533652">
+  <para id="element-243">
+   Suppose that a category of world class runners are known to run a marathon (26 miles) in an average of 145 minutes with a standard deviation of 14 minutes.  Consider 49 of the races.  
+  </para><para id="element-27">Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} ={}} {}</m:annotation></m:semantics></m:math> the average of the 49 races.</para><list id="element-45" mark-suffix="." list-type="labeled-item"><item><label>a</label> 
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>X</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>b</label> Find the probability that the runner will average between 142 and 146 minutes in these 49 marathons.</item>
+	<item><label>c</label> Find the 80th percentile for the average of these 49 marathons.</item>
+	<item><label>d</label> Find the median of the average running times.</item></list></problem>
+
+<solution id="id6533816">
+  <list id="element-402" list-type="labeled-item" mark-suffix="."><item><label>a</label> <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>145</m:mtext><m:mi>,</m:mi><m:mfrac><m:mtext>14</m:mtext><m:msqrt><m:mtext>49</m:mtext></m:msqrt></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Xbar" "~" N \( "145", {  {"14"}  over  { sqrt {"49"} } }  \) } {}</m:annotation></m:semantics></m:math></item>
+<item><label>b</label> 
+     0.6247
+    </item>
+<item><label>c</label> 146.68 </item>
+<item><label>d</label> 145 minutes</item></list>
+</solution>
+</exercise><exercise id="element-941"><problem id="id6533927">
+  <para id="element-918">
+ The attention span of a two year-old is exponentially distributed with a mean of about 8 minutes.  Suppose we randomly survey 60 two year-olds.
+  </para><list id="element-307" list-type="labeled-item" mark-suffix="."><item><label>a</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math>
+	</item>
+	<item><label>b</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mi>X</m:mi>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>c</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} ={}} {}</m:annotation></m:semantics></m:math>
+	</item>
+	<item><label>d</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>X</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>e</label> Before doing any calculations, which do you think will be higher? Explain why. 
+<list id="sublist1" list-type="labeled-item" mark-suffix="."><item><label>i</label> the probability that an individual attention span is less than 10 minutes; or</item>
+			<item><label>ii</label> the probability that the average attention span for the 60 children is less 					     than 10 minutes? Why?</item>
+		</list>
+	</item>
+	<item><label>f</label> Calculate the probabilities in part (e).</item>
+	<item><label>g</label> Explain why the distribution for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math> is not exponential.</item></list>
+</problem>
+</exercise><exercise id="element-848"><problem id="id6534960">
+  <para id="element-175">The length of songs in a collector’s CD collection is uniformly distributed from 2 to 3.5 minutes.  Suppose we randomly pick 5 CDs from the collection.  There is a total of 43 songs on the 5 CDs.</para><list id="element-118" list-type="labeled-item" mark-suffix="."><item><label>a</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math></item>
+	<item><label>b</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mi>X</m:mi>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>c</label> In words, 
+      <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>X</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mtext>=</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>d</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>X</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>e</label> Find the first quartile for the average song length.</item>
+	<item><label>f</label> The IQR (interquartile range) for the average song length is from _______ to _______.</item></list>
+</problem>
+</exercise><exercise id="element-138"><problem id="id6535223">
+  <para id="element-245">
+   Salaries for teachers in a particular elementary school district are normally distributed with a mean of $44,000 and a standard deviation of $6500.  We randomly survey 10 teachers from that district.
+  </para><list id="element-285" mark-suffix="." list-type="labeled-item"><item><label>a</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math></item>
+	<item><label>b</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} ={}} {}</m:annotation></m:semantics></m:math></item>
+	<item><label>c</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>X</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	
+	<item><label>f</label> Find the probability that the teachers earn a total of over $400,000.</item>
+	<item><label>g</label> Find the 90th percentile for an individual teacher’s salary.</item>
+	<item><label>h</label> Find the 90th percentile for the average teachers’ salary.</item>
+	<item><label>i</label> If we surveyed 70 teachers instead of 10, graphically, how would that change the distribution for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math>?</item>
+	<item><label>j</label> If each of the 70 teachers received a $3000 raise, graphically, how would that change the distribution for
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math>?</item></list></problem>
+
+<solution id="id6535586">
+  <list id="element-378" list-type="labeled-item" mark-suffix="."><item><label>c</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                 
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>44</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>000</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mfrac>
+                    <m:mtext>6500</m:mtext>
+                    <m:msqrt>
+                      <m:mtext>10</m:mtext>
+                    </m:msqrt>
+                  </m:mfrac>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "Xbar" "~" N \( "44","000", {  {"6500"}  over  { sqrt {"10"} } }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+
+<item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                 
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mtext>440,000</m:mtext>
+                  </m:mrow>
+                  <m:mi>,</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:msqrt>                  
+                      <m:mrow>
+                        <m:mtext>10</m:mtext>                                               
+                      </m:mrow>   
+                  </m:msqrt>
+                  <m:mo stretchy="false">)</m:mo>
+                     <m:mo stretchy="false">(</m:mo>                              
+                      <m:mrow>
+                        <m:mtext>6500</m:mtext>                                               
+                      </m:mrow>                    
+                  <m:mo stretchy="false">)</m:mo>  
+                  <m:mo stretchy="false">)</m:mo>    
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "SumX" "~" N \( "10" * "44","000", sqrt { \( "10" * "6500" \) }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label> 
+      0.9742
+    </item>
+<item><label>g</label> $52,330</item>
+<item><label>h</label> $46,634</item>
+</list>
+</solution>
+</exercise><exercise id="element-795"><problem id="id6535840">
+  <para id="element-638">
+    The distribution of income in some Third World countries is considered wedge shaped (many very poor people, very few middle income people, and few to many wealthy people).  Suppose we pick a country with a wedge distribution.  Let the average salary be $2000 per year with a standard deviation of $8000.  We randomly survey 1000 residents of that country.
+  </para><list id="element-834" list-type="labeled-item" mark-suffix="."><item><label>a</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math></item>
+	<item><label>b</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} ={}} {}</m:annotation></m:semantics></m:math></item>
+	<item><label>c</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>X</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>d</label> How is it possible for the standard deviation to be greater than the average?</item>
+	<item><label>e</label> Why is it more likely that the average of the 1000 residents will be from $2000 to $2100 than from $2100 to $2200?</item></list>
+</problem>
+</exercise><exercise id="element-566"><problem id="id6536038">
+  <para id="element-798">
+   The average length of a maternity stay in a U.S. hospital is said to be 2.4 days with a standard deviation of 0.9 days.  We randomly survey 80 women who recently bore children in a U.S. hospital.
+
+  </para>
+<list id="madeup" mark-suffix="." list-type="labeled-item"><item><label>a</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math>
+	</item>
+	<item><label>b</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} ={}} {}</m:annotation></m:semantics></m:math>
+	</item>
+	<item><label>c</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>X</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	
+	<item><label>f</label> Is it likely that an individual stayed more than 5 days in the hospital?  Why or why not?</item>
+	<item><label>g</label> Is it likely that the average stay for the 80 women was more than 5 days?  Why or why not?</item>
+	<item><label>h</label> Which is more likely: <list id="sublist" list-type="labeled-item" mark-suffix="."><item><label>i</label>an individual stayed more than 5 days; or</item>
+			<item><label>ii</label>the average stay of 80 women was more than 5 days?</item></list>
+	</item>
+	
+</list></problem>
+
+<solution id="id6536385">
+<list id="madeup1" list-type="labeled-item" mark-suffix="."><item><label>c</label> <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mn>4,</m:mn><m:mfrac><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mn>9</m:mn></m:mrow><m:msqrt><m:mtext>80</m:mtext></m:msqrt></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Xbar" "~" N \( 2 "." 4, {  {0 "." 9}  over  { sqrt {"80"} } }  \) } {}</m:annotation></m:semantics></m:math></item>
+
+<item><label>e</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>192</m:mtext></m:mrow><m:mtext>,</m:mtext><m:mn>8.05</m:mn><m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "SumX" "~" N \( "80" * 2 "." 4, sqrt {"80"}  * 0 "." 9 \) } {}</m:annotation></m:semantics></m:math></item>
+
+<item><label>h</label>Individual</item>
+
+</list>
+</solution>
+</exercise><exercise id="element-424"><problem id="id6536525">
+  <para id="element-799">
+   In 1940 the average size of a U.S. farm was 174 acres.  Let’s say that the standard deviation was 55 acres.  Suppose we randomly survey 38 farmers from 1940.  (Source:  U.S. Dept. of Agriculture)
+
+  </para>
+<list id="madeup2" list-type="labeled-item" mark-suffix="."><item><label>a</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math></item>
+	<item><label>b</label> In words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} ={}} {}</m:annotation></m:semantics></m:math></item>
+	<item><label>c</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>X</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mtext>~</m:mtext>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}}  "~" } {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>d</label> The IQR for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math> is from _______ acres to _______ acres.</item>
+</list>
+</problem>
+</exercise><section id="id6538166"><title>Try these multiple choice questions (Exercises19 - 23).</title><para id="element-839"><emphasis> The next two questions refer to the following information:</emphasis> The time to wait for a particular rural bus is distributed uniformly from 0 to 75 minutes. 100 riders are randomly sampled to learn how long they waited.</para><exercise id="element-620"><problem id="id6538203">
+  <para id="element-73">
+    The 90th percentile sample average wait time (in minutes) for a sample of 100 riders is:
+  </para><list id="element-576" list-type="labeled-item" mark-suffix="."><item><label>A</label> 315.0</item>
+<item><label>B</label> 40.3	</item>
+<item><label>C</label>  38.5	</item>
+<item><label>D</label> 65.2</item>
+</list>
+</problem>
+
+<solution id="id6538281">
+  <para id="element-230">
+  B
+  </para>
+</solution>
+</exercise><exercise id="element-339"><problem id="id6538305">
+  <para id="element-905">
+    Would you be surprised, based upon numerical calculations, if the sample average wait time (in minutes) for 100 riders was less than 30 minutes?
+  </para><list id="element-346" list-type="labeled-item" mark-suffix="."><item><label>A</label> Yes</item>
+<item><label>B</label> No</item>
+<item><label>C</label>  There is not enough information.	</item>
+
+</list>
+</problem>
+
+<solution id="id6538373">
+  <para id="element-59">
+    A
+  </para>
+</solution>
+</exercise><exercise id="element-338"><problem id="id6538396">
+  <para id="element-943">
+  Which of the following is NOT TRUE about the distribution for averages?
+  </para><list id="element-992" list-type="labeled-item" mark-suffix="."><item><label>A</label> The mean, median and mode are equal</item>
+<item><label>B</label> The area under the curve is one</item>
+<item><label>C</label> The curve never touches the x-axis	</item>
+<item><label>D</label> The curve is skewed to the right</item>
+
+</list>
+</problem>
+
+<solution id="id6538477">
+  <para id="element-60">
+    D
+  </para>
+</solution>
+</exercise><para id="element-496"><emphasis>The next three questions refer to the following information:</emphasis> The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10.  Sixteen gas stations from the Bay Area are randomly chosen.  We are interested in the average cost of gasoline for the 16 gas stations.</para><exercise id="element-680"><problem id="id6538522">
+  <para id="element-517">
+The distribution to use for the average cost of gasoline for the 16 gas stations is
+  </para><list id="element-728" mark-suffix="." list-type="labeled-item"><item><label>A</label>
+<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:mn>4.59</m:mn>
+<m:mo>,</m:mo>
+<m:mn>0.10</m:mn>
+<m:mo>)</m:mo>
+</m:math>
+</item>
+
+<item><label>B</label>
+<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:mn>4.59</m:mn>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>0.10</m:mn>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mn>16</m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:math>
+</item>
+
+<item><label>C</label>
+<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:mn>4.59</m:mn>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mn>0.10</m:mn>
+<m:mn>16</m:mn>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:math>
+</item>
+
+<item><label>D</label>
+<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:mn>4.59</m:mn>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mn>16</m:mn>
+<m:mn>0.10</m:mn>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:math>
+</item></list></problem>
+
+<solution id="id6538759">
+  <para id="element-156">
+B
+  </para>
+</solution>
+</exercise><exercise id="element-644"><problem id="id6538784">
+  <para id="element-163">What is the probability that the average price for 16 gas stations is over $4.69?
+  </para><list id="element-390" list-type="labeled-item" mark-suffix="."><item><label>A</label> Almost zero</item>
+<item><label>B</label> 0.1587</item>
+<item><label>C</label> 0.0943</item>
+<item><label>D</label> Unknown</item>
+</list>
+</problem>
+
+<solution id="id6538862">
+  <para id="element-931">
+   A
+  </para>
+</solution>
+</exercise><exercise id="eip-415"><problem id="eip-id1164882896740">
+  <para id="eip-id1164888343606">Find the probability that the average price for 30 gas stations is less than $4.55. 
+  </para><list id="element-193" list-type="labeled-item" mark-suffix=".">
+<item><label>A</label>0.6554</item>
+<item><label>B</label>0.3446</item>
+<item><label>C</label>0.0142</item>
+<item><label>D</label>0.9858</item>
+<item><label>E</label>0</item></list>
+</problem>
+
+<solution id="eip-id2487344">
+  <para id="eip-id1164888569646">C
+  </para>
+</solution>
+</exercise><exercise id="eip-786"><problem id="eip-371">
+  <para id="eip-975">For the Charter School Problem (Example 6) in <emphasis>Central Limit Theorem: Using the Central Limit Theorem</emphasis>, calculate the following using the normal approximation to the binomial.
+  <list id="Charter_School" mark-suffix="." list-type="labeled-item"><item><label>A</label> Find the probability that less than 100 favor a charter school for grades K - 5.</item>
+<item><label>B</label> Find the probability that 170 or more favor a charter school for grades K - 5.</item>
+<item><label>C</label> Find the probability that no more than 140 favor a charter school for grades K - 5.</item>
+<item><label>D</label> Find the probability that there are fewer than 130 that favor a charter school for grades K - 5.</item>
+<item><label>E</label> Find the probability that exactly 150 favor a charter school for grades K - 5.</item>
+</list>
+
+If you either have access to an appropriate calculator or computer software, try calculating these probabilities using the technology.  Try also using the suggestion that is at the bottom of <emphasis>Central Limit Theorem: Using the Central Limit Theorem</emphasis> for finding a website that calculates binomial probabilities.
+
+</para></problem>
+
+<solution id="eip-350">
+  <para id="eip-425"><list id="Charter_school_answers" mark-suffix="." list-type="labeled-item"><item><label>C</label> 0.0162</item>
+<item><label>E</label> 0.0268</item>
+</list>
+
+</para>
+</solution>
+</exercise><exercise id="eip-140"><problem id="eip-821">
+  <para id="eip-681">Four friends, Janice, Barbara, Kathy and Roberta, decided to carpool together to get to school.  Each day the driver would be chosen by randomly selecting one of the four names.  They carpool to school for 96 days. Use the normal approximation to the binomial to calculate the following probabilities. Round the standard deviation to 4 decimal places.
+  
+<list id="Carpool" mark-suffix="." list-type="labeled-item"><item><label>A</label> Find the probability that Janice is the driver at most 20 days.</item>
+<item><label>B</label> Find the probability that Roberta is the driver more than 16 days.</item>
+<item><label>C</label> Find the probability that Barbara drives exactly 24 of those 96 days.</item>
+</list>
+
+If you either have access to an appropriate calculator or computer software, try calculating these probabilities using the technology.  Try also using the suggestion that is at the bottom of <emphasis>Central Limit Theorem: Using the Central Limit Theorem</emphasis> for finding a website that calculates binomial probabilities.</para></problem>
+
+
+
+<solution id="eip-168">
+  <para id="eip-768"><list id="Carpool_answers" mark-suffix="." list-type="labeled-item"><item><label>A</label> 0.2047</item>
+<item><label>B</label> 0.9615</item>
+<item><label>C</label> 0.0938</item>
+</list></para>
+</solution>
+</exercise>
+</section><para id="eip-578">**Exercise 24 contributed by Roberta Bloom</para>   
+  </content>
+  
+</document>

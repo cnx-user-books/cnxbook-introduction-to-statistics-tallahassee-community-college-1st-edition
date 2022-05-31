@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Summary of the Hypothesis Test</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65978</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Summary of the Hypothesis Test</md:title>
+  <md:abstract/>
+  <md:uuid>a83bb351-a0a0-47f5-a335-fe4b42272478</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">The <term target-id="hypotest">hypothesis test</term> itself has an established process. This can be summarized as follows:
+<list id="list-1" list-type="enumerated"><item>Determine <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> and <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math>. Remember, they are contradictory.</item>
+
+<item>Determine the distribution for the test.</item>
+<item>Draw a graph, calculate the test statistic, and use the test statistic to calculate the
+<term target-id="p-value">p-value</term>. (A z-score and a t-score are examples of test statistics.)</item>
+<item>Compare the preconceived <m:math><m:mi>α</m:mi></m:math> with the p-value, make a decision (reject or do not reject <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math>), and write a clear conclusion using English sentences.</item>
+</list></para><para id="element-844">Notice that in performing the hypothesis test, you use <m:math><m:mi>α</m:mi></m:math> and not <m:math><m:mi>β</m:mi></m:math>. <m:math><m:mi>β</m:mi></m:math> is needed to help
+determine the sample size of the data that is used in calculating the p-value. Remember
+that the quantity <m:math><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>β</m:mi></m:math> is called the <emphasis>Power of the Test</emphasis>. A high power is desirable. If the
+power is too low, statisticians typically increase the sample size while keeping <m:math><m:mi>α</m:mi></m:math> the same.
+If the power is low, the null hypothesis might not be rejected when it should be.</para>   
+  </content>
+
+  <glossary>
+ <definition id="hypotest">
+    <term>Hypothesis Testing</term>
+    <meaning id="id23787132">
+   Based on sample evidence, a procedure to determine whether the hypothesis stated is a reasonable statement and cannot be rejected, or is unreasonable and should be rejected.
+    </meaning>
+  </definition>
+
+<definition id="pvalue">
+    <term>p-value</term>
+    <meaning id="id9446562">
+The probability that an event will happen purely by chance assuming the null hypothesis is true. The smaller the p-value, the stronger the evidence is against the null hypothesis.
+    </meaning>
+  </definition>
+
+</glossary>
+</document>

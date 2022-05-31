@@ -1,0 +1,124 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Distribution Needed for Hypothesis Testing</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65972</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Distribution Needed for Hypothesis Testing</md:title>
+  <md:abstract/>
+  <md:uuid>c7839fe4-0218-4e5c-b280-5d185ea1424f</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">Earlier in the course, we discussed sampling distributions. <emphasis>Particular distributions are
+associated with hypothesis testing.</emphasis> Perform tests of a population mean using a <term target-id="nrmdist">normal
+distribution</term> or a <term target-id="studenttdist">student's-t distribution.</term> (Remember, use a student's-t distribution when the
+population <term target-id="stddev">standard deviation</term> is unknown and the distribution of the sample mean is approximately normal.) In this chapter we perform tests of a population proportion using a normal distribution (usually <m:math><m:mi>n</m:mi></m:math> is
+large or the sample size is large).
+
+</para><para id="element-418">If you are testing a <emphasis>single population mean</emphasis>, the distribution for the test is for <emphasis>means</emphasis>:</para><para id="element-363"><m:math>
+<m:apply>
+<m:conjugate/>
+<m:mi>X</m:mi>
+</m:apply></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mspace width="20pt"/>
+</m:math>
+or
+<m:math>
+<m:mspace width="20pt"/>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mtext>df</m:mtext>
+</m:msub>
+<m:mspace width="20pt"/>
+</m:math>
+</para><para id="element-838">The population parameter is <m:math><m:mi>μ</m:mi></m:math>. The estimated value (point estimate) for <m:math><m:mi>μ</m:mi></m:math> is <m:math><m:apply><m:conjugate/><m:mi>x</m:mi></m:apply></m:math>,
+the sample mean.</para><para id="element-245">If you are testing a <emphasis>single population proportion</emphasis>, the distribution for the test is for
+proportions or percentages:</para><para id="element-851"><m:math>
+<m:mi>P'</m:mi>
+</m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:mi>p</m:mi>
+<m:mo>,</m:mo>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:mi>p</m:mi>
+<m:mo>⋅</m:mo>
+<m:mi>(1-p)</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+<m:mo>)</m:mo>
+<m:mspace width="20pt"/>
+</m:math>
+</para><para id="element-128">The population parameter is <m:math><m:mi>p</m:mi></m:math>. The estimated value (point estimate) for <m:math><m:mi>p</m:mi></m:math> is
+<m:math><m:mi>p-hat</m:mi></m:math>.
+<m:math><m:mi>p-hat</m:mi><m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:math>
+where <m:math><m:mi>x</m:mi></m:math> is the number of successes and <m:math><m:mi>n</m:mi></m:math> is the sample size.</para></content>
+  <glossary>
+
+<definition id="normdist">
+    <term>Normal Distribution</term>
+    <meaning id="id42733014">
+   A continuous random variable (RV) with pdf  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>f(x)</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>σ</m:mi><m:msqrt><m:mn>2π</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mn>2σ</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "pdf"= {  {1}  over  {σ sqrt {2π} } } e rSup { size 8{ -  \( x - μ \)  rSup { size 6{2} } /2σ rSup { size 6{2} } } } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:mi>μ</m:mi></m:math>  is the mean of the distribution and <m:math><m:mi>σ</m:mi></m:math>  is the standard deviation. Notation: <m:math><m:mi>X</m:mi></m:math>  ~  <m:math> <m:mi>N</m:mi>
+  <m:mfenced>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>σ</m:mi>
+      <m:mn/>
+    </m:msup>
+  </m:mfenced></m:math>. If <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> and <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math>, the RV is called <emphasis>the standard normal distribution</emphasis>.
+    </meaning>
+  </definition>
+
+ 
+
+<definition id="stddev">
+    <term>Standard Deviation</term>
+    <meaning id="id20302532">
+A number that is equal to the square root of the variance and measures how far data values are from their mean. Notation: s for sample standard deviation and   <m:math><m:ci>σ</m:ci></m:math> for population standard deviation.
+    </meaning>
+  </definition>
+
+
+
+<definition id="studenttdist">
+    <term>Student's-<emphasis>t</emphasis> Distribution</term>
+    <meaning id="id8759760">
+Investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are: 
+
+<list id="tdist1" list-type="bulleted"><item>It is continuous and assumes any real values. </item><item>The pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution. </item><item>  It approaches the standard normal distribution as n gets larger. </item><item>  There is a "family" of t distributions: every representative of the family is completely defined by the number of degrees of freedom which is one less than the number of data.</item></list>
+
+    </meaning>
+  </definition>
+
+</glossary>
+</document>

@@ -1,0 +1,452 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="review">
+  <title>Continuous Random Variables: Review</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65546</md:content-id>
+  <md:title>Continuous Random Variables: Review</md:title>
+  <md:abstract>This module provides a number of homework/review problems related to Continuous Random Variables.</md:abstract>
+  <md:uuid>add9fe49-23bc-4bc2-a1ed-fdda3b203980</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Continuous Random Variables (review).doc" strength="3">Download handout (.doc)</link>
+      <link url="Continuous Random Variables _review.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="delete_me"><emphasis><link target-id="element-813"/> – <link target-id="element-836"/> refer to the following study:</emphasis> A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions.  Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time.  However, out of all of the mothers in the population, 49% work full-time.  The population under study is made up of mothers of junior high school children in Santa Clara County.
+
+    
+    </para><para id="element-48">Let 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>E</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{E={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>employed, Let 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>F</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{F={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>full-time employment</para><exercise id="element-813"><problem id="id43372320">
+  <list id="element-378" list-type="labeled-item" mark-suffix="."><item><label>a</label> Find the percent of all mothers in the population that NOT employed.</item>
+<item><label>b</label> Find the percent of mothers in the population that are employed part-time.</item>
+</list>
+</problem>
+
+<solution id="id43321379">
+  <list id="element-175" list-type="labeled-item" mark-suffix="."><item><label>a</label> 24%</item>
+<item><label>b</label> 27%</item></list>
+</solution>
+</exercise><exercise id="element-235"><problem id="id43146888">
+  <para id="element-928">
+   The type of employment is considered to be what type of data?
+  </para>
+</problem>
+
+<solution id="id43312304">
+  <para id="element-985">Qualitative 
+  </para>
+</solution>
+</exercise><exercise id="element-998"><problem id="id46711429">
+  <para id="element-340">
+   In symbols, what does the 36% represent?
+  </para>
+</problem>
+
+<solution id="id43437942">
+  <para id="element-126">
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>PT</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mi>E</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \(  ital "PT" \lline E \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+  </para>
+</solution>
+</exercise><exercise id="element-410"><problem id="id43410395">
+  <para id="element-491">
+Find the probability that a randomly selected person from the population will be employed OR work full-time.
+  </para>
+</problem>
+
+<solution id="id43438899">
+  <para id="element-539">0.7336</para>
+</solution>
+</exercise><exercise id="element-841"><problem id="id43392784">
+  <para id="element-549">
+Based upon the above information, are being employed AND working part-time:
+  </para><list id="element-979" list-type="labeled-item" mark-suffix="."><item><label>a</label> mutually exclusive events?  Why or why not?</item>
+<item><label>b</label> independent events?  Why or why not?</item></list>
+</problem>
+
+<solution id="id46679813">
+  <list id="element-552" list-type="labeled-item" mark-suffix="."><item><label>a</label> No, 
+</item>
+<item><label>b</label> No, 
+</item></list>
+</solution>
+</exercise><para id="element-261"><emphasis><link target-id="element-309"/> - <link target-id="element-836"/> refer to the following:</emphasis> We randomly pick 10 mothers from the above population.  We are interested in the number of the mothers that are employed.  Let 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>number of mothers that are employed.
+    </para><exercise id="element-309"><problem id="id43097070">
+  <para id="element-526">
+    State the distribution for 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>X</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math>.
+    
+  </para>
+</problem>
+
+<solution id="id43098604">
+  <para id="element-959">
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>B</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>10</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>76</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{B \( "10",0 "." "76" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+  </para>
+</solution>
+</exercise><exercise id="element-836"><problem id="id43099391">
+  <para id="element-133">
+Find the probability that at least 6 are employed.
+  </para>
+</problem>
+
+<solution id="id43428866">
+  <para id="element-364">0.9330</para>
+</solution>
+</exercise><exercise id="element-895"><problem id="id45460788">
+  <para id="element-454">
+   A person invests $1000 in stock of a company that hopes to go public in 1 year.
+  </para><list id="element-955" list-type="bulleted"><item>The probability that the person will lose all his money after 1 year (i.e. his stock will be worthless) is 35%.</item>
+<item>The probability that the person’s stock will still have a value of $1000 after 1 year (i.e. no profit and no loss) is 60%.</item>
+<item>The probability that the person’s stock will increase in value by $10,000 after 1 year (i.e. will be worth $11,000) is 5%.</item>
+</list><para id="element-282">Find the expected PROFIT after 1 year.</para>
+</problem>
+
+<solution id="id43482474">
+  <para id="element-101">$150</para>
+</solution>
+</exercise><exercise id="element-759"><problem id="id43435608">
+  <para id="element-847">
+   Rachel’s piano cost $3000.  The average cost for a piano is $4000 with a standard deviation of $2500. 
+Becca’s guitar cost $550. The average cost for a guitar is $500 with a standard deviation of $200. 
+Matt’s drums cost $600. The average cost for drums is $700 with a standard deviation of $100. 
+Whose cost was lowest when compared to his or her own instrument?  Justify your answer.
+
+  </para>
+</problem>
+
+<solution id="id43049517">
+  <para id="element-168">Matt 
+  </para>
+</solution>
+</exercise><exercise id="element-208"><problem id="id46684438">
+  <para id="element-587">
+   For the following data, which of the measures of central tendency would be the LEAST useful:  mean, median, mode?  Explain why.  Which would be the MOST useful?  Explain why.
+  </para><para id="element-773"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>4,6,6,</m:mn>
+                  <m:mtext>12</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>18</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>18</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>18</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>200</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{4,6,6,"12","18","18","18","200"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+</problem>
+
+<solution id="id43201092">
+  <para id="element-264">Mean
+  </para>
+</solution>
+</exercise><exercise id="element-910"><problem id="id43382730">
+<media id="id46704592" alt="Horizontal boxplot with first whisker extending from 1 to 2, box from 2 to 5,  line at 4, and second whisker extending from 5 to 7." display="block"><image src="../../media/12.png" mime-type="image/png" width="400" print-width="4in"/></media>
+ <para id="element-118">
+   For each statement below, explain why each is either true or false.
+  </para><list id="element-428" list-type="labeled-item" mark-suffix="."><item><label>a</label> 25% of the data are at most 5.</item>
+	<item><label>b</label> There is the same amount of data from 4 – 5 as there is from 5 – 7.</item>
+	<item><label>c</label> There are no data values of 3.</item>
+	<item><label>d</label> 50% of the data are 4.</item>
+</list>
+</problem>
+
+<solution id="id43530335">
+  <list id="element-618" list-type="labeled-item" mark-suffix="."><item><label>a</label> False </item>
+<item><label>b</label> True </item>
+<item><label>c</label> False </item>
+<item><label>d</label> False </item></list>
+</solution>
+</exercise><para id="element-352"><emphasis><link target-id="element-222"/> – <link target-id="element-946"/> refer to the following:</emphasis> 64 faculty members were asked the number of cars they owned (including spouse and children’s cars).  The results are given in the following graph:
+<media id="id47471194" alt="Histogram consisting of 5 bars with number of cars, from 0-7 in increments of 1, on the x-axis, and frequency, in increments of 0.1 from 0.15-0.45, on the y-axis. No bars exist for 4, 5, or 7. Bar 0 has a frequency of 0.075, 1 has 0.15, 2 has 0.45, 3 has 0.25, and 6 has 0.075."><image src="../../media/chart.png" mime-type="image/png" width="650" print-width="6in"/></media></para><exercise id="element-222"><problem id="id47199156">
+  <para id="element-651">
+Find the approximate number of responses that were “3.”
+  </para>
+</problem>
+
+<solution id="id43277774">
+  <para id="element-548">
+16
+  </para>
+</solution>
+</exercise><exercise id="element-946"><problem id="id43198828">
+  <para id="element-320">Find the first, second and third quartiles.  Use them to construct a box plot of the data.
+  </para>
+</problem>
+
+<solution id="id45474252">
+  <para id="element-590">
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mn>2,2,3</m:mn>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2,2,3} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+  </para>
+</solution>
+</exercise><para id="element-789"><emphasis><link target-id="element-804"/> – <link target-id="element-684"/> refer to the following study done of the Girls soccer team “Snow Leopards”:</emphasis><table id="element-475" summary="">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>Hair Style</entry>
+            <entry/>
+            <entry>Hair Color</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry/>
+            <entry>blond</entry>
+            <entry>brown</entry>
+            <entry>black</entry>
+          </row>
+          <row>
+            <entry>ponytail</entry>
+            <entry>3</entry>
+            <entry>2</entry>
+            <entry>5</entry>
+          </row>
+          <row>
+            <entry>plain</entry>
+            <entry>2</entry>
+            <entry>2</entry>
+            <entry>1</entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table>
+Suppose that one girl from the Snow Leopards is randomly selected.</para><exercise id="element-804"><problem id="id43442400">
+  <para id="element-747">
+Find the probability that the girl has black hair GIVEN that she wears a ponytail.
+  </para>
+</problem>
+
+<solution id="id45461051">
+  <para id="element-716">
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>5</m:mn>
+                      <m:mtext>10</m:mtext>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {5}  over  {"10"} } =0 "." 5} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+  </para>
+</solution>
+</exercise><exercise id="element-684"><problem id="id43429283">
+  <para id="element-447">
+Find the probability that the girl wears her hair plain OR has brown hair.
+  </para>
+</problem>
+
+<solution id="id43279393">
+  <para id="element-616">
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>7</m:mn>
+                  <m:mtext>15</m:mtext>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {7}  over  {"15"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+  </para>
+</solution>
+</exercise><exercise id="element-451"><problem id="id43444788">
+  <para id="element-498">
+Find the probability that the girl has blond hair AND that she wears her hair plain.
+  </para>
+</problem>
+
+<solution id="id43439300">
+  <para id="element-947">
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mtext>15</m:mtext>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {"15"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+  </para>
+</solution>
+</exercise>   
+  </content>
+  
+</document>

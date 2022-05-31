@@ -1,0 +1,1400 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="homework">
+  <title>Descriptive Statistics: Homework</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65242</md:content-id>
+  <md:title>Descriptive Statistics: Homework</md:title>
+  <md:abstract>Descriptive Statistics: Homework is part of the collection col10555 written by Barbara Illowsky and Susan Dean and  provides homework questions related to lessons about descriptive statistics.</md:abstract>
+  <md:uuid>ea0ccd7b-7163-4c71-acfa-58ee7ee63678</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Descriptive Statistics.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="Descriptive Statistics.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <exercise id="element-833"><problem id="id3776067">
+  <para id="element-202">
+   Twenty-five randomly selected students were asked the number of movies they watched the previous week. The results are as follows:
+<table id="element-681" summary="The table presents the number of movies 25 students watched in the previous week. The first column lists the number of movies from 0-4, the second column lists the frequency with the values of 5, 9, 6, 4, 1, the third column is for relative frequency and is blank, and the fourth column is for cumulative relative frequency and is blank.">
+
+<tgroup cols="4"><thead>
+ <row>
+    <entry># of movies</entry>
+    <entry>Frequency</entry>
+    <entry>Relative Frequency</entry>
+    <entry>Cumulative Relative Frequency</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0</entry>
+    <entry>5</entry>
+   <entry/>
+   <entry/>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>9</entry>
+  <entry/>
+  <entry/>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>6</entry>
+  <entry/>
+  <entry/>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>4</entry>
+   <entry/>
+  <entry/>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>1</entry>
+  <entry/>
+  <entry/>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+  </para><list id="element-113" mark-suffix="." list-type="labeled-item"><item><label>a</label>Find the sample mean <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math></item>
+<item><label>b</label>Find the sample standard deviation, <m:math><m:mi>s</m:mi></m:math></item>
+<item><label>c</label>Construct a histogram of the data. </item>
+<item><label>d</label>Complete the columns of the chart. </item>
+<item><label>e</label>Find the first quartile. </item>
+<item><label>f</label>Find the median. </item>
+<item><label>g</label>Find the third quartile. </item>
+<item><label>h</label>Construct a box plot of the data. </item>
+<item><label>i</label>What percent of the students saw fewer than three movies? </item>
+<item><label>j</label>Find the 40th percentile. </item>
+<item><label>k</label>Find the 90th percentile. </item>
+<item><label>l</label>Construct a line graph of the data. </item>
+<item><label>m</label>Construct a stem plot of the data. </item></list>
+</problem>
+<solution id="id6101341">
+  <list id="element-934" list-type="labeled-item" mark-suffix="."><item><label>a</label>1.48</item>
+<item><label>b</label>1.12</item>
+<item><label>e</label>1</item>
+<item><label>f</label>1</item>
+<item><label>g</label>2</item>
+<item><label>h</label>
+  <media id="id4353428" alt="A box plot with a whisker between 0 and 1, a dotted line at 1, a solid line at 2, and a whisker between 2 and 4."><image src="../../media/desc_stats_hw_boxplot13.png" mime-type="image/png" print-width="2.5in"/></media>
+</item>
+<item><label>i</label>80%</item>
+<item><label>j</label>1</item>
+<item><label>k</label>3</item></list>
+</solution>
+</exercise><exercise id="element-571"><problem id="id3836219">
+  <para id="element-139">The median age for U.S. blacks currently is 30.9 years; for U.S. whites it is 42.3 years. ((<cite><cite-title>Source:  http://www.usatoday.com/news/nation/story/2012-05-17/minority-births-census/55029100/1)</cite-title></cite>)
+<list id="hw-list2" list-type="labeled-item" mark-suffix="."><item><label>a</label>Based upon this information, give two reasons why the black median age could be lower than the white median age.</item>
+<item><label>b</label>Does the lower median age for blacks necessarily mean that blacks die younger than whites?  Why or why not?</item>
+<item><label>c</label>How might it be possible for blacks and whites to die at approximately the same age, but for the median age for whites to be higher?</item>
+</list>
+
+
+</para></problem>
+
+</exercise><exercise id="element-976"><problem id="id6006371">
+  <para id="element-567">
+    Forty randomly selected students were asked the number of pairs of sneakers they owned.  Let X = the number of pairs of sneakers owned.  The results are as follows:
+  </para><table id="element-130" summary="The table presents the number of pairs of sneakers forty students own. The first column lists the number of pairs of sneakers owned from 0-7, the second column lists the frequency, the third column is relative frequency and is blank, and the fourth column is cumulative relative frequency and is blank.">
+
+<tgroup cols="4"><thead>
+ <row>
+    <entry>X</entry>
+    <entry>Frequency</entry>
+    <entry>Relative Frequency</entry>
+    <entry>Cumulative Relative Frequency</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>1</entry>
+    <entry>2</entry>
+   <entry/>
+   <entry/>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>5</entry>
+  <entry/>
+  <entry/>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>8</entry>
+  <entry/>
+  <entry/>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>12</entry>
+   <entry/>
+  <entry/>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>12</entry>
+  <entry/>
+  <entry/>
+  </row>
+  <row>
+    <entry>7</entry>
+    <entry>1</entry>
+  <entry/>
+  <entry/>
+  </row>
+</tbody>
+
+</tgroup>
+</table><list id="element-277" mark-suffix="." list-type="labeled-item"><item><label>a</label>Find the sample mean <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math></item>
+<item><label>b</label>Find the sample standard deviation, <m:math><m:mi>s</m:mi></m:math></item>
+<item><label>c</label>Construct a histogram of the data. </item>
+<item><label>d</label>Complete the columns of the chart. </item>
+<item><label>e</label>Find the first quartile. </item>
+<item><label>f</label>Find the median. </item>
+<item><label>g</label>Find the third quartile. </item>
+<item><label>h</label>Construct a box plot of the data. </item>
+<item><label>i</label>What percent of the students owned at least five pairs? </item>
+<item><label>j</label>Find the 40th percentile. </item>
+<item><label>k</label>Find the 90th percentile. </item>
+<item><label>l</label>Construct a line graph of the data</item>
+<item><label>m</label>Construct a stem plot of the data</item></list>
+</problem>
+<solution id="id4049363">
+  <list id="element-259" list-type="labeled-item" mark-suffix="."><item><label>a</label>3.78</item>
+<item><label>b</label>1.29</item>
+<item><label>e</label>3</item>
+<item><label>f</label>4</item>
+<item><label>g</label>5</item>
+<item><label>h</label>
+<media id="id4961925" alt="A box plot with a whisker between 0 and 3, a solid line at 3, a dashed line at 4, a solid line at 5, and a whisker between 5 and 7."><image src="../../media/desc_stats_hw_boxplot14.png" mime-type="image/png" print-width="2.5in"/></media>
+</item>
+<item><label>i</label>32.5%</item>
+<item><label>j</label>4</item>
+<item><label>k</label>5</item>
+</list>
+</solution>
+</exercise><exercise id="element-927"><problem id="id3483376">
+  <para id="element-746">600 adult Americans were asked by telephone poll, 
+What do you think constitutes a middle-class income?
+  The results are below.  Also, include left endpoint, but not the right endpoint. (<cite><cite-title>Source:  Time magazine; survey by Yankelovich Partners, Inc.</cite-title></cite>)
+  </para><note id="id3475837">"Not sure" answers were omitted from the results.</note><table id="element-588" summary="This table presents the results from a poll on what Americans thought constituted middle class. The first column lists the salary and the second column lists the relative frequency. There are 8 rows.">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Salary ($)</entry>
+            <entry>Relative Frequency</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>&lt; 20,000</entry>
+            <entry>0.02</entry>
+          </row>
+          <row>
+            <entry>20,000 - 25,000</entry>
+            <entry>0.09</entry>
+          </row>
+          <row>
+            <entry>25,000 - 30,000</entry>
+            <entry>0.19</entry>
+          </row>
+          <row>
+            <entry>30,000 - 40,000</entry>
+            <entry>0.26</entry>
+          </row>
+          <row>
+            <entry>40,000 - 50,000</entry>
+            <entry>0.18</entry>
+          </row>
+          <row>
+            <entry>50,000 - 75,000</entry>
+            <entry>0.17</entry>
+          </row>
+          <row>
+            <entry>75,000 - 99,999</entry>
+            <entry>0.02</entry>
+          </row>
+          <row>
+            <entry>100,000+</entry>
+            <entry>0.01</entry>
+          </row>
+        </tbody>
+      
+</tgroup>
+</table><list id="element-295" mark-suffix="." list-type="labeled-item"><item><label>a</label>What percent of the survey answered 
+"not sure"
+?</item>
+<item><label>b</label>What percent think that middle-class is from $25,000 - $50,000 ?</item>
+<item><label>c</label>Construct a histogram of the data
+<list id="nestlist3" list-type="enumerated"><item><label>i</label>Should all bars have the same width, based on the data?  Why or why not?</item>
+<item><label>ii</label>How should the 
+&lt;20,000
+ and the 
+100,000+
+ intervals be handled? Why?</item>
+</list>
+</item>
+<item><label>d</label>Find the 40th and 80th percentiles</item>
+<item><label>e</label>Construct a bar graph of the data</item></list>
+</problem>
+
+</exercise><exercise id="element-324"><problem id="id4231623">
+  <para id="element-320">Following are the published weights (in pounds) of all of the team members of the San Francisco 49ers from a previous year 
+(<cite><cite-title>Source:  San Jose Mercury News</cite-title></cite>)</para><para id="element-598"><list id="set-hwinlist1" list-type="labeled-item" display="inline"><item>177</item><item> 205</item><item> 210</item><item> 210</item><item> 232</item><item> 205</item><item> 185</item><item> 185</item><item> 178</item><item> 210</item><item> 206</item><item> 212</item><item> 184</item><item> 174</item><item> 185</item><item> 242</item><item> 188</item><item> 212</item><item> 215</item><item> 247</item><item> 241</item><item> 223</item><item> 220</item><item> 260</item><item> 245</item><item> 259</item><item> 278</item><item> 270</item><item> 280</item><item> 295</item><item> 275</item><item> 285</item><item> 290</item><item> 272</item><item> 273</item><item> 280</item><item> 285</item><item> 286</item><item> 200</item><item> 215</item><item> 185</item><item> 230</item><item> 250</item><item> 241</item><item> 190</item><item> 260</item><item> 250</item><item> 302</item><item> 265</item><item> 290</item><item> 276</item><item> 228</item><item> 265</item></list></para><list id="element-683" list-type="labeled-item" mark-suffix="."><item><label>a</label>Organize the data from smallest to largest value.</item>
+<item><label>b</label>Find the median.</item>
+<item><label>c</label>Find the first quartile.</item>
+<item><label>d</label>Find the third quartile.</item>
+<item><label>e</label>Construct a box plot of the data.</item>
+<item><label>f</label>The middle 50% of the weights are from _______ to _______.</item>
+<item><label>g</label>If our population were all professional football players, would the above data be a sample of weights or the population of weights?  Why?</item>
+<item><label>h</label>If our population were the San Francisco 49ers, would the above data be a sample of weights or the population of weights?  Why?</item>
+<item><label>i</label>Assume the population was the San Francisco 49ers.  Find:<list id="nestlist4" list-type="labeled-item" mark-suffix="."><item><label>i</label>the population mean, <m:math><m:mi>μ
+</m:mi></m:math>.</item>
+<item><label>ii</label>the population standard deviation, <m:math><m:mi>σ
+</m:mi></m:math>.</item>
+<item><label>iii</label>the weight that is 2 standard deviations below the mean.</item>
+<item><label>iv</label>When Steve Young, quarterback, played football, he weighed 205 pounds.  How many standard deviations above or below the mean was he?</item>
+</list>
+</item>
+<item><label>j</label>That same year, the mean weight for the Dallas Cowboys was 240.08 pounds with a standard deviation of 44.38 pounds.  Emmit Smith weighed in at 209 pounds.  With respect to his team, who was lighter, Smith or Young?  How did you determine your answer?</item></list>
+</problem>
+<solution id="id4782460">
+  <list id="element-189" list-type="labeled-item" mark-suffix="."><item><label>b</label>241</item>
+<item><label>c</label>205.5</item>
+<item><label>d</label>272.5</item>
+<item><label>e</label>
+ <media id="id8617734" alt="A box plot with a whisker between 174 and 205.5, a solid line at 205.5, a dashed line at 241, a solid line at 272.5, and a whisker between 272.5 and 302."><image src="../../media/desc_stats_hw_boxplot15.png" mime-type="image/png" width="250" print-width="2.5in"/></media>
+</item>
+<item><label>f</label>205.5, 272.5</item>
+<item><label>g</label>sample</item>
+<item><label>h</label>population</item>
+<item><label>i</label><list id="element-409" list-type="labeled-item" mark-suffix="."><item><label>i</label>236.34</item>
+<item><label>ii</label>37.50</item>
+<item><label>iii</label>161.34</item>
+<item><label>iv</label>0.84 std. dev. below the mean</item></list></item>
+<item><label>j</label>Young</item>
+</list>
+</solution>
+</exercise><exercise id="element-799"><problem id="id6038456">
+  <para id="element-969">An elementary school class ran 1 mile with a mean of 11 minutes and a standard deviation of 3 minutes.  Rachel, a student in the class, ran 1 mile in 8 minutes. A junior high school class ran 1 mile with a mean of 9 minutes and a standard deviation of 2 minutes. Kenji, a student in the class, ran 1 mile in 8.5 minutes. A high school class ran 1 mile with a mean of 7 minutes and a standard deviation of 4 minutes.  Nedda, a student in the class, ran 1 mile in 8 minutes.
+  </para><list id="element-895" list-type="labeled-item" mark-suffix="."><item><label>a</label>Why is Kenji considered a better runner than Nedda, even though Nedda ran faster than he?</item>
+<item><label>b</label>Who is the fastest runner with respect to his or her class?  Explain why.</item></list>
+</problem>
+
+</exercise><exercise id="element-900"><problem id="id4829148">
+  <para id="element-424">
+  In a survey of 20 year olds in China, Germany and America, people were asked the number of foreign countries they had visited in their lifetime.  The following box plots display the results.
+  </para>
+<media id="id6018134" alt="A set of three box plots plotted on the same graph comparing the survey results for each country." display="block"><image src="../../media/desc_stats_hw_boxplot1.png" mime-type="image/png" print-width="5.5in"/></media>
+
+
+<list id="element-585" list-type="labeled-item" mark-suffix="."><item><label>a</label>In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected.</item>
+<item><label>b</label>Explain how it is possible that more Americans than Germans surveyed have been to over eight foreign countries.</item>
+<item><label>c</label>Compare the three box plots.  What do they imply about the foreign travel of twenty year old residents of the three countries when compared to each other?</item></list>
+</problem>
+
+</exercise>
+<exercise id="element-211"><problem id="id4976485">
+<para id="element-353">One hundred teachers attended a seminar on mathematical problem solving. The attitudes of a representative sample of 12 of the teachers were measured before and after the seminar. A positive number for change in attitude indicates that a teacher's attitude toward math became more positive. The twelve change scores are as follows:
+</para>
+<para id="element-6236">  <list list-type="labeled-item" display="inline" id="set-linelist1"> <item>3</item><item> 8</item><item> -1</item><item> 2</item><item> 0</item><item> 5</item><item> -3</item><item> 1</item><item> -1</item><item> 6</item><item> 5</item><item> -2</item> </list></para><list id="element-217" mark-suffix="." list-type="labeled-item"><item><label>a</label>What is the mean change score?</item>
+<item><label>b</label>What is the standard deviation for this population?</item>
+<item><label>c</label>What is the median change score?</item>
+<item><label>d</label>Find the change score that is 2.2 standard deviations below the mean.</item></list></problem>
+</exercise>
+<exercise id="element-844"><problem id="id3734385">
+  <para id="element-228">
+Three students were applying to the same graduate school.  They came from schools with different grading systems.  Which student had the best G.P.A. when compared to his school?  Explain how you determined your answer.
+  </para><table id="element-814" summary="This table presents three students and their GPAs. The first column lists the students, the second column lists the GPA, the third column lists the school average GPA, and the fourth column lists the school standard deviations. The first row represents Thuy, the second row represents Vichet, and the third row represents Kamala.">
+
+<tgroup cols="4"><thead>
+  <row>
+    <entry>Student</entry>
+    <entry>G.P.A.</entry>
+    <entry>School Ave. G.P.A.</entry>
+    <entry>School Standard Deviation</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Thuy</entry>
+    <entry>2.7</entry>
+    <entry>3.2</entry>
+    <entry>0.8</entry>
+  </row>
+  <row>
+    <entry>Vichet</entry>
+    <entry>87</entry>
+    <entry>75</entry>
+    <entry>20</entry>
+  </row>
+  <row>
+    <entry>Kamala</entry>
+    <entry>8.6</entry>
+    <entry>8</entry>
+    <entry>0.4</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="id4835283">
+  <para id="element-795">Kamala</para>
+</solution>
+</exercise><exercise id="element-376"><problem id="id3500598">
+  <para id="element-209">
+    Given the following box plot:
+  </para><media id="id4775287" alt="A box plot indicating values between 0 and 13 with the first quartile at 2, the median at 10, and the third quartile at 12." display="block"><image src="../../media/desc_stats_hw_boxplot2.png" mime-type="image/png" print-width="5in"/></media><list id="element-328" list-type="labeled-item" mark-suffix="."><item><label>a</label>Which quarter has the smallest spread of data?  What is that spread?</item>
+<item><label>b</label>Which quarter has the largest spread of data? What is that spread?</item>
+<item><label>c</label>Find the Inter Quartile Range (IQR).</item>
+<item><label>d</label>Are there more data in the interval 5 - 10 or in the interval 10 - 13?  How do you know this?</item>
+<item><label>e</label>Which interval has the fewest data in it?  How do you know this?<list id="nestlist7" list-type="labeled-item" mark-suffix="."><item><label>I</label> 0-2</item><item><label>II</label>2-4</item><item><label>III</label>10-12</item><item><label>IV</label>12-13</item></list></item></list>
+</problem>
+
+</exercise><exercise id="element-606"><problem id="id4047646">
+  <para id="element-386">
+    Given the following box plot:
+  </para>
+<media id="id4992419" alt="A box plot representing values from 0 to 150 with the first quartile at 0, the median at 20, and the third quartile at 100" display="block"><image src="../../media/desc_stats_hw_boxplot5.png" mime-type="image/png" print-width="4in"/></media>
+
+
+<list id="element-554" list-type="labeled-item" mark-suffix="."><item><label>a</label>Think of an example (in words) where the data might fit into the above box plot.  In 2-5 sentences, write down the example.</item>
+<item><label>b</label>What does it mean to have the first and second quartiles so close together, while the second to fourth quartiles are far apart?</item></list>
+</problem>
+
+</exercise><exercise id="element-433"><problem id="id3798007">
+  <para id="element-796">Santa Clara County, CA, has approximately 27,873 Japanese-Americans.  Their ages are as follows.  (<cite><cite-title>Source:  West magazine</cite-title></cite>)
+  </para><table id="element-215" summary="This table presents Japanese-Americans and their ages from Santa Clara County. The first column lists the age group and the second column lists the percent of the community. There are 7 rows.">
+
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Age Group</entry>
+    <entry>Percent of Community</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0-17</entry>
+    <entry>18.9</entry>
+  </row>
+  <row>
+    <entry>18-24</entry>
+    <entry>8.0</entry>
+  </row>
+  <row>
+    <entry>25-34</entry>
+    <entry>22.8</entry>
+  </row>
+  <row>
+    <entry>35-44</entry>
+    <entry>15.0</entry>
+  </row>
+  <row>
+    <entry>45-54</entry>
+    <entry>13.1</entry>
+  </row>
+  <row>
+    <entry>55-64</entry>
+    <entry>11.9</entry>
+  </row>
+  <row>
+    <entry>65+</entry>
+    <entry>10.3</entry>
+  </row>
+</tbody>
+</tgroup>
+</table><list id="element-935" list-type="labeled-item" mark-suffix="."><item><label>a</label>Construct a histogram of the Japanese-American community in Santa Clara County, CA.  The bars will <emphasis>not</emphasis> be the same width for this example.  Why not?</item>
+<item><label>b</label>What percent of the community is under age 35?</item>
+<item><label>c</label>Which box plot most resembles the information above?</item></list>
+
+<media id="id4310540" alt="Three box plots with values between 0 and 100.  Plot i has Q1 at 24, M at 34, and Q3 at 53; Plot ii has Q1 at 18, M at 34, and Q3 at 45; Plot iii has Q1 at 24, M at 25, and Q3 at 54." display="block"><image src="../../media/desc_stats_hw_boxplot6.png" mime-type="image/png" print-width="5.5in"/></media>
+</problem>
+
+</exercise><exercise id="element-256"><problem id="id3993804">
+  <para id="element-607">
+Suppose that three book publishers were interested in the number of fiction paperbacks adult consumers purchase per month.  Each publisher conducted a survey.  In the survey, each asked adult consumers the number of fiction paperbacks they had purchased the previous month.  The results are below.
+  </para><table id="element-252" summary="The tables presents the number of books purchased by adults by three different publishers. Publisher A is the first table with number of books in the first column, from 0-8, frequency in the second column, and relative frequency in the third column which is blank.">
+
+<title>Publisher A</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry># of books</entry>
+    <entry>Freq.</entry>
+    <entry>Rel. Freq.</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0</entry>
+    <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>12</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>16</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>12</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>8</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>6</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>6</entry>
+    <entry>2</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>8</entry>
+    <entry>2</entry>
+    <entry/>
+  </row>
+</tbody>
+
+</tgroup>
+</table><table id="element-313" summary="Publisher B is the second table with number of books in the first column, from 0-5, 7, 9, frequency in the second column, and relative frequency in the third column which is blank.">
+
+<title>Publisher B</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry># of books</entry>
+    <entry>Freq.</entry>
+    <entry>Rel. Freq.</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0</entry>
+    <entry>18</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>24</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>24</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>22</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>15</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>7</entry>
+    <entry>5</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>9</entry>
+    <entry>1</entry>
+    <entry/>
+  </row>
+</tbody>
+
+</tgroup>
+</table><table id="element-947" summary="Publisher C is the first table with number of books in the first column, 0-1, 2-3, 4-5, 6-7, 8-9, frequency in the second column, and relative frequency in the third column which is blank.">
+
+<title>Publisher C</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry># of books</entry>
+    <entry>Freq.</entry>
+    <entry>Rel. Freq.</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0-1</entry>
+    <entry>20</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>2-3</entry>
+    <entry>35</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>4-5</entry>
+    <entry>12</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>6-7</entry>
+    <entry>2</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>8-9</entry>
+    <entry>1</entry>
+    <entry/>
+  </row>
+
+</tbody>
+
+
+</tgroup>
+</table><list id="element-460" list-type="labeled-item" mark-suffix="."><item><label>a</label>Find the relative frequencies for each survey.  Write them in the charts.</item>
+<item><label>b</label>Using either a graphing calculator, computer, or by hand, use the frequency column to construct a histogram for each publisher's survey.  For Publishers A and B, make bar widths of 1. For Publisher C, make bar widths of 2.</item>
+<item><label>c</label>In complete sentences, give two reasons why the graphs for Publishers A and B are not identical.</item>
+<item><label>d</label>Would you have expected the graph for Publisher C to look like the other two graphs?  Why or why not?</item>
+<item><label>e</label>Make new histograms for Publisher A and Publisher B.  This time, make bar widths of 2.</item>
+<item><label>f</label>Now, compare the graph for Publisher C to the new graphs for Publishers A and B.  Are the graphs more similar or more different?  Explain your answer.</item></list>
+</problem>
+
+</exercise><exercise id="element-546"><problem id="id4816211">
+  <para id="element-620">
+    Often, cruise ships conduct all on-board transactions, with the exception of gambling, on a cashless basis.  At the end of the cruise, guests pay one bill that covers all on-board transactions.  Suppose that 60 single travelers and 70 couples were surveyed as to their on-board bills for a seven-day cruise from Los Angeles to the Mexican Riviera.  Below is a summary of the bills for each group.
+  </para><table id="element-745" summary="This table presents the amount of cruise bills by guest type. The first table is for singles with the first column listing the bill amount, the second column listing the frequency, and the third column labeled for relative frequency which is blank.">
+
+<title>Singles</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry>Amount($)</entry>
+    <entry>Frequency</entry>
+    <entry>Rel. Frequency</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>51-100</entry>
+    <entry>5</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>101-150</entry>
+    <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>151-200</entry>
+    <entry>15</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>201-250</entry>
+    <entry>15</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>251-300</entry>
+    <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>301-350</entry>
+    <entry>5</entry>
+    <entry/>
+  </row>
+ 
+</tbody>
+
+</tgroup>
+</table><table id="element-172" summary="The second table is for couples with the first column listing the bill amount, the second column listing the frequency, and the third column labeled for relative frequency which is blank.">
+
+<title>Couples</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry>Amount($)</entry>
+    <entry>Frequency</entry>
+    <entry>Rel. Frequency</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>100-150</entry>
+    <entry>5</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>201-250</entry>
+    <entry>5</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>251-300</entry>
+    <entry>5</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>301-350</entry>
+    <entry>5</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>351-400</entry>
+    <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>401-450</entry>
+    <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>451-500</entry>
+     <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>501-550</entry>
+    <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>551-600</entry>
+    <entry>5</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>601-650</entry>
+    <entry>5</entry>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table><list id="element-474" list-type="labeled-item" mark-suffix="."><item><label>a</label>Fill in the relative frequency for each group.</item>
+<item><label>b</label>Construct a histogram for the Singles group.  Scale the x-axis by $50. widths.  Use relative frequency on the y-axis.</item>
+<item><label>c</label>Construct a histogram for the Couples group.  Scale the x-axis by $50.  Use relative frequency on the y-axis.</item>
+<item><label>d</label>Compare the two graphs:<list id="nestlist8" list-type="labeled-item" mark-suffix="."><item><label>i</label>List two similarities between the graphs.</item>
+<item><label>ii</label>List two differences between the graphs.</item>
+<item><label>iii</label>Overall, are the graphs more similar or different?</item>
+</list></item>
+<item><label>e</label>Construct a new graph for the Couples by hand.  Since each couple is paying for two individuals, instead of scaling the x-axis by $50, scale it by $100.  Use relative frequency on the y-axis.</item>
+<item><label>f</label>Compare the graph for the Singles with the new graph for the Couples:<list id="nestlist9" list-type="labeled-item" mark-suffix="."><item><label>i</label>List two similarities between the graphs.</item>
+<item><label>ii</label>Overall, are the graphs more similar or different?</item>
+</list></item>
+<item><label>i</label>By scaling the Couples graph differently, how did it change the way you compared it to the Singles?</item>
+<item><label>j</label>Based on the graphs, do you think that individuals spend the same amount, more or less, as singles as they do person by person in a couple?  Explain why in one or two complete sentences.</item>
+</list>
+</problem>
+
+</exercise><exercise id="element-314"><problem id="id6158752">
+  <para id="element-223">
+   Refer to the following histograms and box plot. Determine which of the following are true and which are false. Explain your solution to each part in complete sentences.
+
+</para>
+
+<media id="id4115299" alt="Three graphs; the first is a histogram with a mode of 3 and fairly symmetrical distribution between 1 (minimum value) and 5 (maximum value); the second is a histogram with peaks at 1 (minimum value) and 5 (maximum value) with 3 having the lowest frequency; the third is a box plot with data between 0 and a value greater than 6, Q1 at 1, M at 3, and Q3 at 6." display="block"><image src="../../media/desc_stats_hw_boxplot7.png" mime-type="image/png" print-width="4in"/></media>
+
+<list id="element-25" list-type="labeled-item" mark-suffix="."><item><label>a</label>The medians for all three graphs are the same.</item>
+<item><label>b</label>We cannot determine if any of the means for the three graphs is different.</item>
+<item><label>c</label>The standard deviation for (b) is larger than the standard deviation for (a).</item>
+<item><label>d</label>We cannot determine if any of the third quartiles for the three graphs is different.</item></list>
+</problem>
+<solution id="id7741745">
+  <list id="element-340" list-type="labeled-item" mark-suffix="."><item><label>a</label>True</item>
+<item><label>b</label>True</item>
+<item><label>c</label>True</item>
+<item><label>d</label>False</item></list>
+</solution>
+</exercise><exercise id="element-990"><problem id="id9907048">
+  <para id="element-499">
+ Refer to the following box plots.  
+  </para>
+
+<media id="id4260732" alt="Two box plots showing data between 0 and 7.  The Data 1 box plot shows Q1 at 2, M at 4, and Q3 at some unlabeled point greater than 4, while the Data 2 plot shows Q1 at an unlabeled point between 0 and 2, M at 2, and Q3 slightly greater than 2." display="block"><image src="../../media/desc_stats_hw_boxplot8.png" mime-type="image/png" print-width="4in"/></media>
+
+
+<list id="element-718" list-type="labeled-item" mark-suffix="."><item><label>a</label>In complete sentences, explain why each statement is false.
+       <list id="nestlist13" list-type="labeled-item" mark-suffix="."><item><label>i</label><emphasis>Data 1</emphasis> has more data values above 2 than <emphasis>Data 2</emphasis> has above 2.</item>
+       <item><label>ii</label>The data sets cannot have the same mode.</item>
+       <item><label>iii</label>For <emphasis>Data 1</emphasis>, there are more data values below 4 than there are above 4.</item>
+       </list></item>
+<item><label>b</label>For which group, Data 1 or Data 2, is the value of “7” more likely to be an outlier?  
+Explain why in complete sentences</item></list>
+
+
+
+</problem>
+
+</exercise><exercise id="element-590"><problem id="id4298561">
+  <para id="id12029548">In a recent issue of the <cite><cite-title>IEEE Spectrum</cite-title></cite>, 84 engineering conferences were announced. Four conferences lasted two days. Thirty-six lasted three days. Eighteen lasted four days. Nineteen lasted five days. Four lasted six days. One lasted seven days. One lasted eight days. One lasted nine days. Let X = the length (in days) of an engineering conference.
+    </para>
+<list id="id6952326" list-type="labeled-item" mark-suffix="."><item><label>a</label>Organize the data in a chart.</item>
+      <item><label>b</label>Find the median, the first quartile, and the third quartile.</item>
+      <item><label>c</label>Find the 65th percentile.</item>
+      <item><label>d</label>Find the 10th percentile.</item>
+      <item><label>e</label>Construct a box plot of the data.</item>
+      <item><label>f</label>The middle 50% of the conferences last from _______ days to _______ days.</item>
+      <item><label>g</label>Calculate the sample mean of days of engineering conferences.</item>
+      <item><label>h</label>Calculate the sample standard deviation of days of engineering conferences.</item>
+      <item><label>i</label>Find the mode.</item>
+      <item><label>j</label>If you were planning an engineering conference, which would you choose as the length of the conference: mean; median; or mode? Explain why you made that choice.</item>
+      <item><label>k</label>Give two reasons why you think that 3 - 5 days seem to be popular lengths of engineering conferences.</item>
+    </list>
+</problem>
+<solution id="id3805569">
+  <list id="element-994" list-type="labeled-item" mark-suffix="."><item><label>b</label>4,3,5</item>
+<item><label>c</label>4</item>
+<item><label>d</label>3</item>
+<item><label>e</label>
+
+<media id="id3827816" alt="A box plot with a whisker between 2 and 3, a solid line at three, a dashed line at 4, a solid line at 5, and a whisker between 5 and 9."><image src="../../media/desc_stats_hw_boxplot16.png" mime-type="image/png" print-width="2.5in"/></media></item>
+<item><label>f</label>3,5</item>
+<item><label>g</label>3.94</item>
+<item><label>h</label>1.28</item>
+<item><label>i</label>3</item>
+<item><label>j</label>mode</item>
+</list>
+</solution>
+</exercise><exercise id="element-891"><problem id="id3671813">
+  <para id="element-707">A survey of enrollment at 35 community colleges across the United States yielded the following figures (<cite><cite-title>source: Microsoft Bookshelf</cite-title></cite>):</para>
+
+<para id="element-23455">
+<list list-type="labeled-item" display="inline" id="set-619"> <item>6414</item><item> 1550</item><item> 2109</item><item> 9350</item><item> 21828</item><item> 4300</item><item> 5944</item><item> 5722</item><item> 2825</item><item> 2044</item><item> 5481</item><item> 5200</item><item> 5853</item><item> 2750</item><item> 10012</item><item> 6357</item><item> 27000</item><item> 9414</item><item> 7681</item><item> 3200</item><item> 17500</item><item> 9200</item><item> 7380</item><item> 18314</item><item> 6557</item><item> 13713</item><item> 17768</item><item> 7493</item><item> 2771</item><item> 2861</item><item> 1263</item><item> 7285</item><item> 28165</item><item> 5080</item><item> 11622</item></list>
+  </para>
+
+ <list id="id12992735" mark-suffix="." list-type="labeled-item"><item><label>a</label>Organize the data into a chart with five intervals of equal width. Label the two columns 
+"Enrollment"
+ and 
+"Frequency."
+</item>      
+<item><label>b</label>Construct a histogram of the data.</item>
+      <item><label>c</label>If you were to build a new community college, which piece of information would be more valuable: the mode or the mean?</item>
+      <item><label>d</label>Calculate the sample mean.</item>
+      <item><label>e</label>Calculate the sample standard deviation.</item>
+      <item><label>f</label>A school with an enrollment of 8000 would be how many standard deviations away from the mean?</item></list></problem>
+
+</exercise><exercise id="element-564"><problem id="id7358516">
+  <para id="element-702">The median age of the U.S. population in 1980 was 30.0 years.  In 1991, the median age was 33.1 years.  (<cite><cite-title>Source:  Bureau of the Census</cite-title></cite>)
+  </para>
+<list id="id12488392" list-type="labeled-item" mark-suffix="."><item><label>a</label>What does it mean for the median age to rise?</item>
+      <item><label>b</label>Give two reasons why the median age could rise.</item>
+      <item><label>c</label>For the median age to rise, is the actual number of children less in 1991 than it was in 1980? Why or why not?</item>
+    </list>
+</problem>
+<solution id="id4311984">
+  <list id="element-483" list-type="labeled-item" mark-suffix="."><item><label>c</label>Maybe</item></list>
+</solution>
+</exercise><exercise id="element-326"><problem id="id8193544">
+  <para id="element-421">
+   A survey was conducted of 130 purchasers of new BMW 3 series cars, 130 purchasers of new BMW 5 series cars, and 130 purchasers of new BMW 7 series cars. In it, people were asked the age they were when they purchased their car. The following box plots display the results.
+  </para>
+
+
+<media id="id4309882" alt="Three box plots on a chart scaled from less than 25 to 80.  The BMW 3 series plot shows a minimum value under 25, Q1 around 30, M around 34, Q3 around 41, and a maximum value near 66.  The BMW 5 series plot shows a minimum value around 31, Q1 around 40, M around 41, Q3 around 55, and a maximum value around 64,  The BMW 7 series plot show a mimimum value around 35, Q1 around 41, M around 46, Q3 around 59, and a maximum value around 68." display="block"><image src="../../media/desc_stats_hw_boxplot9.png" mime-type="image/png" print-width="5.5in"/></media>
+<list id="element-24" list-type="labeled-item" mark-suffix="."><item><label>a</label>In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected for that car series.</item>
+<item><label>b</label>Which group is most likely to have an outlier?  Explain how you determined that.</item>
+<item><label>c</label>Compare the three box plots.  What do they imply about the age of purchasing a BMW from the series when compared to each other?</item>
+<item><label>d</label>Look at the BMW 5 series.  Which quarter has the smallest spread of data?  What is that spread?</item>
+<item><label>e</label>Look at the BMW 5 series.  Which quarter has the largest spread of data? What is that spread?</item>
+<item><label>f</label>Look at the BMW 5 series.  Estimate the Inter Quartile Range (IQR).</item>
+<item><label>g</label>Look at the BMW 5 series.  Are there more data in the interval 31-38 or in the interval 45-55?  How do you know this?</item>
+<item><label>h</label>Look at the BMW 5 series.  Which interval has the fewest data in it?  How do you know this?
+<list id="nestlist11" list-type="labeled-item" mark-suffix="."><item><label>i</label>31-35</item><item><label>ii</label>38-41</item><item><label>iii</label>41-64</item>
+</list>
+</item>
+</list>
+</problem>
+
+</exercise><exercise id="element-284"><problem id="id3912087">
+  <para id="element-874">
+The following box plot shows the U.S. population for 1990, the latest available year.  (Source:  Bureau of the Census, 1990 Census)
+  </para>
+
+<media id="id7587202" alt="A box plot with values from 0 to 105, with Q1 at 17, M at 33, and Q3 at 50." display="block"><image src="../../media/desc_stats_hw_boxplot10.png" mime-type="image/png" print-width="4in"/></media>
+
+
+<list id="element-951" list-type="labeled-item" mark-suffix="."><item><label>a</label>Are there fewer or more children (age 17 and under) than senior citizens (age 65 and over)?  How do you know?</item>
+<item><label>b</label>12.6% are age 65 and over.  Approximately what percent of the population are of working age adults (above age 17 to age 65)?</item>
+</list></problem>
+<solution id="id7597969">
+  <list id="element-1000" list-type="labeled-item" mark-suffix="."><item><label>a</label>more children</item>
+<item><label>b</label>62.4%</item>
+</list>
+</solution>
+</exercise>
+
+<exercise id="element-832">
+<problem id="id6092616">
+<para id="JavErc">
+Javier and Ercilia are supervisors at a shopping mall.  Each was given the task of estimating the mean distance that shoppers live from the mall.  They each randomly surveyed 100 shoppers.  The samples yielded the following information:
+</para>
+<table id="element-72" summary="This table presents two shopping mall supervisors and their estimations of the mean distance shoppers live from the mall. Javier's data is in the second column and Ercilia is in the third column. The first row is for sample means and the second row is for standard deviations.">
+
+<tgroup cols="3"><thead>
+  <row>
+    <entry/>
+    <entry>Javier</entry>
+    <entry>Ercilla</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry><m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math></entry>
+    <entry>6.0 miles</entry>
+    <entry>6.0 miles</entry>
+  </row>
+  <row>
+    <entry><m:math><m:mi>s</m:mi></m:math></entry>
+    <entry>4.0 miles</entry>
+    <entry>7.0 miles</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table><list id="element-305" list-type="labeled-item" mark-suffix="."><item><label>a</label>How can you determine which survey was 
+correct
+?</item>
+<item><label>b</label>Explain what the difference in the results of the surveys implies about the data.</item>
+<item><label>c</label>If the two histograms depict the distribution of values for each supervisor, which one depicts Ercilia's sample?  How do you know?
+
+<figure id="id8426852"><media id="id8387446" alt="Two histograms.  The first plot shows a fairly symmetrical distribution with a mode of 6.  The second plot shows a uniform distribution."><image src="../../media/desc_stats_hw_boxplot11-1.png" mime-type="image/png" print-width="5.5in"/></media></figure>
+
+</item>
+<item><label>d</label>If the two box plots depict the distribution of values for each supervisor, which one depicts Ercilia’s sample?  How do you know?<figure id="id4906805"><media id="id8629835" alt="Two box plots.  The first has values from 0 to 21 with Q1 at 1, M at 6, and Q3 at 14.  The second plot has values from 0 to 12 with Q1 at 4, M at 6, and Q3 at 9."><image src="../../media/desc_stats_hw_boxplot11-2.png" mime-type="image/png" print-width="5.5in"/></media></figure></item></list>
+</problem>
+
+</exercise><exercise id="element-349"><problem id="id8512955">
+  <para id="element-333">Student grades on a chemistry exam were:  </para>
+<para id="element-32523"><list list-type="labeled-item" display="inline" id="set-917"><item> 77, 78, 76, 81, 86, 51, 79, 82, 84, 99</item></list></para><list id="element-237" list-type="labeled-item" mark-suffix="."><item><label>a</label>Construct a stem-and-leaf plot of the data.</item>
+<item><label>b</label>Are there any potential outliers?  If so, which scores are they?  Why do you consider them outliers?</item>
+</list>
+</problem>
+<solution id="id8633178">
+  <list id="element-817" list-type="labeled-item" mark-suffix="."><item><label>b</label>51,99</item>
+</list>
+</solution>
+</exercise><section id="section1"><title>Try these multiple choice questions (Exercises 24 - 30).</title><para id="element-723"><emphasis>The next three questions refer to the following information.</emphasis>  We are interested in the number of years students in a particular elementary statistics class have lived in California. 
+The information in the following table is from the entire section.
+</para><table id="element-368" summary="This table presents the number of years students in a statistics class have lived in California. The first column lists the number of years and the second column lists the frequency.">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+      <thead>
+          <row>
+            <entry>Number of years</entry>
+            <entry>Frequency</entry>
+          </row>
+      </thead>
+      <tfoot>
+          <row>
+            <entry/>
+            <entry>Total = 20</entry>
+          </row>
+       </tfoot>
+        <tbody>
+          <row>
+            <entry>7</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>14</entry>
+            <entry>3</entry>
+          </row>
+          <row>
+            <entry>15</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>18</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>19</entry>
+            <entry>4</entry>
+          </row>
+          <row>
+            <entry>20</entry>
+            <entry>3</entry>
+          </row>
+          <row>
+            <entry>22</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>23</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>26</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>40</entry>
+            <entry>2</entry>
+          </row>
+          <row>
+            <entry>42</entry>
+            <entry>2</entry>
+          </row>
+        </tbody>
+      
+
+</tgroup>
+</table><exercise id="element-84"><problem id="id4699277">
+  <para id="element-666">
+   What is the IQR?
+  </para>
+<list id="ni1" list-type="labeled-item" mark-suffix=".">
+<item><label>A</label>8</item>
+<item><label>B</label>11</item>
+<item><label>C</label>15</item>
+<item><label>D</label>35</item>
+</list>
+</problem>
+<solution id="id6016838">
+  <para id="element-991">A</para>
+</solution>
+</exercise><exercise id="element-720"><problem id="id4942656">
+  <para id="element-780">
+   What is the mode?
+  </para>
+<list id="ni2" list-type="labeled-item" mark-suffix=".">
+<item><label>A</label>19</item>
+<item><label>B</label>19.5</item>
+<item><label>C</label>14 and 20</item>
+<item><label>D</label>22.65</item>
+</list>
+</problem>
+<solution id="id4720470">
+  <para id="element-11">A</para>
+</solution>
+</exercise><exercise id="element-346"><problem id="id5971682">
+  <para id="element-972">
+    Is this a sample or the entire population?
+  </para>
+<list id="ni3" list-type="labeled-item" mark-suffix=".">
+<item><label>A</label>sample</item>
+<item><label>B</label>entire population</item>
+<item><label>C</label>neither</item>
+</list>
+</problem>
+<solution id="id4081124">
+  <para id="element-366">B</para>
+</solution>
+</exercise><para id="element-225"><emphasis>The next two questions refer to the following table.</emphasis> <m:math><m:mi>X</m:mi></m:math> = the number of days per week that 100 clients use a particular exercise facility.</para><table id="element-813" summary="This table presents the number of days a week clients use a particular exercise facility. The first column lists the number of days from 0-6 and the second column lists the frequency.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+       <thead>
+          <row>
+            <entry>x</entry>
+            <entry>Frequency</entry>
+          </row>
+       </thead>
+ <tbody>
+   <row>
+            <entry>0</entry>
+            <entry>3</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>12</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>33</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>28</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>11</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>9</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>4</entry>
+          </row>
+        </tbody>
+      
+
+</tgroup>
+</table><exercise id="element-290"><problem id="id4945198">
+  <para id="element-441">
+    The 80th percentile is:
+  </para>
+<list id="ni4" list-type="labeled-item" mark-suffix=".">
+<item><label>A</label>5</item>
+<item><label>B</label>80</item>
+<item><label>C</label>3</item>
+<item><label>D</label>4</item>
+</list>
+</problem>
+<solution id="id7736800">
+  <para id="element-125">D</para>
+</solution>
+</exercise><exercise id="element-867"><problem id="id4861412">
+  <para id="element-793">
+    The number that is 1.5 standard deviations BELOW the mean is approximately:
+  </para>
+<list id="ni5" list-type="labeled-item" mark-suffix=".">
+<item><label>A</label>0.7</item>
+<item><label>B</label>4.8</item>
+<item><label>C</label>-2.8</item>
+<item><label>D</label>Cannot be determined </item>
+</list>
+</problem>
+<solution id="id7360802">
+  <para id="element-539">
+    A
+  </para>
+</solution>
+</exercise><para id="element-630"><emphasis>The next two questions refer to the following histogram.</emphasis>  Suppose one hundred eleven people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.  </para>
+
+<media id="id8497263" alt="A histogram showing the results of a survey.  Of 111 respondents, 5 own 1 t-shirt costing more than $19, 17 own 2, 23 own 3, 39 own 4, 25 own 5, 2 own 6, and no respondents own 7." display="block"><image src="../../media/desc_stats_hw_boxplot12.png" mime-type="image/png" print-width="5in"/></media>
+
+<exercise id="element-827"><problem id="id4064406">
+  <para id="element-285">
+The percent of  people that own at most three (3) T-shirts costing more than $19 each is approximately:
+  </para>
+<list id="ni6" list-type="labeled-item" mark-suffix=".">
+<item><label>A</label>21</item>
+<item><label>B</label>59</item>
+<item><label>C</label>41</item>
+<item><label>D</label>Cannot be determined</item>
+</list>
+</problem>
+<solution id="id6146639">
+  <para id="element-507">C</para>
+</solution>
+</exercise><exercise id="element-195"><problem id="id3671758">
+  <para id="element-530">
+If the data were collected by asking the first 111 people who entered the store, then the type of sampling is:
+  </para>
+<list id="ni7" list-type="labeled-item" mark-suffix=".">
+<item><label>A</label>cluster</item>
+<item><label>B</label>simple random</item>
+<item><label>C</label>stratified</item>
+<item><label>D</label>convenience</item>
+</list>
+</problem>
+<solution id="id4795160">
+  <para id="element-180">D</para>
+</solution>
+</exercise> 
+</section><exercise id="eip-440"><problem id="eip-765">
+  <para id="eip-929">Below are the <emphasis>2010 obesity rates by U.S. states and Washington, DC.</emphasis>(<cite><cite-title>Source:  http://www.cdc.gov/obesity/data/adult.html)</cite-title></cite>)
+  
+<table id="Obesity_Rates_2008" summary="The tables represents United States states and Obesity Rates. The first column and third columns list the names of the states and the second and fourth columns list Obesity Rates.">
+<tgroup cols="4"><thead>
+ <row>
+    <entry>State</entry>
+    <entry>Percent (%)</entry>
+    <entry>State</entry>
+    <entry>Percent (%)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Alabama</entry>
+    <entry>32.2</entry>
+   <entry>Montana</entry>
+   <entry>23.0</entry>
+  </row>
+  <row>
+    <entry>Alaska</entry>
+    <entry>24.5</entry>
+  <entry>Nebraska</entry>
+  <entry>26.9</entry>
+  </row>
+  <row>
+    <entry>Arizona</entry>
+    <entry>24.3</entry>
+  <entry>Nevada</entry>
+  <entry>22.4</entry>
+  </row>
+  <row>
+    <entry>Arkansas</entry>
+    <entry>30.1</entry>
+   <entry>New Hampshire</entry>
+   <entry>25.0</entry>
+  </row>
+  <row>
+    <entry>California</entry>
+    <entry>24.0</entry>
+  <entry>New Jersey</entry>
+  <entry>23.8</entry>
+  </row>
+  <row>
+    <entry>Colorado</entry>
+    <entry>21.0</entry>
+  <entry>New Mexico</entry>
+  <entry>25.1</entry>
+  </row>
+<row>
+    <entry>Connecticut</entry>
+    <entry>22.5</entry>
+   <entry>New York</entry>
+   <entry>23.9</entry>
+  </row>
+  <row>
+    <entry>Delaware</entry>
+    <entry>28.0</entry>
+  <entry>North Carolina</entry>
+  <entry>27.8</entry>
+  </row>
+  <row>
+    <entry>Washington, DC</entry>
+    <entry>22.2</entry>
+  <entry>North Dakota</entry>
+  <entry>27.2</entry>
+  </row>
+<row>
+    <entry>Florida</entry>
+    <entry>26.6</entry>
+   <entry>Ohio</entry>
+   <entry>29.2</entry>
+  </row>
+  <row>
+    <entry>Georgia</entry>
+    <entry>29.6</entry>
+  <entry>Oklahoma</entry>
+  <entry>30.4</entry>
+  </row>
+  <row>
+    <entry>Hawaii</entry>
+    <entry>22.7</entry>
+  <entry>Oregon</entry>
+  <entry>26.8</entry>
+  </row>
+<row>
+    <entry>Idaho</entry>
+    <entry>26.5</entry>
+   <entry>Pennsylvania</entry>
+   <entry>28.6</entry>
+  </row>
+  <row>
+    <entry>Illinois</entry>
+    <entry>28.2</entry>
+  <entry>Rhode Island</entry>
+  <entry>25.5</entry>
+  </row>
+  <row>
+    <entry>Indiana</entry>
+    <entry>29.6</entry>
+  <entry>South Carolina</entry>
+  <entry>31.5</entry>
+  </row>
+<row>
+    <entry>Iowa</entry>
+    <entry>28.4</entry>
+   <entry>South Dakota</entry>
+   <entry>27.3</entry>
+  </row>
+  <row>
+    <entry>Kansas</entry>
+    <entry>29.4</entry>
+  <entry>Tennessee</entry>
+  <entry>30.8</entry>
+  </row>
+  <row>
+    <entry>Kentucky</entry>
+    <entry>31.3</entry>
+  <entry>Texas</entry>
+  <entry>31.0</entry>
+  </row>
+<row>
+    <entry>Louisiana</entry>
+    <entry>31.0</entry>
+  <entry>Utah</entry>
+  <entry>22.5</entry>
+  </row>
+<row>
+    <entry>Maine</entry>
+    <entry>26.8</entry>
+  <entry>Vermont</entry>
+  <entry>23.2</entry>
+  </row>
+<row>
+<entry>Maryland</entry>
+    <entry>27.1</entry>
+  <entry>Virginia</entry>
+  <entry>26.0</entry>
+  </row>
+<row>
+    <entry>Massachusetts</entry>
+    <entry>23.0</entry>
+  <entry>Washington</entry>
+  <entry>25.5</entry>
+  </row>
+<row>
+    <entry>Michigan</entry>
+    <entry>30.9</entry>
+  <entry>West Virginia</entry>
+  <entry>32.5</entry>
+  </row>
+<row>
+    <entry>Minnesota</entry>
+    <entry>24.8</entry>
+  <entry>Wisconsin</entry>
+  <entry>26.3</entry>
+  </row>
+<row>
+    <entry>Mississippi</entry>
+    <entry>34.0</entry>
+  <entry>Wyoming</entry>
+  <entry>25.1</entry>
+  </row>
+<row>
+    <entry>Missouri</entry>
+    <entry>30.5</entry>
+  <entry> </entry>
+  <entry> </entry>
+  </row>
+
+
+
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table><list id="Obesity_Rate_Bar_Graphs" mark-suffix="." list-type="labeled-item"><item><label>a.</label>Construct a bar graph of obesity rates of your state and the four states closest to your state.  Hint: Label the x-axis with the states.</item>
+<item><label>b.</label>Use a random number generator to randomly pick 8 states.  Construct a bar graph of the obesity rates of those 8 states.</item>
+<item><label>c.</label>Construct a bar graph for all the states beginning with the letter "A."</item>
+<item><label>d.</label>Construct a bar graph for all the states beginning with the letter "M."</item>
+</list></para></problem>
+
+<solution id="eip-27">
+  <para id="eip-497">Example solution for <emphasis>b</emphasis> using the random number generator for the Ti-84 Plus to generate a simple random sample of 8 states.  Instructions are below.
+<list id="Random_Number_Inst." mark-suffix="." list-type="labeled-item"><item>Number the entries in the table 1 - 51 (Includes Washington, DC; Numbered vertically)</item>
+<item>Press MATH</item>
+<item>Arrow over to PRB</item>
+<item>Press 5:randInt(</item>
+<item>Enter 51,1,8)</item>
+</list>
+
+Eight numbers are generated (use the right arrow key to scroll through the numbers).  The numbers correspond to the numbered states (for this example: {47 21 9 23 51 13 25 4}. If any numbers are repeated, generate a different number by using 5:randInt(51,1)).  Here, the states (and Washington DC) are {Arkansas, Washington DC, Idaho, Maryland, Michigan, Mississippi, Virginia, Wyoming}.  
+Corresponding percents are {28.7 21.8 24.5 26 28.9 32.8 25 24.6}.
+
+
+<media id="States_Obesity" alt="A bar graph showing 8 states on the x-axis and corresponding obesity rates on the y-axis.">	   
+  <image src="../../media/desc_stats_bar_graph_5.png" mime-type="image/png" print-width="5in"/></media>
+
+
+
+  </para>
+</solution>
+</exercise><exercise id="eip-207"><problem id="eip-290">
+  <para id="eip-327">A music school has budgeted to purchase 3 musical instruments.  They plan to purchase a piano costing $3000, a guitar costing $550, and a drum set costing $600.  The mean cost for a piano is $4,000 with a standard deviation of $2,500.
+The mean cost for a guitar is $500 with a standard deviation of $200. The mean cost for drums is $700 with a standard deviation of $100. Which cost is the lowest, when compared to other instruments of the same type? Which cost is the highest when compared to other instruments of the same type. Justify your answer numerically.
+  
+  </para></problem>
+
+<solution id="eip-21">
+  <para id="eip-740">For pianos, the cost of the piano is 0.4 standard deviations BELOW the mean.  For guitars, the cost of the guitar is 0.25 standard deviations ABOVE the mean.  For drums, the cost of the drum set is 1.0 standard deviations BELOW the mean. Of the three, the drums cost the lowest in comparison to the cost of other instruments of the same type. The guitar cost the most in comparison to the cost of other instruments of the same type.
+  </para></solution>
+</exercise><exercise id="eip-961"><problem id="eip-175">
+  <para id="eip-902">Suppose that a publisher conducted a survey asking adult consumers the number of fiction paperback books they had purchased in the previous month. The results are summarized in the table below. (Note that this is the data presented for publisher B in homework exercise 13).
+
+<table id="eip-id1170178980579" summary="Publisher B is the table with number of books in the first column, from 0-5, 7, 9, frequency in the second column, and relative frequency in the third column which is blank.">
+<title>Publisher B</title>
+<tgroup cols="3"><thead> <row> <entry># of
+books</entry> <entry>Freq.</entry> <entry>Rel.
+Freq.</entry> </row>
+</thead>
+<tbody> <row> <entry>0</entry>
+<entry>18</entry> <entry/> </row> <row>
+<entry>1</entry> <entry>24</entry>
+<entry/> </row> <row> <entry>2</entry>
+<entry>24</entry> <entry/> </row> <row>
+<entry>3</entry> <entry>22</entry>
+<entry/> </row> <row> <entry>4</entry>
+<entry>15</entry> <entry/> </row> <row>
+<entry>5</entry> <entry>10</entry>
+<entry/> </row> <row> <entry>7</entry>
+<entry>5</entry> <entry/> </row> <row>
+<entry>9</entry> <entry>1</entry>
+<entry/> </row>
+</tbody>
+</tgroup>
+</table>
+
+<list id="eip-id1170221803861" list-type="enumerated" number-style="lower-alpha"><item>Are there any outliers in the data?  Use an appropriate numerical test involving the IQR to identify outliers, if any, and clearly state your conclusion.</item>
+
+<item>If a data value is identified as an outlier, what should be done about it? </item>
+
+<item>Are any data values further than 2 standard deviations away from the mean? In some situations, statisticians may use this criteria to identify data values that are unusual, compared to the other data values.  (Note that this criteria is most appropriate to use for data that is mound-shaped and symmetric, rather than for skewed data.)</item>
+
+<item>Do parts (a) and (c) of this problem give the same answer?</item>
+
+<item>  Examine the shape of the data.  Which part, (a) or (c), of this question gives a more appropriate result for this data?</item>
+
+<item> Based on the shape of the data which is the most appropriate measure of center for this data: mean, median or mode? </item>
+  </list>
+  </para>
+</problem>
+
+<solution id="eip-701">
+  <para id="eip-22"><list id="eip-id1169990991990">
+<item> IQR = 4 – 1 = 3 ; Q1 – 1.5*IQR = 1 – 1.5(3) = -3.5 ; Q3 + 1.5*IQR = 4 + 1.5(3) = 8.5 ;The data value of 9 is larger than 8.5. The purchase of 9 books in one month is an outlier.
+</item>
+<item>The outlier should be investigated to see if there is an error or some other problem in the data; then a decision whether to include or exclude it should be made based on the particular situation.
+If it was a correct value then the data value should remain in the data set. If there is a problem with this data value, then it should be corrected or removed from the data.  For example: If the data was recorded incorrectly (perhaps a 9 was miscoded and the correct value was 6) then the data should be corrected.  If it was an error but the correct value is not known it should be removed from the data set.
+ </item>
+<item> xbar – 2s = 2.45 – 2*1.88 = -1.31 ; xbar + 2s = 2.45 + 2*1.88 = 6.21 ; Using this method, the five data values of 7 books purchased and the one data value of 9 books purchased would be considered unusual.
+ </item>
+<item>No: part (a) identifies only the value of 9 to be an outlier but part (c) identifies both 7 and 9.</item>
+<item>The data is skewed (to the right). It would be more appropriate to use the method involving the IQR in part (a), identifying only the one value of 9 books purchased as an outlier. Note that part (c) remarks that identifying unusual data values by using the criteria of being further than 2 standard deviations away from the mean is most appropriate when the data are mound-shaped and symmetric.</item>
+<item>The data are skewed to the right.  For skewed data it is more appropriate to use the median as a measure of center.</item>
+</list>
+</para>
+</solution>
+</exercise><para id="eip-688">**Exercises 32 and 33 contributed by Roberta Bloom</para>  
+  </content>
+</document>

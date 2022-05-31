@@ -1,0 +1,373 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Discrete Random Variables: Mean or Expected Value and Standard Deviation</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65527</md:content-id>
+  <md:title>Discrete Random Variables: Mean or Expected Value and Standard Deviation</md:title>
+  <md:abstract>This module explores the Law of Large Numbers, the phenomenon where an experiment performed many times will yield cumulative results closer and closer to the theoretical mean over time.</md:abstract>
+  <md:uuid>853c3931-12df-4c61-b42e-b299eb2ef461</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">The <term target-id="expectedv">expected value</term> is often referred to as the <emphasis>"long-term"average or mean</emphasis> . This means that over the long term of doing an experiment over and over, you would <emphasis>expect</emphasis> this average.</para><para id="element-262">The <term target-id="mean">mean</term> of a random variable <m:math><m:mi>X</m:mi></m:math> is <m:math><m:mi>μ</m:mi></m:math>.   If we do an experiment many times (for instance, flip a fair coin, as Karl Pearson did, 24,000 times and let <m:math><m:mi>X</m:mi></m:math> = the number of heads) and record the value of  <m:math><m:mi>X</m:mi></m:math> each time, the average is likely to get closer and closer to <m:math><m:mi>μ</m:mi></m:math> as we keep repeating the experiment.  This is known as the <emphasis>Law of Large Numbers</emphasis>.  </para><note id="id8737934">To find the expected value or long term average, <m:math><m:mi>μ</m:mi></m:math>, simply multiply each value of the random variable by its probability and add the products.</note><para id="element-257"><title>A Step-by-Step Example</title>A men's soccer team plays soccer 0, 1, or 2 days a week.  The probability that they play 0 days is 0.2, the probability that they play 1 day is 0.5, and the probability that they play 2 days is 0.3.  Find the long-term average, <m:math><m:mi>μ</m:mi></m:math>, or expected value of the days per week the men's soccer team plays soccer. </para><para id="element-126">To do the problem, first let the random variable <m:math><m:mi>X</m:mi></m:math> = the number of days the men's soccer team plays soccer per week.  <m:math><m:mi>X</m:mi></m:math> takes on the values 0, 1, 2.  Construct a <m:math><m:mi>PDF</m:mi></m:math> table, adding a column  <m:math><m:mi>xP(x)</m:mi></m:math>.  In this column, you will multiply each <m:math><m:mi>x</m:mi></m:math> value by its probability.</para><table id="element-749" summary="The PDF table contains the number of days a men's soccer team plays soccer per week and thir probabilities."><title>Expected Value Table</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry><m:math><m:mi>x</m:mi></m:math></entry>
+    <entry><m:math><m:mtext>P(x)</m:mtext></m:math></entry>
+    <entry><m:math><m:mi>x</m:mi> <m:mtext>P(x)</m:mtext></m:math></entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0</entry>
+    <entry>0.2</entry>
+    <entry>(0)(0.2) = 0</entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>0.5</entry>
+    <entry>(1)(0.5) = 0.5</entry>
+  </row>
+<row>
+    <entry>2</entry>
+    <entry>0.3</entry>
+    <entry>(2)(0.3) = 0.6</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup><caption>This table is called an expected value table. The table helps you calculate the expected value or long-term average. </caption>
+</table><para id="element-972">Add the last column to find the long term average or expected value: <m:math><m:mi>(0)(0.2)+(1)(0.5)+(2)(0.3)= 0 + 0.5 + 0.6 =   1.1</m:mi></m:math>. </para><para id="element-353">The expected value is 1.1.  The men's soccer team would, on the average, expect to play soccer 1.1 days per week.  The number 1.1 is the long term average or expected value if the men's soccer team plays soccer week after week after week.  We say <m:math><m:mi>μ=1.1</m:mi></m:math></para><example id="element-658">
+
+<para id="element-757">Find the expected value for the example about the number of times a newborn baby's crying wakes its mother after midnight.  The expected value is the expected number of times a newborn wakes its mother after midnight.
+</para><table id="element-740" summary="The PDF table contains the number of times a newborn wakes its mother after midnight, their probabilities and a column for each number multiplied by its probability.">
+<tgroup cols="3"><thead>
+  <row>
+    <entry><m:math><m:mi>x</m:mi></m:math></entry>
+    <entry><m:math><m:mtext>P(X)</m:mtext></m:math></entry>
+    <entry><m:math><m:mi>x</m:mi> <m:mtext>P(X)</m:mtext></m:math></entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0 </entry>
+    <entry><m:math><m:mtext>P(x=0)</m:mtext> <m:mo>=</m:mo>  <m:mfrac><m:mn>2</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+    <entry>(0)<m:math><m:mo>(</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>50</m:mn></m:mfrac><m:mo>)</m:mo></m:math>   =  0</entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry><m:math><m:mtext>P(x=1)</m:mtext> <m:mo>=</m:mo> <m:mfrac><m:mn>11</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+    <entry>(1)<m:math><m:mo>(</m:mo><m:mfrac><m:mn>11</m:mn><m:mn>50</m:mn></m:mfrac><m:mo>)</m:mo></m:math> = <m:math><m:mfrac><m:mn>11</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry><m:math><m:mtext>P(x=2)</m:mtext> <m:mo>=</m:mo> <m:mfrac><m:mn>23</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+    <entry>(2)<m:math><m:mo>(</m:mo><m:mfrac><m:mn>23</m:mn><m:mn>50</m:mn></m:mfrac><m:mo>)</m:mo></m:math> = <m:math><m:mfrac><m:mn>46</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry><m:math><m:mtext>P(x=3)</m:mtext> <m:mo>=</m:mo>   <m:mfrac><m:mn>9</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+    <entry>(3)<m:math><m:mo>(</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>50</m:mn></m:mfrac><m:mo>)</m:mo></m:math>  = <m:math><m:mfrac><m:mn>27</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry><m:math><m:mtext>P(x=4)</m:mtext> <m:mo>=</m:mo>   <m:mfrac><m:mn>4</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+    <entry>(4)<m:math><m:mo>(</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>50</m:mn></m:mfrac><m:mo>)</m:mo></m:math>   = <m:math><m:mfrac><m:mn>16</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry><m:math><m:mtext>P(x=5)</m:mtext><m:mo> =</m:mo>   <m:mfrac><m:mn>1</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+    <entry>(5)<m:math><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>50</m:mn></m:mfrac><m:mo>)</m:mo></m:math>   =   <m:math><m:mfrac><m:mn>5</m:mn><m:mn>50</m:mn></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup><caption>You expect a newborn to wake its mother after midnight 2.1 times, on the average.</caption>
+</table><para id="element-404"><emphasis>Add the last column to find the expected value. </emphasis> <m:math><m:mi>μ</m:mi></m:math>  = Expected Value = <m:math>
+<m:mfrac>
+    <m:mn>105</m:mn>
+    <m:mn>50</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mn>2.1</m:mn>
+</m:math></para><exercise id="element-454"><problem id="id10873647">
+  <para id="element-599">
+
+
+
+Go back and calculate the expected value for the number of days Nancy attends classes a week. Construct the third column to do so.
+  </para>
+</problem>
+
+<solution id="id10873665">
+  <para id="element-47">
+    2.74 days a week.
+  </para>
+</solution>
+</exercise>
+</example>
+
+<example id="element-116"><para id="element-117">Suppose you play a game of chance in which five numbers are chosen from 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.  A computer randomly selects five numbers from 0 to 9 with replacement. You pay $2 to play and could profit $100,000 if you match all 5 numbers in order (you get your $2 back plus $100,000).  Over the long term, what is your <emphasis>expected</emphasis> profit of playing the game? 
+</para><para id="element-481">To do this problem, set up an expected value table for the amount of money you can profit.</para><para id="element-382">Let <m:math><m:mi>X</m:mi></m:math> = the amount of money you profit.  The values of <m:math><m:mi>x</m:mi></m:math> are not 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Since you are interested in your profit (or loss),  the values of <m:math><m:mi>x</m:mi></m:math> are 100,000 dollars and -2 dollars.</para><para id="element-996">To win, you must get all 5 numbers correct, in order.  The probability of  choosing one correct number is <m:math><m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn></m:mfrac></m:math> because there are 10 numbers.  You may choose a number more than once.  The probability of choosing all 5 numbers correctly and in order is:</para><equation id="element-269"><m:math><m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn> </m:mfrac><m:mo>*</m:mo> <m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn> </m:mfrac><m:mo>*</m:mo> <m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn> </m:mfrac><m:mo>*</m:mo> <m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn> </m:mfrac><m:mo>*</m:mo> <m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn> </m:mfrac><m:mo>*</m:mo><m:mo> = </m:mo><m:mn>1</m:mn> <m:mo>*</m:mo> <m:msup><m:mn>10</m:mn> <m:mn>-5</m:mn></m:msup><m:mo>=</m:mo> <m:mn>0.00001</m:mn></m:math></equation><para id="element-800">Therefore, the probability of winning is 0.00001 and the probability of losing is</para><equation id="element-962"><m:math><m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>0.00001</m:mn><m:mo>=</m:mo><m:mn>0.99999</m:mn></m:mrow></m:math></equation><para id="element-839">The expected value table is as follows.</para><table id="element-480" summary="In the table, to find the expected value, add the last column.">
+<tgroup cols="4"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mi>x</m:mi></m:math></entry>
+    <entry><m:math><m:mtext>P(x)</m:mtext></m:math></entry>
+    <entry><m:math><m:mi>x</m:mi><m:mtext>P(x)</m:mtext></m:math></entry>
+  </row>
+  <row>
+    <entry>Loss</entry>
+    <entry>-2</entry>
+    <entry>0.99999</entry>
+    <entry>(-2)(0.99999)=-1.99998</entry>
+  </row>
+  <row>
+    <entry>Profit</entry>
+    <entry>100,000</entry>
+    <entry>0.00001</entry>
+    <entry>(100000)(0.00001)=1</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup><caption>Αdd the last column.  -1.99998 + 1 = -0.99998 </caption>
+</table><para id="element-406">Since <m:math><m:mn>-0.99998</m:mn></m:math> is about <m:math><m:mn>-1</m:mn></m:math>, you would, on the average, expect to lose approximately one dollar for each game you
+play. However, each time you play, you either lose $2 or profit $100,000. The $1 is the
+average or expected LOSS per game after playing this game over and over.</para>
+</example>
+
+<example id="element-341"><para id="element-408">Suppose you play a game with a biased coin. You play each game by tossing
+the coin once. <m:math><m:mtext>P(heads)</m:mtext><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math> and <m:math><m:mtext>P(tails)</m:mtext> <m:mo>=</m:mo> <m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math>. If you toss a head, you pay $6. If you
+toss a tail, you win $10. If you play this game many times, will you come out ahead?
+</para><exercise id="element-193"><problem id="id14631763">
+<para id="element-653">Define a random variable <m:math><m:mi>X</m:mi></m:math>.</para>
+</problem>
+
+<solution id="id14631784" print-placement="end">
+  <para id="element-548"><m:math><m:mi>X</m:mi></m:math> = amount of profit</para>
+</solution>
+</exercise>
+
+<exercise id="element-483"><problem id="id14631817">
+<para id="element-597">Complete the following expected value table.</para><table id="element-644" summary="">
+<tgroup cols="4"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></entry>
+    <entry>____</entry>
+    <entry>____</entry>
+  </row>
+
+  <row>
+    <entry>WIN</entry>
+    <entry>10</entry>
+    <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry>____</entry>
+  </row>
+  <row>
+    <entry>LOSE</entry>
+    <entry>____</entry>
+    <entry>____</entry>
+    <entry><m:math><m:mfrac><m:mn>-12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+  
+</problem>
+
+<solution id="id7273882" print-placement="end">
+<table id="element-644s" summary="In the PDF table, the outcomes (money you win or lose) of a game played with a biased coin are recorded. There is a column to record the probability and a column to record the outcome multiplied by its probability.">
+<tgroup cols="4"><tbody>
+  <row>
+    <entry/>
+    <entry><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></entry>
+    <entry><emphasis><m:math><m:mi>P(x)</m:mi></m:math></emphasis></entry>
+    <entry><emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math><m:math><m:mi>P(x)</m:mi></m:math></emphasis></entry>
+  </row>
+
+
+  <row>
+    <entry>WIN</entry>
+    <entry>10</entry>
+    <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+    <entry><emphasis><m:math><m:mfrac><m:mn>10</m:mn><m:mn>3</m:mn></m:mfrac></m:math></emphasis></entry>
+  </row>
+  <row>
+    <entry>LOSE</entry>
+    <entry><emphasis>-6</emphasis></entry>
+    <entry><emphasis><m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math></emphasis></entry>
+    <entry><m:math><m:mfrac><m:mn>-12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table></solution>
+</exercise>
+
+<exercise id="element-737"><problem id="id10943564">
+  <para id="element-847">What is the expected value, <m:math><m:mi>μ</m:mi></m:math>?  Do you come out ahead?
+  </para>
+</problem>
+
+<solution id="id10943588" print-placement="end">
+  <para id="element-535">Add the last column of the table.
+The expected value 
+<m:math>
+ <m:mi>μ</m:mi>
+ <m:mo> = </m:mo>
+ <m:mfrac>
+  <m:mn>-2</m:mn>
+  <m:mn>3</m:mn>
+ </m:mfrac>
+
+
+</m:math>.  You lose, on average, about 67 cents each time you play the game so you do not come out ahead.</para>
+</solution>
+</exercise>
+</example>
+
+<para id="eip-168">Like data, probability distributions have standard deviations. You use this formula for the calculation.
+
+<media id="Formula" alt="Formula for Standard Deviation of Discrete Random Variable">
+	   
+  <image mime-type="image/png" src="../../media/Discrete SD Formula.png"/>
+		 
+</media>
+</para><para id="element-903">To calculate the standard
+deviation (<m:math><m:mi>σ</m:mi></m:math>) of a probability distribution, find each deviation from its expected value, square it, multiply it by its
+probability, add the products, and take the square root . To understand how to do the calculation, look at the table for the 
+number of days per week a men's soccer team plays soccer. To find the standard deviation, add the entries in the column labeled 
+<m:math>
+<m:msup>
+    <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mi>x</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>μ</m:mi>
+      <m:mo>)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>·</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+</m:math> and take the square root.</para><table id="element-226" summary="PDF table with the added columns for expected value and variance.">
+<tgroup cols="4"><tbody>
+  <row>
+    <entry><m:math><m:mi>x</m:mi></m:math></entry>
+    <entry><m:math><m:mtext>P(x)</m:mtext></m:math></entry>
+    <entry><m:math><m:mi>x</m:mi><m:mtext>P(x)</m:mtext></m:math></entry>
+    <entry><m:math><m:msup><m:mtext>(x -μ)</m:mtext><m:mn>2</m:mn></m:msup> <m:mtext>P(x)</m:mtext></m:math></entry>
+  </row>
+  <row>
+    <entry>0</entry>
+    <entry>0.2</entry>
+    <entry>(0)(0.2) = 0</entry>
+    <entry><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>-</m:mo><m:mn>1.1</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup> <m:mo>(</m:mo><m:mn>.2</m:mn><m:mo>)</m:mo> <m:mo>= </m:mo><m:mn>0.242</m:mn></m:math></entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>0.5</entry>
+    <entry>(1)(0.5) = 0.5</entry>
+    <entry><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1.1</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup> <m:mo>(</m:mo><m:mn>.5</m:mn><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0.005</m:mn><m:mo/></m:math></entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>0.3</entry>
+    <entry>(2)(0.3) = 0.6</entry>
+    <entry><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>-</m:mo><m:mn>1.1</m:mn><m:mo>)</m:mo>
+</m:mrow>
+<m:mn>2</m:mn></m:msup> <m:mo>(</m:mo><m:mn>.3</m:mn><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mn>0.243</m:mn></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table><para id="eip-127">Add the last column in the table.  
+<m:math><m:mn>0.242</m:mn><m:mo>+</m:mo><m:mn>0.005</m:mn><m:mo>+</m:mo><m:mn>0.243</m:mn><m:mo>=</m:mo><m:mn>0.490</m:mn></m:math>.
+
+The standard deviation is the square root of <m:math><m:mn>0.49</m:mn></m:math>. 
+<m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mn>0.49</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>0.7</m:mn></m:math></para><para id="element-873">Generally for probability distributions, we use a calculator or a computer to calculate <m:math><m:mi>μ</m:mi></m:math> and
+ <m:math><m:mi>σ</m:mi></m:math> to reduce roundoff error. For some probability distributions, there are
+short-cut formulas that calculate <m:math><m:mi>μ</m:mi></m:math> and <m:math><m:mi>σ</m:mi></m:math>.</para>
+   
+  </content>
+
+
+<glossary>
+
+<definition id="expectedv">
+    <term>Expected Value</term>
+    <meaning id="id10864394">
+     Expected arithmetic average when an experiment is repeated many times. (Also called the mean). Notations: 
+
+<m:math><m:mrow><m:mi>E</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>, 
+</m:mo><m:mi>μ</m:mi><m:mo>.</m:mo></m:mrow></m:math>    
+
+For a discrete random variable (RV) with probability distribution function
+<m:math><m:mrow> 
+<m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>,</m:mo></m:mrow></m:math>the definition can also be written in the form
+ 
+<m:math><m:mrow><m:mi>E</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo>
+<m:mo>=</m:mo><m:mi>μ</m:mi>
+<m:mo>=</m:mo><m:mo>∑</m:mo><m:mi>xP</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:math>
+
+    </meaning>
+  </definition>
+
+
+<definition id="mean">
+    <term>Mean</term>
+    <meaning id="id10578364">
+   A number that measures the central tendency.  A common name for mean is  'average.'  The term 'mean' is a shortened form of 'arithmetic mean.' By definition, the mean for a sample (denoted by 
+<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply></m:math>) is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow>
+
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+
+
+<m:mo>=</m:mo>
+
+<m:mfrac><m:mtext>Sum of all values in the sample</m:mtext><m:mtext>Number of values in the sample</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {x}}= {  {"Sum of all values in the sample"}  over  {"Number of values in the sample"} } } {}</m:annotation></m:semantics></m:math>, 
+
+and the mean for a population (denoted by 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>μ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>) is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>Sum of all values in the population</m:mtext><m:mtext>Number of values in the population</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {"Sum of all values in the population"}  over  {"Number of values in the population"} } } {}</m:annotation></m:semantics></m:math>.
+    </meaning>
+  </definition>
+
+</glossary>  
+</document>

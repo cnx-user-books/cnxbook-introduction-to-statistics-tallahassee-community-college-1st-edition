@@ -1,0 +1,208 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Confidence Intervals: Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m65958</md:content-id>
+  <md:title>Confidence Intervals: Summary of Formulas</md:title>
+  <md:abstract>changed p' notation</md:abstract>
+  <md:uuid>709b1c38-f2f2-4ecf-97e3-44f6b197fe69</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me"><rule id="rule-1" type="formula"><label>Formula</label><title> General form of a confidence interval</title><statement id="id25241395">
+    <para id="ruleexp1"><m:math>
+<m:mo>(</m:mo>
+<m:mtext>lower value</m:mtext>
+<m:mo>,</m:mo>
+<m:mtext>upper value</m:mtext>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mo>(</m:mo>
+<m:mtext>point estimate</m:mtext>
+<m:mo>-</m:mo>
+<m:mtext>error bound</m:mtext>
+<m:mo>,</m:mo>
+<m:mtext>point estimate</m:mtext>
+<m:mo>+</m:mo>
+<m:mtext>error bound</m:mtext>
+<m:mo>)</m:mo>
+</m:math></para>
+  </statement></rule> </para><para id="element-448"><rule id="rule-2" type="formula"><label>Formula</label><title>To find the error bound when you know the confidence interval</title><statement id="id25241482">
+    <para id="ruleexp2.1"><m:math>
+<m:mtext>error bound</m:mtext>
+<m:mo>=</m:mo>
+<m:mtext>upper value</m:mtext>
+<m:mo>-</m:mo>
+<m:mtext>point estimate</m:mtext>
+<m:mspace width="20pt"/>
+</m:math> OR
+<m:math>
+<m:mspace width="20pt"/>
+<m:mtext>error bound</m:mtext>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mtext>upper value</m:mtext>
+<m:mo>-</m:mo>
+<m:mtext>lower value</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:math> </para>
+  </statement>
+
+</rule> </para><para id="element-938"><rule id="rule-3" type="formula"><label>Formula</label><title>Single Population Mean, Known Standard Deviation, Normal Distribution</title><statement id="id25241582">
+    <para id="ruleexp3.1">Use the <link document="m16947">Normal Distribution for Means</link>
+<m:math>
+<m:mspace width="20pt"/>
+<m:mtext>EBM</m:mtext>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>z</m:mi>
+
+</m:msub>
+<m:mo>⋅</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>σ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math></para></statement>
+
+<statement id="id25210016">
+    <para id="ruleexp3.2">The confidence interval has the format
+<m:math>
+<m:mo>(</m:mo>
+<m:apply>
+<m:conjugate/>
+<m:mi>x</m:mi>
+</m:apply>
+<m:mo>-</m:mo>
+<m:mtext>EBM</m:mtext>
+<m:mo>,</m:mo>
+<m:apply>
+<m:conjugate/>
+<m:mi>x</m:mi>
+</m:apply>
+<m:mo>+</m:mo>
+<m:mtext>EBM</m:mtext>
+<m:mo>)</m:mo>
+</m:math>.</para>
+  </statement></rule> </para><para id="element-440"><rule id="rule-4" type="formula"><label>Formula</label><title>Single Population Mean, Unknown Standard Deviation, Student's-t Distribution</title><statement id="id25210104">
+    <para id="ruleexp4">Use the Student's-t Distribution with degrees of freedom
+<m:math>
+<m:mtext>df</m:mtext>
+<m:mo>=</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+</m:math>.
+<m:math>
+<m:mtext>EBM</m:mtext>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t*</m:mi>
+
+</m:msub>
+<m:mo>⋅</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>s</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math></para></statement></rule></para><para id="element-866"><rule id="rule-5" type="formula"><label>Formula</label><title>Single Population Proportion, Normal Distribution</title><statement id="id25210225">
+    <para id="ruleexp5.1">Use the Normal Distribution for a single population proportion
+<m:math>
+<m:mi>p-hat</m:mi>
+
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math></para></statement>
+
+<statement id="id24607156">
+    <para id="ruleexp5.2"><m:math>
+<m:mtext>EBP</m:mtext>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>z</m:mi>
+
+</m:msub>
+<m:mo>⋅</m:mo>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:mi>p-hat</m:mi>
+
+<m:mo>⋅</m:mo>
+<m:mi>(1-p-hat)</m:mi>
+
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+<m:mspace width="20pt"/>
+
+</m:math></para></statement>
+
+<statement id="id24607267">
+    <para id="ruleexp5.3">The confidence interval has the format
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>p-hat</m:mi>
+
+<m:mo>-</m:mo>
+<m:mtext>EBP</m:mtext>
+<m:mo>,</m:mo>
+<m:mi>p-hat</m:mi>
+
+<m:mo>+</m:mo>
+<m:mtext>EBP</m:mtext>
+<m:mo>)</m:mo>
+</m:math>.</para></statement></rule> </para><para id="element-300"><rule id="rule-6" type="formula"><label>Formula</label><title>Point Estimates</title><statement id="id24607350">
+    <para id="ruleexp6.1"><m:math>
+<m:apply>
+<m:conjugate/>
+<m:mi>x</m:mi>
+</m:apply>
+</m:math> is a point estimate for
+<m:math>
+<m:mi>μ</m:mi>
+</m:math></para>
+  </statement>
+<statement id="id24607385">
+<para id="ruleexp6.2"><m:math>
+<m:mi>p</m:mi>
+<m:mo>'</m:mo>
+</m:math> is a point estimate for
+<m:math>
+<m:mi>ρ</m:mi>
+</m:math></para><para id="element-737"><m:math>
+<m:mi>s</m:mi>
+</m:math> is a point estimate for
+<m:math>
+<m:mi>σ</m:mi>
+</m:math></para>
+</statement></rule> </para>   
+  </content>
+  
+</document>
