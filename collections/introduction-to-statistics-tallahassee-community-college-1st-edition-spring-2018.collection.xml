@@ -1,6 +1,6 @@
 <col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
-  <md:content-id>col24098</md:content-id>
+  <md:content-id>col24273</md:content-id>
   <md:title>Introduction to Statistics Tallahassee Community College 1st Edition Spring 2018</md:title>
   
   
@@ -15,8 +15,8 @@
   
   
 
-  <md:uuid>9a617de4-73c0-47c0-95be-690fabe85000</md:uuid>
-<md:slug>introduction-to-statistics-tallahassee-community-college-1st-edition</md:slug>
+  <md:uuid>1bd07c4c-b683-4c48-8731-12333eeb4b3f</md:uuid>
+<md:slug>introduction-to-statistics-tallahassee-community-college-1st-edition-spring-2018</md:slug>
 </metadata>
 
   <col:content>
@@ -65,12 +65,30 @@
       
     
     
+      <col:module document="m66043">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m34356/latest/">Open Textbook Adoptions</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
       <col:module document="m65187"/>
         
       
     
     
       <col:module document="m65190"/>
+        
+      
+    
+    
+      <col:module document="m66042"/>
         
       
     
@@ -596,6 +614,11 @@
     
     
       <col:module document="m65593"/>
+        
+      
+    
+    
+      <col:module document="m66076"/>
         
       
     

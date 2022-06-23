@@ -1,0 +1,2925 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Sampling and Data: Review of Percentages</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m66043</md:content-id>
+  <md:title>Sampling and Data: Review of Percentages</md:title>
+  <md:abstract>This module is from Fundamentals of Mathematics by Denny Burzynski and Wade Ellis, Jr. This module discusses applications of percents. By the end of the module students should be able to distinguish between base, percent, and percentage and be able to find the percentage, the percent, and the base.</md:abstract>
+  <md:uuid>668dd1b2-2bef-4666-a5f2-596e8e22e364</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m34356/latest/" strength="2">Open Textbook Adoptions</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="id1172143077094">
+      <title>Section Overview</title>
+      <list id="id1172138458251" list-type="bulleted"><item>Base, Percent, and Percentage</item>
+        <item>Finding the Percentage</item>
+        <item>Finding the Percent</item>
+        <item>Finding the Base</item>
+      </list>
+    </section>
+    <section id="id1172142359498">
+      <title>Base, Percent, and Percentage</title>
+      <para id="id1172149289722">There are three basic types of percent problems. Each type involves a base, a percent, and a percentage, and when they are translated from words to mathemati­cal symbols <emphasis effect="italics">each becomes a multiplication statement</emphasis>. Examples of these types of problems are the following:</para>
+      <list id="id1172139701464" list-type="enumerated" number-style="arabic"><item id="prob1">What number is 30% of 50? (Missing product statement.)</item>
+        <item id="prob2">15 is what percent of 50? (Missing factor statement.)</item>
+        <item id="prob3">15 is 30% of what number? (Missing factor statement.)</item>
+      </list>
+      <para id="id1172140916475">In <link target-id="prob1">problem 1</link>, the product is missing. To solve the problem, we represent the missing product with 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math>.</para>
+      
+      <para id="eip-982"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>P </m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mtext> 30% </m:mtext>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:mtext>50</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"P "=" 30% " cdot "50"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="id1172140630196"><title>Percentage</title>The missing product 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is called the <term>percentage</term>. Percentage means <emphasis effect="italics">part</emphasis>, or <emphasis effect="italics">por­tion</emphasis>. In 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P </m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext> 30% </m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>50</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"P "=" 30% " cdot "50"} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> represents a particular <emphasis effect="italics">part</emphasis> of 50.</para>
+      <para id="id1172144721240">In <link target-id="prob2">problem 2</link>, one of the factors is missing. Here we represent the missing factor with 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Q</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>.</para>
+      
+      <para id="eip-236"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>15 </m:mtext>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mi> Q </m:mi>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:mtext>50</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"15 "=" Q " cdot "50"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id1172138453947"><title>Percent</title>The missing factor is the <term>percent</term>. Percent, we know, means <emphasis effect="italics">per</emphasis> 100, or <emphasis effect="italics">part</emphasis> of 100. In 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>15 </m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mi> Q </m:mi><m:mo stretchy="false">⋅</m:mo><m:mtext>50</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"15 "=" Q " cdot "50"} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Q</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> indicates what part of 50 is being taken or considered. Specifi­cally, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>15 </m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mi> Q </m:mi><m:mo stretchy="false">⋅</m:mo><m:mtext>50</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"15 "=" Q " cdot "50"} {}</m:annotation></m:semantics></m:math> means that if 50 was to be divided into 100 equal parts, then <m:math><m:mi>Q</m:mi></m:math> indicates 15 are being considered.</para>
+      <para id="id1172138488361">In <link target-id="prob3">problem 3</link>, one of the factors is missing. Represent the missing factor with <m:math>
+<m:mi>B</m:mi>
+</m:math>.</para>
+      
+      <para id="eip-369"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>15 </m:mtext>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mtext> 30% </m:mtext>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:mi>B</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"15 "=" 30% " cdot B} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id1172142244669"><title>Base</title>The missing factor is the <term>base</term>. Some meanings of base are a <emphasis effect="italics">source of supply</emphasis>, or a <emphasis effect="italics">starting place</emphasis>. In 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>15 </m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext> 30% </m:mtext><m:mo stretchy="false">⋅</m:mo><m:mi>B</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"15 "=" 30% " cdot B} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> indicates the amount of supply. Specifically, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>15 </m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext> 30% </m:mtext><m:mo stretchy="false">⋅</m:mo><m:mi>B</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"15 "=" 30% " cdot B} {}</m:annotation></m:semantics></m:math> indicates that 15 represents 30% of the total supply.</para>
+      <para id="id5406002">Each of these three types of problems is of the form</para>
+      
+      <para id="eip-357"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mtext>percentage</m:mtext>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mtext>percent</m:mtext>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mtext>base</m:mtext>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \( "percentage" \)  =  \( "percent" \)   cdot   \( "base" \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="id1172157640405">We can determine any one of the three values given the other two using the methods discussed in <link document="m34930"/>.</para>
+    </section>
+    <section id="id1172145745081">
+      <title>Finding the Percentage</title>
+      <section id="id1172140378581"><title>Sample Set A</title><example id="eip-id1169288063859">
+        <para id="id1172146340438"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>What number</m:mtext>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>30</m:mn><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mn>50</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+<m:mtext>?</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing product statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>30</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>50</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert 30% to a decimal.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>.30</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>50</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Multiply.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>15</m:mn>
+</m:mtd>
+<m:mtd/>
+<m:mtd/>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="id1172158070956">Thus, 15 is 30% of 50.</para>
+        <para id="id1172157456277">Do <link target-id="id1172139831540"/>, <link target-id="id1172157325350"/>.</para>
+</example>
+<example id="eip-id4116387">
+        <para id="id1172140857734"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>What number</m:mtext>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>36</m:mn><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mn>95</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+<m:mtext>?</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing product statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>36</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>95</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert 36% to a decimal.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>.36</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>95</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Multiply</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>34.2</m:mn>
+</m:mtd>
+<m:mtd/>
+<m:mtd/>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="id1172163646489">Thus, 34.2 is 36% of 95.</para>
+        <para id="id1172144181994">Do <link target-id="id1172139831540"/>, <link target-id="id1172157325350"/>.</para>
+</example>
+<example id="eip-id1169297896792">
+        <para id="id4899410">A salesperson, who gets a commission of 12% of each sale she makes, makes a sale of $8,400.00. How much is her commission?</para>
+        <para id="id1172144110195">We need to determine what part of $8,400.00 is to be taken. What <emphasis effect="italics">part</emphasis> indicates <emphasis effect="italics">percentage</emphasis>.</para>
+        <para id="id1172140580750"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>What number</m:mtext>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>12</m:mn><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mn>8,400.00</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+<m:mtext>?</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing product statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>12</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>8,400.00</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to decimals.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>.12</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>8,400.00</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Multiply.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>1008.00</m:mn>
+</m:mtd>
+<m:mtd/>
+<m:mtd/>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="id1172163864974">Thus, the salesperson's commission is $1,008.00.</para>
+        <para id="id7463070">Do <link target-id="id1172139831540"/>, <link target-id="id1172159621680"/>.</para>
+</example>
+<example id="eip-id1656926">
+        <para id="id1172145502271">A girl, by practicing typing on her home computer, has been able to increase her typing speed by 110%. If she originally typed 16 words per minute, by how many words per minute was she able to increase her speed?</para>
+        <para id="id1172149248525">We need to determine what part of 16 has been taken. What <emphasis effect="italics">part</emphasis> indicates <emphasis effect="italics">percentage</emphasis>.</para>
+        <para id="id5719656"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>What number</m:mtext>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>110</m:mn><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mn>16</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+<m:mtext>?</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing product statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>110</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>16</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to decimals.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>1.10</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>16</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Multiply.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>17.6</m:mn>
+</m:mtd>
+<m:mtd/>
+<m:mtd/>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="id1172138413930">Thus, the girl has increased her typing speed by 17.6 words per minute. Her new speed is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mtext>16 </m:mtext><m:mo stretchy="false">+</m:mo><m:mtext> 17</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>6 </m:mtext><m:mo stretchy="false">=</m:mo><m:mtext> 33</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"16 "+" 17" "." "6 "=" 33" "." 6} {}</m:annotation></m:semantics></m:math> words per minute.</para>
+        <para id="id1172143322046">Do <link target-id="id1172139831540"/>, <link target-id="id1471088"/>.</para>
+</example>
+<example id="eip-id1169298840618">        
+        <para id="eip-827">A student who makes $125 a month working part-time receives a 4% salary raise. What is the student's new monthly salary?</para><para id="id1172141979650">With a 4% raise, this student will make 100% of the original salary + 4% of the original salary. This means the new salary will be 104% of the original salary. We need to determine what part of $125 is to be taken. What <emphasis effect="italics">part</emphasis> indicates <emphasis effect="italics">percentage</emphasis>.</para>
+        <para id="id1172141974541"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>What number</m:mtext>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>104</m:mn><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mn>125</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing product statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>104</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>125</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to decimals.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>1.04</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>125</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Multiply.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>130</m:mn>
+</m:mtd>
+<m:mtd/>
+<m:mtd/>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="id1172138477651">Thus, this student's new monthly salary is $130. </para>
+        <para id="id1172142073865">Do <link target-id="id1172139831540"/>, <link target-id="id1172153363770"/>.</para>
+</example>
+<example id="eip-id1885300">
+        <para id="id1172162175044">An article of clothing is on sale at 15% off the marked price. If the marked price is $24.95, what is the sale price?</para>
+        <para id="id1172158469801">Since the item is discounted 15%, the new price will be 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>100%</m:mtext>
+<m:mo>-</m:mo>
+<m:mtext>15% </m:mtext><m:mo stretchy="false">=</m:mo><m:mtext> 85%</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100% - 15% "=" 85%"} {}</m:annotation></m:semantics></m:math> of the marked price. We need to determine what part of 24.95 is to be taken. What <emphasis effect="italics">part</emphasis> indicates <emphasis effect="italics">percentage</emphasis>.</para>
+        <para id="id8450437"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>What number</m:mtext>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>85</m:mn><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:mtext>$</m:mtext>
+<m:munder>
+<m:mn>24.95</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+<m:mtext>.</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing product statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>85</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>24.95</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to decimals.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>.85</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>24.95</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Multiply.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd rowalign="top">
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd rowalign="top">
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd rowalign="top">
+<m:mn>21.2075</m:mn>
+</m:mtd>
+<m:mtd/>
+<m:mtd/>
+<m:mtd rowalign="top">
+<m:mtable>
+<m:mtr>
+<m:mtd columnalign="left">
+<m:mtext>Since this number represents money,</m:mtext></m:mtd> </m:mtr>
+<m:mtr>
+<m:mtd columnalign="left"><m:mtext>we'll round to 2 decimal places</m:mtext>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>P</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>21.21</m:mn>
+</m:mtd>
+<m:mtd/>
+<m:mtd/>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="id1172154956535">Thus, the sale price of the item is $21.21.</para>
+      </example></section>
+      <section id="id1172139831540"><title>Practice Set A</title><exercise id="id1172157325350">
+          <problem id="oo-id1172138534856">
+            <para id="id1172147618746">What number is 42% of 85?</para>
+          </problem>
+<solution id="eip-id1164004421513"><para id="eip-id1164017567514">35.7</para></solution>
+        </exercise>
+        <exercise id="id1172159621680">
+          <problem id="oo-id1172139631090">
+            <para id="id1172152684270">A sales person makes a commission of 16% on each sale he makes. How much is his commission if he makes a sale of $8,500?</para>
+          </problem>
+<solution id="eip-id1164000993221"><para id="eip-id1164027048541">$1,360</para></solution>
+        </exercise>
+        <exercise id="id1471088">
+          <problem id="oo-id1172138534098">
+            <para id="id1172139574356">An assembly line worker can assemble 14 parts of a product in one hour. If he can increase his assembly speed by 35%, by how many parts per hour would he increase his assembly of products?</para>
+          </problem>
+<solution id="eip-id1164023150843"><para id="eip-id1164004002497">4.9</para></solution>
+        </exercise>
+        <exercise id="id1172153363770">
+          <problem id="oo-id1172138973165">
+            <para id="id1615737">A computer scientist in the Silicon Valley makes $42,000 annually. What would this scientist's new annual salary be if she were to receive an 8% raise?</para>
+          </problem>
+<solution id="eip-id1164029915038"><para id="eip-id1164012348179">$45,360</para></solution>
+        </exercise>
+      </section>
+    </section>
+    <section id="id1172153770646">
+      <title>Finding the Percent</title>
+      <section id="id1172140403878"><title>Sample Set B</title><example id="eip-id1164007640598">
+        <para id="id1172141985010"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mn>15</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>what percent</m:mtext></m:mrow>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mn>50</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+<m:mtext>?</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing factor statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:mtext>[(product) = (factor) ⋅ (factor)]</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>15</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>50</m:mn>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="eip-17">Recall that (missing factor) = (product) ÷ (known factor).</para><para id="eip-780"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>15</m:mn><m:mo>÷</m:mo><m:mn>50</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Divide.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>0.3</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to a percent.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>30</m:mn><m:mo>%</m:mo>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para><para id="id1172154868980">Thus, 15 is 30% of 50.</para>
+        <para id="id1172146228301">Do <link target-id="id7249112"/>, <link target-id="id1172141986583"/>.</para>
+</example>
+<example id="eip-id1164001180213">
+        <para id="id1172149876510"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mn>4.32</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>what percent</m:mtext></m:mrow>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mn>72</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+<m:mtext>?</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing factor statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:mtext>[(product) = (factor) ⋅ (factor)]</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>4.32</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>72</m:mn>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="eip-871"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>4.32</m:mn><m:mo>÷</m:mo><m:mn>72</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Divide.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>0.06</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to a percent.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>6</m:mn><m:mo>%</m:mo>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math></para><para id="id1172154657561">Thus, 4.32 is 6% of 72.</para>
+        <para id="id1172149195798">Do <link target-id="id7249112"/>, <link target-id="id1172141986583"/>.</para>
+</example>
+<example id="eip-id1164011060068">
+        <para id="id1172163771903">On a 160 question exam, a student got 125 correct answers. What percent is this? Round the result to two decimal places.</para>
+        <para id="id1172147586745">We need to determine the percent.</para>
+        <para id="id1172147489126"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mn>125</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>what percent</m:mtext></m:mrow>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mn>160</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+<m:mtext>?</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing factor statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:mtext>[(product) = (factor) ⋅ (factor)]</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>125</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>160</m:mn>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="eip-876"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>125</m:mn><m:mo>÷</m:mo><m:mn>160</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Divide.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>0.78125</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Round to two decimal places.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>.78</m:mn>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math></para><para id="id1172163625558">Thus, this student received a 78% on the exam.</para>
+        <para id="id1172141396145">Do <link target-id="id7249112"/>, <link target-id="id1172139329678"/>.</para>
+</example>
+<example id="eip-id1164020987950">
+        <para id="id1172160988135">A bottle contains 80 milliliters of hydrochloric acid (HCl) and 30 milliliters of water. What percent of HCl does the bottle contain? Round the result to two decimal places. </para>
+        <para id="eip-24">We need to determine the percent. The total amount of liquid in the bottle is</para><para id="eip-534"><m:math>
+<m:mtext>80 milliliters</m:mtext>
+<m:mo>+</m:mo>
+<m:mtext>30 milliliters</m:mtext>
+<m:mo>=</m:mo>
+<m:mtext>110 milliliters</m:mtext>
+</m:math>.</para><para id="id6915564"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mn>80</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>what percent</m:mtext></m:mrow>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mn>110</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+<m:mtext>?</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing factor statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:mtext>[(product) = (factor) ⋅ (factor)]</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>80</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>110</m:mn>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="eip-559"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>80</m:mn><m:mo>÷</m:mo><m:mn>110</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Divide.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>0.727272</m:mn><m:mtext>. . .</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Round to two decimal places.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>≈</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>73</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mtext>The symbol "≈" is read as "approximately."</m:mtext>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math></para><para id="id5700051">Thus, this bottle contains approximately 73% HCl.</para>
+        <para id="id1172139564148">Do <link target-id="id7249112"/>, <link target-id="id1172154811951"/>.</para>
+</example>
+<example id="eip-id6764746">
+        <para id="id1172138657279">Five years ago a woman had an annual income of $19,200. She presently earns $42,000 annually. By what percent has her salary increased? Round the result to two decimal places. </para>
+        <para id="eip-958">We need to determine the percent.</para><para id="id1172147441644"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mn>42,000</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>what percent</m:mtext></m:mrow>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mn>19,200</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+<m:mtext>?</m:mtext>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing factor statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>42,000</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>19,200</m:mn>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="eip-682"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>42,000</m:mn><m:mo>÷</m:mo><m:mn>19,200</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Divide.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>2.1875</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Round to two decimal places.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>2.19</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to a percent.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>Q</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>219%</m:mn>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to a percent.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math></para><para id="id1172143492339">Thus, this woman's annual salary has increased 219%.</para>
+      </example></section>
+      <section id="id7249112">
+        <title>Practice Set B</title>
+        <exercise id="id1172141986583"><problem id="oo-id1172138398751">
+            <para id="id1172139508779">99.13 is what percent of 431?</para>
+          </problem>
+        <solution id="eip-id1163792674261"><para id="eip-id1163787291377">23%</para></solution></exercise>
+        <exercise id="id1172139329678"><problem id="oo-id1172143355273">
+            <para id="id1172162940177">On an 80 question exam, a student got 72 correct answers. What percent did the student get on the exam?</para>
+          </problem>
+        <solution id="eip-id1169802262216"><para id="eip-id1802633">90%</para></solution></exercise>
+        <exercise id="id1172154811951"><problem id="oo-id1172138537209">
+            <para id="id7883636">A bottle contains 45 milliliters of sugar and 67 milliliters of water. What fraction of sugar does the bottle contain? Round the result to two decimal places (then express as a percent).</para>
+          </problem>
+        <solution id="eip-id1169229035157"><para id="eip-id1169226226451">40%</para></solution></exercise>
+      </section>
+    </section>
+    <section id="id1172151800909">
+      <title>Finding the Base</title>
+      <section id="id1172153665672"><title>Sample Set C</title><example id="eip-id1163785041915">
+        
+        <para id="eip-528"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mn>15</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>30</m:mn><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>what number?</m:mtext></m:mrow>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing factor statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>[(percentage) = (factor) ⋅ (factor)]</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>15</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>30</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to decimals.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>15</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>.30</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>[(missing factor) = (product) ÷ (known factor)]</m:mtext>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math></para><para id="eip-925"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>15</m:mn><m:mo>÷</m:mo><m:mn>.30</m:mn>
+</m:mtd>
+
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>50</m:mn>
+</m:mtd>
+
+</m:mtr>
+
+</m:mtable>
+</m:math></para><para id="id1172139480555">Thus, 15 is 30% of 50.</para>
+        <para id="id1172139348936">Try <link target-id="id1172161003418"/> in <link target-id="id7333503"/>.</para>
+        </example>
+<example id="eip-id1163790063008">
+        <para id="id5206840"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mn>56.43</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>33</m:mn><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>what number?</m:mtext></m:mrow>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing factor statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>56.43</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>33</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to decimals.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>56.43</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>.33</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Divide.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="eip-839"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>56.43</m:mn><m:mo>÷</m:mo><m:mn>.33</m:mn>
+</m:mtd>
+
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>171</m:mn>
+</m:mtd>
+
+</m:mtr>
+
+</m:mtable>
+</m:math></para><para id="id6955305">Thus, 56.43 is 33% of 171.</para>
+        <para id="id1172154678520">Try <link target-id="id1172161003418"/> in <link target-id="id7333503"/>.</para>
+</example>
+<example id="eip-id1163782733007">
+        <para id="id1172138402775">Fifteen milliliters of water represents 2% of a hydrochloric acid (HCl) solution. How many milliliters of solution are there?</para>
+        <para id="id1172147533214">We need to determine the total supply. The word <emphasis effect="italics">supply</emphasis> indicates <emphasis effect="italics">base</emphasis>. </para>
+        <para id="id1172148055280"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mn>15</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>2</m:mn><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>what number?</m:mtext></m:mrow>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing factor statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>15</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>2</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to decimals.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>15</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>.02</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Divide.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="eip-46"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>15</m:mn><m:mo>÷</m:mo><m:mn>.02</m:mn>
+</m:mtd>
+
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>750</m:mn>
+</m:mtd>
+
+</m:mtr>
+
+</m:mtable>
+</m:math></para><para id="id1172142189818">Thus, there are 750 milliliters of solution in the bottle. </para>
+        <para id="id1172154924045">Try <link target-id="id1172142073472"/> in <link target-id="id7333503"/>.</para>
+</example>
+<example id="eip-id1163783716397">
+        <para id="id1172139913108">In a particular city, a sales tax of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>6</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math>% is charged on items purchased in local stores. If the tax on an item is $2.99, what is the price of the item?</para>
+        <para id="id1378019">We need to determine the price of the item. We can think of <emphasis effect="italics">price</emphasis> as the <emphasis effect="italics">starting place</emphasis>. <emphasis effect="italics">Starting place</emphasis> indicates <emphasis effect="italics">base</emphasis>. We need to determine the base.</para>
+        <para id="id1172139342070"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mn>2.99</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>6</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>what number?</m:mtext></m:mrow>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing factor statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>2.99</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>6</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to decimals.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>2.99</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>6.5</m:mn><m:mo>%</m:mo></m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>2.99</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>.065</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>[(missing factor) = (product) ÷ (known factor)]</m:mtext>
+</m:mtd>
+</m:mtr>
+
+
+
+</m:mtable>
+</m:math></para>
+        <para id="eip-114"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>2.99</m:mn><m:mo>÷</m:mo><m:mn>.065</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mtext>Divide.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>46</m:mn>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para><para id="id1172159350066">Thus, the price of the item is $46.00.</para>
+        <para id="id1172150868157">Try <link target-id="id1172154684436"/> in <link target-id="id7333503"/>.</para>
+</example>
+<example id="eip-id1163792210199">
+        <para id="id1172145480057">A clothing item is priced at $20.40. This marked price includes a 15% discount. What is the original price?</para>
+        <para id="id1172157780797">We need to determine the original price. We can think of the original price as the <emphasis effect="italics">starting place</emphasis>. <emphasis effect="italics">Starting place</emphasis> indicates <emphasis effect="italics">base</emphasis>. We need to determine the base. The new price, $20.40, represents 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>100%</m:mtext><m:mo>-</m:mo><m:mtext>  15% </m:mtext><m:mo stretchy="false">=</m:mo><m:mtext> 85%</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100% - 15% "=" 85%"} {}</m:annotation></m:semantics></m:math> of the original price.</para>
+        <para id="id1172154670871"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mn>20.40</m:mn>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>is</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mn>85</m:mn><m:mo>%</m:mo></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>of</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>what number?</m:mtext></m:mrow>
+<m:mo stretchy="true">︸</m:mo>
+</m:munder>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Missing factor statement.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:munder>
+<m:mtext>(percentage)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>=</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mrow><m:mtext>(percent)</m:mtext></m:mrow>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mo>⋅</m:mo>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+<m:mtd>
+<m:munder>
+<m:mtext>(base)</m:mtext>
+<m:mtext>↓</m:mtext>
+</m:munder>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>20.40</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>85</m:mn><m:mo>%</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>Convert to decimals.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mn>20.40</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mn>.85</m:mn></m:mtd>
+<m:mtd>
+<m:mo>⋅</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mtext>[(missing factor) = (product) ÷ (known factor)]</m:mtext>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math></para>
+        <para id="eip-110"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>20.40</m:mn><m:mo>÷</m:mo><m:mn>.85</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mtext>Divide.</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi>B</m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+</m:mtd>
+<m:mtd columnalign="left">
+<m:mn>24</m:mn>
+</m:mtd>
+<m:mtd/>
+</m:mtr>
+
+</m:mtable>
+</m:math></para><para id="id1172144244138">Thus, the original price of the item is $24.00.</para>
+        <para id="id1982055">Try <link target-id="id1172162349704"/> in <link target-id="id7333503"/>.</para>
+      </example></section>
+      <section id="id7333503"><title>Practice Set C</title><exercise id="id1172161003418">
+          <problem id="oo-id1172138989021">
+            <para id="id1172140461391">1.98 is 2% of what number?</para>
+          </problem>
+<solution id="eip-id1164022525991"><para id="eip-id1164012230358">99</para></solution>
+        </exercise>
+        <exercise id="id1172142073472">
+          <problem id="oo-id1172138539975">
+            <para id="id1172140429223">3.3 milliliters of HCl represents 25% of an HCl solution. How many milliliters of solution are there?</para>
+          </problem>
+<solution id="eip-id1164018868599"><para id="eip-id1164001091362">13.2ml</para></solution>
+        </exercise>
+        <exercise id="id1172154684436">
+          <problem id="oo-id1172138458478">
+            <para id="id1172141889940">A salesman, who makes a commission of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>18</m:mtext><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"18" {  {1}  over  {4} } } {}</m:annotation></m:semantics></m:math>% on each sale, makes a commission of $152.39 on a particular sale. Rounded to the nearest dollar, what is the amount of the sale?</para>
+          </problem>
+<solution id="eip-id1164021083244"><para id="eip-id1164015400775">$835</para></solution>
+        </exercise>
+        <exercise id="id1172162349704">
+          <problem id="oo-id1172138531705">
+            <para id="id1172153723083">At "super-long play," 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math>hours of play of a video cassette recorder represents 31.25% of the total playing time. What is the total playing time?</para>
+          </problem>
+<solution id="eip-id1164023487254"><para id="eip-id1164022936689">8 hours</para></solution>
+        </exercise>
+      </section>
+    </section>
+    <section id="id1172164007941"><title>Exercises</title><para id="id1172142323253">For the following 25 problems, find each indicated quantity. </para>
+      <exercise id="id1172149261711">
+        <problem id="oo-id1172138983639">
+          <para id="id1636305">What is 21% of 104?</para>
+        </problem>
+<solution id="eip-id1169394882627"><para id="eip-id1169394747698">21.84</para></solution>
+      </exercise>
+      <exercise id="id7566499">
+        <problem id="oo-id1172138984722">
+          <para id="id1172152152404">What is 8% of 36? </para>
+        </problem>
+      </exercise>
+      <exercise id="id1172143459715">
+        <problem id="oo-id1172139296595">
+          <para id="id1172160322316">What is 98% of 545?</para>
+        </problem>
+<solution id="eip-id1169394611517"><para id="eip-id1169394898422">534.1</para></solution>
+      </exercise>
+      <exercise id="id1172150687251">
+        <problem id="oo-id1172138590280">
+          <para id="id1424726">What is 143% of 33? </para>
+        </problem>
+      </exercise>
+      <exercise id="id1172145509405">
+        <problem id="oo-id1172147176186">
+          <para id="id1172162595252">What is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math>% of 20?</para>
+        </problem>
+<solution id="eip-id1169394582239"><para id="eip-id1169394582240">2.1</para></solution>
+      </exercise>
+      <exercise id="id1172139818955">
+        <problem id="oo-id1172143352928">
+          <para id="id1172160477205">3.25 is what percent of 88?</para>
+        </problem>
+      </exercise>
+      <exercise id="id5589031">
+        <problem id="oo-id1172138409058">
+          <para id="id1172138409115">22.44 is what percent of 44?</para>
+        </problem>
+<solution id="eip-id1169394816999"><para id="eip-id1169394817000"> 51</para></solution>
+      </exercise>
+      <exercise id="id7831547">
+        <problem id="oo-id1172164160643">
+          <para id="id1172152207063">0.0036 is what percent of 0.03?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172161868045">
+        <problem id="oo-id1172143826680">
+          <para id="id1172147240952">31.2 is what percent of 26?</para>
+        </problem>
+<solution id="eip-id1169394739015"><para id="eip-id1169394739016">120</para></solution>
+      </exercise>
+      <exercise id="id1172154749386">
+        <problem id="oo-id1172140726123">
+          <para id="id1172155443035">266.4 is what percent of 74?</para>
+        </problem>
+      </exercise>
+      <exercise id="id8728508">
+        <problem id="oo-id1172148011181">
+          <para id="id1172164128315">0.0101 is what percent of 0.0505?</para>
+        </problem>
+<solution id="eip-id1169394636462"><para id="eip-id1169394636463">20</para></solution>
+      </exercise>
+      <exercise id="id1172149551953">
+        <problem id="oo-id1172138581023">
+          <para id="id1172154961267">2.4 is 24% of what number?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172139515507">
+        <problem id="oo-id1172138463848">
+          <para id="id1172153026480">24.19 is 41% of what number?</para>
+        </problem>
+<solution id="eip-id1169394817070"><para id="eip-id1169394817071">59</para></solution>
+      </exercise>
+      <exercise id="id1172139331012">
+        <problem id="oo-id1172142884151">
+          <para id="id1172145449371">61.12 is 16% of what number?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172143317365">
+        <problem id="oo-id1172148456991">
+          <para id="id1172147595851">82.81 is 91% of what number?</para>
+        </problem>
+<solution id="eip-id1169394391035"><para id="eip-id1169394391036">91</para></solution>
+      </exercise>
+      <exercise id="id1172139501471">
+        <problem id="oo-id1172146635744">
+          <para id="id1172140594229">115.5 is 20% of what number?</para>
+        </problem>
+      </exercise>
+      <exercise id="id7975402">
+        <problem id="oo-id1172143826554">
+          <para id="id1172157116890">43.92 is 480% of what number?</para>
+        </problem>
+<solution id="eip-id1169394881840"><para id="eip-id1169394881841">9.15</para></solution>
+      </exercise>
+      <exercise id="id1172141396073">
+        <problem id="oo-id1172145020079">
+          <para id="id1172154531673">What is 85% of 62?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172155403552">
+        <problem id="oo-id1172138472763">
+          <para id="id1172143333668">29.14 is what percent of 5.13?</para>
+        </problem>
+<solution id="eip-id1169394892740"><para id="eip-id1169394892741">568</para></solution>
+      </exercise>
+      <exercise id="id1172140367740">
+        <problem id="oo-id1172141814755">
+          <para id="id1172140416258">0.6156 is what percent of 5.13?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172161748434">
+        <problem id="oo-id1172138650392">
+          <para id="id1172142375446">What is 0.41% of 291.1?</para>
+        </problem>
+<solution id="eip-id1169394443935"><para id="eip-id1169394443936">1.19351</para></solution>
+      </exercise>
+      <exercise id="id1172162344269">
+        <problem id="oo-id1172162712324">
+          <para id="id1172141788714">26.136 is 121% of what number?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172143302341">
+        <problem id="oo-id1172138644355">
+          <para id="id1172151562133">1,937.5 is what percent of 775?</para>
+        </problem>
+<solution id="eip-id1169394904068"><para id="eip-id1169394904069">250</para></solution>
+      </exercise>
+      <exercise id="id1172163980111">
+        <problem id="oo-id1172141352573">
+          <para id="id1172156696869">1 is what percent of 2,000?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172139500079">
+        <problem id="oo-id1172140872761">
+          <para id="id1172141346601">0 is what percent of 59?</para>
+        </problem>
+<solution id="eip-id1169394823216"><para id="eip-id1169394823217">0</para></solution>
+      </exercise>
+      <exercise id="id1172141148649">
+        <problem id="oo-id1172141760023">
+          <para id="id8883541">An item of clothing is on sale for 10% off the marked price. If the marked price is $14.95, what is the sale price? (Round to two decimal places.)</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172141771743">
+        <problem id="oo-id1172138458981">
+          <para id="id1172163708310">A grocery clerk, who makes $365 per month, re­ceives a 7% raise. How much is her new monthly salary?</para>
+        </problem>
+<solution id="eip-id1169394733505"><para id="eip-id1169394899391">390.55</para></solution>
+      </exercise>
+      <exercise id="id1172154761700">
+        <problem id="oo-id1172141580443">
+          <para id="id1172154723622">An item of clothing which originally sells for $55.00 is marked down to $46.75. What percent has it been marked down?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172144108337">
+        <problem id="oo-id1172138989173">
+          <para id="id1172139937122">On a 25 question exam, a student gets 21 correct. What percent is this?</para>
+        </problem>
+<solution id="eip-id1169394586818"><para id="eip-id1169394586819"> 84</para></solution>
+      </exercise>
+      <exercise id="id1172140461912">
+        <problem id="oo-id1172151560552">
+          <para id="id1172160372058">On a 45 question exam, a student gets 40%. How many questions did this student get correct?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172160099404">
+        <problem id="oo-id1172138459484">
+          <para id="id8827866">A vitamin tablet, which weighs 250 milligrams, contains 35 milligrams of vitamin C. What per­cent of the weight of this tablet is vitamin C?</para>
+        </problem>
+<solution id="eip-id1169394578965"><para id="eip-id1169394840461"> 14</para></solution>
+      </exercise>
+      <exercise id="id1172139902499">
+        <problem id="oo-id1172138625947">
+          <para id="id1172153690003">Five years ago a secretary made $11,200 an­nually. The secretary now makes $17,920 an­nually. By what percent has this secretary's sal­ary been increased?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172160163244">
+        <problem id="oo-id1172156041944">
+          <para id="id1172141805297">A baseball team wins 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>48</m:mtext><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"48" {  {3}  over  {4} } } {}</m:annotation></m:semantics></m:math>% of all their games. If they won 78 games, how many games did they play? </para>
+        </problem>
+<solution id="eip-id1169394850288"><para id="eip-id1169394850289"> 160</para></solution>
+      </exercise>
+      <exercise id="id1172141761380">
+        <problem id="oo-id1172139681969">
+          <para id="id1172139833570">A typist was able to increase his speed by 120% to 42 words per minute. What was his original typ­ing speed?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172151699547">
+        <problem id="oo-id1172140626016">
+          <para id="id1396571">A salesperson makes a commission of 12% on the total amount of each sale. If, in one month, she makes a total of $8,520 in sales, how much has she made in commission? </para>
+        </problem>
+<solution id="eip-id1169394751236"><para id="eip-id1169394751237">$1,022.40</para></solution>
+      </exercise>
+      <exercise id="id8859152">
+        <problem id="oo-id1172139727077">
+          <para id="id1172143252408">A salesperson receives a salary of $850 per month plus a commission of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>8</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math>% of her sales. If, in a particular month, she sells $22,800 worth of merchandise, what will be her monthly earn­ings?</para>
+        </problem>
+      </exercise>
+      <exercise id="id2363849">
+        <problem id="oo-id1172161835676">
+          <para id="id1172154899891">A man borrows $1150.00 from a loan company. If he makes 12 equal monthly payments of $130.60, what percent of the loan is he paying in interest? </para>
+        </problem>
+<solution id="eip-id1169394864010"><para id="eip-id1169394814609">36.28%</para></solution>
+      </exercise>
+      <exercise id="id1172139566700">
+        <problem id="oo-id1172139740050">
+          <para id="id1172155104900">The distance from the sun to the earth is approx­imately 93,000,000 miles. The distance from the sun to Pluto is approximately 860.2% of the dis­tance from the sun to the Earth. Approximately, how many miles is Pluto from the sun?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172140364035">
+        <problem id="oo-id6515160">
+          <para id="id1172162621255">The number of people on food stamps in Maine in 1975 was 151,000. By 1980, the number had decreased to 59,200. By what percent did the number of people on food stamps decrease? (Round the result to the nearest percent.) </para>
+        </problem>
+<solution id="eip-id1169394824775"><para id="eip-id1169394860972">61</para></solution>
+      </exercise>
+      <exercise id="id1172163585309">
+        <problem id="oo-id1172139627609">
+          <para id="id1172143837737">In Nebraska, in 1960, there were 734,000 motor-vehicle registrations. By 1979, the total had in­creased by about 165.6%. About how many motor-vehicle registrations were there in Ne­braska in 1979?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172153716485">
+        <problem id="oo-id1172146519775">
+          <para id="id1172141396824">From 1973 to 1979, in the United States, there was an increase of 166.6% of Ph.D. social scien­tists to 52,000. How many were there in 1973? </para>
+        </problem>
+<solution id="eip-id1169406807989"><para id="eip-id1169406807990">19,500</para></solution>
+      </exercise>
+      <exercise id="id1172143362888">
+        <problem id="oo-id1172141293512">
+          <para id="id1172164088993">In 1950, in the United States, there were 1,894 daily newspapers. That number decreased to 1,747 by 1981. What percent did the number of daily newspapers decrease?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172142193892">
+        <problem id="oo-id1172162938610">
+          <para id="id1172140424690">A particular alloy is 27% copper. How many pounds of copper are there in 55 pounds of the alloy? </para>
+        </problem>
+<solution id="eip-id1169394614160"><para id="eip-id1169394614161">14.85</para></solution>
+      </exercise>
+      <exercise id="id1172147630816">
+        <problem id="oo-id8208702">
+          <para id="id1172141759374">A bottle containing a solution of hydrochloric acid (HCl) is marked 15% (meaning that 15% of the HCl solution is acid). If a bottle contains 65 milliliters of solution, how many milliliters of water does it contain?</para>
+        </problem>
+      </exercise>
+      <exercise id="id1172143589528">
+        <problem id="oo-id1172141247869">
+          <para id="id1172143577340">A bottle containing a solution of HCl is marked 45%. A test shows that 36 of the 80 milliliters contained in the bottle are hydrochloric acid. Is the bottle marked correctly? If not, how should it be remarked? </para>
+        </problem>
+<solution id="eip-id1169394631354"><para id="eip-id1169394631355">Marked correctly</para></solution>
+      </exercise>
+<section id="id5622298">
+      <title>Exercises For Review</title>
+      <exercise id="fs-id1163772661291"><problem id="fs-id1163796472182"><para id="id1172140594345">(<link document="m34867"/>) Use the numbers 4 and 7 to illustrate the commutative property of multiplication.</para></problem></exercise>
+      <exercise id="fs-id1163778267224"><problem id="fs-id1163776229388"><para id="id1172151548899">(<link document="m34912"/>) Convert 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>14</m:mtext><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"14"}  over  {5} } } {}</m:annotation></m:semantics></m:math> to a mixed number.</para></problem>
+      <solution id="fs-id1163776425731"><para id="id1172142229625">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mfrac>
+                      <m:mn>4</m:mn>
+                      <m:mn>5</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{2 {  {4}  over  {5} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para></solution>
+</exercise>
+      <exercise id="fs-id1163769122369"><problem id="fs-id1163772335268"><para id="id1172140043450">(<link document="m34937"/>) Arrange the numbers 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>7</m:mn><m:mtext>12</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {7}  over  {"12"} } } {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {5}  over  {9} } } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4}  over  {7} } } {}</m:annotation></m:semantics></m:math> in increasing order.</para></problem></exercise>
+
+      <exercise id="fs-id1163784361332"><problem id="fs-id1163768556666"><para id="id1172150176404">(<link document="m34958"/>) Convert 4.006 to a mixed number.</para></problem>
+<solution id="fs-id1163780909023">
+      <para id="id7470042">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mfrac>
+                      <m:mn>3</m:mn>
+                      <m:mtext>500</m:mtext>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{4 {  {3}  over  {"500"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para></solution>
+</exercise>
+<exercise id="fs-id1163769854885"><problem id="fs-id1163772206897">
+      <para id="id1172155160109">(<link document="m34997"/>) Convert 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>7</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {7}  over  {8} } } {}</m:annotation></m:semantics></m:math> % to a fraction.</para></problem></exercise>
+    </section>
+    </section>
+    
+  </content>
+</document>
