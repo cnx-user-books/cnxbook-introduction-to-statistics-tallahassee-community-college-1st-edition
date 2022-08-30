@@ -58,9 +58,8 @@ sample size). The random variable "p-hat") is that proportion,
 </para><para id="element-249"><m:math>
 <m:mtext>EBP</m:mtext>
 <m:mo>=</m:mo>
-<m:msub>
 <m:mi>z</m:mi>
-</m:msub>
+
 <m:mo>⋅</m:mo>
 <m:msqrt>
 

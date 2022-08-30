@@ -98,9 +98,8 @@ given the degrees of freedom and the right-tailed probability. The table is very
 <m:mspace width="20pt"/>
 </m:math></item>
 <item><m:math>
-<m:msub>
 <m:mi>t</m:mi>
-</m:msub>
+
 </m:math>
 is the t-score.
 </item>
@@ -170,9 +169,8 @@ The solution is shown step-by-step and by using the TI-83, 83+ and 84+ calculato
 				<m:mo>=</m:mo>
 				<m:mn>15</m:mn>
 			</m:math></para><para id="element-152"><m:math><m:mtext>df</m:mtext><m:mo>=</m:mo><m:mn>15</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>14</m:mn></m:math></para><para id="element-995"><m:math>
-				<m:msub>
-					<m:mi>t</m:mi>
-									</m:msub>
+				<m:mi>t</m:mi>
+									
 				<m:mo>=</m:mo>
 								<m:mn>2.14</m:mn>
 			</m:math> using the t-table.
