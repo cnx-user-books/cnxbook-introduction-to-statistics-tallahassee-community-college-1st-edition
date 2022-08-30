@@ -58,10 +58,9 @@
 <m:mspace width="20pt"/>
 <m:mtext>EBM</m:mtext>
 <m:mo>=</m:mo>
-<m:msub>
 <m:mi>z</m:mi>
 
-</m:msub>
+
 <m:mo>⋅</m:mo>
 <m:mfrac>
 <m:mrow>
@@ -106,10 +105,9 @@
 <m:math>
 <m:mtext>EBM</m:mtext>
 <m:mo>=</m:mo>
-<m:msub>
 <m:mi>t*</m:mi>
 
-</m:msub>
+
 <m:mo>⋅</m:mo>
 <m:mfrac>
 <m:mrow>
@@ -141,10 +139,9 @@
     <para id="ruleexp5.2"><m:math>
 <m:mtext>EBP</m:mtext>
 <m:mo>=</m:mo>
-<m:msub>
 <m:mi>z</m:mi>
 
-</m:msub>
+
 <m:mo>⋅</m:mo>
 <m:msqrt>
 <m:mfrac>

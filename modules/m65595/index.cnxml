@@ -45,7 +45,7 @@
 					<media id="id14288416" alt="Empty normal distribution curve graph with x-axis of x."><image src="../../media/1a-b822.png" mime-type="image/png" print-width="3in"/></media></item>
 	<item><label>b</label>
 		<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( } {}</m:annotation></m:semantics></m:math> ________ 
-<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow/><m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{&lt;x&lt;} {}</m:annotation></m:semantics></m:math> ________ 
+<m:math><m:semantics><m:mtable><m:mtr><m:mtd><m:mrow/><m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mrow/></m:mrow><m:mrow/></m:mtd></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{&lt;x&lt;} {}</m:annotation></m:semantics></m:math> ________ 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \) ={}} {}</m:annotation></m:semantics></m:math> _______</item>
 </list></para>
 </problem>
